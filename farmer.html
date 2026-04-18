@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer Dashboard — AgriValidator AI Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="/farmer.css?v=3">
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-content">
+      <div class="spinner"></div>
+      <p class="loading-text">Processing your request...</p>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- App Shell -->
+  <div class="app-shell">
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <span class="brand-icon">🌾</span>
+        <span class="brand-text">
+          <span class="brand-main">AgriValidator</span>
+          <span class="brand-sub">Farmer Portal</span>
+        </span>
+      </div>
+
+      <!-- User Info -->
+      <div class="user-info" id="userInfo">
+        <div class="user-avatar">👨‍🌾</div>
+        <div class="user-details">
+          <span class="user-name" id="userName">Farmer</span>
+          <span class="user-role" id="userRole">Farmer Account</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="nav-item active" data-page="dashboard" href="#">
+          <span class="nav-icon">📊</span><span class="nav-label">Dashboard</span>
+        </a>
+        <a class="nav-item" data-page="predict" href="#">
+          <span class="nav-icon">🌱</span><span class="nav-label">Crop Prediction</span>
+        </a>
+        <a class="nav-item" data-page="advisory" href="#">
+          <span class="nav-icon">🤖</span><span class="nav-label">AI Advisory</span>
+        </a>
+        <a class="nav-item" data-page="history" href="#">
+          <span class="nav-icon">📋</span><span class="nav-label">Request History</span>
+        </a>
+        <a class="nav-item" data-page="loans" href="#">
+          <span class="nav-icon">💰</span><span class="nav-label">My Loans</span>
+        </a>
+        <a class="nav-item" data-page="reports" href="#">
+          <span class="nav-icon">📄</span><span class="nav-label">Reports</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button class="logout-btn" onclick="handleLogout()">
+          <span>🚪</span> Logout
+        </button>
+        <div class="system-status">
+          <span class="status-dot online"></span>
+          <span class="status-text">System Online</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Top Bar -->
+      <header class="topbar">
+        <button id="sidebarToggle" class="sidebar-toggle">☰</button>
+        <h1 id="pageTitle" class="topbar-title">Dashboard</h1>
+        <div class="topbar-actions">
+          <span class="topbar-greeting" id="topbarGreeting">Welcome, Farmer</span>
+        </div>
+      </header>
+
+      <!-- Pages -->
+      <div class="page-container">
+
+        <!-- ===== DASHBOARD ===== -->
+        <section id="page-dashboard" class="page active">
+          <div class="welcome-banner">
+            <div class="welcome-text">
+              <h2>Welcome back, <span id="welcomeName">Farmer</span>! 🌾</h2>
+              <p>Submit your crop data for AI-powered risk assessment and personalized farming advisory.</p>
+            </div>
+            <a href="#" class="welcome-cta" onclick="navigateTo('predict'); return false;">New Prediction →</a>
+          </div>
+
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap blue"><span>🎯</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Single Prop</span>
+                <span id="kpiSingle" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap blue"><span>📦</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Batch Validations</span>
+                <span id="kpiBatch" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap green"><span>✅</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Approved</span>
+                <span id="kpiApproved" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap yellow"><span>⚠️</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Under Review</span>
+                <span id="kpiReview" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap purple"><span>🎯</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Avg Trust Score</span>
+                <span id="kpiAvgTri" class="kpi-value">0%</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap teal"><span>🤝</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">AI/Expert Match</span>
+                <span id="kpiMatch" class="kpi-value">0%</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-bottom:1rem;display:flex;justify-content:flex-end;">
+            <button onclick="showValidationMetricsInfo()" style="padding:0.4rem 0.8rem;border:1px solid #93c5fd;background:#eff6ff;color:#1d4ed8;border-radius:8px;cursor:pointer;font-size:0.83rem;">ℹ️ Validation Metrics Info</button>
+          </div>
+          <div class="chart-row">
+            <div class="chart-card">
+              <h3 class="chart-title">Validation Status</h3>
+              <div class="chart-wrap"><canvas id="dashPieChart"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <h3 class="chart-title">Risk Distribution</h3>
+              <div class="chart-wrap"><canvas id="dashBarChart"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <h3 class="chart-title">AI vs Expert Agreement</h3>
+              <div class="chart-wrap"><canvas id="agreementChart"></canvas></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="section-title">AI Insights</h3>
+            <div id="insightsPanel" class="insights-grid">
+              <div class="insight-card skeleton"><div class="skeleton-text"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== CROP PREDICTION ===== -->
+        <section id="page-predict" class="page">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">🌱 Crop Recommendation Input</h2>
+              <p class="card-desc">Enter your agricultural data for AI-powered risk validation and advisory</p>
+            </div>
+            <form id="predictionForm" class="form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">State</label>
+                  <input type="text" id="state" class="form-input" placeholder="e.g., Maharashtra" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">District</label>
+                  <input type="text" id="district" class="form-input" placeholder="e.g., Pune" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Crop</label>
+                  <select id="crop" class="form-input" required>
+                    <option value="">Select Crop</option>
+                    <option>Rice</option>
+                    <option>Wheat</option>
+                    <option>Maize</option>
+                    <option>Moong</option>
+                    <option>Tur</option>
+                    <option>Gram</option>
+                    <option>Urad</option>
+                    <option>Bajra</option>
+                    <option>Barley</option>
+                    <option>Sugarcane</option>
+                    <option>Nutri/Coarse Cereals</option>
+                    <option>Shree Anna /Nutri Cereals</option>
+                    <option>Total Food Grains</option>
+                    <option>Total Pulses</option>
+                    <option>Small Millets</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Season</label>
+                  <select id="season" class="form-input" required>
+                    <option value="">Select Season</option>
+                    <option value="Kharif">Kharif (Monsoon)</option>
+                    <option value="Rabi">Rabi (Winter)</option>
+                    <option value="Zaid">Zaid (Summer)</option>
+                    <option value="Total">Total</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Area (hectares)</label>
+                  <input type="number" id="area" class="form-input" placeholder="0.00" step="0.01" min="0" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Production (tonnes)</label>
+                  <input type="number" id="production" class="form-input" placeholder="0.00" step="0.01" min="0" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Yield (tonnes/hectare)</label>
+                <input type="number" id="yield" class="form-input" placeholder="0.00" step="0.01" min="0" required>
+              </div>
+              <div class="form-actions">
+                <button type="button" class="btn btn-secondary" onclick="resetForm()">Reset</button>
+                <button type="button" class="btn btn-primary" onclick="submitPrediction()">Get Recommendation →</button>
+              </div>
+            </form>
+
+            <!-- Prediction Results (shown after submit) -->
+          <div id="predictionResults" class="hidden">
+            <!-- Quick Result Banner -->
+            <div id="resultBanner" class="result-banner">
+              <div class="result-banner-left">
+                <span class="result-banner-icon" id="resultIcon">🎯</span>
+                <div>
+                  <div class="result-banner-title">Risk Assessment Complete</div>
+                  <div class="result-banner-sub" id="resultSummary">AI Risk: - | Expert Risk: -</div>
+                </div>
+              </div>
+              <span id="resultBadge" class="badge">-</span>
+            </div>
+
+            <!-- Final Validation Decision -->
+            <div class="card final-validation-card">
+              <h3 class="section-title">Final Validation Decision</h3>
+              <div class="final-validation-grid">
+                <div class="final-validation-item">
+                  <span class="final-label">Final Risk</span>
+                  <strong id="finalRiskValue" class="final-value">-</strong>
+                </div>
+                <div class="final-validation-item">
+                  <span class="final-label">Final Decision</span>
+                  <strong id="finalDecisionValue" class="final-value">-</strong>
+                </div>
+                <div class="final-validation-item">
+                  <span class="final-label">Expert Consensus</span>
+                  <strong id="expertConsensusValue" class="final-value">-</strong>
+                </div>
+              </div>
+              <div class="final-reason" id="finalDecisionReason">Submit a prediction to see the final validation reason.</div>
+              <div class="farmer-explanation" id="farmerExplanation">The farmer-friendly action plan will appear here.</div>
+            </div>
+
+            <!-- Trust Scores -->
+            <div class="card">
+              <h3 class="section-title">Trust & Transparency Scores</h3>
+              <div class="trust-grid">
+                <div class="trust-item">
+                  <div class="score-card-head">
+                    <span class="trust-label">PCS</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('pcs')" aria-label="Explain PCS score">i</button>
+                  </div>
+                  <span id="pcsValue" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="pcsBar" class="trust-fill"></div></div>
+                  <span class="trust-desc">Prediction Confidence</span>
+                </div>
+                <div class="trust-item">
+                  <div class="score-card-head">
+                    <span class="trust-label">EAS</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('eas')" aria-label="Explain EAS score">i</button>
+                  </div>
+                  <span id="easValue" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="easBar" class="trust-fill"></div></div>
+                  <span class="trust-desc">Expert Agreement</span>
+                </div>
+                <div class="trust-item">
+                  <div class="score-card-head">
+                    <span class="trust-label">RDI</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('rdi')" aria-label="Explain RDI score">i</button>
+                  </div>
+                  <span id="rdiValue" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="rdiBar" class="trust-fill rdi"></div></div>
+                  <span class="trust-desc">Risk Deviation</span>
+                </div>
+                <div class="trust-item highlight">
+                  <div class="score-card-head">
+                    <span class="trust-label">TRI</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('tri')" aria-label="Explain TRI score">i</button>
+                  </div>
+                  <span id="triValue" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="triBar" class="trust-fill tri"></div></div>
+                  <span class="trust-desc">Trust Reliability Index</span>
+                </div>
+              </div>
+              <div class="confidence-band">
+                <span>Confidence Band:</span>
+                <strong id="confidenceBand">-</strong>
+              </div>
+            </div>
+
+            <!-- Comparison Chart -->
+            <div class="card">
+              <h3 class="section-title">AI vs Expert Comparison</h3>
+              <p class="section-helper">This chart compares only risk levels: Low, Medium, and High. Trust scores are shown separately above.</p>
+              <div class="chart-wrap-sm"><canvas id="comparisonChart"></canvas></div>
+              <div id="comparisonExplanation" class="comparison-explanation">
+                Submit a prediction to see how AI, expert rulebooks, and the final decision compare.
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Three Expert Rulebook Checks</h3>
+              <p class="section-helper">Each source gives a separate expert opinion. The final decision uses these expert opinions plus the AI prediction.</p>
+              <div id="expertSourcesPanel" class="expert-sources-grid"></div>
+            </div>
+
+            <!-- View Advisory Button -->
+            <div style="text-align:center; margin: 1rem 0; display:flex; gap:1rem; justify-content:center; flex-wrap:wrap">
+              <button class="btn btn-primary" onclick="navigateTo('advisory')">View Full AI Advisory →</button>
+              <button class="btn btn-secondary" id="requestLoanBtn" onclick="requestLoanFromResult()" style="display:none">💰 Request Loan</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== AI ADVISORY ===== -->
+        <section id="page-advisory" class="page">
+          <div id="advisoryEmpty" class="empty-state">
+            <div class="empty-icon">🤖</div>
+            <h3>No Advisory Yet</h3>
+            <p>Submit a crop prediction to receive AI-generated advisory and recommendations.</p>
+            <button class="btn btn-primary" onclick="navigateTo('predict')">Make a Prediction →</button>
+          </div>
+
+          <div id="advisoryContent" class="hidden">
+            <div id="advisoryResultBanner" class="result-banner">
+              <div class="result-banner-left">
+                <span class="result-banner-icon">🤖</span>
+                <div>
+                  <div class="result-banner-title">AI-Generated Advisory</div>
+                  <div class="result-banner-sub" id="advisorySub">For your latest prediction</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Advisory Details</h3>
+              <div id="advisoryFormatted" class="advisory-box"></div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Expert Rule Advisory (ICAR)</h3>
+              <div id="expertAdvisoryFormatted" class="advisory-box" style="min-height: 110px; color: var(--text-primary);"></div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">LLM Validation Metrics</h3>
+              <div class="metrics-grid four-col">
+                <div class="metric-card">
+                  <div class="score-card-head">
+                    <span class="metric-label">Risk Consistency Score (RCS)</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('rcs')" aria-label="Explain RCS score">i</button>
+                  </div>
+                  <span id="rcsValue" class="metric-val">-</span>
+                </div>
+                <div class="metric-card">
+                  <div class="score-card-head">
+                    <span class="metric-label">Advisory Sentiment Score (ASS)</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('ass')" aria-label="Explain ASS score">i</button>
+                  </div>
+                  <span id="assValue" class="metric-val">-</span>
+                </div>
+                <div class="metric-card">
+                  <div class="score-card-head">
+                    <span class="metric-label">Decision Confidence Score (DCS)</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('dcs')" aria-label="Explain DCS score">i</button>
+                  </div>
+                  <span id="dcsValue" class="metric-val">-</span>
+                </div>
+                <div class="metric-card">
+                  <div class="score-card-head">
+                    <span class="metric-label">LLM Trust Score (LTS)</span>
+                    <button type="button" class="score-info-btn" onclick="showMetricInfo('lts')" aria-label="Explain LTS score">i</button>
+                  </div>
+                  <span id="ltsValue" class="metric-val">-</span>
+                </div>
+              </div>
+              <div class="confidence-band" style="margin-top:0.75rem">
+                <span>LLM Status:</span>
+                <strong id="llmStatus" class="badge">-</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== REQUEST HISTORY ===== -->
+        <section id="page-history" class="page">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">📋 Request History</h2>
+              <p class="card-desc">View all your past prediction requests and their validation outcomes</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn btn-primary btn-sm" onclick="loadHistory()">Refresh</button>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr><th>ID</th><th>Date</th><th>State</th><th>Crop</th><th>Source</th><th>AI Risk</th><th>TRI</th><th>Status</th><th>Officer Review</th></tr>
+                </thead>
+                <tbody id="historyBody"><tr><td colspan="8" class="table-empty">Loading...</td></tr></tbody>
+              </table>
+            </div>
+            <div class="pagination" id="historyPagination"></div>
+          </div>
+        </section>
+
+        <!-- ===== MY LOANS ===== -->
+        <section id="page-loans" class="page">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">💰 My Loan Requests</h2>
+              <p class="card-desc">Track the status of your loan applications linked to crop predictions</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn btn-primary btn-sm" onclick="loadMyLoans()">Refresh</button>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr><th>Loan ID</th><th>Prediction</th><th>Crop</th><th>AI Risk</th><th>Loan Status</th><th>Officer</th><th>Reason</th></tr>
+                </thead>
+                <tbody id="loansBody"><tr><td colspan="7" class="table-empty">Loading...</td></tr></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== REPORTS ===== -->
+        <section id="page-reports" class="page">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">📄 Reports & Downloads</h2>
+              <p class="card-desc">Access validation reports and summaries</p>
+            </div>
+            <div class="reports-grid">
+              <div class="report-card" onclick="downloadReport()">
+                <span class="report-icon">📄</span>
+                <h4>Decision Report</h4>
+                <p>Latest validation decision report (CSV)</p>
+                <span class="btn btn-primary btn-sm">Download</span>
+              </div>
+              <div class="report-card" onclick="window.open('/audit-summary','_blank')">
+                <span class="report-icon">📊</span>
+                <h4>Audit Summary</h4>
+                <p>Latest audit summary statistics</p>
+                <span class="btn btn-primary btn-sm">View</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div><!-- end page-container -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>
+          <strong>AgriValidator AI Platform</strong> · Farmer Portal
+          <span style="margin:0 0.5rem">·</span>
+          © 2026 Agricultural Intelligence Platform
+        </p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/supabase-client.js?v=2"></script>
+  <script src="/farmer.js?v=3"></script>
+</body>
+</html>

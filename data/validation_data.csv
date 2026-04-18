@@ -1,0 +1,2703 @@
+State,District,Crop,Season,Area,Production,Yield,Risk
+Jharkhand,Khunti,Gram,Rabi,0.08,0.06,822.0,High
+Maharashtra,Ratnagiri,Tur,Total,0.0,0.0,647.0,High
+Himachal Pradesh,Shimla,Maize,Total,0.04,0.18,4261.0,Low
+Bihar,Kaimur (Bhabua),Bajra,Total,0.0,0.0,1011.0,Medium
+Madhya Pradesh,Betul,Moong,Kharif,0.0,0.0,500.0,High
+Jharkhand,East Singhbum,Moong,Total,0.0,0.0,635.0,High
+Maharashtra,Kolhapur,Nutri/Coarse Cereals,Total,0.34,0.8,2349.0,Low
+Madhya Pradesh,Sagar,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,1789.0,Medium
+Himachal Pradesh,Shimla,Gram,Total,0.0,0.0,1049.0,Medium
+Maharashtra,Hingoli,Cereals,Total,0.66,0.88,1328.0,Medium
+Madhya Pradesh,East Nimar,Maize,Summer,0.0,0.0,5576.0,Low
+Maharashtra,Amravati,Maize,Kharif,0.25,0.55,2219.0,Low
+Madhya Pradesh,Mandsaur,Total Food Grains,Total,2.4,7.44,3100.0,Low
+Karnataka,Uttara Kannada,Maize,Kharif,0.1,0.35,3654.0,Low
+Rajasthan,Baran,Gram,Total,0.27,0.51,1885.0,Low
+Madhya Pradesh,Seoni,Small Millets,Kharif,0.01,0.01,930.0,Medium
+Bihar,Purbi Champaran,Wheat,Rabi,1.21,4.44,3680.0,Low
+Bihar,Arwal,Nutri/Coarse Cereals,Kharif,0.0,0.0,981.0,Medium
+Maharashtra,Osmanabad,Moong,Total,0.11,0.08,697.0,High
+Karnataka,Mandya,Tur,Total,0.01,0.0,391.0,High
+Madhya Pradesh,Pandhurna,Rice,Total,0.01,0.02,2029.0,Low
+Rajasthan,Ganganagar,Cereals,Rabi,3.04,12.09,3981.0,Low
+Madhya Pradesh,Ratlam,Lentil,Total,0.04,0.03,720.0,High
+Rajasthan,Banswara,Rice,Total,0.25,0.29,1159.0,Medium
+Bihar,Siwan,Maize,Rabi,0.05,0.2,4302.0,Low
+Arunachal Pradesh,Dibang Valley,Other Pulses,Rabi,0.0,0.0,784.0,High
+Maharashtra,Bhandara,Wheat,Rabi,0.13,0.19,1460.0,Medium
+Bihar,Siwan,Bajra,Kharif,0.0,0.0,1140.0,Medium
+Madhya Pradesh,Barwani,Moong,Summer,0.05,0.06,1074.0,Medium
+Karnataka,Mysuru,Rice,Rabi,0.0,0.01,2842.0,Low
+Rajasthan,Rajsamand,Urad,Total,0.0,0.0,365.0,High
+Bihar,Araria,Rice,Total,0.36,0.83,2313.0,Low
+Rajasthan,Churu,Wheat,Total,0.45,1.61,3559.0,Low
+Jharkhand,Khunti,Total Food Grains,Rabi,0.26,0.3,1147.0,Medium
+Maharashtra,Latur,Shree Anna /Nutri Cereals,Rabi,0.37,0.34,904.0,Medium
+Rajasthan,Dungarpur,Gram,Total,0.12,0.14,1155.0,Medium
+Jharkhand,Palamu,Lentil,Rabi,0.07,0.06,745.0,High
+Jharkhand,Koderma,Other Pulses,Total,0.05,0.09,1678.0,Medium
+Rajasthan,Beawar,Barley,Rabi,0.11,0.39,3653.0,Low
+Madhya Pradesh,Shajapur,Wheat,Total,1.81,5.93,3279.0,Low
+Arunachal Pradesh,Siang,Urad,Total,0.0,0.0,1079.0,Medium
+Andhra Pradesh,Ntr,Total Food Grains,Kharif,0.59,1.77,2987.0,Low
+Madhya Pradesh,Satna,Moong,Summer,0.01,0.01,782.0,High
+Madhya Pradesh,Indore,Nutri/Coarse Cereals,Summer,0.0,0.02,4685.0,Low
+Maharashtra,Satara,Rice,Total,0.44,0.72,1644.0,Medium
+Andhra Pradesh,Bapatla,Cereals,Rabi,0.45,3.14,6916.0,Low
+Madhya Pradesh,Jabalpur,Urad,Total,0.69,0.92,1327.0,Medium
+Karnataka,Haveri,Total Food Grains,Summer,0.21,0.6,2930.0,Low
+Maharashtra,Bhandara,Gram,Total,0.19,0.19,1036.0,Medium
+Madhya Pradesh,Gwalior,Wheat,Total,1.29,4.33,3358.0,Low
+Punjab,Jalandhar,Nutri/Coarse Cereals,Kharif,0.04,0.16,4077.0,Low
+Bihar,Sheohar,Total Food Grains,Total,0.4,1.01,2518.0,Low
+Maharashtra,Amravati,Maize,Summer,0.01,0.01,1711.0,Medium
+Madhya Pradesh,Mandla,Jowar,Kharif,0.0,0.0,1667.0,Medium
+Karnataka,Bengaluru Urban,Urad,Total,0.0,0.0,590.0,High
+Andhra Pradesh,Kakinada,Maize,Rabi,0.01,0.1,8619.0,Low
+Uttarakhand,Udam Singh Nagar,Lentil,Rabi,0.0,0.0,1422.0,Medium
+Bihar,Purbi Champaran,Rice,Kharif,2.06,4.11,1992.0,Low
+Telangana,Wanaparthy,Other Pulses,Total,0.0,0.0,959.0,Medium
+Madhya Pradesh,Katni,Moong,Total,0.46,0.4,867.0,High
+Arunachal Pradesh,East Siang,Nutri/Coarse Cereals,Total,0.04,0.07,1715.0,Medium
+Karnataka,Chikkaballapura,Rice,Summer,0.0,0.01,1798.0,Medium
+Karnataka,Davangere,Nutri/Coarse Cereals,Kharif,1.37,3.77,2752.0,Low
+Andhra Pradesh,Anakapalli,Moong,Rabi,0.03,0.02,624.0,High
+Himachal Pradesh,Kullu,Maize,Kharif,0.09,0.22,2385.0,Low
+Arunachal Pradesh,Anjaw,Other Pulses,Total,0.0,0.0,1313.0,Medium
+Rajasthan,Nagaur,Total Pulses,Total,4.86,2.83,583.0,High
+Rajasthan,Dungarpur,Tur,Kharif,0.0,0.0,470.0,High
+Andhra Pradesh,Bapatla,Bajra,Kharif,0.0,0.0,2551.0,Low
+Uttarakhand,Chamoli,Total Food Grains,Rabi,0.13,0.22,1635.0,Medium
+Madhya Pradesh,Shivpuri,Gram,Total,0.24,0.39,1637.0,Medium
+Rajasthan,Hanumangarh,Nutri/Coarse Cereals,Rabi,0.25,1.04,4077.0,Low
+Arunachal Pradesh,West Siang,Other Pulses,Kharif,0.0,0.0,539.0,High
+Madhya Pradesh,Betul,Bajra,Total,0.0,0.0,2043.0,Low
+Maharashtra,Sangli,Maize,Kharif,0.48,1.59,3311.0,Low
+Telangana,Khammam,Moong,Kharif,0.07,0.03,397.0,High
+Jharkhand,Saraikela Kharsawan,Maize,Total,0.05,0.06,1157.0,Medium
+Arunachal Pradesh,Lower Subansiri,Total Food Grains,Rabi,0.0,0.01,1574.0,Medium
+Madhya Pradesh,Bhopal,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,1806.0,Medium
+Andhra Pradesh,Tirupati,Bajra,Total,0.02,0.06,3291.0,Low
+Madhya Pradesh,Singrauli,Maize,Rabi,0.0,0.0,2037.0,Low
+Madhya Pradesh,Shajapur,Urad,Summer,0.0,0.0,780.0,High
+Rajasthan,Sawai Madhopur,Nutri/Coarse Cereals,Kharif,0.82,1.03,1263.0,Medium
+Rajasthan,Udaipur,Maize,Summer,0.0,0.01,1952.0,Low
+Jharkhand,Koderma,Wheat,Rabi,0.1,0.24,2499.0,Low
+Karnataka,Bengaluru Urban,Shree Anna /Nutri Cereals,Kharif,0.17,0.32,1855.0,Medium
+Uttarakhand,Rudra Prayag,Total Pulses,Total,0.01,0.01,1027.0,Medium
+Rajasthan,Dungarpur,Moong,Summer,0.0,0.0,1000.0,Medium
+Maharashtra,Solapur,Cereals,Total,4.77,7.31,1532.0,Medium
+Madhya Pradesh,Maihar,Cereals,Rabi,0.72,2.13,2963.0,Low
+Punjab,Tarn Taran,Wheat,Total,1.93,9.59,4973.0,Low
+Bihar,Sitamarhi,Cereals,Summer,0.0,0.01,6436.0,Low
+Bihar,Madhubani,Rice,Summer,0.03,0.09,2992.0,Low
+Maharashtra,Nagpur,Maize,Kharif,0.01,0.04,3063.0,Low
+Maharashtra,Parbhani,Nutri/Coarse Cereals,Summer,0.02,0.02,955.0,Medium
+Telangana,Vikarabad,Small Millets,Kharif,0.0,0.0,1956.0,Low
+Himachal Pradesh,Sirmaur,Gram,Rabi,0.0,0.0,1594.0,Medium
+Madhya Pradesh,Neemuch,Urad,Total,0.02,0.01,596.0,High
+Karnataka,Mandya,Ragi,Total,0.82,1.28,1561.0,Medium
+Karnataka,Chikkaballapura,Total Food Grains,Rabi,0.08,0.14,1729.0,Medium
+Jharkhand,Garhwa,Ragi,Kharif,0.02,0.01,960.0,Medium
+Maharashtra,Jalgaon,Urad,Total,0.15,0.07,483.0,High
+Tripura,North Tripura,Tur,Total,0.01,0.0,763.0,High
+Madhya Pradesh,Guna,Total Pulses,Total,0.51,0.63,1235.0,Medium
+Arunachal Pradesh,Papum Pare,Urad,Total,0.0,0.0,976.0,Medium
+Arunachal Pradesh,Changlang,Moong,Kharif,0.0,0.0,1011.0,Medium
+Punjab,Fazilka,Gram,Total,0.01,0.01,1136.0,Medium
+Andhra Pradesh,Krishna,Shree Anna /Nutri Cereals,Total,0.02,0.07,3744.0,Low
+Rajasthan,Salumbar,Barley,Rabi,0.01,0.05,3711.0,Low
+Andhra Pradesh,Parvathipuram Manyam,Tur,Total,0.0,0.0,508.0,High
+Andhra Pradesh,Vizianagaram,Shree Anna /Nutri Cereals,Total,0.01,0.01,1530.0,Medium
+Maharashtra,Nandurbar,Cereals,Summer,0.02,0.03,1418.0,Medium
+Karnataka,Chikkamagaluru,Ragi,Kharif,0.53,0.69,1295.0,Medium
+Karnataka,Bidar,Jowar,Kharif,0.0,0.0,1087.0,Medium
+Arunachal Pradesh,Pakke Kessang,Nutri/Coarse Cereals,Rabi,0.0,0.0,1763.0,Medium
+Bihar,Gaya,Jowar,Total,0.01,0.01,1060.0,Medium
+Andhra Pradesh,Guntur,Total Food Grains,Kharif,0.6,2.12,3524.0,Low
+Telangana,Rajanna Sircilla,Nutri/Coarse Cereals,Total,0.01,0.1,6566.0,Low
+Maharashtra,Solapur,Shree Anna /Nutri Cereals,Kharif,0.26,0.17,674.0,High
+Bihar,Kaimur (Bhabua),Total Food Grains,Summer,0.0,0.0,1108.0,Medium
+Jharkhand,Chatra,Bajra,Total,0.0,0.0,510.0,High
+Bihar,Sitamarhi,Maize,Total,0.03,0.13,4823.0,Low
+Punjab,Mansa,Bajra,Kharif,0.0,0.0,950.0,Medium
+Maharashtra,Gondia,Rice,Total,2.65,6.5,2450.0,Low
+Maharashtra,Washim,Tur,Kharif,0.66,0.76,1159.0,Medium
+Madhya Pradesh,Mandsaur,Jowar,Kharif,0.0,0.0,1510.0,Medium
+Tripura,Sepahijala,Cereals,Kharif,0.27,0.86,3153.0,Low
+Rajasthan,Salumbar,Tur,Kharif,0.0,0.0,391.0,High
+Jharkhand,Chatra,Other Pulses,Kharif,0.01,0.01,756.0,High
+Telangana,Vikarabad,Maize,Rabi,0.05,0.24,4741.0,Low
+Madhya Pradesh,Sidhi,Nutri/Coarse Cereals,Total,0.12,0.22,1840.0,Medium
+Bihar,Saran,Moong,Kharif,0.0,0.0,571.0,High
+Arunachal Pradesh,Upper Siang,Urad,Total,0.0,0.0,1026.0,Medium
+Karnataka,Dakshina Kannada,Cereals,Kharif,0.03,0.09,2864.0,Low
+Madhya Pradesh,Shahdol,Gram,Rabi,0.02,0.03,1192.0,Medium
+Karnataka,Ramanagara,Urad,Total,0.0,0.0,590.0,High
+Telangana,Khammam,Total Pulses,Total,0.1,0.06,575.0,High
+Telangana,Mahabubnagar,Other Pulses,Kharif,0.0,0.0,773.0,High
+Maharashtra,Kolhapur,Maize,Rabi,0.02,0.05,3377.0,Low
+Rajasthan,Ganganagar,Shree Anna /Nutri Cereals,Kharif,0.13,0.15,1140.0,Medium
+Arunachal Pradesh,Kamle,Maize,Kharif,0.0,0.01,2042.0,Low
+Madhya Pradesh,Mauganj,Maize,Kharif,0.01,0.01,1848.0,Medium
+Andhra Pradesh,Prakasam,Rice,Rabi,0.14,0.46,3370.0,Low
+Madhya Pradesh,Raisen,Other Pulses,Rabi,0.02,0.02,920.0,Medium
+Maharashtra,Ahmednagar,Jowar,Kharif,0.0,0.0,410.0,High
+Jharkhand,Bokaro,Gram,Total,0.1,0.16,1600.0,Medium
+Andhra Pradesh,Kurnool,Moong,Total,0.0,0.0,549.0,High
+Arunachal Pradesh,Lohit,Rice,Rabi,0.0,0.0,500.0,High
+Bihar,Saharsa,Maize,Total,0.33,1.85,5602.0,Low
+Maharashtra,Gondia,Rice,Summer,0.72,1.95,2712.0,Low
+Jharkhand,West Singhbhum,Moong,Total,0.05,0.05,850.0,High
+Himachal Pradesh,Kangra,Cereals,Kharif,0.77,1.71,2219.0,Low
+Arunachal Pradesh,Upper Subansiri,Nutri/Coarse Cereals,Total,0.03,0.04,1384.0,Medium
+Rajasthan,Nagaur,Maize,Kharif,0.0,0.0,2552.0,Low
+Karnataka,Hassan,Moong,Rabi,0.0,0.0,299.0,High
+Karnataka,Kolar,Total Food Grains,Summer,0.01,0.05,4191.0,Low
+Bihar,Lakhisarai,Tur,Total,0.0,0.0,1153.0,Medium
+Madhya Pradesh,Satna,Shree Anna /Nutri Cereals,Total,0.05,0.06,1292.0,Medium
+Andhra Pradesh,Visakhapatanam,Shree Anna /Nutri Cereals,Kharif,0.0,0.01,2417.0,Low
+Andhra Pradesh,Sri Sathya Sai,Other Pulses,Kharif,0.03,0.02,507.0,High
+Madhya Pradesh,Khargone,Maize,Rabi,0.46,1.82,4000.0,Low
+Uttarakhand,Rudra Prayag,Ragi,Kharif,0.06,0.1,1656.0,Medium
+Maharashtra,Washim,Maize,Total,0.0,0.01,1235.0,Medium
+Telangana,Wanaparthy,Urad,Total,0.1,0.18,1839.0,Medium
+Andhra Pradesh,Vizianagaram,Cereals,Kharif,1.08,4.08,3793.0,Low
+Madhya Pradesh,Sheopur,Other Pulses,Rabi,0.0,0.0,1318.0,Medium
+Bihar,Araria,Maize,Total,0.98,8.83,9035.0,Low
+Maharashtra,Nandurbar,Moong,Total,0.04,0.01,232.0,High
+Bihar,Khagaria,Total Food Grains,Kharif,0.32,0.76,2368.0,Low
+Maharashtra,Chandrapur,Jowar,Summer,0.0,0.0,832.0,High
+Bihar,Khagaria,Cereals,Rabi,0.57,2.97,5193.0,Low
+Arunachal Pradesh,Namsai,Shree Anna /Nutri Cereals,Total,0.0,0.0,1050.0,Medium
+Madhya Pradesh,Sehore,Total Food Grains,Total,4.92,13.76,2798.0,Low
+Rajasthan,Barmer,Jowar,Total,0.0,0.0,811.0,High
+Bihar,Buxar,Wheat,Rabi,0.87,2.94,3379.0,Low
+Tripura,West Tripura,Maize,Kharif,0.01,0.02,1594.0,Medium
+Jharkhand,Ramgarh,Tur,Total,0.05,0.06,1115.0,Medium
+Rajasthan,Jaipur,Nutri/Coarse Cereals,Kharif,2.76,3.44,1249.0,Medium
+Madhya Pradesh,Indore,Moong,Kharif,0.0,0.0,610.0,High
+Tripura,Dhalai,Small Millets,Total,0.0,0.0,895.0,Medium
+Uttarakhand,Bageshwar,Cereals,Total,0.3,0.5,1691.0,Medium
+Karnataka,Dharwad,Nutri/Coarse Cereals,Rabi,0.41,0.76,1832.0,Medium
+Madhya Pradesh,Niwari,Jowar,Total,0.0,0.0,1885.0,Low
+Telangana,Mahabubnagar,Cereals,Rabi,0.7,2.37,3376.0,Low
+Jharkhand,Dumka,Other Pulses,Rabi,0.01,0.01,776.0,High
+Jharkhand,Godda,Ragi,Total,0.0,0.0,750.0,High
+Andhra Pradesh,Kurnool,Gram,Rabi,0.43,0.45,1034.0,Medium
+Telangana,Vikarabad,Bajra,Total,0.0,0.0,1015.0,Medium
+Punjab,Moga,Tur,Kharif,0.0,0.0,1116.0,Medium
+Maharashtra,Hingoli,Wheat,Total,0.41,0.64,1560.0,Medium
+Madhya Pradesh,Anuppur,Gram,Total,0.05,0.05,995.0,Medium
+Arunachal Pradesh,Anjaw,Total Pulses,Total,0.0,0.0,1012.0,Medium
+Rajasthan,Ganganagar,Tur,Total,0.0,0.0,1401.0,Medium
+Madhya Pradesh,Tikamgarh,Tur,Kharif,0.0,0.0,750.0,High
+Jharkhand,Pakur,Gram,Total,0.09,0.09,960.0,Medium
+Jharkhand,Simdega,Rice,Kharif,0.73,1.06,1441.0,Medium
+Madhya Pradesh,Jhabua,Wheat,Total,0.68,1.6,2361.0,Low
+Madhya Pradesh,Sheopur,Shree Anna /Nutri Cereals,Total,0.25,0.55,2210.0,Low
+Himachal Pradesh,Kinnaur,Cereals,Rabi,0.01,0.02,1948.0,Low
+Karnataka,Yadgir,Rice,Summer,0.36,0.92,2546.0,Low
+Madhya Pradesh,Harda,Nutri/Coarse Cereals,Total,0.31,0.94,3057.0,Low
+Rajasthan,Tonk,Total Food Grains,Kharif,3.3,1.96,594.0,High
+Tripura,South Tripura,Wheat,Total,0.0,0.0,2000.0,Low
+Maharashtra,Beed,Jowar,Summer,0.0,0.0,775.0,High
+Andhra Pradesh,Anantapur,Gram,Rabi,0.5,0.28,555.0,High
+Madhya Pradesh,Maihar,Bajra,Kharif,0.0,0.0,740.0,High
+Karnataka,Mysuru,Rice,Summer,0.17,0.58,3465.0,Low
+Telangana,Bhadradri Kothagudem,Urad,Kharif,0.0,0.0,790.0,High
+Maharashtra,Chandrapur,Shree Anna /Nutri Cereals,Kharif,0.02,0.01,560.0,High
+Maharashtra,Hingoli,Maize,Total,0.03,0.03,1004.0,Medium
+Madhya Pradesh,Agar Malwa,Lentil,Rabi,0.12,0.1,820.0,High
+Tripura,Unakoti,Maize,Rabi,0.0,0.01,3393.0,Low
+Rajasthan,Jhalawar,Bajra,Total,0.0,0.0,1144.0,Medium
+Karnataka,Vijayanagar,Moong,Kharif,0.0,0.0,20.0,High
+Uttarakhand,Almora,Nutri/Coarse Cereals,Rabi,0.02,0.03,1214.0,Medium
+Madhya Pradesh,Raisen,Nutri/Coarse Cereals,Rabi,0.0,0.0,3362.0,Low
+Rajasthan,Rajsamand,Total Food Grains,Kharif,0.71,1.32,1874.0,Low
+Maharashtra,Kolhapur,Rice,Kharif,0.89,3.31,3727.0,Low
+Maharashtra,Wardha,Gram,Total,0.91,1.12,1237.0,Medium
+Telangana,Wanaparthy,Other Pulses,Rabi,0.0,0.0,977.0,Medium
+Madhya Pradesh,Datia,Barley,Rabi,0.0,0.01,1563.0,Medium
+Himachal Pradesh,Solan,Total Food Grains,Kharif,0.34,1.03,3064.0,Low
+Bihar,Gaya,Other Pulses,Total,0.01,0.01,1025.0,Medium
+Tripura,Unakoti,Rice,Total,0.16,0.48,3046.0,Low
+Punjab,Fatehgarh Sahib,Total Food Grains,Kharif,0.88,4.11,4674.0,Low
+Maharashtra,Kolhapur,Other Pulses,Kharif,0.01,0.0,500.0,High
+Jharkhand,Pakur,Total Food Grains,Kharif,0.59,0.72,1231.0,Medium
+Telangana,Kamareddy,Other Pulses,Kharif,0.0,0.0,1071.0,Medium
+Madhya Pradesh,Barwani,Total Food Grains,Summer,0.06,0.07,1294.0,Medium
+Uttarakhand,Bageshwar,Gram,Total,0.0,0.0,526.0,High
+Punjab,Barnala,Gram,Total,0.0,0.0,1210.0,Medium
+Rajasthan,Sawai Madhopur,Jowar,Total,0.03,0.02,811.0,High
+Punjab,Kapurthala,Cereals,Rabi,1.07,5.49,5111.0,Low
+Karnataka,Gadag,Gram,Total,1.65,0.72,436.0,High
+Maharashtra,Sindhudurg,Rice,Summer,0.01,0.04,2840.0,Low
+Telangana,Ranga Reddy,Tur,Total,0.06,0.04,668.0,High
+Bihar,Sheikhpura,Urad,Total,0.0,0.0,1189.0,Medium
+Tripura,South Tripura,Tur,Total,0.0,0.0,806.0,High
+Rajasthan,Kota,Wheat,Rabi,1.31,4.91,3749.0,Low
+Madhya Pradesh,Anuppur,Total Food Grains,Total,2.0,3.25,1623.0,Medium
+Madhya Pradesh,Damoh,Other Pulses,Total,0.23,0.18,781.0,High
+Madhya Pradesh,Shivpuri,Maize,Kharif,0.58,1.82,3121.0,Low
+Punjab,Faridkot,Total Food Grains,Rabi,1.15,6.08,5287.0,Low
+Andhra Pradesh,Srikakulam,Tur,Kharif,0.0,0.0,735.0,High
+Bihar,Saran,Wheat,Total,0.85,2.63,3087.0,Low
+Madhya Pradesh,Shahdol,Cereals,Rabi,0.47,0.98,2102.0,Low
+Himachal Pradesh,Kinnaur,Barley,Rabi,0.01,0.02,1941.0,Low
+Bihar,Jehanabad,Ragi,Kharif,0.0,0.0,981.0,Medium
+Jharkhand,Deoghar,Nutri/Coarse Cereals,Total,0.17,0.49,2831.0,Low
+Madhya Pradesh,Hoshangabad,Moong,Total,2.98,3.99,1339.0,Medium
+Himachal Pradesh,Lahul And Spiti,Shree Anna /Nutri Cereals,Total,0.0,0.0,778.0,High
+Telangana,Kamareddy,Shree Anna /Nutri Cereals,Rabi,0.29,1.04,3597.0,Low
+Madhya Pradesh,Datia,Gram,Total,0.12,0.18,1570.0,Medium
+Maharashtra,Nanded,Gram,Rabi,2.58,1.91,739.0,High
+Uttarakhand,Pauri Garhwal,Cereals,Rabi,0.07,0.13,1854.0,Medium
+Karnataka,Koppal,Rice,Summer,0.51,1.61,3169.0,Low
+Madhya Pradesh,Jabalpur,Maize,Kharif,0.52,1.25,2375.0,Low
+Bihar,Vaishali,Bajra,Total,0.0,0.0,1320.0,Medium
+Arunachal Pradesh,Lohit,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,952.0,Medium
+Bihar,Pashchim Champaran,Jowar,Kharif,0.0,0.0,936.0,Medium
+Uttarakhand,Chamoli,Ragi,Kharif,0.1,0.16,1608.0,Medium
+Karnataka,Kalaburagi,Nutri/Coarse Cereals,Rabi,0.42,0.54,1300.0,Medium
+Madhya Pradesh,Balaghat,Total Pulses,Total,0.24,0.29,1228.0,Medium
+Rajasthan,Ajmer,Wheat,Rabi,0.6,1.55,2571.0,Low
+Madhya Pradesh,Datia,Rice,Total,1.0,1.93,1925.0,Low
+Rajasthan,Ajmer,Shree Anna /Nutri Cereals,Kharif,1.93,1.62,843.0,High
+Madhya Pradesh,Harda,Shree Anna /Nutri Cereals,Total,0.0,0.0,1208.0,Medium
+Telangana,Sangareddy,Rice,Kharif,0.56,2.39,4268.0,Low
+Rajasthan,Karauli,Cereals,Total,2.02,5.4,2676.0,Low
+Himachal Pradesh,Bilaspur,Barley,Rabi,0.0,0.0,1754.0,Medium
+Karnataka,Uttara Kannada,Nutri/Coarse Cereals,Total,0.13,0.49,3653.0,Low
+Karnataka,Bengaluru Rural,Small Millets,Kharif,0.0,0.0,1405.0,Medium
+Madhya Pradesh,Tikamgarh,Nutri/Coarse Cereals,Kharif,0.0,0.01,1458.0,Medium
+Himachal Pradesh,Sirmaur,Rice,Kharif,0.06,0.2,3335.0,Low
+Karnataka,Chitradurga,Nutri/Coarse Cereals,Kharif,1.81,4.45,2460.0,Low
+Madhya Pradesh,Jhabua,Maize,Rabi,0.14,0.43,3068.0,Low
+Bihar,Samastipur,Other Pulses,Rabi,0.01,0.01,1118.0,Medium
+Jharkhand,Jamtara,Total Food Grains,Kharif,0.65,1.17,1802.0,Medium
+Telangana,Nagarkurnool,Gram,Rabi,0.0,0.0,1762.0,Medium
+Jharkhand,Simdega,Maize,Rabi,0.01,0.03,2300.0,Low
+Rajasthan,Balotra,Other Pulses,Total,0.96,0.39,408.0,High
+Maharashtra,Thane,Maize,Rabi,0.0,0.0,3732.0,Low
+Andhra Pradesh,Alluri Sitharama Raju,Jowar,Total,0.0,0.01,3809.0,Low
+Punjab,Hoshiarpur,Rice,Total,0.8,3.44,4319.0,Low
+Rajasthan,Chittorgarh,Gram,Rabi,0.89,1.31,1481.0,Medium
+Bihar,Pashchim Champaran,Maize,Summer,0.02,0.1,6606.0,Low
+Bihar,Kaimur (Bhabua),Rice,Total,1.2,4.18,3491.0,Low
+Bihar,Purnia,Bajra,Total,0.0,0.0,967.0,Medium
+Jharkhand,Garhwa,Lentil,Total,0.06,0.07,1200.0,Medium
+Jharkhand,Deoghar,Cereals,Kharif,0.59,1.57,2642.0,Low
+Jharkhand,Khunti,Ragi,Total,0.02,0.02,900.0,Medium
+Telangana,Warangal,Moong,Total,0.0,0.0,691.0,High
+Punjab,Moga,Barley,Rabi,0.0,0.01,3809.0,Low
+Madhya Pradesh,Narsinghpur,Cereals,Total,2.81,7.94,2828.0,Low
+Maharashtra,Beed,Shree Anna /Nutri Cereals,Total,2.25,2.59,1154.0,Medium
+Bihar,Sheikhpura,Other Pulses,Rabi,0.01,0.01,1197.0,Medium
+Karnataka,Kalaburagi,Other Pulses,Kharif,0.0,0.0,608.0,High
+Maharashtra,Sindhudurg,Cereals,Kharif,0.58,1.62,2781.0,Low
+Telangana,Medak,Urad,Rabi,0.0,0.0,1763.0,Medium
+Bihar,Banka,Cereals,Total,1.39,3.93,2822.0,Low
+Jharkhand,West Singhbhum,Shree Anna /Nutri Cereals,Total,0.01,0.0,600.0,High
+Madhya Pradesh,Bhind,Total Food Grains,Total,2.5,7.69,3081.0,Low
+Rajasthan,Tonk,Nutri/Coarse Cereals,Total,1.7,1.52,897.0,Medium
+Bihar,Katihar,Nutri/Coarse Cereals,Kharif,0.04,0.15,3659.0,Low
+Arunachal Pradesh,Tirap,Nutri/Coarse Cereals,Total,0.06,0.06,1104.0,Medium
+Maharashtra,Ratnagiri,Maize,Total,0.0,0.0,2503.0,Low
+Telangana,Jogulamba Gadwal,Jowar,Rabi,0.03,0.04,1274.0,Medium
+Karnataka,Mysuru,Maize,Total,0.61,2.22,3616.0,Low
+Arunachal Pradesh,Shi Yomi,Cereals,Rabi,0.0,0.0,1420.0,Medium
+Rajasthan,Jhalawar,Urad,Kharif,0.02,0.01,656.0,High
+Madhya Pradesh,Raisen,Lentil,Rabi,0.33,0.32,976.0,Medium
+Maharashtra,Hingoli,Jowar,Kharif,0.02,0.01,646.0,High
+Punjab,Rupnagar,Maize,Kharif,0.2,1.12,5535.0,Low
+Telangana,Nagarkurnool,Nutri/Coarse Cereals,Kharif,0.2,0.8,4039.0,Low
+Madhya Pradesh,Pandhurna,Wheat,Rabi,0.11,0.33,2865.0,Low
+Arunachal Pradesh,Upper Siang,Other Pulses,Kharif,0.0,0.0,610.0,High
+Telangana,Nizamabad,Gram,Total,0.05,0.09,1801.0,Medium
+Madhya Pradesh,Satna,Cereals,Total,3.59,10.62,2956.0,Low
+Maharashtra,Gadchiroli,Jowar,Total,0.03,0.02,695.0,High
+Arunachal Pradesh,Tirap,Total Food Grains,Rabi,0.01,0.02,1573.0,Medium
+Andhra Pradesh,Ntr,Urad,Rabi,0.0,0.01,1142.0,Medium
+Andhra Pradesh,Ntr,Jowar,Total,0.0,0.01,3386.0,Low
+Maharashtra,Gadchiroli,Urad,Summer,0.0,0.0,539.0,High
+Bihar,Jamui,Total Food Grains,Summer,0.01,0.03,3757.0,Low
+Telangana,Ranga Reddy,Maize,Rabi,0.09,0.41,4406.0,Low
+Andhra Pradesh,Kurnool,Moong,Kharif,0.0,0.0,457.0,High
+Uttarakhand,Tehri Garhwal,Other Pulses,Kharif,0.04,0.03,791.0,High
+Rajasthan,Chittorgarh,Cereals,Rabi,1.41,5.37,3797.0,Low
+Madhya Pradesh,Sheopur,Bajra,Kharif,0.25,0.55,2210.0,Low
+Arunachal Pradesh,Shi Yomi,Cereals,Total,0.03,0.06,1659.0,Medium
+Karnataka,Bagalkote,Bajra,Kharif,0.19,0.33,1691.0,Medium
+Rajasthan,Jaipur,Barley,Rabi,0.44,1.67,3752.0,Low
+Maharashtra,Dhule,Moong,Kharif,0.06,0.03,422.0,High
+Madhya Pradesh,Bhopal,Other Pulses,Rabi,0.0,0.0,673.0,High
+Madhya Pradesh,Chhindwara,Moong,Total,0.18,0.15,846.0,High
+Andhra Pradesh,Eluru,Cereals,Kharif,0.78,3.14,4038.0,Low
+Madhya Pradesh,Damoh,Moong,Kharif,0.03,0.02,710.0,High
+Andhra Pradesh,Eluru,Urad,Total,0.14,0.19,1382.0,Medium
+Punjab,Bathinda,Barley,Total,0.01,0.02,3068.0,Low
+Himachal Pradesh,Mandi,Total Pulses,Total,0.06,0.04,801.0,High
+Madhya Pradesh,Khargone,Nutri/Coarse Cereals,Summer,0.0,0.01,5080.0,Low
+Madhya Pradesh,Satna,Tur,Total,0.03,0.02,777.0,High
+Maharashtra,Satara,Shree Anna /Nutri Cereals,Rabi,1.3,1.41,1081.0,Medium
+Bihar,Madhubani,Total Food Grains,Kharif,1.6,3.33,2080.0,Low
+Telangana,Nizamabad,Jowar,Rabi,0.01,0.02,2496.0,Low
+Madhya Pradesh,Pandhurna,Cereals,Rabi,0.12,0.33,2886.0,Low
+Punjab,Moga,Barley,Total,0.0,0.01,3809.0,Low
+Tripura,South Tripura,Wheat,Rabi,0.0,0.0,2000.0,Low
+Rajasthan,Baran,Lentil,Rabi,0.0,0.0,1070.0,Medium
+Karnataka,Mysuru,Bajra,Kharif,0.0,0.0,1290.0,Medium
+Maharashtra,Nagpur,Other Pulses,Kharif,0.0,0.0,562.0,High
+Rajasthan,Jhunjhunu,Other Pulses,Total,0.0,0.0,937.0,Medium
+Madhya Pradesh,Khargone,Nutri/Coarse Cereals,Rabi,0.46,1.82,4000.0,Low
+Karnataka,Bengaluru Urban,Urad,Kharif,0.0,0.0,590.0,High
+Himachal Pradesh,Solan,Maize,Kharif,0.28,0.94,3354.0,Low
+Bihar,Darbhanga,Bajra,Total,0.0,0.0,1263.0,Medium
+Bihar,Nalanda,Rice,Kharif,1.06,3.27,3076.0,Low
+Madhya Pradesh,Pandhurna,Jowar,Kharif,0.01,0.02,1434.0,Medium
+Bihar,Supaul,Nutri/Coarse Cereals,Total,0.2,1.4,7039.0,Low
+Bihar,Rohtas,Cereals,Total,4.53,15.76,3483.0,Low
+Maharashtra,Sindhudurg,Total Food Grains,Total,0.65,1.7,2608.0,Low
+Jharkhand,Chatra,Maize,Total,0.09,0.23,2547.0,Low
+Madhya Pradesh,Morena,Shree Anna /Nutri Cereals,Total,1.76,5.48,3107.0,Low
+Rajasthan,Deeg,Moong,Kharif,0.0,0.0,515.0,High
+Arunachal Pradesh,West Kameng,Cereals,Rabi,0.01,0.02,1744.0,Medium
+Telangana,Suryapet,Rice,Kharif,1.81,6.51,3604.0,Low
+Rajasthan,Karauli,Wheat,Total,0.71,2.66,3752.0,Low
+Bihar,Sheikhpura,Cereals,Total,0.46,1.3,2792.0,Low
+Telangana,Sangareddy,Tur,Total,0.32,0.44,1378.0,Medium
+Telangana,Kumuram Bheem Asifabad,Moong,Kharif,0.0,0.0,416.0,High
+Rajasthan,Sawai Madhopur,Cereals,Rabi,0.65,2.4,3677.0,Low
+Bihar,Gopalganj,Nutri/Coarse Cereals,Rabi,0.06,0.18,3015.0,Low
+Karnataka,Chikkamagaluru,Moong,Kharif,0.02,0.0,294.0,High
+Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,Cereals,Total,1.32,5.72,4321.0,Low
+Rajasthan,Barmer,Total Food Grains,Summer,0.04,0.04,1000.0,Medium
+Telangana,Nizamabad,Other Pulses,Kharif,0.0,0.0,1043.0,Medium
+Rajasthan,Jhalawar,Moong,Summer,0.0,0.0,1000.0,Medium
+Karnataka,Ramanagara,Bajra,Kharif,0.0,0.0,1290.0,Medium
+Karnataka,Vijayanagar,Jowar,Kharif,0.13,0.39,2992.0,Low
+Madhya Pradesh,Umaria,Barley,Rabi,0.0,0.0,1115.0,Medium
+Madhya Pradesh,Anuppur,Small Millets,Total,0.05,0.05,910.0,Medium
+Jharkhand,West Singhbhum,Jowar,Total,0.0,0.0,525.0,High
+Arunachal Pradesh,Kra Daadi,Total Food Grains,Kharif,0.01,0.02,1668.0,Medium
+Tripura,Sepahijala,Gram,Total,0.0,0.0,600.0,High
+Rajasthan,Chittorgarh,Nutri/Coarse Cereals,Rabi,0.08,0.33,3913.0,Low
+Maharashtra,Amravati,Gram,Rabi,1.12,1.55,1386.0,Medium
+Maharashtra,Dhule,Tur,Kharif,0.04,0.03,708.0,High
+Bihar,Muzaffarpur,Other Pulses,Rabi,0.01,0.01,1004.0,Medium
+Bihar,Darbhanga,Lentil,Total,0.03,0.02,802.0,High
+Jharkhand,Koderma,Maize,Rabi,0.0,0.0,1600.0,Medium
+Rajasthan,Dholpur,Total Pulses,Total,0.01,0.01,1509.0,Medium
+Andhra Pradesh,Anakapalli,Total Food Grains,Rabi,0.14,0.13,924.0,Medium
+Maharashtra,Solapur,Small Millets,Kharif,0.0,0.0,251.0,High
+Karnataka,Davangere,Ragi,Kharif,0.25,0.35,1424.0,Medium
+Bihar,Madhubani,Rice,Total,1.62,3.41,2106.0,Low
+Arunachal Pradesh,Upper Siang,Cereals,Kharif,0.1,0.17,1720.0,Medium
+Bihar,Madhepura,Moong,Kharif,0.0,0.0,572.0,High
+Rajasthan,Didwana Kuchaman,Cereals,Kharif,1.57,1.42,900.0,Medium
+Rajasthan,Churu,Nutri/Coarse Cereals,Rabi,0.09,0.37,4033.0,Low
+Bihar,Purbi Champaran,Total Pulses,Total,0.1,0.11,1177.0,Medium
+Rajasthan,Hanumangarh,Total Food Grains,Total,6.21,15.86,2554.0,Low
+Himachal Pradesh,Solan,Bajra,Kharif,0.0,0.0,571.0,High
+Arunachal Pradesh,Namsai,Ragi,Total,0.0,0.0,1050.0,Medium
+Maharashtra,Osmanabad,Jowar,Rabi,1.73,2.27,1313.0,Medium
+Telangana,Nizamabad,Gram,Rabi,0.05,0.09,1801.0,Medium
+Jharkhand,Hazaribagh,Moong,Total,0.01,0.01,760.0,High
+Maharashtra,Satara,Moong,Total,0.12,0.08,656.0,High
+Arunachal Pradesh,Lower Subansiri,Total Food Grains,Total,0.09,0.16,1833.0,Medium
+Uttarakhand,Uttar Kashi,Barley,Total,0.0,0.0,1633.0,Medium
+Arunachal Pradesh,Lower Subansiri,Other Pulses,Rabi,0.0,0.0,1696.0,Medium
+Rajasthan,Bikaner,Moong,Kharif,0.51,0.3,590.0,High
+Telangana,Jogulamba Gadwal,Small Millets,Total,0.0,0.01,1880.0,Low
+Punjab,Pathankot,Urad,Kharif,0.01,0.01,544.0,High
+Punjab,Hoshiarpur,Total Pulses,Total,0.0,0.0,770.0,High
+Rajasthan,Didwana Kuchaman,Total Pulses,Total,1.74,0.84,482.0,High
+Karnataka,Ramanagara,Other Pulses,Rabi,0.01,0.01,1048.0,Medium
+Jharkhand,Deoghar,Cereals,Rabi,0.12,0.32,2560.0,Low
+Madhya Pradesh,Narsinghpur,Barley,Total,0.0,0.0,1625.0,Medium
+Jharkhand,Sahebganj,Wheat,Rabi,0.13,0.32,2479.0,Low
+Maharashtra,Nandurbar,Rice,Kharif,0.24,0.35,1454.0,Medium
+Maharashtra,Bhandara,Gram,Rabi,0.19,0.19,1036.0,Medium
+Telangana,Adilabad,Other Pulses,Total,0.0,0.0,1270.0,Medium
+Karnataka,Chikkamagaluru,Total Food Grains,Rabi,0.09,0.1,1074.0,Medium
+Uttarakhand,Pauri Garhwal,Other Pulses,Kharif,0.01,0.01,807.0,High
+Maharashtra,Latur,Total Food Grains,Summer,0.01,0.01,909.0,Medium
+Karnataka,Ballari,Rice,Total,1.37,5.44,3954.0,Low
+Bihar,Darbhanga,Total Food Grains,Kharif,0.93,1.88,2033.0,Low
+Punjab,Malerkotla,Total Food Grains,Summer,0.0,0.0,1250.0,Medium
+Karnataka,Chikkamagaluru,Shree Anna /Nutri Cereals,Rabi,0.03,0.03,1066.0,Medium
+Maharashtra,Kolhapur,Total Food Grains,Rabi,0.2,0.36,1819.0,Medium
+Madhya Pradesh,Hoshangabad,Urad,Total,0.0,0.0,535.0,High
+Madhya Pradesh,Maihar,Moong,Total,0.01,0.01,546.0,High
+Andhra Pradesh,Krishna,Urad,Kharif,0.02,0.02,1368.0,Medium
+Maharashtra,Bhandara,Nutri/Coarse Cereals,Rabi,0.01,0.05,3253.0,Low
+Himachal Pradesh,Lahul And Spiti,Small Millets,Total,0.0,0.0,778.0,High
+Arunachal Pradesh,West Siang,Rice,Rabi,0.0,0.0,433.0,High
+Maharashtra,Dhule,Jowar,Total,0.17,0.29,1697.0,Medium
+Jharkhand,Saraikela Kharsawan,Total Food Grains,Kharif,1.1,1.77,1619.0,Medium
+Madhya Pradesh,Chhindwara,Nutri/Coarse Cereals,Kharif,3.39,11.2,3307.0,Low
+Karnataka,Kolar,Other Pulses,Kharif,0.05,0.05,967.0,Medium
+Uttarakhand,Pauri Garhwal,Shree Anna /Nutri Cereals,Total,0.12,0.18,1502.0,Medium
+Rajasthan,Deeg,Cereals,Kharif,1.07,1.77,1659.0,Medium
+Bihar,Darbhanga,Small Millets,Kharif,0.0,0.0,796.0,High
+Bihar,Vaishali,Shree Anna /Nutri Cereals,Total,0.0,0.0,917.0,Medium
+Telangana,Nagarkurnool,Small Millets,Total,0.0,0.0,2030.0,Low
+Bihar,Jamui,Cereals,Rabi,0.25,0.73,2934.0,Low
+Rajasthan,Beawar,Bajra,Total,0.24,0.27,1144.0,Medium
+Karnataka,Belagavi,Urad,Total,0.26,0.15,572.0,High
+Rajasthan,Phalodi,Total Food Grains,Rabi,0.53,1.4,2632.0,Low
+Bihar,Patna,Barley,Rabi,0.0,0.01,2235.0,Low
+Karnataka,Ramanagara,Shree Anna /Nutri Cereals,Kharif,0.64,1.03,1601.0,Medium
+Madhya Pradesh,Jhabua,Barley,Rabi,0.0,0.0,1770.0,Medium
+Karnataka,Bidar,Moong,Kharif,0.31,0.18,590.0,High
+Punjab,S.A.S Nagar,Bajra,Total,0.0,0.0,948.0,Medium
+Maharashtra,Amravati,Bajra,Summer,0.0,0.0,910.0,Medium
+Madhya Pradesh,Bhind,Total Pulses,Total,0.23,0.28,1234.0,Medium
+Rajasthan,Nagaur,Total Food Grains,Rabi,0.77,1.59,2074.0,Low
+Andhra Pradesh,Anantapur,Cereals,Total,0.74,2.46,3311.0,Low
+Madhya Pradesh,Maihar,Wheat,Total,0.72,2.13,2969.0,Low
+Madhya Pradesh,Umaria,Cereals,Kharif,1.06,2.07,1953.0,Low
+Rajasthan,Bhilwara,Nutri/Coarse Cereals,Total,2.98,6.47,2172.0,Low
+Punjab,Rupnagar,Nutri/Coarse Cereals,Total,0.2,1.13,5529.0,Low
+Bihar,Darbhanga,Maize,Kharif,0.01,0.04,3082.0,Low
+Bihar,Banka,Shree Anna /Nutri Cereals,Total,0.01,0.01,876.0,Medium
+Karnataka,Davangere,Jowar,Rabi,0.04,0.06,1607.0,Medium
+Jharkhand,Khunti,Moong,Total,0.01,0.01,750.0,High
+Punjab,Rupnagar,Total Food Grains,Summer,0.0,0.0,950.0,Medium
+Telangana,Mahabubnagar,Rice,Kharif,0.73,2.8,3858.0,Low
+Rajasthan,Pratapgarh,Cereals,Total,1.5,4.69,3123.0,Low
+Uttarakhand,Nainital,Cereals,Rabi,0.19,0.77,3992.0,Low
+Andhra Pradesh,Kakinada,Other Pulses,Total,0.0,0.0,1047.0,Medium
+Madhya Pradesh,Shahdol,Maize,Summer,0.0,0.0,3850.0,Low
+Rajasthan,Dholpur,Barley,Total,0.0,0.02,3711.0,Low
+Madhya Pradesh,Sagar,Nutri/Coarse Cereals,Rabi,0.0,0.0,1908.0,Low
+Arunachal Pradesh,Shi Yomi,Total Pulses,Total,0.0,0.0,932.0,Medium
+Karnataka,Belagavi,Jowar,Total,1.47,1.73,1174.0,Medium
+Madhya Pradesh,Katni,Tur,Kharif,0.01,0.01,1074.0,Medium
+Madhya Pradesh,East Nimar,Jowar,Total,0.0,0.0,1510.0,Medium
+Andhra Pradesh,Bapatla,Tur,Total,0.01,0.01,953.0,Medium
+Telangana,Nizamabad,Maize,Total,0.3,1.99,6622.0,Low
+Uttarakhand,Champawat,Urad,Total,0.0,0.0,1131.0,Medium
+Karnataka,Dakshina Kannada,Total Food Grains,Total,0.04,0.1,2847.0,Low
+Maharashtra,Thane,Nutri/Coarse Cereals,Total,0.04,0.04,936.0,Medium
+Tripura,Unakoti,Moong,Total,0.0,0.0,708.0,High
+Madhya Pradesh,Datia,Jowar,Kharif,0.04,0.06,1390.0,Medium
+Jharkhand,Bokaro,Wheat,Rabi,0.07,0.17,2400.0,Low
+Andhra Pradesh,Parvathipuram Manyam,Bajra,Kharif,0.0,0.0,2551.0,Low
+Bihar,Arwal,Gram,Rabi,0.01,0.02,1071.0,Medium
+Andhra Pradesh,Nandyal,Nutri/Coarse Cereals,Total,1.09,4.33,3986.0,Low
+Punjab,Hoshiarpur,Wheat,Total,1.46,6.33,4345.0,Low
+Punjab,Amritsar,Cereals,Total,3.69,15.95,4323.0,Low
+Maharashtra,Nagpur,Shree Anna /Nutri Cereals,Total,0.01,0.0,411.0,High
+Tripura,Sepahijala,Nutri/Coarse Cereals,Total,0.01,0.03,2294.0,Low
+Karnataka,Tumakuru,Total Food Grains,Total,2.4,4.0,1667.0,Medium
+Telangana,Narayanpet,Rice,Total,1.28,4.51,3515.0,Low
+Arunachal Pradesh,Lohit,Ragi,Total,0.0,0.0,952.0,Medium
+Maharashtra,Amravati,Total Food Grains,Rabi,1.66,2.4,1452.0,Medium
+Madhya Pradesh,Chhindwara,Cereals,Rabi,2.03,6.16,3031.0,Low
+Andhra Pradesh,Chittoor,Nutri/Coarse Cereals,Kharif,0.02,0.06,2611.0,Low
+Rajasthan,Deeg,Barley,Total,0.01,0.03,3711.0,Low
+Madhya Pradesh,East Nimar,Moong,Summer,0.41,0.4,988.0,Medium
+Madhya Pradesh,Mandsaur,Moong,Summer,0.0,0.0,696.0,High
+Arunachal Pradesh,Changlang,Shree Anna /Nutri Cereals,Total,0.02,0.02,818.0,High
+Jharkhand,Godda,Rice,Total,0.44,0.88,1998.0,Low
+Himachal Pradesh,Kinnaur,Wheat,Total,0.0,0.0,2034.0,Low
+Jharkhand,Saraikela Kharsawan,Cereals,Kharif,0.83,1.54,1854.0,Medium
+Bihar,Buxar,Tur,Kharif,0.0,0.0,1443.0,Medium
+Rajasthan,Jalore,Bajra,Kharif,3.28,4.52,1378.0,Medium
+Punjab,Faridkot,Moong,Summer,0.01,0.0,776.0,High
+Bihar,Pashchim Champaran,Small Millets,Total,0.0,0.0,586.0,High
+Punjab,Patiala,Total Food Grains,Summer,0.0,0.0,1000.0,Medium
+Rajasthan,Beawar,Jowar,Kharif,0.46,0.34,735.0,High
+Maharashtra,Hingoli,Small Millets,Total,0.01,0.01,818.0,High
+Karnataka,Chikkamagaluru,Total Food Grains,Kharif,0.73,1.12,1522.0,Medium
+Madhya Pradesh,Sagar,Bajra,Kharif,0.0,0.0,1162.0,Medium
+Madhya Pradesh,Sehore,Nutri/Coarse Cereals,Summer,0.0,0.0,4960.0,Low
+Bihar,Lakhisarai,Total Food Grains,Rabi,0.35,0.97,2785.0,Low
+Rajasthan,Khairthal-Tijara,Rice,Total,0.0,0.0,2593.0,Low
+Madhya Pradesh,Hoshangabad,Total Pulses,Total,3.59,5.12,1428.0,Medium
+Andhra Pradesh,Y.S.R.,Shree Anna /Nutri Cereals,Rabi,0.06,0.09,1521.0,Medium
+Punjab,Gurdaspur,Total Food Grains,Kharif,1.73,7.05,4069.0,Low
+Jharkhand,Khunti,Nutri/Coarse Cereals,Total,0.1,0.16,1554.0,Medium
+Himachal Pradesh,Lahul And Spiti,Nutri/Coarse Cereals,Kharif,0.0,0.0,1574.0,Medium
+Karnataka,Haveri,Cereals,Summer,0.21,0.6,2930.0,Low
+Jharkhand,Sahebganj,Tur,Total,0.04,0.02,515.0,High
+Bihar,Lakhisarai,Moong,Total,0.01,0.01,612.0,High
+Maharashtra,Latur,Shree Anna /Nutri Cereals,Kharif,0.06,0.04,787.0,High
+Karnataka,Dharwad,Tur,Kharif,0.0,0.0,1125.0,Medium
+Rajasthan,Phalodi,Gram,Rabi,0.28,0.5,1800.0,Medium
+Madhya Pradesh,Vidisha,Moong,Kharif,0.0,0.0,425.0,High
+Madhya Pradesh,Sagar,Nutri/Coarse Cereals,Total,0.89,2.2,2472.0,Low
+Arunachal Pradesh,Siang,Rice,Kharif,0.08,0.17,2151.0,Low
+Maharashtra,Washim,Shree Anna /Nutri Cereals,Kharif,0.04,0.01,365.0,High
+Rajasthan,Baran,Total Food Grains,Rabi,1.98,6.98,3524.0,Low
+Karnataka,Chikkamagaluru,Total Food Grains,Summer,0.0,0.01,2902.0,Low
+Himachal Pradesh,Shimla,Nutri/Coarse Cereals,Kharif,0.05,0.18,3818.0,Low
+Bihar,Khagaria,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,491.0,High
+Bihar,Jehanabad,Urad,Kharif,0.0,0.0,901.0,Medium
+Madhya Pradesh,Shivpuri,Maize,Total,0.58,1.82,3121.0,Low
+Karnataka,Tumakuru,Small Millets,Total,0.01,0.01,668.0,High
+Telangana,Yadadri Bhuvanagiri,Urad,Total,0.0,0.0,952.0,Medium
+Rajasthan,Jhunjhunu,Nutri/Coarse Cereals,Kharif,1.7,2.11,1243.0,Medium
+Bihar,Jehanabad,Lentil,Rabi,0.07,0.06,872.0,High
+Madhya Pradesh,Singrauli,Moong,Total,0.01,0.0,647.0,High
+Andhra Pradesh,Sri Sathya Sai,Other Pulses,Total,0.14,0.06,444.0,High
+Telangana,Ranga Reddy,Jowar,Total,0.03,0.03,897.0,Medium
+Andhra Pradesh,Anantapur,Total Pulses,Total,1.6,0.46,290.0,High
+Himachal Pradesh,Solan,Tur,Kharif,0.0,0.0,869.0,High
+Madhya Pradesh,Tikamgarh,Barley,Total,0.01,0.02,1905.0,Low
+Jharkhand,East Singhbum,Jowar,Kharif,0.0,0.0,695.0,High
+Maharashtra,Buldhana,Small Millets,Kharif,0.0,0.0,635.0,High
+Karnataka,Chikkaballapura,Other Pulses,Rabi,0.03,0.02,721.0,High
+Andhra Pradesh,Alluri Sitharama Raju,Total Pulses,Total,0.13,0.11,874.0,Medium
+Telangana,Siddipet,Total Food Grains,Rabi,1.54,6.12,3980.0,Low
+Maharashtra,Sangli,Maize,Rabi,0.2,0.39,1948.0,Low
+Andhra Pradesh,Anakapalli,Ragi,Kharif,0.0,0.0,1881.0,Low
+Madhya Pradesh,Bhopal,Total Food Grains,Summer,0.07,0.08,1229.0,Medium
+Karnataka,Ballari,Ragi,Total,0.02,0.03,1366.0,Medium
+Andhra Pradesh,Parvathipuram Manyam,Maize,Kharif,0.05,0.21,4132.0,Low
+Karnataka,Vijayanagar,Urad,Rabi,0.0,0.0,429.0,High
+Rajasthan,Beawar,Bajra,Kharif,0.24,0.27,1144.0,Medium
+Bihar,Lakhisarai,Maize,Summer,0.0,0.0,5444.0,Low
+Madhya Pradesh,Indore,Lentil,Total,0.0,0.0,660.0,High
+Maharashtra,Gondia,Nutri/Coarse Cereals,Summer,0.01,0.03,4650.0,Low
+Telangana,Medchal Malkajgiri,Shree Anna /Nutri Cereals,Total,0.0,0.0,1369.0,Medium
+Telangana,Sangareddy,Other Pulses,Rabi,0.0,0.0,1120.0,Medium
+Andhra Pradesh,Vizianagaram,Bajra,Total,0.0,0.0,2551.0,Low
+Jharkhand,Godda,Total Pulses,Total,0.31,0.37,1191.0,Medium
+Telangana,Nizamabad,Cereals,Total,3.64,16.18,4451.0,Low
+Maharashtra,Bhandara,Nutri/Coarse Cereals,Summer,0.01,0.01,970.0,Medium
+Maharashtra,Thane,Rice,Total,0.55,0.93,1703.0,Medium
+Madhya Pradesh,Mandsaur,Gram,Rabi,0.25,0.36,1413.0,Medium
+Jharkhand,Koderma,Tur,Kharif,0.07,0.08,1200.0,Medium
+Telangana,Suryapet,Ragi,Kharif,0.0,0.0,940.0,Medium
+Karnataka,Mysuru,Jowar,Kharif,0.04,0.03,779.0,High
+Madhya Pradesh,Agar Malwa,Wheat,Total,1.16,3.15,2717.0,Low
+Madhya Pradesh,Narsinghpur,Gram,Total,0.62,1.04,1664.0,Medium
+Madhya Pradesh,Mandsaur,Total Food Grains,Summer,0.0,0.0,2937.0,Low
+Madhya Pradesh,Burhanpur,Small Millets,Total,0.0,0.0,640.0,High
+Arunachal Pradesh,Pakke Kessang,Other Pulses,Rabi,0.0,0.0,1016.0,Medium
+Tripura,South Tripura,Cereals,Total,0.4,1.32,3291.0,Low
+Jharkhand,Saraikela Kharsawan,Moong,Total,0.05,0.03,700.0,High
+Madhya Pradesh,Sidhi,Maize,Summer,0.0,0.0,3942.0,Low
+Madhya Pradesh,Ujjain,Bajra,Total,0.01,0.01,1231.0,Medium
+Bihar,Arwal,Tur,Total,0.0,0.0,1633.0,Medium
+Andhra Pradesh,Ntr,Other Pulses,Kharif,0.0,0.0,900.0,Medium
+Karnataka,Chikkamagaluru,Rice,Total,0.09,0.24,2755.0,Low
+Bihar,Buxar,Bajra,Kharif,0.01,0.01,1011.0,Medium
+Madhya Pradesh,Khargone,Total Food Grains,Summer,0.37,0.36,984.0,Medium
+Jharkhand,Sahebganj,Nutri/Coarse Cereals,Rabi,0.01,0.02,2110.0,Low
+Karnataka,Chamarajanagara,Maize,Summer,0.06,0.24,4328.0,Low
+Arunachal Pradesh,Tirap,Other Pulses,Rabi,0.0,0.0,1309.0,Medium
+Karnataka,Chitradurga,Cereals,Kharif,1.82,4.48,2461.0,Low
+Telangana,Sangareddy,Moong,Kharif,0.05,0.05,902.0,Medium
+Telangana,Jangoan,Cereals,Kharif,0.8,2.31,2883.0,Low
+Arunachal Pradesh,West Kameng,Total Food Grains,Rabi,0.02,0.03,1668.0,Medium
+Rajasthan,Barmer,Cereals,Kharif,6.91,5.36,776.0,High
+Madhya Pradesh,Bhopal,Nutri/Coarse Cereals,Total,0.01,0.03,2342.0,Low
+Karnataka,Gadag,Nutri/Coarse Cereals,Total,1.55,3.63,2349.0,Low
+Rajasthan,Sawai Madhopur,Gram,Total,0.2,0.38,1918.0,Low
+Maharashtra,Thane,Other Pulses,Rabi,0.03,0.02,720.0,High
+Tripura,North Tripura,Wheat,Rabi,0.0,0.0,2000.0,Low
+Madhya Pradesh,Harda,Lentil,Rabi,0.0,0.0,500.0,High
+Rajasthan,Jaipur,Bajra,Total,2.4,3.24,1352.0,Medium
+Madhya Pradesh,Pandhurna,Cereals,Total,0.28,0.86,3089.0,Low
+Karnataka,Bagalkote,Cereals,Kharif,0.9,3.24,3601.0,Low
+Punjab,Malerkotla,Moong,Kharif,0.0,0.0,873.0,Medium
+Madhya Pradesh,Harda,Maize,Summer,0.0,0.0,4870.0,Low
+Himachal Pradesh,Kinnaur,Nutri/Coarse Cereals,Rabi,0.01,0.02,1941.0,Low
+Himachal Pradesh,Sirmaur,Rice,Total,0.06,0.2,3335.0,Low
+Andhra Pradesh,Kakinada,Urad,Rabi,0.06,0.04,619.0,High
+Telangana,Bhadradri Kothagudem,Cereals,Kharif,0.96,3.4,3538.0,Low
+Rajasthan,Baran,Maize,Total,0.64,2.18,3379.0,Low
+Madhya Pradesh,Jhabua,Bajra,Total,0.0,0.0,890.0,Medium
+Maharashtra,Gadchiroli,Maize,Kharif,0.0,0.03,7062.0,Low
+Madhya Pradesh,Shahdol,Maize,Kharif,0.04,0.08,1882.0,Low
+Uttarakhand,Tehri Garhwal,Nutri/Coarse Cereals,Rabi,0.02,0.03,1457.0,Medium
+Telangana,Nirmal,Cereals,Rabi,1.05,5.19,4957.0,Low
+Karnataka,Gadag,Jowar,Rabi,0.24,0.19,788.0,High
+Maharashtra,Solapur,Total Food Grains,Kharif,3.3,4.5,1363.0,Medium
+Maharashtra,Parbhani,Nutri/Coarse Cereals,Kharif,0.03,0.02,650.0,High
+Uttarakhand,Rudra Prayag,Small Millets,Kharif,0.05,0.07,1503.0,Medium
+Telangana,Rajanna Sircilla,Rice,Total,1.38,5.42,3923.0,Low
+Arunachal Pradesh,Kamle,Tur,Total,0.0,0.0,951.0,Medium
+Arunachal Pradesh,Changlang,Total Food Grains,Total,0.14,0.27,1924.0,Low
+Madhya Pradesh,Jabalpur,Other Pulses,Total,0.25,0.32,1277.0,Medium
+Madhya Pradesh,Balaghat,Small Millets,Kharif,0.01,0.01,970.0,Medium
+Maharashtra,Nanded,Nutri/Coarse Cereals,Summer,0.17,0.15,918.0,Medium
+Himachal Pradesh,Kangra,Maize,Total,0.44,1.02,2324.0,Low
+Maharashtra,Pune,Rice,Total,0.61,1.83,2983.0,Low
+Rajasthan,Bhilwara,Moong,Kharif,0.08,0.04,515.0,High
+Telangana,Medchal Malkajgiri,Rice,Total,0.12,0.46,3805.0,Low
+Andhra Pradesh,Eluru,Maize,Kharif,0.0,0.01,6488.0,Low
+Bihar,Sheikhpura,Shree Anna /Nutri Cereals,Total,0.0,0.0,848.0,High
+Telangana,Vikarabad,Rice,Rabi,0.4,1.32,3277.0,Low
+Rajasthan,Ajmer,Wheat,Total,0.6,1.55,2571.0,Low
+Maharashtra,Pune,Cereals,Summer,0.11,0.16,1396.0,Medium
+Madhya Pradesh,Alirajpur,Rice,Rabi,0.0,0.0,1145.0,Medium
+Punjab,Ferozepur,Moong,Kharif,0.0,0.0,785.0,High
+Maharashtra,Beed,Other Pulses,Total,0.2,0.08,394.0,High
+Andhra Pradesh,Y.S.R.,Shree Anna /Nutri Cereals,Total,0.11,0.17,1558.0,Medium
+Rajasthan,Churu,Cereals,Rabi,0.55,1.99,3640.0,Low
+Bihar,Munger,Shree Anna /Nutri Cereals,Total,0.0,0.0,993.0,Medium
+Arunachal Pradesh,Lower Siang,Tur,Kharif,0.0,0.0,1029.0,Medium
+Rajasthan,Jaisalmer,Wheat,Total,0.07,0.25,3559.0,Low
+Telangana,Bhadradri Kothagudem,Rice,Rabi,0.3,0.93,3133.0,Low
+Arunachal Pradesh,Dibang Valley,Total Food Grains,Rabi,0.01,0.01,1363.0,Medium
+Telangana,Nalgonda,Tur,Total,0.01,0.01,550.0,High
+Rajasthan,Jaipur,Tur,Kharif,0.0,0.0,500.0,High
+Bihar,Nawada,Rice,Kharif,1.0,2.98,2970.0,Low
+Bihar,Madhepura,Rice,Total,0.74,1.7,2294.0,Low
+Bihar,Purbi Champaran,Rice,Total,2.11,4.25,2011.0,Low
+Bihar,Banka,Ragi,Total,0.0,0.0,981.0,Medium
+Bihar,Purbi Champaran,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,571.0,High
+Telangana,Rajanna Sircilla,Jowar,Rabi,0.0,0.0,2479.0,Low
+Madhya Pradesh,Satna,Total Pulses,Total,0.4,0.29,717.0,High
+Madhya Pradesh,Mandsaur,Bajra,Total,0.01,0.01,1121.0,Medium
+Jharkhand,Jamtara,Cereals,Rabi,0.14,0.28,1951.0,Low
+Bihar,Supaul,Total Food Grains,Rabi,0.72,2.85,3951.0,Low
+Bihar,Nalanda,Cereals,Total,1.92,6.33,3297.0,Low
+Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,Cereals,Rabi,0.68,3.67,5359.0,Low
+Bihar,Bhagalpur,Maize,Total,0.53,2.54,4792.0,Low
+Rajasthan,Sirohi,Jowar,Kharif,0.03,0.02,811.0,High
+Bihar,Gaya,Cereals,Rabi,0.62,1.59,2558.0,Low
+Karnataka,Chitradurga,Cereals,Summer,0.02,0.1,4395.0,Low
+Rajasthan,Rajsamand,Nutri/Coarse Cereals,Total,0.75,1.46,1955.0,Low
+Bihar,Vaishali,Wheat,Total,0.35,1.17,3335.0,Low
+Andhra Pradesh,Ntr,Rice,Rabi,0.2,0.87,4233.0,Low
+Bihar,Purnia,Jowar,Total,0.0,0.0,1168.0,Medium
+Telangana,Hanumakonda,Maize,Rabi,0.26,1.68,6481.0,Low
+Madhya Pradesh,Katni,Barley,Rabi,0.0,0.0,1867.0,Low
+Karnataka,Ballari,Moong,Kharif,0.0,0.0,430.0,High
+Arunachal Pradesh,Lower Subansiri,Nutri/Coarse Cereals,Total,0.02,0.03,1263.0,Medium
+Uttarakhand,Pauri Garhwal,Maize,Total,0.01,0.03,2358.0,Low
+Jharkhand,Latehar,Other Pulses,Rabi,0.05,0.02,491.0,High
+Arunachal Pradesh,Longding,Ragi,Total,0.03,0.03,1177.0,Medium
+Madhya Pradesh,Ujjain,Rice,Kharif,0.01,0.0,802.0,High
+Madhya Pradesh,Datia,Lentil,Rabi,0.01,0.01,939.0,Medium
+Rajasthan,Rajsamand,Gram,Total,0.09,0.12,1236.0,Medium
+Maharashtra,Sangli,Maize,Total,0.7,2.02,2894.0,Low
+Maharashtra,Jalna,Jowar,Rabi,0.86,0.96,1111.0,Medium
+Jharkhand,West Singhbhum,Maize,Total,0.09,0.1,1165.0,Medium
+Rajasthan,Dholpur,Cereals,Kharif,0.95,1.9,2002.0,Low
+Andhra Pradesh,Annamayya,Shree Anna /Nutri Cereals,Total,0.01,0.01,2177.0,Low
+Karnataka,Gadag,Small Millets,Kharif,0.0,0.0,499.0,High
+Arunachal Pradesh,Upper Subansiri,Other Pulses,Rabi,0.0,0.0,1307.0,Medium
+Rajasthan,Banswara,Total Food Grains,Kharif,1.37,2.79,2040.0,Low
+Madhya Pradesh,Bhind,Urad,Summer,0.0,0.0,800.0,High
+Bihar,Jehanabad,Nutri/Coarse Cereals,Kharif,0.0,0.0,1189.0,Medium
+Karnataka,Mandya,Nutri/Coarse Cereals,Kharif,0.86,1.35,1584.0,Medium
+Jharkhand,East Singhbum,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,904.0,Medium
+Rajasthan,Bundi,Lentil,Total,0.01,0.01,1097.0,Medium
+Bihar,Nalanda,Maize,Summer,0.02,0.11,5585.0,Low
+Bihar,Arwal,Lentil,Rabi,0.03,0.02,880.0,Medium
+Madhya Pradesh,Alirajpur,Cereals,Rabi,0.52,1.29,2484.0,Low
+Karnataka,Bagalkote,Rice,Kharif,0.0,0.0,3394.0,Low
+Bihar,Rohtas,Moong,Summer,0.0,0.0,529.0,High
+Punjab,Hoshiarpur,Maize,Kharif,0.42,1.57,3765.0,Low
+Telangana,Mahabubnagar,Ragi,Kharif,0.0,0.0,840.0,High
+Madhya Pradesh,Datia,Shree Anna /Nutri Cereals,Kharif,0.07,0.12,1632.0,Medium
+Uttarakhand,Pithoragarh,Other Pulses,Rabi,0.0,0.0,574.0,High
+Karnataka,Chikkaballapura,Bajra,Kharif,0.0,0.0,1290.0,Medium
+Bihar,Siwan,Cereals,Kharif,1.0,2.61,2608.0,Low
+Rajasthan,Banswara,Tur,Total,0.02,0.01,790.0,High
+Karnataka,Haveri,Small Millets,Kharif,0.0,0.0,982.0,Medium
+Madhya Pradesh,Mandsaur,Wheat,Total,1.88,6.75,3588.0,Low
+Telangana,Suryapet,Other Pulses,Rabi,0.0,0.0,1535.0,Medium
+Madhya Pradesh,Jhabua,Shree Anna /Nutri Cereals,Total,0.02,0.03,1240.0,Medium
+Maharashtra,Thane,Rice,Summer,0.0,0.0,2350.0,Low
+Arunachal Pradesh,Namsai,Tur,Total,0.0,0.0,559.0,High
+Tripura,South Tripura,Maize,Kharif,0.01,0.02,1815.0,Medium
+Jharkhand,Bokaro,Nutri/Coarse Cereals,Total,0.1,0.35,3632.0,Low
+Jharkhand,Simdega,Ragi,Total,0.08,0.12,1400.0,Medium
+Maharashtra,Ahmednagar,Nutri/Coarse Cereals,Total,3.74,6.71,1794.0,Medium
+Bihar,Purnia,Cereals,Summer,0.1,0.49,4774.0,Low
+Maharashtra,Wardha,Jowar,Rabi,0.01,0.01,601.0,High
+Karnataka,Bengaluru Urban,Rice,Total,0.0,0.01,3030.0,Low
+Madhya Pradesh,Sehore,Maize,Summer,0.0,0.0,4960.0,Low
+Telangana,Mahabubnagar,Small Millets,Total,0.0,0.0,1980.0,Low
+Bihar,Buxar,Moong,Kharif,0.0,0.0,684.0,High
+Himachal Pradesh,Chamba,Urad,Total,0.02,0.01,712.0,High
+Madhya Pradesh,Datia,Bajra,Total,0.03,0.05,2043.0,Low
+Madhya Pradesh,Hoshangabad,Small Millets,Kharif,0.0,0.0,726.0,High
+Madhya Pradesh,Neemuch,Nutri/Coarse Cereals,Rabi,0.01,0.01,1798.0,Medium
+Karnataka,Bengaluru Urban,Other Pulses,Kharif,0.01,0.0,717.0,High
+Madhya Pradesh,Niwari,Lentil,Total,0.0,0.0,682.0,High
+Madhya Pradesh,Narsinghpur,Barley,Rabi,0.0,0.0,1625.0,Medium
+Madhya Pradesh,Tikamgarh,Maize,Kharif,0.0,0.0,1790.0,Medium
+Jharkhand,Koderma,Cereals,Kharif,0.22,0.34,1503.0,Medium
+Jharkhand,Pakur,Other Pulses,Kharif,0.0,0.0,633.0,High
+Maharashtra,Jalgaon,Cereals,Rabi,2.28,5.71,2508.0,Low
+Maharashtra,Pune,Nutri/Coarse Cereals,Total,2.09,3.81,1821.0,Medium
+Karnataka,Chamarajanagara,Gram,Rabi,0.01,0.01,772.0,High
+Bihar,Buxar,Bajra,Total,0.01,0.01,1011.0,Medium
+Maharashtra,Jalgaon,Tur,Kharif,0.15,0.12,792.0,High
+Andhra Pradesh,West Godavari,Cereals,Total,1.72,8.15,4734.0,Low
+Maharashtra,Sangli,Wheat,Total,0.16,0.39,2395.0,Low
+Telangana,Yadadri Bhuvanagiri,Cereals,Rabi,1.11,4.09,3694.0,Low
+Andhra Pradesh,Tirupati,Urad,Rabi,0.0,0.0,866.0,High
+Karnataka,Chikkamagaluru,Nutri/Coarse Cereals,Rabi,0.03,0.05,1467.0,Medium
+Rajasthan,Nagaur,Other Pulses,Kharif,0.32,0.17,541.0,High
+Andhra Pradesh,East Godavari,Total Food Grains,Kharif,0.76,2.73,3591.0,Low
+Bihar,Sheikhpura,Ragi,Kharif,0.0,,,Low
+Madhya Pradesh,Sagar,Moong,Kharif,0.01,0.01,685.0,High
+Andhra Pradesh,Vizianagaram,Moong,Total,0.07,0.03,484.0,High
+Bihar,Purbi Champaran,Total Food Grains,Summer,0.18,0.67,3782.0,Low
+Madhya Pradesh,Narsinghpur,Total Pulses,Total,3.34,4.63,1387.0,Medium
+Telangana,Nalgonda,Bajra,Kharif,0.0,0.0,1137.0,Medium
+Jharkhand,Latehar,Maize,Rabi,0.0,0.01,1475.0,Medium
+Andhra Pradesh,Bapatla,Small Millets,Total,0.0,0.0,1811.0,Medium
+Tripura,Sepahijala,Maize,Kharif,0.01,0.02,2036.0,Low
+Madhya Pradesh,Sehore,Barley,Rabi,0.0,0.0,1856.0,Medium
+Punjab,Faridkot,Gram,Rabi,0.0,0.0,1710.0,Medium
+Maharashtra,Bhandara,Moong,Summer,0.0,0.0,184.0,High
+Maharashtra,Latur,Cereals,Summer,0.01,0.01,1019.0,Medium
+Himachal Pradesh,Chamba,Shree Anna /Nutri Cereals,Total,0.01,0.0,620.0,High
+Karnataka,Ballari,Rice,Summer,0.5,1.83,3684.0,Low
+Andhra Pradesh,Sri Sathya Sai,Jowar,Rabi,0.0,0.0,2108.0,Low
+Arunachal Pradesh,Tawang,Ragi,Total,0.01,0.02,1158.0,Medium
+Himachal Pradesh,Kinnaur,Rice,Kharif,0.0,0.0,2083.0,Low
+Telangana,Suryapet,Rice,Total,3.72,13.22,3552.0,Low
+Maharashtra,Sindhudurg,Maize,Summer,0.0,0.0,2329.0,Low
+Punjab,Jalandhar,Total Food Grains,Total,3.53,16.77,4746.0,Low
+Telangana,Suryapet,Cereals,Total,3.73,13.26,3556.0,Low
+Telangana,Mahabubabad,Tur,Total,0.0,0.0,563.0,High
+Tripura,North Tripura,Nutri/Coarse Cereals,Total,0.02,0.04,1843.0,Medium
+Maharashtra,Satara,Nutri/Coarse Cereals,Summer,0.01,0.03,2461.0,Low
+Madhya Pradesh,Ashoknagar,Lentil,Rabi,0.51,0.5,980.0,Medium
+Karnataka,Dharwad,Rice,Kharif,0.08,0.11,1351.0,Medium
+Maharashtra,Osmanabad,Total Food Grains,Total,5.35,6.14,1148.0,Medium
+Arunachal Pradesh,Lower Siang,Cereals,Total,0.09,0.14,1482.0,Medium
+Madhya Pradesh,Hoshangabad,Nutri/Coarse Cereals,Total,0.48,1.05,2183.0,Low
+Bihar,Vaishali,Ragi,Total,0.0,0.0,981.0,Medium
+Arunachal Pradesh,Kurung Kumey,Cereals,Total,0.01,0.02,1738.0,Medium
+Bihar,Khagaria,Maize,Rabi,0.31,2.03,6466.0,Low
+Madhya Pradesh,Jabalpur,Nutri/Coarse Cereals,Kharif,0.6,1.33,2202.0,Low
+Rajasthan,Dholpur,Other Pulses,Total,0.0,0.0,5011.0,Low
+Bihar,Munger,Rice,Summer,0.0,0.0,2780.0,Low
+Madhya Pradesh,Harda,Bajra,Kharif,0.0,0.0,1000.0,Medium
+Rajasthan,Karauli,Barley,Rabi,0.0,0.01,3711.0,Low
+Karnataka,Kolar,Cereals,Kharif,0.6,1.16,1938.0,Low
+Bihar,Pashchim Champaran,Total Food Grains,Kharif,1.15,2.4,2081.0,Low
+Bihar,Saharsa,Other Pulses,Rabi,0.0,0.0,1047.0,Medium
+Jharkhand,Jamtara,Tur,Kharif,0.01,0.01,1400.0,Medium
+Maharashtra,Satara,Moong,Kharif,0.12,0.08,656.0,High
+Bihar,Nawada,Total Pulses,Total,0.08,0.06,788.0,High
+Maharashtra,Yavatmal,Nutri/Coarse Cereals,Kharif,0.03,0.02,647.0,High
+Madhya Pradesh,Sagar,Lentil,Rabi,1.19,1.32,1110.0,Medium
+Madhya Pradesh,Dhar,Total Food Grains,Kharif,0.67,1.98,2959.0,Low
+Madhya Pradesh,Mauganj,Total Food Grains,Rabi,0.64,1.59,2495.0,Low
+Jharkhand,West Singhbhum,Gram,Rabi,0.11,0.12,1150.0,Medium
+Madhya Pradesh,Alirajpur,Barley,Total,0.0,0.0,1565.0,Medium
+Madhya Pradesh,Bhind,Barley,Rabi,0.01,0.01,1947.0,Low
+Maharashtra,Nashik,Other Pulses,Rabi,0.03,0.02,533.0,High
+Maharashtra,Pune,Maize,Summer,0.07,0.12,1748.0,Medium
+Maharashtra,Ratnagiri,Total Food Grains,Kharif,0.46,1.17,2549.0,Low
+Madhya Pradesh,Vidisha,Rice,Kharif,1.03,1.48,1437.0,Medium
+Bihar,Gaya,Ragi,Kharif,0.01,0.01,981.0,Medium
+Maharashtra,Palghar,Cereals,Kharif,0.98,2.08,2110.0,Low
+Bihar,Saharsa,Gram,Total,0.0,0.0,1045.0,Medium
+Punjab,Jalandhar,Total Pulses,Total,0.0,0.01,1469.0,Medium
+Andhra Pradesh,Annamayya,Rice,Rabi,0.02,0.07,3487.0,Low
+Rajasthan,Jaipur,Shree Anna /Nutri Cereals,Total,2.75,3.42,1246.0,Medium
+Maharashtra,Jalgaon,Urad,Summer,0.0,0.0,539.0,High
+Telangana,Narayanpet,Other Pulses,Kharif,0.0,0.0,836.0,High
+Madhya Pradesh,Raisen,Total Food Grains,Kharif,3.03,6.93,2287.0,Low
+Telangana,Sangareddy,Gram,Total,0.07,0.12,1602.0,Medium
+Rajasthan,Dungarpur,Small Millets,Total,0.0,0.0,4874.0,Low
+Maharashtra,Dhule,Shree Anna /Nutri Cereals,Kharif,0.48,0.52,1070.0,Medium
+Rajasthan,Bhilwara,Barley,Total,0.29,0.89,3125.0,Low
+Himachal Pradesh,Shimla,Shree Anna /Nutri Cereals,Total,0.01,0.0,770.0,High
+Madhya Pradesh,Dhar,Tur,Kharif,0.01,0.01,1065.0,Medium
+Karnataka,Chikkamagaluru,Nutri/Coarse Cereals,Summer,0.0,0.0,4328.0,Low
+Rajasthan,Baran,Shree Anna /Nutri Cereals,Total,0.0,0.0,1131.0,Medium
+Telangana,Rajanna Sircilla,Jowar,Kharif,0.0,0.0,819.0,High
+Andhra Pradesh,Prakasam,Urad,Total,0.13,0.06,452.0,High
+Rajasthan,Alwar,Cereals,Kharif,1.64,2.71,1655.0,Medium
+Maharashtra,Ratnagiri,Tur,Kharif,0.0,0.0,647.0,High
+Himachal Pradesh,Mandi,Other Pulses,Total,0.04,0.04,799.0,High
+Arunachal Pradesh,Upper Siang,Ragi,Kharif,0.01,0.01,939.0,Medium
+Madhya Pradesh,Umaria,Nutri/Coarse Cereals,Summer,0.0,0.0,3880.0,Low
+Telangana,Sangareddy,Nutri/Coarse Cereals,Total,0.41,1.23,3025.0,Low
+Madhya Pradesh,Shahdol,Shree Anna /Nutri Cereals,Kharif,0.11,0.09,796.0,High
+Rajasthan,Banswara,Jowar,Total,0.0,0.0,811.0,High
+Maharashtra,Buldhana,Jowar,Summer,0.04,0.03,832.0,High
+Bihar,Sheikhpura,Ragi,Total,0.0,,,Low
+Jharkhand,West Singhbhum,Cereals,Total,1.66,2.62,1579.0,Medium
+Maharashtra,Sindhudurg,Nutri/Coarse Cereals,Total,0.02,0.04,2356.0,Low
+Madhya Pradesh,Chhatarpur,Nutri/Coarse Cereals,Kharif,0.05,0.07,1562.0,Medium
+Andhra Pradesh,Spsr Nellore,Moong,Rabi,0.0,0.0,576.0,High
+Uttarakhand,Pithoragarh,Cereals,Rabi,0.16,0.27,1678.0,Medium
+Maharashtra,Raigad,Nutri/Coarse Cereals,Kharif,0.02,0.02,1175.0,Medium
+Karnataka,Yadgir,Total Food Grains,Summer,0.36,0.93,2555.0,Low
+Andhra Pradesh,Kakinada,Rice,Rabi,0.65,3.62,5551.0,Low
+Bihar,Jamui,Barley,Total,0.0,0.0,1881.0,Low
+Maharashtra,Nandurbar,Gram,Rabi,0.27,0.26,995.0,Medium
+Arunachal Pradesh,Lower Subansiri,Shree Anna /Nutri Cereals,Kharif,0.02,0.01,826.0,High
+Maharashtra,Nagpur,Gram,Rabi,0.96,1.18,1230.0,Medium
+Jharkhand,Pakur,Nutri/Coarse Cereals,Rabi,0.01,0.01,2100.0,Low
+Andhra Pradesh,Annamayya,Moong,Rabi,0.0,0.0,668.0,High
+Madhya Pradesh,Indore,Jowar,Total,0.0,0.0,1878.0,Low
+Andhra Pradesh,Kurnool,Bajra,Kharif,0.06,0.15,2351.0,Low
+Jharkhand,Jamtara,Cereals,Kharif,0.61,1.13,1846.0,Medium
+Madhya Pradesh,Umaria,Tur,Total,0.02,0.02,649.0,High
+Maharashtra,Washim,Shree Anna /Nutri Cereals,Summer,0.02,0.02,844.0,High
+Arunachal Pradesh,Lower Subansiri,Maize,Kharif,0.0,0.01,2511.0,Low
+Maharashtra,Nandurbar,Ragi,Kharif,0.0,0.0,769.0,High
+Bihar,Samastipur,Total Pulses,Total,0.16,0.1,640.0,High
+Madhya Pradesh,Alirajpur,Other Pulses,Total,0.0,0.0,885.0,Medium
+Rajasthan,Jhalawar,Cereals,Kharif,0.49,1.2,2459.0,Low
+Madhya Pradesh,Pandhurna,Maize,Kharif,0.14,0.49,3434.0,Low
+Maharashtra,Thane,Total Pulses,Total,0.07,0.05,703.0,High
+Rajasthan,Bikaner,Lentil,Total,0.0,0.0,1070.0,Medium
+Maharashtra,Washim,Nutri/Coarse Cereals,Total,0.07,0.04,602.0,High
+Bihar,Kishanganj,Barley,Total,0.0,0.0,1881.0,Low
+Arunachal Pradesh,Kamle,Nutri/Coarse Cereals,Kharif,0.01,0.02,1492.0,Medium
+Madhya Pradesh,Raisen,Jowar,Kharif,0.0,0.0,2380.0,Low
+Rajasthan,Rajsamand,Rice,Total,0.0,0.0,2593.0,Low
+Bihar,Kishanganj,Rice,Summer,0.11,0.33,2994.0,Low
+Rajasthan,Pali,Moong,Summer,0.0,0.0,1000.0,Medium
+Himachal Pradesh,Chamba,Rice,Kharif,0.02,0.05,1983.0,Low
+Punjab,Shahid Bhagat Singh Nagar,Rice,Kharif,0.63,2.87,4538.0,Low
+Telangana,Medak,Bajra,Total,0.0,0.0,1043.0,Medium
+Telangana,Kamareddy,Cereals,Total,2.72,12.56,4626.0,Low
+Arunachal Pradesh,Changlang,Other Pulses,Total,0.0,0.0,1102.0,Medium
+Telangana,Karimnagar,Tur,Total,0.0,0.01,1393.0,Medium
+Maharashtra,Hingoli,Total Food Grains,Summer,0.04,0.03,693.0,High
+Maharashtra,Kolhapur,Gram,Total,0.04,0.03,856.0,High
+Madhya Pradesh,Mauganj,Maize,Rabi,0.0,0.0,3154.0,Low
+Bihar,Nalanda,Cereals,Rabi,0.83,2.93,3540.0,Low
+Tripura,South Tripura,Moong,Kharif,0.0,0.0,618.0,High
+Himachal Pradesh,Kullu,Other Pulses,Kharif,0.0,0.0,551.0,High
+Madhya Pradesh,Datia,Cereals,Rabi,1.47,4.26,2903.0,Low
+Himachal Pradesh,Mandi,Small Millets,Total,0.0,0.0,778.0,High
+Karnataka,Kalaburagi,Shree Anna /Nutri Cereals,Rabi,0.41,0.52,1271.0,Medium
+Madhya Pradesh,Pandhurna,Urad,Total,0.0,0.0,460.0,High
+Andhra Pradesh,Y.S.R.,Rice,Kharif,0.29,0.92,3204.0,Low
+Uttarakhand,Pauri Garhwal,Total Food Grains,Total,0.26,0.42,1608.0,Medium
+Punjab,S.A.S Nagar,Cereals,Kharif,0.37,1.48,3949.0,Low
+Arunachal Pradesh,Dibang Valley,Nutri/Coarse Cereals,Total,0.03,0.04,1357.0,Medium
+Bihar,Nalanda,Lentil,Rabi,0.12,0.11,952.0,Medium
+Madhya Pradesh,Hoshangabad,Rice,Rabi,0.01,0.02,3401.0,Low
+Madhya Pradesh,Bhopal,Cereals,Kharif,0.33,0.83,2552.0,Low
+Bihar,Gopalganj,Moong,Kharif,0.0,0.0,571.0,High
+Madhya Pradesh,Guna,Wheat,Total,1.91,6.45,3383.0,Low
+Punjab,Kapurthala,Nutri/Coarse Cereals,Kharif,0.01,0.04,4087.0,Low
+Rajasthan,Chittorgarh,Wheat,Total,1.33,5.04,3790.0,Low
+Andhra Pradesh,West Godavari,Urad,Rabi,0.01,0.01,1343.0,Medium
+Andhra Pradesh,Alluri Sitharama Raju,Other Pulses,Rabi,0.1,0.09,871.0,High
+Uttarakhand,Dehradun,Urad,Summer,0.0,0.0,889.0,Medium
+Rajasthan,Jalore,Nutri/Coarse Cereals,Kharif,3.32,4.55,1372.0,Medium
+Andhra Pradesh,Y.S.R.,Tur,Total,0.12,0.04,346.0,High
+Telangana,Siddipet,Rice,Rabi,1.41,5.35,3802.0,Low
+Andhra Pradesh,Nandyal,Rice,Total,1.08,4.39,4076.0,Low
+Karnataka,Uttara Kannada,Shree Anna /Nutri Cereals,Total,0.0,0.0,1163.0,Medium
+Madhya Pradesh,Ashoknagar,Jowar,Kharif,0.0,0.0,1386.0,Medium
+Telangana,Mulugu,Total Food Grains,Kharif,0.37,1.08,2939.0,Low
+Maharashtra,Solapur,Jowar,Total,2.54,2.13,836.0,High
+Rajasthan,Dausa,Moong,Total,0.0,0.0,519.0,High
+Himachal Pradesh,Mandi,Cereals,Total,1.22,3.04,2502.0,Low
+Jharkhand,Ranchi,Other Pulses,Rabi,0.19,0.23,1200.0,Medium
+Uttarakhand,Udam Singh Nagar,Gram,Total,0.0,0.0,944.0,Medium
+Rajasthan,Dausa,Total Food Grains,Total,2.75,6.65,2423.0,Low
+Jharkhand,Dhanbad,Nutri/Coarse Cereals,Total,0.03,0.07,2248.0,Low
+Karnataka,Bagalkote,Gram,Total,0.32,0.19,590.0,High
+Jharkhand,Gumla,Nutri/Coarse Cereals,Total,0.17,0.36,2139.0,Low
+Punjab,Sangrur,Maize,Total,0.0,0.0,4234.0,Low
+Bihar,Buxar,Other Pulses,Kharif,0.0,0.0,844.0,High
+Rajasthan,Pratapgarh,Urad,Summer,0.0,0.0,500.0,High
+Telangana,Jogulamba Gadwal,Urad,Kharif,0.0,0.01,1415.0,Medium
+Madhya Pradesh,Dewas,Total Pulses,Total,1.1,1.43,1299.0,Medium
+Madhya Pradesh,Katni,Cereals,Total,3.63,10.44,2879.0,Low
+Telangana,Medak,Other Pulses,Total,0.0,0.0,1011.0,Medium
+Maharashtra,Nashik,Tur,Kharif,0.05,0.03,630.0,High
+Maharashtra,Pune,Moong,Kharif,0.13,0.07,535.0,High
+Bihar,Banka,Maize,Total,0.09,0.3,3332.0,Low
+Rajasthan,Churu,Barley,Total,0.09,0.37,4033.0,Low
+Madhya Pradesh,Guna,Moong,Summer,0.11,0.13,1185.0,Medium
+Karnataka,Haveri,Urad,Rabi,0.0,0.0,224.0,High
+Karnataka,Dharwad,Total Food Grains,Rabi,2.2,2.13,966.0,Medium
+Madhya Pradesh,Anuppur,Urad,Total,0.01,0.01,559.0,High
+Andhra Pradesh,Bapatla,Nutri/Coarse Cereals,Kharif,0.02,0.11,4853.0,Low
+Telangana,Sangareddy,Urad,Rabi,0.0,0.0,1763.0,Medium
+Andhra Pradesh,Srikakulam,Shree Anna /Nutri Cereals,Kharif,0.01,0.03,2179.0,Low
+Jharkhand,Simdega,Wheat,Total,0.09,0.2,2200.0,Low
+Madhya Pradesh,Sidhi,Shree Anna /Nutri Cereals,Total,0.04,0.04,993.0,Medium
+Rajasthan,Bharatpur,Urad,Total,0.0,0.0,365.0,High
+Telangana,Suryapet,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,1455.0,Medium
+Rajasthan,Alwar,Cereals,Rabi,0.85,3.47,4082.0,Low
+Madhya Pradesh,Morena,Cereals,Rabi,1.03,3.61,3517.0,Low
+Karnataka,Chikkaballapura,Jowar,Total,0.01,0.02,1625.0,Medium
+Jharkhand,Koderma,Nutri/Coarse Cereals,Kharif,0.08,0.1,1158.0,Medium
+Maharashtra,Amravati,Nutri/Coarse Cereals,Summer,0.03,0.03,1089.0,Medium
+Andhra Pradesh,Anakapalli,Rice,Total,0.58,1.82,3163.0,Low
+Madhya Pradesh,Betul,Maize,Total,2.21,5.67,2567.0,Low
+Karnataka,Dharwad,Urad,Rabi,0.0,0.0,429.0,High
+Bihar,Nawada,Moong,Total,0.02,0.01,487.0,High
+Punjab,Moga,Total Food Grains,Total,3.66,18.22,4980.0,Low
+Telangana,Nirmal,Urad,Kharif,0.0,0.0,790.0,High
+Uttarakhand,Uttar Kashi,Lentil,Total,0.0,0.0,372.0,High
+Andhra Pradesh,Anakapalli,Shree Anna /Nutri Cereals,Total,0.01,0.01,1131.0,Medium
+Maharashtra,Jalna,Gram,Total,1.04,1.33,1278.0,Medium
+Madhya Pradesh,Maihar,Total Food Grains,Total,1.76,4.55,2579.0,Low
+Arunachal Pradesh,East Kameng,Urad,Kharif,0.0,0.0,872.0,High
+Maharashtra,Akola,Tur,Total,0.61,0.77,1257.0,Medium
+Madhya Pradesh,Jhabua,Cereals,Total,1.56,3.66,2344.0,Low
+Madhya Pradesh,Rajgarh,Cereals,Rabi,3.13,10.78,3441.0,Low
+Punjab,Hoshiarpur,Total Food Grains,Summer,0.0,0.0,780.0,High
+Karnataka,Dharwad,Maize,Summer,0.0,0.01,4194.0,Low
+Telangana,Nalgonda,Total Food Grains,Kharif,1.97,6.93,3523.0,Low
+Bihar,Sheikhpura,Other Pulses,Total,0.01,0.01,1197.0,Medium
+Maharashtra,Buldhana,Cereals,Total,1.41,3.28,2317.0,Low
+Arunachal Pradesh,Papum Pare,Cereals,Total,0.16,0.32,1941.0,Low
+Punjab,Rupnagar,Total Food Grains,Total,1.3,5.96,4596.0,Low
+Himachal Pradesh,Kangra,Gram,Total,0.0,0.0,1124.0,Medium
+Bihar,Khagaria,Other Pulses,Rabi,0.01,0.01,1571.0,Medium
+Punjab,Amritsar,Moong,Summer,0.01,0.01,650.0,High
+Jharkhand,Bokaro,Shree Anna /Nutri Cereals,Total,0.0,0.01,2373.0,Low
+Arunachal Pradesh,Shi Yomi,Total Food Grains,Rabi,0.0,0.0,1327.0,Medium
+Maharashtra,Nanded,Shree Anna /Nutri Cereals,Total,0.63,0.67,1068.0,Medium
+Bihar,Banka,Rice,Kharif,1.0,2.84,2845.0,Low
+Madhya Pradesh,Sehore,Total Food Grains,Summer,0.99,1.24,1248.0,Medium
+Madhya Pradesh,Guna,Urad,Kharif,0.03,0.02,719.0,High
+Jharkhand,Gumla,Other Pulses,Rabi,0.08,0.06,676.0,High
+Uttarakhand,Champawat,Other Pulses,Kharif,0.01,0.02,1160.0,Medium
+Maharashtra,Nagpur,Cereals,Rabi,0.99,1.54,1554.0,Medium
+Karnataka,Mysuru,Shree Anna /Nutri Cereals,Rabi,0.0,0.0,1113.0,Medium
+Uttarakhand,Chamoli,Nutri/Coarse Cereals,Total,0.17,0.28,1598.0,Medium
+Bihar,Siwan,Tur,Kharif,0.02,0.03,1709.0,Medium
+Karnataka,Chikkaballapura,Urad,Rabi,0.0,0.0,429.0,High
+Maharashtra,Buldhana,Other Pulses,Kharif,0.0,0.0,361.0,High
+Jharkhand,Godda,Maize,Rabi,0.02,0.05,2500.0,Low
+Punjab,Gurdaspur,Cereals,Rabi,1.86,8.99,4834.0,Low
+Bihar,Siwan,Cereals,Total,1.91,5.89,3079.0,Low
+Punjab,Fazilka,Total Pulses,Total,0.05,0.05,944.0,Medium
+Maharashtra,Gadchiroli,Small Millets,Total,0.0,0.0,322.0,High
+Karnataka,Davangere,Nutri/Coarse Cereals,Rabi,0.07,0.2,2734.0,Low
+Arunachal Pradesh,East Siang,Shree Anna /Nutri Cereals,Total,0.01,0.02,1182.0,Medium
+Punjab,Malerkotla,Maize,Kharif,0.0,0.01,4234.0,Low
+Madhya Pradesh,Balaghat,Rice,Total,3.49,7.84,2248.0,Low
+Andhra Pradesh,Krishna,Jowar,Rabi,0.02,0.07,3744.0,Low
+Andhra Pradesh,Bapatla,Jowar,Total,0.07,0.51,6911.0,Low
+Telangana,Narayanpet,Ragi,Kharif,0.0,0.0,989.0,Medium
+Maharashtra,Nandurbar,Jowar,Total,0.3,0.41,1377.0,Medium
+Bihar,Siwan,Rice,Kharif,0.88,2.15,2444.0,Low
+Telangana,Adilabad,Rice,Rabi,0.0,0.0,3613.0,Low
+Maharashtra,Nanded,Total Food Grains,Summer,0.17,0.16,951.0,Medium
+Madhya Pradesh,Ujjain,Jowar,Total,0.0,0.0,1848.0,Medium
+Arunachal Pradesh,West Siang,Moong,Kharif,0.0,0.0,923.0,Medium
+Madhya Pradesh,Niwari,Total Food Grains,Kharif,0.11,0.07,587.0,High
+Jharkhand,Palamu,Cereals,Rabi,0.21,0.4,1964.0,Low
+Madhya Pradesh,Chhatarpur,Maize,Summer,0.0,0.0,4469.0,Low
+Jharkhand,Giridih,Moong,Kharif,0.01,0.01,910.0,Medium
+Rajasthan,Rajsamand,Nutri/Coarse Cereals,Rabi,0.05,0.14,2936.0,Low
+Karnataka,Yadgir,Jowar,Kharif,0.0,0.0,1982.0,Low
+Arunachal Pradesh,Upper Subansiri,Tur,Total,0.0,0.0,1363.0,Medium
+Madhya Pradesh,Jhabua,Moong,Total,0.0,0.0,635.0,High
+Andhra Pradesh,Y.S.R.,Nutri/Coarse Cereals,Summer,0.02,0.05,2215.0,Low
+Bihar,Kishanganj,Gram,Rabi,0.0,0.0,1045.0,Medium
+Bihar,Madhepura,Nutri/Coarse Cereals,Kharif,0.02,0.07,3378.0,Low
+Andhra Pradesh,Tirupati,Other Pulses,Rabi,0.0,0.0,631.0,High
+Bihar,Aurangabad,Tur,Kharif,0.01,0.01,1729.0,Medium
+Jharkhand,Koderma,Ragi,Total,0.01,0.01,800.0,High
+Andhra Pradesh,Kurnool,Small Millets,Kharif,0.1,0.09,866.0,High
+Rajasthan,Churu,Lentil,Rabi,0.0,0.0,1070.0,Medium
+Jharkhand,Giridih,Lentil,Total,0.01,0.0,715.0,High
+Punjab,Faridkot,Nutri/Coarse Cereals,Rabi,0.0,0.0,3800.0,Low
+Arunachal Pradesh,West Siang,Urad,Total,0.0,0.0,1024.0,Medium
+Maharashtra,Nashik,Urad,Summer,0.0,0.0,539.0,High
+Arunachal Pradesh,Lower Siang,Rice,Kharif,0.05,0.08,1574.0,Medium
+Rajasthan,Kota,Total Food Grains,Rabi,1.72,5.56,3232.0,Low
+Tripura,Sepahijala,Lentil,Rabi,0.0,0.0,643.0,High
+Maharashtra,Gondia,Cereals,Rabi,0.05,0.12,2329.0,Low
+Madhya Pradesh,Dhar,Gram,Rabi,0.65,0.91,1406.0,Medium
+Himachal Pradesh,Una,Total Pulses,Total,0.0,0.0,823.0,High
+Andhra Pradesh,Chittoor,Rice,Kharif,0.11,0.42,3783.0,Low
+Madhya Pradesh,East Nimar,Small Millets,Total,0.0,0.0,570.0,High
+Telangana,Narayanpet,Maize,Kharif,0.0,0.0,4814.0,Low
+Himachal Pradesh,Una,Moong,Total,0.0,0.0,476.0,High
+Rajasthan,Sawai Madhopur,Total Pulses,Total,0.52,0.53,1032.0,Medium
+Bihar,Siwan,Total Pulses,Total,0.04,0.05,1209.0,Medium
+Madhya Pradesh,East Nimar,Gram,Total,0.75,1.03,1378.0,Medium
+Jharkhand,Godda,Gram,Total,0.13,0.19,1500.0,Medium
+Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,Moong,Rabi,0.01,0.01,965.0,Medium
+Bihar,Sheikhpura,Cereals,Summer,0.0,0.01,5344.0,Low
+Jharkhand,Koderma,Tur,Total,0.07,0.08,1200.0,Medium
+Maharashtra,Nashik,Maize,Total,2.93,12.33,4207.0,Low
+Madhya Pradesh,Rajgarh,Tur,Kharif,0.0,0.0,711.0,High
+Karnataka,Chitradurga,Rice,Total,0.02,0.05,2611.0,Low
+Punjab,Ferozepur,Wheat,Rabi,1.87,9.79,5223.0,Low
+Madhya Pradesh,Balaghat,Small Millets,Total,0.01,0.01,970.0,Medium
+Karnataka,Belagavi,Total Food Grains,Rabi,3.53,6.13,1737.0,Medium
+Arunachal Pradesh,Lower Siang,Cereals,Rabi,0.01,0.01,1739.0,Medium
+Andhra Pradesh,Annamayya,Moong,Kharif,0.0,0.0,457.0,High
+Uttarakhand,Almora,Urad,Kharif,0.01,0.01,835.0,High
+Punjab,Mansa,Gram,Rabi,0.0,0.0,1401.0,Medium
+Tripura,North Tripura,Wheat,Total,0.0,0.0,2000.0,Low
+Rajasthan,Deeg,Rice,Kharif,0.04,0.09,2593.0,Low
+Maharashtra,Jalgaon,Jowar,Rabi,0.74,1.26,1701.0,Medium
+Madhya Pradesh,Jhabua,Moong,Summer,0.0,0.0,679.0,High
+Andhra Pradesh,Srikakulam,Ragi,Total,0.01,0.03,2178.0,Low
+Uttarakhand,Udam Singh Nagar,Moong,Summer,0.0,0.0,837.0,High
+Telangana,Yadadri Bhuvanagiri,Total Food Grains,Total,2.2,8.07,3665.0,Low
+Jharkhand,Hazaribagh,Bajra,Kharif,0.0,0.0,500.0,High
+Bihar,Saharsa,Bajra,Total,0.0,0.0,1227.0,Medium
+Madhya Pradesh,Dindori,Bajra,Kharif,0.0,0.0,1000.0,Medium
+Rajasthan,Chittorgarh,Gram,Total,0.89,1.31,1481.0,Medium
+Jharkhand,Simdega,Maize,Kharif,0.05,0.11,2200.0,Low
+Arunachal Pradesh,East Siang,Maize,Rabi,0.01,0.01,1831.0,Medium
+Karnataka,Bengaluru Rural,Jowar,Rabi,0.0,0.0,1113.0,Medium
+Karnataka,Ramanagara,Total Food Grains,Summer,0.0,0.0,4139.0,Low
+Uttarakhand,Uttar Kashi,Total Food Grains,Rabi,0.09,0.16,1859.0,Medium
+Karnataka,Raichur,Ragi,Total,0.0,0.0,1507.0,Medium
+Madhya Pradesh,Datia,Shree Anna /Nutri Cereals,Total,0.07,0.12,1632.0,Medium
+Andhra Pradesh,Anantapur,Bajra,Total,0.03,0.04,1343.0,Medium
+Madhya Pradesh,Gwalior,Jowar,Total,0.26,0.54,2115.0,Low
+Maharashtra,Thane,Total Food Grains,Rabi,0.05,0.04,810.0,High
+Arunachal Pradesh,Leparada,Nutri/Coarse Cereals,Total,0.01,0.01,1363.0,Medium
+Uttarakhand,Almora,Small Millets,Kharif,0.11,0.11,1083.0,Medium
+Rajasthan,Nagaur,Gram,Total,0.48,0.56,1161.0,Medium
+Andhra Pradesh,Kurnool,Jowar,Rabi,0.12,0.15,1299.0,Medium
+Rajasthan,Pali,Maize,Total,0.09,0.13,1452.0,Medium
+Maharashtra,Ahmednagar,Rice,Total,0.19,0.52,2683.0,Low
+Madhya Pradesh,Hoshangabad,Gram,Rabi,0.59,1.11,1885.0,Low
+Rajasthan,Deeg,Lentil,Rabi,0.01,0.01,1070.0,Medium
+Madhya Pradesh,Mandla,Bajra,Total,0.0,0.0,935.0,Medium
+Madhya Pradesh,Raisen,Maize,Summer,0.0,0.0,4810.0,Low
+Maharashtra,Buldhana,Nutri/Coarse Cereals,Kharif,0.28,0.96,3372.0,Low
+Madhya Pradesh,Ashoknagar,Wheat,Total,1.51,4.37,2906.0,Low
+Andhra Pradesh,Eluru,Jowar,Kharif,0.0,0.0,437.0,High
+Telangana,Sangareddy,Total Food Grains,Kharif,1.0,2.99,2985.0,Low
+Karnataka,Koppal,Total Food Grains,Rabi,1.32,1.34,1014.0,Medium
+Andhra Pradesh,Prakasam,Small Millets,Kharif,0.03,0.03,953.0,Medium
+Bihar,Sheohar,Total Food Grains,Summer,0.03,0.03,1121.0,Medium
+Andhra Pradesh,Prakasam,Gram,Rabi,0.25,0.31,1229.0,Medium
+Rajasthan,Khairthal-Tijara,Cereals,Total,1.25,4.07,3250.0,Low
+Karnataka,Davangere,Moong,Kharif,0.0,0.0,430.0,High
+Madhya Pradesh,Shivpuri,Other Pulses,Rabi,0.02,0.01,888.0,Medium
+Bihar,Sheohar,Moong,Kharif,0.0,0.0,571.0,High
+Arunachal Pradesh,East Siang,Nutri/Coarse Cereals,Rabi,0.01,0.01,1831.0,Medium
+Bihar,Purnia,Moong,Kharif,0.0,0.0,720.0,High
+Jharkhand,Deoghar,Wheat,Total,0.11,0.28,2599.0,Low
+Rajasthan,Bharatpur,Lentil,Total,0.0,0.0,1070.0,Medium
+Madhya Pradesh,Sehore,Nutri/Coarse Cereals,Rabi,0.02,0.07,3466.0,Low
+Tripura,Gomati,Urad,Total,0.01,0.01,773.0,High
+Karnataka,Bidar,Small Millets,Kharif,0.0,0.0,994.0,Medium
+Bihar,Gaya,Total Food Grains,Kharif,1.19,3.01,2535.0,Low
+Andhra Pradesh,Anantapur,Gram,Total,0.5,0.28,555.0,High
+Maharashtra,Sangli,Nutri/Coarse Cereals,Rabi,1.39,1.56,1121.0,Medium
+Rajasthan,Dholpur,Barley,Rabi,0.0,0.02,3711.0,Low
+Punjab,Ferozepur,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,945.0,Medium
+Rajasthan,Karauli,Rice,Total,0.01,0.04,2593.0,Low
+Maharashtra,Solapur,Total Food Grains,Summer,0.1,0.17,1582.0,Medium
+Maharashtra,Pune,Other Pulses,Total,0.15,0.07,449.0,High
+Karnataka,Koppal,Total Food Grains,Total,5.41,9.3,1721.0,Medium
+Andhra Pradesh,Prakasam,Cereals,Kharif,0.23,0.68,2921.0,Low
+Madhya Pradesh,Guna,Maize,Kharif,2.17,6.52,3008.0,Low
+Jharkhand,Gumla,Nutri/Coarse Cereals,Kharif,0.17,0.36,2135.0,Low
+Telangana,Warangal,Nutri/Coarse Cereals,Rabi,0.4,2.84,7115.0,Low
+Madhya Pradesh,Bhopal,Nutri/Coarse Cereals,Summer,0.0,0.0,4443.0,Low
+Maharashtra,Amravati,Shree Anna /Nutri Cereals,Summer,0.02,0.02,832.0,High
+Rajasthan,Bikaner,Cereals,Kharif,1.02,0.56,543.0,High
+Karnataka,Hassan,Other Pulses,Kharif,0.21,0.09,442.0,High
+Arunachal Pradesh,Longding,Cereals,Total,0.08,0.13,1706.0,Medium
+Maharashtra,Amravati,Nutri/Coarse Cereals,Kharif,0.33,0.62,1884.0,Low
+Rajasthan,Jaipur,Cereals,Rabi,1.6,5.66,3537.0,Low
+Punjab,S.A.S Nagar,Total Food Grains,Rabi,0.52,2.42,4667.0,Low
+Andhra Pradesh,Ntr,Total Food Grains,Rabi,0.34,1.55,4562.0,Low
+Madhya Pradesh,Balaghat,Wheat,Rabi,0.26,0.5,1879.0,Low
+Maharashtra,Aurangabad,Nutri/Coarse Cereals,Summer,0.18,0.36,2046.0,Low
+Rajasthan,Bharatpur,Wheat,Rabi,0.57,2.44,4243.0,Low
+Maharashtra,Parbhani,Maize,Total,0.03,0.04,1023.0,Medium
+Arunachal Pradesh,Shi Yomi,Ragi,Total,0.0,0.0,1390.0,Medium
+Jharkhand,Koderma,Shree Anna /Nutri Cereals,Kharif,0.01,0.01,785.0,High
+Maharashtra,Gadchiroli,Shree Anna /Nutri Cereals,Rabi,0.03,0.02,695.0,High
+Maharashtra,Raigad,Tur,Total,0.0,0.0,258.0,High
+Andhra Pradesh,Sri Sathya Sai,Urad,Kharif,0.0,0.0,771.0,High
+Punjab,Pathankot,Rice,Kharif,0.27,1.0,3648.0,Low
+Rajasthan,Jaipur,Maize,Total,0.01,0.02,2552.0,Low
+Andhra Pradesh,Alluri Sitharama Raju,Shree Anna /Nutri Cereals,Kharif,0.17,0.2,1182.0,Medium
+Bihar,Katihar,Small Millets,Kharif,0.0,0.0,638.0,High
+Madhya Pradesh,Dewas,Moong,Kharif,0.0,0.0,354.0,High
+Tripura,Sepahijala,Small Millets,Kharif,0.0,0.0,866.0,High
+Maharashtra,Satara,Jowar,Total,1.37,1.47,1069.0,Medium
+Karnataka,Bengaluru Rural,Rice,Summer,0.0,0.0,3245.0,Low
+Madhya Pradesh,Khargone,Urad,Total,0.0,0.0,323.0,High
+Jharkhand,Dumka,Gram,Total,0.1,0.13,1280.0,Medium
+Karnataka,Haveri,Moong,Kharif,0.01,0.0,360.0,High
+Jharkhand,Palamu,Total Food Grains,Kharif,1.17,1.57,1333.0,Medium
+Telangana,Jangoan,Tur,Total,0.01,0.01,487.0,High
+Telangana,Jogulamba Gadwal,Nutri/Coarse Cereals,Rabi,0.19,0.86,4468.0,Low
+Maharashtra,Beed,Small Millets,Kharif,0.02,0.01,430.0,High
+Bihar,Bhojpur,Cereals,Kharif,1.03,2.59,2513.0,Low
+Telangana,Jagitial,Wheat,Total,0.0,0.0,1973.0,Low
+Telangana,Narayanpet,Shree Anna /Nutri Cereals,Kharif,0.03,0.03,819.0,High
+Maharashtra,Gadchiroli,Tur,Kharif,0.06,0.05,869.0,High
+Uttarakhand,Champawat,Total Pulses,Total,0.02,0.03,1035.0,Medium
+Andhra Pradesh,Visakhapatanam,Cereals,Rabi,0.01,0.05,4798.0,Low
+Maharashtra,Pune,Urad,Kharif,0.02,0.01,431.0,High
+Uttarakhand,Udam Singh Nagar,Urad,Summer,0.0,0.0,947.0,Medium
+Telangana,Adilabad,Gram,Total,0.14,0.27,1984.0,Low
+Punjab,Patiala,Maize,Kharif,0.01,0.04,5031.0,Low
+Karnataka,Mysuru,Cereals,Summer,0.19,0.66,3485.0,Low
+Rajasthan,Bhilwara,Rice,Total,0.03,0.07,2593.0,Low
+Arunachal Pradesh,Leparada,Total Food Grains,Kharif,0.05,0.07,1610.0,Medium
+Bihar,Samastipur,Small Millets,Total,0.0,0.0,557.0,High
+Telangana,Wanaparthy,Total Food Grains,Kharif,0.81,2.78,3444.0,Low
+Andhra Pradesh,Sri Sathya Sai,Moong,Kharif,0.0,0.0,457.0,High
+Bihar,Buxar,Maize,Rabi,0.0,0.0,4947.0,Low
+Arunachal Pradesh,Kra Daadi,Ragi,Total,0.0,0.0,984.0,Medium
+Karnataka,Kolar,Gram,Rabi,0.0,0.0,596.0,High
+Punjab,Kapurthala,Total Food Grains,Total,2.25,11.13,4937.0,Low
+Telangana,Nalgonda,Shree Anna /Nutri Cereals,Rabi,0.01,0.0,916.0,Medium
+Maharashtra,Jalgaon,Moong,Total,0.15,0.07,494.0,High
+Telangana,Jayashankar Bhupalapally,Tur,Kharif,0.0,0.0,934.0,Medium
+Bihar,Purnia,Nutri/Coarse Cereals,Summer,0.05,0.36,6683.0,Low
+Karnataka,Mandya,Small Millets,Kharif,0.0,0.0,426.0,High
+Maharashtra,Dhule,Cereals,Summer,0.05,0.09,1894.0,Low
+Punjab,Rupnagar,Cereals,Total,1.29,5.96,4604.0,Low
+Andhra Pradesh,Ntr,Gram,Rabi,0.04,0.08,2033.0,Low
+Jharkhand,Sahebganj,Jowar,Kharif,0.0,0.0,650.0,High
+Maharashtra,Gondia,Nutri/Coarse Cereals,Rabi,0.04,0.11,2971.0,Low
+Madhya Pradesh,Jhabua,Rice,Kharif,0.05,0.05,1048.0,Medium
+Maharashtra,Raigad,Rice,Total,0.8,1.96,2441.0,Low
+Maharashtra,Nashik,Jowar,Kharif,0.01,0.01,1373.0,Medium
+Madhya Pradesh,Niwari,Nutri/Coarse Cereals,Kharif,0.0,0.01,1590.0,Medium
+Bihar,Kaimur (Bhabua),Tur,Kharif,0.0,0.01,1412.0,Medium
+Tripura,North Tripura,Cereals,Kharif,0.21,0.59,2894.0,Low
+Tripura,Dhalai,Tur,Kharif,0.02,0.02,855.0,High
+Madhya Pradesh,Anuppur,Cereals,Summer,0.0,0.0,2732.0,Low
+Telangana,Karimnagar,Cereals,Total,2.21,8.83,3995.0,Low
+Uttarakhand,Chamoli,Other Pulses,Kharif,0.02,0.03,1379.0,Medium
+Maharashtra,Bhandara,Other Pulses,Kharif,0.0,0.0,510.0,High
+Andhra Pradesh,West Godavari,Maize,Total,0.0,0.01,8619.0,Low
+Uttarakhand,Dehradun,Other Pulses,Total,0.02,0.01,803.0,High
+Andhra Pradesh,Visakhapatanam,Maize,Total,0.0,0.03,6729.0,Low
+Maharashtra,Osmanabad,Maize,Total,0.19,0.25,1326.0,Medium
+Madhya Pradesh,Burhanpur,Maize,Rabi,0.19,0.82,4277.0,Low
+Arunachal Pradesh,Shi Yomi,Rice,Total,0.03,0.05,1664.0,Medium
+Madhya Pradesh,Jabalpur,Maize,Total,0.53,1.25,2380.0,Low
+Karnataka,Chikkamagaluru,Rice,Kharif,0.08,0.23,2748.0,Low
+Karnataka,Yadgir,Wheat,Rabi,0.01,0.01,1255.0,Medium
+Himachal Pradesh,Sirmaur,Small Millets,Total,0.0,0.0,620.0,High
+Rajasthan,Udaipur,Total Food Grains,Kharif,1.21,2.21,1823.0,Medium
+Andhra Pradesh,Ntr,Moong,Kharif,0.04,0.02,451.0,High
+Himachal Pradesh,Kullu,Gram,Total,0.0,,,Low
+Bihar,Nalanda,Gram,Total,0.06,0.06,1111.0,Medium
+Maharashtra,Palghar,Moong,Kharif,0.0,0.0,402.0,High
+Karnataka,Chikkamagaluru,Gram,Total,0.05,0.04,851.0,High
+Jharkhand,Gumla,Gram,Total,0.12,0.12,1020.0,Medium
+Bihar,Sheikhpura,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,848.0,High
+Bihar,Buxar,Urad,Total,0.0,0.0,869.0,High
+Arunachal Pradesh,Kurung Kumey,Other Pulses,Kharif,0.0,0.0,418.0,High
+Madhya Pradesh,Khargone,Jowar,Total,0.01,0.02,2012.0,Low
+Maharashtra,Kolhapur,Total Pulses,Total,0.09,0.06,743.0,High
+Rajasthan,Alwar,Rice,Total,0.0,0.0,2593.0,Low
+Bihar,Gopalganj,Gram,Total,0.0,0.0,1045.0,Medium
+Punjab,Bathinda,Maize,Kharif,0.0,0.0,4234.0,Low
+Karnataka,Belagavi,Urad,Kharif,0.26,0.15,575.0,High
+Telangana,Yadadri Bhuvanagiri,Moong,Kharif,0.0,0.0,643.0,High
+Arunachal Pradesh,East Kameng,Rice,Total,0.07,0.09,1350.0,Medium
+Bihar,Bhojpur,Maize,Total,0.0,0.01,1897.0,Low
+Bihar,Purnia,Wheat,Rabi,0.16,0.42,2695.0,Low
+Andhra Pradesh,Kakinada,Cereals,Total,1.54,6.97,4537.0,Low
+Maharashtra,Sindhudurg,Small Millets,Total,0.0,0.0,833.0,High
+Jharkhand,West Singhbhum,Urad,Kharif,0.09,0.08,883.0,Medium
+Bihar,Sheohar,Other Pulses,Total,0.0,0.0,1251.0,Medium
+Madhya Pradesh,Sidhi,Wheat,Total,0.78,1.86,2395.0,Low
+Telangana,Nizamabad,Urad,Rabi,0.0,0.01,1790.0,Medium
+Maharashtra,Kolhapur,Cereals,Total,1.24,4.13,3330.0,Low
+Maharashtra,Washim,Shree Anna /Nutri Cereals,Total,0.07,0.04,563.0,High
+Karnataka,Vijayapura,Other Pulses,Kharif,0.0,0.0,772.0,High
+Rajasthan,Phalodi,Cereals,Rabi,0.25,0.89,3560.0,Low
+Bihar,Darbhanga,Urad,Total,0.0,0.0,875.0,Medium
+Madhya Pradesh,Raisen,Wheat,Total,2.34,7.49,3207.0,Low
+Maharashtra,Buldhana,Shree Anna /Nutri Cereals,Rabi,0.16,0.18,1151.0,Medium
+Telangana,Nirmal,Moong,Kharif,0.0,0.0,643.0,High
+Jharkhand,Khunti,Other Pulses,Rabi,0.07,0.08,1146.0,Medium
+Uttarakhand,Pauri Garhwal,Total Food Grains,Kharif,0.19,0.3,1529.0,Medium
+Bihar,Sheohar,Lentil,Total,0.01,0.01,1087.0,Medium
+Bihar,Rohtas,Total Food Grains,Kharif,2.34,8.84,3771.0,Low
+Uttarakhand,Rudra Prayag,Urad,Kharif,0.0,0.0,1271.0,Medium
+Madhya Pradesh,Tikamgarh,Cereals,Kharif,0.06,0.06,918.0,Medium
+Punjab,Bathinda,Wheat,Rabi,2.55,13.66,5350.0,Low
+Punjab,S.A.S Nagar,Total Food Grains,Kharif,0.37,1.48,3949.0,Low
+Bihar,Saran,Total Food Grains,Rabi,0.89,2.78,3129.0,Low
+Rajasthan,Banswara,Maize,Kharif,1.08,2.47,2284.0,Low
+Punjab,Ferozepur,Bajra,Kharif,0.0,0.0,945.0,Medium
+Maharashtra,Jalna,Shree Anna /Nutri Cereals,Summer,0.04,0.04,846.0,High
+Arunachal Pradesh,Lower Siang,Shree Anna /Nutri Cereals,Kharif,0.02,0.02,963.0,Medium
+Maharashtra,Satara,Total Food Grains,Summer,0.01,0.03,2461.0,Low
+Rajasthan,Didwana Kuchaman,Wheat,Total,0.3,1.07,3559.0,Low
+Punjab,Mansa,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,950.0,Medium
+Madhya Pradesh,Morena,Cereals,Kharif,1.89,5.79,3060.0,Low
+Jharkhand,Deoghar,Moong,Total,0.0,0.0,900.0,Medium
+Bihar,Samastipur,Wheat,Rabi,0.5,1.86,3701.0,Low
+Bihar,Nalanda,Moong,Kharif,0.01,0.01,571.0,High
+Madhya Pradesh,Sidhi,Cereals,Kharif,1.03,2.39,2319.0,Low
+Maharashtra,Pune,Nutri/Coarse Cereals,Rabi,1.14,1.97,1727.0,Medium
+Jharkhand,Ramgarh,Bajra,Total,0.0,0.0,500.0,High
+Madhya Pradesh,Singrauli,Maize,Summer,0.0,0.01,4442.0,Low
+Madhya Pradesh,Panna,Urad,Total,0.45,0.29,652.0,High
+Jharkhand,Ramgarh,Maize,Total,0.08,0.19,2260.0,Low
+Jharkhand,Chatra,Cereals,Rabi,0.13,0.29,2148.0,Low
+Arunachal Pradesh,Lohit,Urad,Kharif,0.0,0.0,850.0,High
+Rajasthan,Sirohi,Maize,Total,0.13,0.33,2505.0,Low
+Maharashtra,Amravati,Cereals,Summer,0.03,0.03,1089.0,Medium
+Karnataka,Belagavi,Cereals,Summer,0.14,0.6,4359.0,Low
+Bihar,Sitamarhi,Total Food Grains,Kharif,1.08,2.07,1925.0,Low
+Andhra Pradesh,Spsr Nellore,Jowar,Total,0.0,0.02,3635.0,Low
+Karnataka,Chamarajanagara,Wheat,Rabi,0.0,0.0,1255.0,Medium
+Madhya Pradesh,Singrauli,Total Food Grains,Kharif,1.25,2.83,2263.0,Low
+Andhra Pradesh,Y.S.R.,Ragi,Total,0.0,0.0,4031.0,Low
+Telangana,Jagitial,Moong,Rabi,0.0,0.0,1029.0,Medium
+Arunachal Pradesh,Kurung Kumey,Total Food Grains,Kharif,0.01,0.02,1705.0,Medium
+Jharkhand,Hazaribagh,Cereals,Rabi,0.17,0.34,2010.0,Low
+Telangana,Narayanpet,Urad,Total,0.0,0.0,1270.0,Medium
+Andhra Pradesh,Chittoor,Cereals,Kharif,0.13,0.47,3592.0,Low
+Bihar,Rohtas,Total Food Grains,Rabi,2.21,6.95,3149.0,Low
+Arunachal Pradesh,Lower Subansiri,Cereals,Total,0.08,0.16,1859.0,Medium
+Madhya Pradesh,Damoh,Total Food Grains,Summer,0.5,0.47,948.0,Medium
+Telangana,Vikarabad,Small Millets,Total,0.0,0.0,1956.0,Low
+Karnataka,Bidar,Wheat,Rabi,0.09,0.09,944.0,Medium
+Telangana,Rajanna Sircilla,Urad,Kharif,0.0,0.0,790.0,High
+Madhya Pradesh,Katni,Nutri/Coarse Cereals,Summer,0.0,0.0,4488.0,Low
+Rajasthan,Nagaur,Other Pulses,Rabi,0.01,0.04,4971.0,Low
+Andhra Pradesh,Guntur,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,560.0,High
+Karnataka,Vijayanagar,Bajra,Kharif,0.09,0.14,1545.0,Medium
+Rajasthan,Udaipur,Maize,Kharif,1.08,2.04,1893.0,Low
+Telangana,Nagarkurnool,Urad,Total,0.06,0.12,1859.0,Medium
+Bihar,Saran,Cereals,Rabi,0.89,2.78,3135.0,Low
+Bihar,Saran,Ragi,Total,0.0,0.0,1150.0,Medium
+Bihar,Khagaria,Small Millets,Kharif,0.0,0.0,412.0,High
+Tripura,Unakoti,Cereals,Total,0.17,0.5,2992.0,Low
+Rajasthan,Pratapgarh,Lentil,Total,0.02,0.02,1170.0,Medium
+Maharashtra,Amravati,Maize,Rabi,0.01,0.01,1048.0,Medium
+Bihar,Kishanganj,Shree Anna /Nutri Cereals,Total,0.0,0.0,953.0,Medium
+Madhya Pradesh,Harda,Maize,Kharif,0.19,0.44,2353.0,Low
+Rajasthan,Baran,Lentil,Total,0.0,0.0,1070.0,Medium
+Jharkhand,East Singhbum,Total Food Grains,Total,1.16,1.86,1597.0,Medium
+Madhya Pradesh,Datia,Barley,Total,0.0,0.01,1563.0,Medium
+Himachal Pradesh,Una,Wheat,Rabi,0.35,0.83,2346.0,Low
+Telangana,Sangareddy,Ragi,Total,0.0,0.0,940.0,Medium
+Telangana,Yadadri Bhuvanagiri,Jowar,Total,0.0,0.0,882.0,Medium
+Madhya Pradesh,Hoshangabad,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,1690.0,Medium
+Rajasthan,Kotputli-Behror,Maize,Total,0.0,0.0,2552.0,Low
+Andhra Pradesh,Sri Sathya Sai,Ragi,Kharif,0.04,0.06,1561.0,Medium
+Bihar,Rohtas,Lentil,Total,0.0,0.0,893.0,Medium
+Punjab,Tarn Taran,Rice,Total,1.85,7.93,4280.0,Low
+Madhya Pradesh,Tikamgarh,Cereals,Total,1.75,4.62,2643.0,Low
+Telangana,Adilabad,Nutri/Coarse Cereals,Total,0.58,1.49,2577.0,Low
+Maharashtra,Sangli,Shree Anna /Nutri Cereals,Kharif,0.66,0.77,1163.0,Medium
+Maharashtra,Hingoli,Shree Anna /Nutri Cereals,Rabi,0.17,0.18,1020.0,Medium
+Maharashtra,Amravati,Urad,Total,0.01,0.0,291.0,High
+Telangana,Mahabubabad,Cereals,Total,1.88,6.68,3552.0,Low
+Andhra Pradesh,Kurnool,Cereals,Total,0.57,1.64,2864.0,Low
+Madhya Pradesh,Datia,Cereals,Summer,0.0,0.01,3032.0,Low
+Maharashtra,Akola,Maize,Summer,0.0,0.01,1667.0,Medium
+Telangana,Sangareddy,Rice,Total,0.95,3.88,4067.0,Low
+Maharashtra,Bhandara,Nutri/Coarse Cereals,Total,0.02,0.05,2467.0,Low
+Telangana,Mancherial,Tur,Kharif,0.0,0.0,870.0,High
+Telangana,Medak,Maize,Rabi,0.01,0.06,4984.0,Low
+Karnataka,Kolar,Nutri/Coarse Cereals,Kharif,0.57,1.07,1880.0,Low
+Madhya Pradesh,Tikamgarh,Gram,Rabi,0.02,0.02,1235.0,Medium
+Jharkhand,Palamu,Gram,Rabi,0.22,0.18,812.0,High
+Punjab,Malerkotla,Maize,Total,0.0,0.01,4234.0,Low
+Andhra Pradesh,Spsr Nellore,Small Millets,Total,0.0,0.0,881.0,Medium
+Karnataka,Gadag,Total Food Grains,Kharif,2.7,3.82,1416.0,Medium
+Telangana,Bhadradri Kothagudem,Jowar,Total,0.0,0.0,497.0,High
+Andhra Pradesh,Vizianagaram,Tur,Kharif,0.0,0.0,735.0,High
+Karnataka,Vijayanagar,Nutri/Coarse Cereals,Kharif,2.75,6.68,2435.0,Low
+Karnataka,Shivamogga,Total Food Grains,Rabi,0.02,0.08,3512.0,Low
+Uttarakhand,Uttar Kashi,Rice,Kharif,0.09,0.16,1917.0,Low
+Jharkhand,Hazaribagh,Total Food Grains,Kharif,0.98,1.75,1792.0,Medium
+Madhya Pradesh,Chhatarpur,Rice,Total,0.04,0.06,1346.0,Medium
+Punjab,Sangrur,Wheat,Rabi,2.4,13.25,5519.0,Low
+Jharkhand,Giridih,Tur,Total,0.08,0.13,1625.0,Medium
+Punjab,Jalandhar,Moong,Total,0.0,0.0,980.0,Medium
+Karnataka,Ballari,Urad,Total,0.0,0.0,468.0,High
+Rajasthan,Jaipur,Total Food Grains,Rabi,2.94,7.71,2619.0,Low
+Jharkhand,East Singhbum,Nutri/Coarse Cereals,Kharif,0.09,0.21,2384.0,Low
+Telangana,Ranga Reddy,Other Pulses,Total,0.0,0.0,795.0,High
+Uttarakhand,Bageshwar,Shree Anna /Nutri Cereals,Kharif,0.04,0.06,1582.0,Medium
+Maharashtra,Nanded,Total Food Grains,Rabi,3.5,2.86,817.0,High
+Punjab,Ferozepur,Rice,Total,1.87,8.72,4672.0,Low
+Telangana,Jayashankar Bhupalapally,Rice,Kharif,0.42,1.35,3220.0,Low
+Uttarakhand,Udam Singh Nagar,Total Food Grains,Rabi,1.02,4.37,4281.0,Low
+Madhya Pradesh,Rajgarh,Tur,Total,0.0,0.0,711.0,High
+Bihar,Gopalganj,Wheat,Total,0.56,1.97,3484.0,Low
+Karnataka,Chikkaballapura,Cereals,Total,1.03,2.08,2017.0,Low
+Rajasthan,Phalodi,Nutri/Coarse Cereals,Rabi,0.0,0.01,3711.0,Low
+Rajasthan,Udaipur,Moong,Total,0.0,0.01,1185.0,Medium
+Rajasthan,Jhalawar,Lentil,Rabi,0.08,0.12,1441.0,Medium
+Madhya Pradesh,Sehore,Maize,Kharif,0.35,0.88,2521.0,Low
+Arunachal Pradesh,Lohit,Urad,Total,0.0,0.0,850.0,High
+Rajasthan,Jhalawar,Urad,Summer,0.0,0.0,1000.0,Medium
+Rajasthan,Pali,Wheat,Total,0.79,2.17,2753.0,Low
+Andhra Pradesh,Anantapur,Tur,Total,1.03,0.16,155.0,High
+Punjab,Mansa,Wheat,Total,1.72,9.08,5276.0,Low
+Karnataka,Ballari,Gram,Rabi,0.05,0.04,801.0,High
+Bihar,Gaya,Lentil,Rabi,0.04,0.06,1326.0,Medium
+Telangana,Ranga Reddy,Cereals,Total,1.25,4.36,3494.0,Low
+Arunachal Pradesh,Anjaw,Total Food Grains,Kharif,0.08,0.11,1374.0,Medium
+Arunachal Pradesh,West Kameng,Other Pulses,Total,0.0,0.01,1380.0,Medium
+Telangana,Rajanna Sircilla,Other Pulses,Rabi,0.0,0.0,1435.0,Medium
+Madhya Pradesh,Shajapur,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,1198.0,Medium
+Himachal Pradesh,Kullu,Total Pulses,Total,0.01,0.01,843.0,High
+Karnataka,Kolar,Other Pulses,Total,0.13,0.12,913.0,Medium
+Jharkhand,Gumla,Wheat,Total,0.1,0.33,3288.0,Low
+Arunachal Pradesh,Kra Daadi,Other Pulses,Kharif,0.0,0.0,279.0,High
+Andhra Pradesh,West Godavari,Total Food Grains,Total,1.73,8.17,4717.0,Low
+Jharkhand,Koderma,Bajra,Total,0.0,0.0,700.0,High
+Himachal Pradesh,Shimla,Barley,Rabi,0.02,0.03,1826.0,Medium
+Arunachal Pradesh,Lower Siang,Nutri/Coarse Cereals,Rabi,0.01,0.01,1757.0,Medium
+Telangana,Peddapalli,Cereals,Total,1.67,6.65,3989.0,Low
+Telangana,Jayashankar Bhupalapally,Other Pulses,Kharif,0.0,0.0,1090.0,Medium
+Telangana,Jogulamba Gadwal,Rice,Rabi,0.34,1.02,2982.0,Low
+Madhya Pradesh,Chhatarpur,Cereals,Summer,0.0,0.0,4469.0,Low
+Rajasthan,Jhalawar,Gram,Rabi,0.3,0.48,1605.0,Medium
+Karnataka,Hassan,Rice,Summer,0.0,0.01,2776.0,Low
+Jharkhand,Bokaro,Total Food Grains,Rabi,0.23,0.41,1820.0,Medium
+Maharashtra,Aurangabad,Total Food Grains,Summer,0.18,0.36,2046.0,Low
+Madhya Pradesh,Sehore,Tur,Kharif,0.0,0.0,772.0,High
+Uttarakhand,Haridwar,Cereals,Summer,0.01,0.02,3921.0,Low
+Madhya Pradesh,Sidhi,Tur,Total,0.12,0.09,690.0,High
+Telangana,Mahabubabad,Rice,Rabi,0.58,1.89,3263.0,Low
+Karnataka,Kolar,Small Millets,Total,0.01,0.02,1811.0,Medium
+Himachal Pradesh,Mandi,Moong,Total,0.0,0.0,496.0,High
+Telangana,Nirmal,Gram,Total,0.2,0.35,1786.0,Medium
+Jharkhand,Pakur,Maize,Kharif,0.08,0.12,1500.0,Medium
+Andhra Pradesh,Alluri Sitharama Raju,Nutri/Coarse Cereals,Rabi,0.01,0.04,6209.0,Low
+Himachal Pradesh,Hamirpur,Barley,Rabi,0.0,0.0,1754.0,Medium
+Maharashtra,Thane,Other Pulses,Kharif,0.0,0.0,720.0,High
+Jharkhand,Dhanbad,Maize,Kharif,0.02,0.04,2400.0,Low
+Rajasthan,Bharatpur,Wheat,Total,0.57,2.44,4243.0,Low
+Rajasthan,Jhalawar,Total Food Grains,Kharif,0.51,1.21,2381.0,Low
+Rajasthan,Deeg,Bajra,Kharif,0.53,0.97,1819.0,Medium
+Andhra Pradesh,Eluru,Total Food Grains,Total,1.49,7.22,4829.0,Low
+Rajasthan,Ganganagar,Maize,Total,0.0,0.0,2552.0,Low
+Uttarakhand,Champawat,Total Food Grains,Kharif,0.08,0.16,1920.0,Low
+Bihar,Khagaria,Ragi,Kharif,0.0,0.0,981.0,Medium
+Madhya Pradesh,Betul,Jowar,Kharif,0.02,0.02,1360.0,Medium
+Himachal Pradesh,Chamba,Total Food Grains,Kharif,0.32,0.86,2707.0,Low
+Karnataka,Dharwad,Total Food Grains,Total,4.25,4.86,1142.0,Medium
+Punjab,Sangrur,Barley,Rabi,0.01,0.02,4495.0,Low
+Karnataka,Mysuru,Tur,Kharif,0.02,0.01,399.0,High
+Tripura,West Tripura,Maize,Total,0.01,0.03,2141.0,Low
+Madhya Pradesh,Dindori,Gram,Total,0.06,0.07,1148.0,Medium
+Maharashtra,Ahmednagar,Jowar,Rabi,1.49,1.33,892.0,Medium
+Andhra Pradesh,East Godavari,Jowar,Rabi,0.0,0.0,6690.0,Low
+Maharashtra,Gondia,Cereals,Total,2.71,6.65,2453.0,Low
+Karnataka,Ramanagara,Other Pulses,Total,0.1,0.09,854.0,High
+Rajasthan,Sawai Madhopur,Maize,Total,0.0,0.0,2552.0,Low
+Karnataka,Dharwad,Shree Anna /Nutri Cereals,Total,0.3,0.29,956.0,Medium
+Bihar,Muzaffarpur,Moong,Summer,0.2,0.2,1000.0,Medium
+Madhya Pradesh,Jabalpur,Moong,Total,0.66,0.83,1261.0,Medium
+Karnataka,Bengaluru Rural,Tur,Total,0.01,0.01,1087.0,Medium
+Andhra Pradesh,Nandyal,Jowar,Rabi,0.29,0.8,2777.0,Low
+Karnataka,Bidar,Total Food Grains,Kharif,1.81,1.95,1079.0,Medium
+Jharkhand,Chatra,Other Pulses,Rabi,0.03,0.04,1346.0,Medium
+Rajasthan,Baran,Total Food Grains,Total,3.17,10.23,3229.0,Low
+Rajasthan,Churu,Moong,Total,3.5,2.03,580.0,High
+Madhya Pradesh,Anuppur,Barley,Total,0.0,0.0,1073.0,Medium
+Madhya Pradesh,Damoh,Wheat,Rabi,1.38,3.79,2751.0,Low
+Maharashtra,Sangli,Urad,Total,0.19,0.15,780.0,High
+Arunachal Pradesh,Siang,Other Pulses,Rabi,0.0,0.0,1683.0,Medium
+Tripura,West Tripura,Gram,Total,0.0,0.0,1000.0,Medium
+Maharashtra,Dhule,Bajra,Summer,0.03,0.02,910.0,Medium
+Maharashtra,Dhule,Maize,Summer,0.02,0.06,3260.0,Low
+Madhya Pradesh,Mandsaur,Cereals,Summer,0.0,0.0,4843.0,Low
+Jharkhand,Giridih,Shree Anna /Nutri Cereals,Kharif,0.02,0.02,1224.0,Medium
+Telangana,Ranga Reddy,Small Millets,Total,0.0,0.0,1910.0,Low
+Rajasthan,Bikaner,Gram,Total,1.02,1.12,1094.0,Medium
+Madhya Pradesh,Harda,Small Millets,Total,0.0,0.0,840.0,High
+Rajasthan,Dungarpur,Tur,Total,0.0,0.0,470.0,High
+Telangana,Mulugu,Jowar,Rabi,0.0,0.0,2479.0,Low
+Bihar,Vaishali,Small Millets,Kharif,0.0,0.0,604.0,High
+Karnataka,Koppal,Gram,Rabi,0.71,0.28,391.0,High
+Rajasthan,Bikaner,Nutri/Coarse Cereals,Rabi,0.08,0.24,2995.0,Low
+Maharashtra,Sangli,Cereals,Kharif,1.26,2.64,2088.0,Low
+Telangana,Rajanna Sircilla,Total Pulses,Total,0.01,0.01,995.0,Medium
+Karnataka,Udupi,Tur,Total,0.0,0.0,572.0,High
+Telangana,Kumuram Bheem Asifabad,Shree Anna /Nutri Cereals,Rabi,0.05,0.04,685.0,High
+Jharkhand,Saraikela Kharsawan,Urad,Total,0.1,0.07,748.0,High
+Telangana,Nagarkurnool,Shree Anna /Nutri Cereals,Rabi,0.01,0.01,1239.0,Medium
+Punjab,Mansa,Total Food Grains,Rabi,1.72,9.09,5271.0,Low
+Karnataka,Raichur,Rice,Kharif,1.8,6.77,3755.0,Low
+Andhra Pradesh,Visakhapatanam,Other Pulses,Total,0.0,0.0,783.0,High
+Uttarakhand,Almora,Barley,Rabi,0.02,0.03,1214.0,Medium
+Arunachal Pradesh,Pakke Kessang,Total Food Grains,Kharif,0.04,0.05,1351.0,Medium
+Rajasthan,Jodhpur,Other Pulses,Kharif,0.25,0.11,432.0,High
+Telangana,Kumuram Bheem Asifabad,Urad,Kharif,0.0,0.0,790.0,High
+Maharashtra,Ahmednagar,Shree Anna /Nutri Cereals,Total,2.35,2.48,1056.0,Medium
+Maharashtra,Washim,Tur,Total,0.66,0.76,1159.0,Medium
+Karnataka,Kolar,Moong,Kharif,0.0,0.0,430.0,High
+Madhya Pradesh,Agar Malwa,Wheat,Rabi,1.16,3.15,2717.0,Low
+Rajasthan,Banswara,Nutri/Coarse Cereals,Total,1.43,4.4,3083.0,Low
+Tripura,Dhalai,Maize,Rabi,0.01,0.02,3237.0,Low
+Telangana,Mahabubnagar,Total Food Grains,Rabi,0.7,2.37,3375.0,Low
+Karnataka,Ramanagara,Urad,Kharif,0.0,0.0,590.0,High
+Maharashtra,Thane,Tur,Kharif,0.01,0.0,349.0,High
+Arunachal Pradesh,Anjaw,Cereals,Rabi,0.0,0.01,1755.0,Medium
+Telangana,Yadadri Bhuvanagiri,Jowar,Rabi,0.0,0.0,2479.0,Low
+Rajasthan,Chittorgarh,Other Pulses,Kharif,0.0,0.0,491.0,High
+Madhya Pradesh,Gwalior,Nutri/Coarse Cereals,Summer,0.0,0.0,4660.0,Low
+Madhya Pradesh,Dhar,Shree Anna /Nutri Cereals,Total,0.04,0.06,1617.0,Medium
+Andhra Pradesh,Anantapur,Nutri/Coarse Cereals,Total,0.48,1.59,3308.0,Low
+Karnataka,Davangere,Nutri/Coarse Cereals,Total,1.45,4.0,2759.0,Low
+Punjab,Fazilka,Rice,Kharif,1.28,4.29,3349.0,Low
+Rajasthan,Bharatpur,Cereals,Kharif,1.54,2.73,1775.0,Medium
+Madhya Pradesh,Sehore,Moong,Summer,0.99,1.24,1246.0,Medium
+Punjab,Rupnagar,Cereals,Kharif,0.62,2.84,4575.0,Low
+Andhra Pradesh,Anakapalli,Urad,Kharif,0.0,0.0,990.0,Medium
+Madhya Pradesh,Barwani,Maize,Total,1.22,4.19,3429.0,Low
+Himachal Pradesh,Solan,Cereals,Kharif,0.33,1.03,3087.0,Low
+Maharashtra,Washim,Wheat,Total,0.39,0.84,2143.0,Low
+Rajasthan,Chittorgarh,Moong,Kharif,0.0,0.0,515.0,High
+Madhya Pradesh,Shahdol,Wheat,Rabi,0.46,0.98,2107.0,Low
+Bihar,Gaya,Jowar,Kharif,0.01,0.01,1060.0,Medium
+Telangana,Jangoan,Nutri/Coarse Cereals,Kharif,0.01,0.07,4721.0,Low
+Punjab,Fazilka,Nutri/Coarse Cereals,Rabi,0.01,0.03,3374.0,Low
+Jharkhand,Ranchi,Maize,Total,0.12,0.35,2800.0,Low
+Andhra Pradesh,Kurnool,Total Pulses,Total,1.09,0.83,765.0,High
+Bihar,Purbi Champaran,Nutri/Coarse Cereals,Rabi,0.06,0.4,6256.0,Low
+Madhya Pradesh,Narsinghpur,Moong,Kharif,0.0,0.0,680.0,High
+Rajasthan,Jhunjhunu,Nutri/Coarse Cereals,Rabi,0.09,0.33,3711.0,Low
+Jharkhand,Dhanbad,Bajra,Kharif,0.0,0.0,700.0,High
+Himachal Pradesh,Mandi,Rice,Kharif,0.18,0.32,1833.0,Medium
+Jharkhand,Jamtara,Urad,Total,0.01,0.01,898.0,Medium
+Madhya Pradesh,Jhabua,Maize,Total,0.81,1.98,2441.0,Low
+Telangana,Sangareddy,Cereals,Rabi,0.77,2.63,3425.0,Low
+Rajasthan,Kota,Urad,Total,0.2,0.06,282.0,High
+Rajasthan,Kota,Nutri/Coarse Cereals,Total,0.03,0.07,2386.0,Low
+Karnataka,Udupi,Nutri/Coarse Cereals,Kharif,0.0,0.0,2693.0,Low
+Andhra Pradesh,Krishna,Shree Anna /Nutri Cereals,Rabi,0.02,0.07,3744.0,Low
+Telangana,Jagitial,Urad,Rabi,0.0,0.0,1650.0,Medium
+Jharkhand,Saraikela Kharsawan,Total Pulses,Total,0.5,0.49,983.0,Medium
+Andhra Pradesh,Guntur,Maize,Total,0.2,2.09,10490.0,Low
+Rajasthan,Jalore,Bajra,Summer,0.19,0.32,1699.0,Medium
+Arunachal Pradesh,East Kameng,Nutri/Coarse Cereals,Kharif,0.02,0.03,1364.0,Medium
+Rajasthan,Rajsamand,Cereals,Total,1.16,2.62,2267.0,Low
+Bihar,Arwal,Moong,Kharif,0.0,0.0,750.0,High
+Maharashtra,Gadchiroli,Total Food Grains,Total,2.41,4.94,2051.0,Low
+Punjab,Faridkot,Cereals,Rabi,1.15,6.08,5288.0,Low
+Karnataka,Chitradurga,Ragi,Kharif,0.44,0.54,1211.0,Medium
+Madhya Pradesh,Indore,Maize,Rabi,0.0,0.01,2049.0,Low
+Madhya Pradesh,Bhopal,Maize,Rabi,0.0,0.0,2727.0,Low
+Andhra Pradesh,Guntur,Jowar,Total,0.13,1.05,8055.0,Low
+Madhya Pradesh,Ashoknagar,Lentil,Total,0.51,0.5,980.0,Medium
+Bihar,Begusarai,Shree Anna /Nutri Cereals,Total,0.0,0.0,941.0,Medium
+Uttarakhand,Udam Singh Nagar,Urad,Total,0.01,0.01,1065.0,Medium
+Andhra Pradesh,Parvathipuram Manyam,Urad,Total,0.05,0.03,625.0,High
+Arunachal Pradesh,Lower Dibang Valley,Maize,Kharif,0.08,0.11,1351.0,Medium
+Madhya Pradesh,Sehore,Lentil,Rabi,0.09,0.09,1050.0,Medium
+Madhya Pradesh,Balaghat,Urad,Total,0.01,0.01,837.0,High
+Bihar,Jehanabad,Total Food Grains,Total,0.93,2.31,2496.0,Low
+Andhra Pradesh,Alluri Sitharama Raju,Small Millets,Total,0.03,0.01,485.0,High
+Rajasthan,Didwana Kuchaman,Shree Anna /Nutri Cereals,Total,1.57,1.42,900.0,Medium
+Jharkhand,Lohardaga,Cereals,Kharif,0.45,0.97,2157.0,Low
+Maharashtra,Chandrapur,Cereals,Kharif,1.93,3.5,1813.0,Medium
+Jharkhand,Sahebganj,Cereals,Total,0.66,1.71,2584.0,Low
+Maharashtra,Parbhani,Gram,Total,1.69,1.87,1110.0,Medium
+Telangana,Yadadri Bhuvanagiri,Maize,Total,0.0,0.01,5977.0,Low
+Punjab,S.A.S Nagar,Cereals,Total,0.89,3.9,4372.0,Low
+Rajasthan,Kotputli-Behror,Nutri/Coarse Cereals,Total,1.36,2.77,2027.0,Low
+Andhra Pradesh,Parvathipuram Manyam,Urad,Kharif,0.0,0.0,990.0,Medium
+Himachal Pradesh,Mandi,Shree Anna /Nutri Cereals,Total,0.01,0.01,725.0,High
+Bihar,Saharsa,Maize,Rabi,0.26,1.56,5893.0,Low
+Punjab,Tarn Taran,Cereals,Total,3.78,17.52,4633.0,Low
+Goa,North Goa,Other Pulses,Rabi,0.03,0.03,1005.0,Medium
+Punjab,Barnala,Wheat,Total,1.14,6.03,5276.0,Low
+Madhya Pradesh,Betul,Urad,Kharif,0.01,0.0,510.0,High
+Madhya Pradesh,Bhind,Cereals,Summer,0.0,0.0,4443.0,Low
+Rajasthan,Beawar,Cereals,Rabi,0.55,2.13,3883.0,Low
+Telangana,Mahabubabad,Jowar,Rabi,0.0,0.0,833.0,High
+Maharashtra,Yavatmal,Urad,Kharif,0.02,0.01,575.0,High
+Bihar,Darbhanga,Cereals,Rabi,0.61,1.85,3028.0,Low
+Madhya Pradesh,Dewas,Total Food Grains,Total,3.82,9.81,2571.0,Low
+Madhya Pradesh,Satna,Urad,Kharif,0.19,0.09,465.0,High
+Rajasthan,Udaipur,Small Millets,Kharif,0.0,0.0,3251.0,Low
+Telangana,Kamareddy,Cereals,Kharif,1.36,6.62,4871.0,Low
+Rajasthan,Bundi,Bajra,Kharif,0.01,0.01,1144.0,Medium
+Goa,South Goa,Cereals,Rabi,0.07,0.18,2765.0,Low
+Tripura,Unakoti,Wheat,Rabi,0.0,0.0,2083.0,Low
+Maharashtra,Kolhapur,Urad,Total,0.01,0.01,714.0,High
+Arunachal Pradesh,Anjaw,Urad,Total,0.0,0.0,826.0,High
+Maharashtra,Parbhani,Small Millets,Kharif,0.0,0.0,303.0,High
+Bihar,Lakhisarai,Barley,Rabi,0.0,0.0,1881.0,Low
+Bihar,Madhubani,Lentil,Rabi,0.06,0.05,897.0,Medium
+Bihar,Madhubani,Nutri/Coarse Cereals,Rabi,0.0,0.0,2451.0,Low
+Maharashtra,Nanded,Moong,Summer,0.0,0.0,184.0,High
+Punjab,Pathankot,Gram,Rabi,0.0,0.0,1210.0,Medium
+Telangana,Narayanpet,Total Food Grains,Rabi,0.66,2.24,3407.0,Low
+Himachal Pradesh,Bilaspur,Cereals,Total,0.55,1.1,2013.0,Low
+Madhya Pradesh,Anuppur,Wheat,Total,0.11,0.23,2047.0,Low
+Madhya Pradesh,Bhopal,Bajra,Total,0.0,0.0,1931.0,Low
+Punjab,Amritsar,Maize,Kharif,0.0,0.01,4579.0,Low
+Jharkhand,Garhwa,Ragi,Total,0.02,0.01,960.0,Medium
+Rajasthan,Churu,Shree Anna /Nutri Cereals,Total,1.94,1.24,638.0,High
+Jharkhand,Jamtara,Wheat,Total,0.13,0.27,1968.0,Low
+Madhya Pradesh,Panna,Jowar,Kharif,0.03,0.05,1910.0,Low
+Rajasthan,Jodhpur,Jowar,Summer,0.0,0.0,282.0,High
+Himachal Pradesh,Lahul And Spiti,Total Food Grains,Total,0.01,0.0,81.0,High
+Madhya Pradesh,Mauganj,Cereals,Rabi,0.58,1.53,2632.0,Low
+Maharashtra,Buldhana,Jowar,Rabi,0.16,0.18,1151.0,Medium
+Maharashtra,Ahmednagar,Cereals,Rabi,3.19,5.21,1633.0,Medium
+Rajasthan,Deeg,Total Pulses,Total,0.03,0.03,1263.0,Medium
+Maharashtra,Raigad,Shree Anna /Nutri Cereals,Kharif,0.02,0.02,1175.0,Medium
+Arunachal Pradesh,Upper Siang,Total Food Grains,Kharif,0.1,0.17,1702.0,Medium
+Bihar,Kaimur (Bhabua),Nutri/Coarse Cereals,Summer,0.0,0.0,5536.0,Low
+Telangana,Mancherial,Total Food Grains,Total,1.08,3.48,3237.0,Low
+Arunachal Pradesh,Kurung Kumey,Ragi,Kharif,0.0,0.0,963.0,Medium
+Madhya Pradesh,Jabalpur,Shree Anna /Nutri Cereals,Kharif,0.08,0.08,1044.0,Medium
+Bihar,Jehanabad,Ragi,Total,0.0,0.0,981.0,Medium
+Bihar,Sitamarhi,Ragi,Kharif,0.0,0.0,981.0,Medium
+Maharashtra,Gondia,Nutri/Coarse Cereals,Total,0.04,0.13,3222.0,Low
+Madhya Pradesh,Gwalior,Total Food Grains,Summer,0.01,0.01,1356.0,Medium
+Jharkhand,Deoghar,Moong,Kharif,0.0,0.0,900.0,Medium
+Rajasthan,Pratapgarh,Cereals,Kharif,0.53,1.66,3141.0,Low
+Telangana,Adilabad,Bajra,Kharif,0.0,0.0,1029.0,Medium
+Punjab,S.A.S Nagar,Gram,Total,0.0,0.0,1106.0,Medium
+Maharashtra,Palghar,Ragi,Kharif,0.16,0.14,896.0,Medium
+Maharashtra,Wardha,Nutri/Coarse Cereals,Total,0.02,0.01,581.0,High
+Arunachal Pradesh,Kamle,Ragi,Total,0.01,0.01,1076.0,Medium
+Punjab,Moga,Maize,Kharif,0.0,0.01,4234.0,Low
+Andhra Pradesh,Spsr Nellore,Total Pulses,Total,0.09,0.1,1019.0,Medium
+Rajasthan,Jalore,Cereals,Rabi,0.45,1.59,3559.0,Low
+Telangana,Kumuram Bheem Asifabad,Jowar,Kharif,0.0,0.0,819.0,High
+Jharkhand,Giridih,Rice,Kharif,0.74,1.73,2332.0,Low
+Karnataka,Udupi,Cereals,Summer,0.0,0.0,3245.0,Low
+Uttarakhand,Tehri Garhwal,Nutri/Coarse Cereals,Kharif,0.18,0.29,1622.0,Medium
+Arunachal Pradesh,Lower Subansiri,Maize,Rabi,0.0,0.0,1817.0,Medium
+Himachal Pradesh,Mandi,Total Food Grains,Kharif,0.68,1.72,2532.0,Low
+Maharashtra,Chandrapur,Other Pulses,Kharif,0.01,0.0,450.0,High
+Himachal Pradesh,Solan,Other Pulses,Total,0.0,0.0,650.0,High
+Himachal Pradesh,Una,Cereals,Rabi,0.35,0.83,2346.0,Low
+Rajasthan,Tonk,Total Food Grains,Summer,0.01,0.01,1000.0,Medium
+Arunachal Pradesh,Leparada,Lentil,Total,0.0,0.0,1314.0,Medium
+Karnataka,Bagalkote,Moong,Total,0.36,0.08,211.0,High
+Andhra Pradesh,Kurnool,Rice,Total,0.17,0.59,3454.0,Low
+Andhra Pradesh,Palnadu,Bajra,Kharif,0.0,0.0,2551.0,Low
+Andhra Pradesh,Y.S.R.,Moong,Rabi,0.01,0.01,680.0,High
+Madhya Pradesh,Chhatarpur,Cereals,Kharif,0.09,0.13,1456.0,Medium
+Telangana,Warangal,Other Pulses,Rabi,0.0,0.0,1535.0,Medium
+Karnataka,Yadgir,Gram,Total,0.0,0.0,678.0,High
+Rajasthan,Bikaner,Total Food Grains,Kharif,5.52,2.83,514.0,High
+Madhya Pradesh,Dewas,Cereals,Total,2.72,8.39,3085.0,Low
+Telangana,Jangoan,Other Pulses,Total,0.0,0.0,1057.0,Medium
+Bihar,Katihar,Shree Anna /Nutri Cereals,Total,0.0,0.0,638.0,High
+Bihar,Araria,Cereals,Rabi,1.15,9.34,8152.0,Low
+Tripura,North Tripura,Small Millets,Kharif,0.0,0.0,881.0,Medium
+Uttarakhand,Nainital,Lentil,Rabi,0.0,0.0,960.0,Medium
+Rajasthan,Dungarpur,Maize,Rabi,0.0,0.0,1596.0,Medium
+Bihar,Darbhanga,Other Pulses,Rabi,0.01,0.01,892.0,Medium
+Maharashtra,Jalna,Jowar,Total,0.87,0.96,1110.0,Medium
+Rajasthan,Balotra,Total Food Grains,Total,4.67,2.24,480.0,High
+Madhya Pradesh,Shahdol,Urad,Summer,0.0,0.0,850.0,High
+Bihar,Bhojpur,Lentil,Total,0.02,0.02,705.0,High
+Maharashtra,Amravati,Jowar,Kharif,0.08,0.07,929.0,Medium
+Rajasthan,Chittorgarh,Rice,Total,0.02,0.06,2593.0,Low
+Karnataka,Vijayanagar,Urad,Total,0.0,0.0,458.0,High
+Madhya Pradesh,Agar Malwa,Maize,Total,0.02,0.05,2589.0,Low
+Telangana,Wanaparthy,Maize,Total,0.05,0.24,4704.0,Low
+Telangana,Medak,Moong,Total,0.01,0.0,662.0,High
+Karnataka,Kolar,Shree Anna /Nutri Cereals,Total,0.55,1.02,1839.0,Medium
+Karnataka,Haveri,Cereals,Rabi,1.17,2.18,1859.0,Medium
+Telangana,Karimnagar,Total Food Grains,Total,2.22,8.84,3989.0,Low
+Madhya Pradesh,Rajgarh,Lentil,Total,0.23,0.26,1116.0,Medium
+Himachal Pradesh,Sirmaur,Cereals,Total,0.48,1.39,2903.0,Low
+Maharashtra,Kolhapur,Moong,Summer,0.0,0.0,480.0,High
+Maharashtra,Palghar,Cereals,Rabi,0.0,0.0,861.0,High
+Andhra Pradesh,Anakapalli,Total Pulses,Total,0.13,0.09,677.0,High
+Punjab,Bathinda,Total Food Grains,Total,4.74,23.49,4960.0,Low
+Bihar,Khagaria,Cereals,Summer,0.08,0.52,6374.0,Low
+Telangana,Medak,Jowar,Total,0.04,0.1,2433.0,Low
+Uttarakhand,Nainital,Ragi,Kharif,0.01,0.02,1610.0,Medium
+Madhya Pradesh,Mandsaur,Maize,Kharif,0.07,0.19,2640.0,Low
+Bihar,Jamui,Moong,Summer,0.0,0.0,380.0,High
+Punjab,Amritsar,Nutri/Coarse Cereals,Total,0.0,0.01,4579.0,Low
+Madhya Pradesh,Bhopal,Moong,Total,0.07,0.08,1213.0,Medium
+Maharashtra,Akola,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,1000.0,Medium
+Karnataka,Chamarajanagara,Gram,Total,0.01,0.01,772.0,High
+Karnataka,Kalaburagi,Total Food Grains,Kharif,6.99,3.04,435.0,High
+Arunachal Pradesh,Upper Siang,Cereals,Total,0.1,0.18,1722.0,Medium
+Bihar,Jehanabad,Barley,Rabi,0.0,0.0,1391.0,Medium
+Jharkhand,Deoghar,Other Pulses,Rabi,0.13,0.23,1759.0,Medium
+Himachal Pradesh,Sirmaur,Total Food Grains,Rabi,0.24,0.62,2545.0,Low
+Jharkhand,Deoghar,Nutri/Coarse Cereals,Rabi,0.02,0.04,2300.0,Low
+Andhra Pradesh,Sri Sathya Sai,Nutri/Coarse Cereals,Rabi,0.04,0.19,5354.0,Low
+Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,Nutri/Coarse Cereals,Total,0.01,0.08,8572.0,Low
+Telangana,Khammam,Maize,Total,0.51,3.56,6993.0,Low
+Maharashtra,Beed,Total Pulses,Total,3.18,2.99,940.0,Medium
+Bihar,Kaimur (Bhabua),Cereals,Summer,0.0,0.0,3826.0,Low
+Telangana,Nalgonda,Wheat,Total,0.0,0.0,1973.0,Low
+Uttarakhand,Rudra Prayag,Total Food Grains,Rabi,0.1,0.16,1599.0,Medium
+Punjab,Hoshiarpur,Nutri/Coarse Cereals,Total,0.42,1.57,3765.0,Low
+Punjab,Bathinda,Gram,Rabi,0.0,0.0,1362.0,Medium
+Madhya Pradesh,Bhopal,Moong,Summer,0.07,0.08,1220.0,Medium
+Bihar,Madhepura,Gram,Rabi,0.0,0.0,1045.0,Medium
+Rajasthan,Kota,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,873.0,Medium
+Rajasthan,Kotputli-Behror,Shree Anna /Nutri Cereals,Total,1.33,2.65,1987.0,Low
+Madhya Pradesh,Guna,Total Food Grains,Rabi,2.28,6.93,3044.0,Low
+Andhra Pradesh,Spsr Nellore,Maize,Rabi,0.01,0.04,6106.0,Low
+Madhya Pradesh,Alirajpur,Tur,Kharif,0.0,0.0,773.0,High
+Bihar,Lakhisarai,Cereals,Kharif,0.55,1.58,2875.0,Low
+Punjab,Moga,Wheat,Rabi,1.76,9.44,5360.0,Low
+Andhra Pradesh,Nandyal,Bajra,Summer,0.01,0.02,2215.0,Low
+Rajasthan,Barmer,Nutri/Coarse Cereals,Rabi,0.0,0.0,3711.0,Low
+Karnataka,Gadag,Wheat,Total,0.14,0.11,789.0,High
+Uttarakhand,Bageshwar,Wheat,Total,0.12,0.21,1770.0,Medium
+Maharashtra,Satara,Urad,Kharif,0.04,0.03,678.0,High
+Maharashtra,Satara,Nutri/Coarse Cereals,Kharif,0.74,1.48,2008.0,Low
+Maharashtra,Osmanabad,Jowar,Total,1.74,2.28,1309.0,Medium
+Telangana,Wanaparthy,Moong,Rabi,0.0,0.0,989.0,Medium
+Arunachal Pradesh,Upper Subansiri,Rice,Total,0.05,0.1,2109.0,Low
+Madhya Pradesh,Dhar,Rice,Total,0.01,0.0,861.0,High
+Rajasthan,Alwar,Tur,Kharif,0.0,0.0,1000.0,Medium
+Rajasthan,Karauli,Maize,Rabi,0.0,,,Low
+Arunachal Pradesh,Siang,Cereals,Total,0.12,0.23,1926.0,Low
+Himachal Pradesh,Sirmaur,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,610.0,High
+Arunachal Pradesh,Lower Subansiri,Ragi,Total,0.02,0.01,826.0,High
+Maharashtra,Jalna,Cereals,Rabi,1.59,2.52,1583.0,Medium
+Madhya Pradesh,Sidhi,Nutri/Coarse Cereals,Rabi,0.01,0.02,1474.0,Medium
+Maharashtra,Nagpur,Total Food Grains,Rabi,1.95,2.72,1392.0,Medium
+Bihar,Darbhanga,Cereals,Kharif,0.92,1.87,2048.0,Low
+Jharkhand,Godda,Tur,Total,0.06,0.06,950.0,Medium
+Karnataka,Kalaburagi,Urad,Total,0.25,0.17,664.0,High
+Uttarakhand,Haridwar,Urad,Total,0.0,0.0,862.0,High
+Bihar,Madhepura,Urad,Total,0.0,0.0,868.0,High
+Jharkhand,Jamtara,Maize,Total,0.16,0.3,1888.0,Low
+Andhra Pradesh,Tirupati,Urad,Total,0.0,0.0,864.0,High
+Rajasthan,Bundi,Moong,Total,0.0,0.0,605.0,High
+Karnataka,Raichur,Urad,Total,0.0,0.0,453.0,High
+Rajasthan,Baran,Urad,Kharif,0.12,0.06,511.0,High
+Madhya Pradesh,Rajgarh,Urad,Total,0.0,0.0,314.0,High
+Madhya Pradesh,Ujjain,Cereals,Total,3.45,12.17,3531.0,Low
+Rajasthan,Dholpur,Total Food Grains,Summer,0.0,0.0,1205.0,Medium
+Bihar,Saharsa,Other Pulses,Total,0.01,0.01,912.0,Medium
+Karnataka,Mandya,Nutri/Coarse Cereals,Total,0.87,1.43,1639.0,Medium
+Maharashtra,Yavatmal,Maize,Total,0.01,0.01,830.0,High
+Madhya Pradesh,Khargone,Maize,Total,1.12,3.98,3567.0,Low
+Madhya Pradesh,Dewas,Jowar,Kharif,0.0,0.0,1905.0,Low
+Arunachal Pradesh,Pakke Kessang,Moong,Kharif,0.0,0.0,1079.0,Medium
+Bihar,Khagaria,Gram,Total,0.0,0.0,1070.0,Medium
+Punjab,Sangrur,Cereals,Rabi,2.41,13.27,5517.0,Low
+Jharkhand,West Singhbhum,Maize,Kharif,0.09,0.1,1165.0,Medium
+Telangana,Warangal,Bajra,Total,0.0,0.0,1000.0,Medium
+Karnataka,Yadgir,Rice,Kharif,0.94,3.43,3642.0,Low
+Maharashtra,Pune,Other Pulses,Rabi,0.06,0.03,431.0,High
+Arunachal Pradesh,Pakke Kessang,Ragi,Kharif,0.0,0.0,1078.0,Medium
+Andhra Pradesh,Anantapur,Total Food Grains,Kharif,1.63,2.05,1254.0,Medium
+Punjab,Amritsar,Cereals,Rabi,1.86,9.67,5188.0,Low
+Bihar,Nalanda,Gram,Rabi,0.06,0.06,1111.0,Medium
+Bihar,Sheohar,Total Food Grains,Rabi,0.17,0.57,3403.0,Low
+Bihar,Saharsa,Ragi,Total,0.0,0.0,835.0,High
+Andhra Pradesh,Chittoor,Moong,Rabi,0.0,0.0,668.0,High
+Madhya Pradesh,Harda,Nutri/Coarse Cereals,Summer,0.0,0.0,4870.0,Low
+Bihar,Patna,Total Pulses,Total,0.46,0.64,1372.0,Medium
+Jharkhand,Hazaribagh,Urad,Total,0.04,0.03,659.0,High
+Madhya Pradesh,Ratlam,Cereals,Total,2.19,7.3,3338.0,Low
+Madhya Pradesh,Agar Malwa,Nutri/Coarse Cereals,Kharif,0.02,0.05,2370.0,Low
+Arunachal Pradesh,Siang,Total Food Grains,Rabi,0.01,0.01,1675.0,Medium
+Madhya Pradesh,Betul,Rice,Rabi,0.0,0.0,2876.0,Low
+Andhra Pradesh,Chittoor,Small Millets,Total,0.0,0.0,488.0,High
+Karnataka,Bidar,Jowar,Rabi,0.44,0.33,744.0,High
+Himachal Pradesh,Kangra,Bajra,Kharif,0.0,0.0,571.0,High
+Maharashtra,Dhule,Shree Anna /Nutri Cereals,Total,0.64,0.79,1229.0,Medium
+Madhya Pradesh,Maihar,Total Food Grains,Rabi,0.81,2.23,2732.0,Low
+Telangana,Medak,Maize,Kharif,0.01,0.04,3790.0,Low
+Madhya Pradesh,Balaghat,Maize,Total,0.02,0.05,3112.0,Low
+Andhra Pradesh,Spsr Nellore,Tur,Kharif,0.01,0.01,735.0,High
+Bihar,Madhubani,Nutri/Coarse Cereals,Total,0.0,0.01,2115.0,Low
+Madhya Pradesh,Jabalpur,Total Food Grains,Rabi,1.85,5.75,3104.0,Low
+Madhya Pradesh,Sidhi,Urad,Summer,0.0,0.0,762.0,High
+Telangana,Kamareddy,Other Pulses,Total,0.0,0.0,808.0,High
+Madhya Pradesh,Mandla,Total Food Grains,Rabi,1.12,1.63,1461.0,Medium
+Madhya Pradesh,Jabalpur,Bajra,Total,0.0,0.0,1167.0,Medium
+Rajasthan,Sikar,Shree Anna /Nutri Cereals,Total,2.36,3.36,1422.0,Medium
+Madhya Pradesh,Chhatarpur,Wheat,Total,2.52,6.3,2503.0,Low
+Maharashtra,Palghar,Other Pulses,Rabi,0.04,0.03,695.0,High
+Telangana,Khammam,Total Food Grains,Kharif,1.17,3.8,3253.0,Low
+Bihar,Munger,Cereals,Rabi,0.15,0.5,3288.0,Low
+Madhya Pradesh,Ratlam,Maize,Total,0.28,0.69,2419.0,Low
+Telangana,Nalgonda,Total Food Grains,Rabi,2.15,7.46,3477.0,Low
+Bihar,Khagaria,Tur,Total,0.0,0.0,1153.0,Medium
+Bihar,Aurangabad,Tur,Total,0.01,0.01,1729.0,Medium
+Telangana,Sangareddy,Small Millets,Kharif,0.0,0.0,1847.0,Medium
+Bihar,Sheikhpura,Nutri/Coarse Cereals,Total,0.0,0.02,4366.0,Low
+Bihar,Madhepura,Lentil,Rabi,0.0,0.0,601.0,High
+Madhya Pradesh,Singrauli,Cereals,Rabi,0.58,1.49,2574.0,Low
+Andhra Pradesh,Sri Sathya Sai,Cereals,Total,0.45,1.58,3511.0,Low
+Karnataka,Vijayanagar,Wheat,Rabi,0.0,0.0,2065.0,Low
+Maharashtra,Satara,Bajra,Total,0.42,0.45,1081.0,Medium
+Telangana,Kamareddy,Maize,Kharif,0.18,1.15,6421.0,Low
+Maharashtra,Nandurbar,Cereals,Total,1.41,2.83,2007.0,Low
+Bihar,Pashchim Champaran,Gram,Total,0.0,0.0,1045.0,Medium
+Rajasthan,Baran,Moong,Total,0.0,0.0,1039.0,Medium
+Telangana,Jagitial,Moong,Kharif,0.0,0.0,643.0,High
+Madhya Pradesh,Rewa,Bajra,Kharif,0.0,0.0,780.0,High
+Maharashtra,Jalgaon,Jowar,Kharif,0.2,0.3,1512.0,Medium
+Maharashtra,Yavatmal,Maize,Rabi,0.01,0.01,1078.0,Medium
+Arunachal Pradesh,Siang,Maize,Total,0.02,0.04,1755.0,Medium
+Karnataka,Bagalkote,Maize,Summer,0.07,0.4,5499.0,Low
+Telangana,Karimnagar,Moong,Total,0.0,0.0,799.0,High
+Jharkhand,Deoghar,Lentil,Rabi,0.01,0.01,950.0,Medium
+Maharashtra,Washim,Other Pulses,Kharif,0.0,0.0,458.0,High
+Rajasthan,Dausa,Total Food Grains,Rabi,1.12,3.35,2990.0,Low
+Rajasthan,Kotputli-Behror,Jowar,Total,0.0,0.0,811.0,High
+Andhra Pradesh,Alluri Sitharama Raju,Moong,Total,0.0,0.0,949.0,Medium
+Tripura,Dhalai,Moong,Kharif,0.0,0.0,670.0,High
+Jharkhand,Lohardaga,Wheat,Total,0.05,0.14,2699.0,Low
+Bihar,Sheohar,Rice,Total,0.21,0.41,1988.0,Low
+Rajasthan,Baran,Total Pulses,Total,0.39,0.57,1459.0,Medium
+Jharkhand,East Singhbum,Other Pulses,Rabi,0.03,0.02,853.0,High
+Telangana,Siddipet,Bajra,Kharif,0.0,0.0,1000.0,Medium
+Maharashtra,Gondia,Total Pulses,Total,0.22,0.09,395.0,High
+Madhya Pradesh,Hoshangabad,Jowar,Kharif,0.0,0.0,2050.0,Low
+Jharkhand,Ranchi,Total Food Grains,Kharif,1.76,3.43,1946.0,Low
+Bihar,Sheohar,Moong,Summer,0.03,0.03,1121.0,Medium
+Madhya Pradesh,Sagar,Wheat,Total,2.57,7.23,2809.0,Low
+Bihar,Siwan,Other Pulses,Kharif,0.0,0.0,822.0,High
+Rajasthan,Churu,Other Pulses,Rabi,0.0,0.0,3007.0,Low
+Andhra Pradesh,Nandyal,Shree Anna /Nutri Cereals,Total,0.38,0.98,2558.0,Low
+Jharkhand,Saraikela Kharsawan,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,639.0,High
+Bihar,Jehanabad,Bajra,Total,0.0,0.0,1026.0,Medium
+Jharkhand,Koderma,Cereals,Total,0.32,0.58,1805.0,Medium
+Maharashtra,Kolhapur,Nutri/Coarse Cereals,Summer,0.01,0.02,2500.0,Low
+Rajasthan,Jodhpur,Other Pulses,Rabi,0.0,0.0,7516.0,Low
+Maharashtra,Beed,Tur,Total,0.51,0.45,884.0,Medium
+Madhya Pradesh,Balaghat,Maize,Rabi,0.0,0.0,4018.0,Low
+Maharashtra,Nagpur,Jowar,Total,0.01,0.0,413.0,High
+Rajasthan,Sawai Madhopur,Wheat,Total,0.64,2.37,3677.0,Low
+Telangana,Jogulamba Gadwal,Other Pulses,Kharif,0.0,0.0,951.0,Medium
+Punjab,Kapurthala,Maize,Total,0.01,0.04,4087.0,Low
+Uttarakhand,Chamoli,Other Pulses,Total,0.02,0.03,1377.0,Medium
+Rajasthan,Chittorgarh,Rice,Kharif,0.02,0.06,2593.0,Low
+Maharashtra,Gondia,Gram,Rabi,0.06,0.04,655.0,High
+Jharkhand,Gumla,Gram,Rabi,0.12,0.12,1020.0,Medium
+Uttarakhand,Dehradun,Maize,Kharif,0.05,0.19,3777.0,Low
+Madhya Pradesh,Mauganj,Lentil,Rabi,0.03,0.02,810.0,High
+Madhya Pradesh,Burhanpur,Cereals,Kharif,0.21,0.58,2786.0,Low
+Telangana,Narayanpet,Ragi,Total,0.0,0.0,989.0,Medium
+Maharashtra,Yavatmal,Cereals,Rabi,0.63,0.72,1138.0,Medium
+Telangana,Mahabubabad,Moong,Total,0.03,0.02,730.0,High
+Rajasthan,Jodhpur,Maize,Kharif,0.0,0.0,2552.0,Low
+Uttarakhand,Nainital,Other Pulses,Total,0.02,0.02,1176.0,Medium
+Andhra Pradesh,Eluru,Shree Anna /Nutri Cereals,Rabi,0.0,0.0,6690.0,Low
+Madhya Pradesh,Seoni,Nutri/Coarse Cereals,Rabi,0.13,0.56,4205.0,Low
+Bihar,Khagaria,Wheat,Total,0.26,0.94,3649.0,Low
+Arunachal Pradesh,Pakke Kessang,Wheat,Rabi,0.0,0.0,1667.0,Medium
+Bihar,Arwal,Maize,Summer,0.0,0.0,5691.0,Low
+Rajasthan,Deeg,Wheat,Rabi,0.56,2.51,4528.0,Low
+Bihar,Kishanganj,Maize,Summer,0.03,0.26,8043.0,Low
+Rajasthan,Balotra,Jowar,Summer,0.0,0.0,1000.0,Medium
+Karnataka,Tumakuru,Tur,Total,0.14,0.07,492.0,High
+Karnataka,Shivamogga,Rice,Kharif,0.61,1.76,2879.0,Low
+Arunachal Pradesh,Pakke Kessang,Ragi,Total,0.0,0.0,1078.0,Medium
+Maharashtra,Wardha,Tur,Total,0.6,1.03,1719.0,Medium
+Andhra Pradesh,Nandyal,Moong,Kharif,0.0,0.0,918.0,Medium
+Andhra Pradesh,Prakasam,Total Food Grains,Total,1.64,2.28,1396.0,Medium
+Madhya Pradesh,Anuppur,Jowar,Total,0.0,0.0,1350.0,Medium
+Jharkhand,Pakur,Bajra,Kharif,0.0,0.0,750.0,High
+Himachal Pradesh,Solan,Total Food Grains,Rabi,0.24,0.58,2412.0,Low
+Tripura,Unakoti,Small Millets,Kharif,0.0,0.0,854.0,High
+Arunachal Pradesh,Tirap,Total Food Grains,Total,0.09,0.11,1227.0,Medium
+Rajasthan,Salumbar,Tur,Total,0.0,0.0,391.0,High
+Rajasthan,Kota,Shree Anna /Nutri Cereals,Total,0.0,0.0,873.0,Medium
+Bihar,Nawada,Moong,Summer,0.02,0.01,427.0,High
+Bihar,Buxar,Rice,Total,0.82,2.04,2482.0,Low
+Madhya Pradesh,Guna,Rice,Rabi,0.0,0.0,2013.0,Low
+Telangana,Rajanna Sircilla,Shree Anna /Nutri Cereals,Total,0.0,0.0,1202.0,Medium
+Andhra Pradesh,Eluru,Nutri/Coarse Cereals,Total,0.2,2.09,10181.0,Low
+Madhya Pradesh,Shajapur,Gram,Total,0.06,0.08,1282.0,Medium
+Maharashtra,Sangli,Total Food Grains,Total,3.44,5.12,1488.0,Medium
+Arunachal Pradesh,Dibang Valley,Shree Anna /Nutri Cereals,Kharif,0.01,0.01,1028.0,Medium
+Rajasthan,Ajmer,Total Food Grains,Rabi,2.37,3.95,1668.0,Medium
+Punjab,Gurdaspur,Wheat,Total,1.86,8.99,4834.0,Low
+Bihar,Muzaffarpur,Wheat,Rabi,1.21,3.7,3060.0,Low
+Bihar,Banka,Wheat,Rabi,0.29,0.78,2671.0,Low
+Maharashtra,Beed,Maize,Kharif,0.07,0.16,2307.0,Low
+Jharkhand,Bokaro,Cereals,Kharif,0.37,0.7,1897.0,Low
+Maharashtra,Kolhapur,Gram,Rabi,0.04,0.03,856.0,High
+Madhya Pradesh,Dhar,Moong,Total,0.05,0.04,726.0,High
+Karnataka,Chikkamagaluru,Rice,Rabi,0.0,0.0,2842.0,Low
+Telangana,Narayanpet,Cereals,Rabi,0.65,2.23,3416.0,Low
+Madhya Pradesh,Vidisha,Cereals,Total,4.04,10.44,2582.0,Low
+Tripura,Unakoti,Urad,Total,0.0,0.0,736.0,High
+Telangana,Peddapalli,Tur,Kharif,0.0,0.0,934.0,Medium
+Maharashtra,Thane,Cereals,Kharif,0.59,0.97,1645.0,Medium
+Karnataka,Ramanagara,Rice,Rabi,0.0,0.0,2842.0,Low
+Rajasthan,Dausa,Shree Anna /Nutri Cereals,Kharif,1.62,3.3,2033.0,Low
+Rajasthan,Hanumangarh,Total Food Grains,Kharif,2.34,3.62,1545.0,Medium
+Telangana,Adilabad,Nutri/Coarse Cereals,Kharif,0.07,0.29,4261.0,Low
+Bihar,Patna,Lentil,Total,0.26,0.38,1466.0,Medium
+Karnataka,Chitradurga,Shree Anna /Nutri Cereals,Rabi,0.02,0.01,533.0,High
+Telangana,Nagarkurnool,Rice,Kharif,0.59,1.95,3330.0,Low
+Rajasthan,Jhunjhunu,Maize,Total,0.0,0.0,2552.0,Low
+Maharashtra,Kolhapur,Ragi,Total,0.17,0.44,2541.0,Low
+Bihar,Darbhanga,Nutri/Coarse Cereals,Total,0.13,0.63,4709.0,Low
+Rajasthan,Tonk,Jowar,Kharif,0.97,0.51,523.0,High
+Bihar,Saran,Lentil,Total,0.0,0.0,1152.0,Medium
+Madhya Pradesh,Satna,Small Millets,Kharif,0.03,0.03,1226.0,Medium
+Maharashtra,Solapur,Tur,Kharif,0.99,0.7,711.0,High
+Jharkhand,Giridih,Rice,Total,0.74,1.73,2332.0,Low
+Arunachal Pradesh,East Kameng,Total Pulses,Total,0.01,0.01,974.0,Medium
+Jharkhand,Latehar,Rice,Total,0.25,0.3,1179.0,Medium
+Maharashtra,Jalgaon,Total Food Grains,Kharif,2.05,4.74,2310.0,Low
+Karnataka,Chitradurga,Total Food Grains,Summer,0.02,0.1,4395.0,Low
+Bihar,Pashchim Champaran,Total Food Grains,Total,2.02,5.08,2519.0,Low
+Maharashtra,Bhandara,Rice,Summer,0.65,1.79,2760.0,Low
+Maharashtra,Hingoli,Gram,Total,1.61,1.72,1063.0,Medium
+Madhya Pradesh,Neemuch,Bajra,Kharif,0.0,0.0,937.0,Medium
+Maharashtra,Satara,Cereals,Summer,0.01,0.03,2461.0,Low
+Maharashtra,Nagpur,Wheat,Total,0.99,1.54,1555.0,Medium
+Andhra Pradesh,Palnadu,Jowar,Total,0.0,0.0,1289.0,Medium
+Madhya Pradesh,Umaria,Rice,Summer,0.0,0.0,2649.0,Low
+Karnataka,Vijayanagar,Nutri/Coarse Cereals,Rabi,0.14,0.39,2868.0,Low
+Telangana,Peddapalli,Cereals,Rabi,0.88,3.92,4454.0,Low
+Madhya Pradesh,Ratlam,Total Food Grains,Rabi,2.06,6.83,3311.0,Low
+Andhra Pradesh,Kurnool,Total Food Grains,Total,1.66,2.48,1491.0,Medium
+Madhya Pradesh,Sagar,Jowar,Kharif,0.0,0.0,2159.0,Low
+Bihar,Arwal,Wheat,Total,0.12,0.3,2647.0,Low
+Maharashtra,Latur,Total Pulses,Total,3.91,3.45,881.0,Medium
+Madhya Pradesh,Chhatarpur,Gram,Total,0.44,0.67,1503.0,Medium
+Madhya Pradesh,Khargone,Cereals,Summer,0.0,0.01,5080.0,Low
+Karnataka,Bengaluru Rural,Total Food Grains,Kharif,0.68,1.46,2152.0,Low
+Karnataka,Ramanagara,Moong,Kharif,0.0,0.0,430.0,High
+Maharashtra,Wardha,Other Pulses,Total,0.0,0.0,534.0,High
+Maharashtra,Beed,Shree Anna /Nutri Cereals,Rabi,1.81,2.0,1108.0,Medium
+Jharkhand,Deoghar,Total Food Grains,Kharif,0.65,1.61,2495.0,Low
+Madhya Pradesh,Guna,Lentil,Total,0.17,0.19,1130.0,Medium
+Telangana,Rajanna Sircilla,Maize,Rabi,0.01,0.06,6465.0,Low
+Jharkhand,Pakur,Jowar,Total,0.0,0.0,750.0,High
+Telangana,Jangoan,Gram,Total,0.0,0.0,1762.0,Medium
+Bihar,Munger,Maize,Total,0.02,0.07,3168.0,Low
+Madhya Pradesh,Alirajpur,Total Food Grains,Rabi,0.67,1.49,2216.0,Low
+Madhya Pradesh,Betul,Small Millets,Kharif,0.01,0.0,740.0,High
+Madhya Pradesh,Niwari,Other Pulses,Total,0.0,0.0,1253.0,Medium
+Telangana,Adilabad,Other Pulses,Kharif,0.0,0.0,1083.0,Medium
+Andhra Pradesh,Krishna,Total Food Grains,Rabi,1.32,2.83,2137.0,Low
+Uttarakhand,Pithoragarh,Lentil,Total,0.03,0.03,931.0,Medium
+Telangana,Medchal Malkajgiri,Other Pulses,Total,0.0,0.0,736.0,High
+Madhya Pradesh,Katni,Lentil,Rabi,0.03,0.03,824.0,High
+Telangana,Warangal,Moong,Rabi,0.0,0.0,989.0,Medium
+Maharashtra,Wardha,Wheat,Rabi,0.31,0.63,2030.0,Low
+Arunachal Pradesh,East Kameng,Maize,Rabi,0.0,0.01,1786.0,Medium
+Rajasthan,Bikaner,Shree Anna /Nutri Cereals,Total,1.02,0.56,543.0,High
+Madhya Pradesh,Rewa,Barley,Total,0.0,0.01,1651.0,Medium
+Andhra Pradesh,Vizianagaram,Rice,Rabi,0.01,0.04,3504.0,Low
+Maharashtra,Latur,Tur,Kharif,0.73,1.18,1615.0,Medium
+Maharashtra,Latur,Total Food Grains,Kharif,0.94,1.37,1455.0,Medium
+Rajasthan,Karauli,Jowar,Total,0.0,0.0,811.0,High
+Madhya Pradesh,Katni,Cereals,Summer,0.0,0.0,4488.0,Low
+Uttarakhand,Tehri Garhwal,Barley,Total,0.02,0.03,1457.0,Medium
+Madhya Pradesh,Sagar,Total Food Grains,Rabi,4.52,9.64,2135.0,Low
+Andhra Pradesh,Y.S.R.,Jowar,Kharif,0.0,0.0,1403.0,Medium
+Telangana,Bhadradri Kothagudem,Tur,Total,0.0,0.0,999.0,Medium
+Madhya Pradesh,Anuppur,Tur,Total,0.01,0.01,610.0,High
+Karnataka,Kodagu,Ragi,Total,0.0,0.0,1556.0,Medium
+Rajasthan,Tonk,Bajra,Kharif,0.63,0.82,1306.0,Medium
+Maharashtra,Palghar,Total Food Grains,Rabi,0.07,0.05,687.0,High
+Maharashtra,Aurangabad,Total Pulses,Total,1.23,1.02,825.0,High
+Madhya Pradesh,Raisen,Lentil,Total,0.33,0.32,976.0,Medium
+Arunachal Pradesh,Kra Daadi,Maize,Rabi,0.0,0.0,1950.0,Low
+Karnataka,Mandya,Moong,Total,0.0,0.0,430.0,High
+Karnataka,Gadag,Maize,Rabi,0.07,0.19,2841.0,Low
+Rajasthan,Jaisalmer,Barley,Rabi,0.0,0.0,3711.0,Low
+Andhra Pradesh,Tirupati,Total Food Grains,Kharif,0.21,0.76,3613.0,Low
+Arunachal Pradesh,West Kameng,Wheat,Total,0.01,0.01,1734.0,Medium
+Madhya Pradesh,Khargone,Other Pulses,Rabi,0.0,0.0,615.0,High
+Maharashtra,Osmanabad,Moong,Kharif,0.11,0.08,704.0,High
+Telangana,Jagitial,Other Pulses,Kharif,0.0,0.0,999.0,Medium
+Andhra Pradesh,Anantapur,Moong,Kharif,0.0,0.0,309.0,High
+Telangana,Mahabubabad,Maize,Total,0.48,2.19,4585.0,Low
+Madhya Pradesh,Shajapur,Maize,Summer,0.0,0.0,4350.0,Low
+Andhra Pradesh,Kakinada,Shree Anna /Nutri Cereals,Total,0.0,0.0,1304.0,Medium
+Rajasthan,Tonk,Nutri/Coarse Cereals,Kharif,1.65,1.36,824.0,High
+Bihar,Saran,Nutri/Coarse Cereals,Rabi,0.03,0.15,4331.0,Low
+Karnataka,Kalaburagi,Cereals,Kharif,0.1,0.25,2489.0,Low
+Jharkhand,Gumla,Moong,Kharif,0.04,0.03,910.0,Medium
+Madhya Pradesh,Singrauli,Urad,Kharif,0.03,0.02,531.0,High
+Rajasthan,Jalore,Gram,Total,0.12,0.15,1236.0,Medium
+Maharashtra,Sangli,Rice,Total,0.12,0.28,2267.0,Low
+Bihar,Sheikhpura,Maize,Total,0.0,0.02,4390.0,Low
+Karnataka,Gadag,Total Food Grains,Total,4.86,5.11,1051.0,Medium
+Uttarakhand,Almora,Ragi,Kharif,0.19,0.25,1280.0,Medium
+Andhra Pradesh,Chittoor,Shree Anna /Nutri Cereals,Total,0.02,0.03,1642.0,Medium
+Jharkhand,Saraikela Kharsawan,Urad,Kharif,0.1,0.07,748.0,High
+Rajasthan,Alwar,Other Pulses,Rabi,0.0,0.01,3028.0,Low
+Bihar,Sheohar,Tur,Total,0.0,0.0,1742.0,Medium
+Bihar,Jamui,Nutri/Coarse Cereals,Kharif,0.02,0.06,3124.0,Low
+Bihar,Vaishali,Total Pulses,Total,0.06,0.06,922.0,Medium
+Rajasthan,Dholpur,Lentil,Rabi,0.0,0.0,1070.0,Medium
+Punjab,Rupnagar,Nutri/Coarse Cereals,Kharif,0.2,1.12,5535.0,Low
+Telangana,Yadadri Bhuvanagiri,Nutri/Coarse Cereals,Rabi,0.0,0.0,6061.0,Low
+Andhra Pradesh,Ntr,Rice,Kharif,0.47,1.54,3310.0,Low
+Andhra Pradesh,Spsr Nellore,Urad,Kharif,0.0,0.0,990.0,Medium
+Bihar,Araria,Total Food Grains,Kharif,0.29,0.64,2205.0,Low
+Andhra Pradesh,Bapatla,Bajra,Total,0.0,0.0,2551.0,Low
+Rajasthan,Chittorgarh,Moong,Summer,0.0,0.0,813.0,High
+Rajasthan,Pratapgarh,Moong,Total,0.01,0.01,1471.0,Medium
+Madhya Pradesh,Dewas,Nutri/Coarse Cereals,Total,0.3,0.7,2323.0,Low
+Rajasthan,Karauli,Urad,Kharif,0.0,0.0,365.0,High
+Maharashtra,Jalgaon,Wheat,Rabi,0.56,1.38,2464.0,Low
+Arunachal Pradesh,Lower Dibang Valley,Rice,Kharif,0.14,0.24,1650.0,Medium
+Andhra Pradesh,Palnadu,Urad,Total,0.01,0.02,1287.0,Medium
+Karnataka,Tumakuru,Nutri/Coarse Cereals,Summer,0.01,0.02,4328.0,Low
+Andhra Pradesh,Anakapalli,Rice,Kharif,0.56,1.78,3164.0,Low
+Himachal Pradesh,Shimla,Wheat,Rabi,0.05,0.11,2145.0,Low
+Rajasthan,Hanumangarh,Barley,Rabi,0.25,1.04,4077.0,Low
+Rajasthan,Ajmer,Total Food Grains,Kharif,3.39,2.14,632.0,High
+Rajasthan,Salumbar,Total Food Grains,Total,0.76,1.97,2609.0,Low
+Bihar,Katihar,Maize,Total,0.74,5.77,7779.0,Low
+Madhya Pradesh,Mandsaur,Wheat,Rabi,1.88,6.75,3588.0,Low
+Telangana,Karimnagar,Maize,Total,0.13,1.05,7878.0,Low
+Madhya Pradesh,Pandhurna,Nutri/Coarse Cereals,Summer,0.0,0.01,4980.0,Low
+Madhya Pradesh,Indore,Other Pulses,Rabi,0.0,0.0,702.0,High
+Andhra Pradesh,Y.S.R.,Cereals,Kharif,0.33,1.01,3053.0,Low
+Bihar,Gopalganj,Moong,Total,0.0,0.0,900.0,Medium
+Jharkhand,Dumka,Gram,Rabi,0.1,0.13,1280.0,Medium
+Maharashtra,Latur,Urad,Total,0.05,0.05,944.0,Medium
+Telangana,Nalgonda,Cereals,Total,4.1,14.38,3509.0,Low
+Madhya Pradesh,Jhabua,Tur,Kharif,0.0,0.0,710.0,High
+Arunachal Pradesh,Siang,Maize,Kharif,0.02,0.03,1770.0,Medium
+Telangana,Karimnagar,Other Pulses,Rabi,0.0,0.0,1535.0,Medium
+Telangana,Peddapalli,Urad,Total,0.0,0.0,1763.0,Medium
+Andhra Pradesh,Guntur,Urad,Kharif,0.03,0.03,1080.0,Medium
+Uttarakhand,Almora,Barley,Total,0.02,0.03,1214.0,Medium
+Jharkhand,East Singhbum,Cereals,Rabi,0.06,0.12,2112.0,Low
+Madhya Pradesh,Shivpuri,Bajra,Total,0.04,0.08,1685.0,Medium
+Andhra Pradesh,Nandyal,Jowar,Total,0.29,0.81,2767.0,Low
+Maharashtra,Akola,Total Food Grains,Total,2.19,2.63,1202.0,Medium
+Rajasthan,Rajsamand,Total Food Grains,Total,1.26,2.75,2181.0,Low
+Madhya Pradesh,Sidhi,Small Millets,Total,0.03,0.03,890.0,Medium
+Bihar,Madhubani,Barley,Rabi,0.0,0.0,1881.0,Low
+Maharashtra,Amravati,Other Pulses,Kharif,0.0,0.0,442.0,High
+Goa,South Goa,Rice,Rabi,0.07,0.18,2765.0,Low
+Madhya Pradesh,Rewa,Other Pulses,Rabi,0.02,0.02,896.0,Medium
+Madhya Pradesh,Agar Malwa,Total Food Grains,Kharif,0.03,0.06,2032.0,Low
+Punjab,Patiala,Moong,Summer,0.0,0.0,1000.0,Medium
+Maharashtra,Palghar,Other Pulses,Total,0.04,0.03,683.0,High
+Punjab,Hoshiarpur,Cereals,Rabi,1.46,6.33,4345.0,Low
+Arunachal Pradesh,Upper Subansiri,Shree Anna /Nutri Cereals,Kharif,0.02,0.02,1257.0,Medium
+Arunachal Pradesh,Namsai,Total Food Grains,Kharif,0.15,0.28,1792.0,Medium
+Karnataka,Raichur,Bajra,Kharif,0.12,0.14,1238.0,Medium
+Madhya Pradesh,Datia,Urad,Summer,0.0,0.0,870.0,High
+Telangana,Hanumakonda,Moong,Total,0.0,0.0,679.0,High
+Arunachal Pradesh,West Kameng,Shree Anna /Nutri Cereals,Total,0.01,0.01,976.0,Medium
+Karnataka,Vijayapura,Tur,Total,5.21,2.95,566.0,High
+Bihar,Arwal,Urad,Total,0.0,0.0,933.0,Medium
+Karnataka,Ballari,Jowar,Total,0.29,0.88,3028.0,Low
+Maharashtra,Ahmednagar,Maize,Rabi,0.42,1.33,3154.0,Low
+Punjab,S.A.S Nagar,Total Pulses,Total,0.0,0.0,786.0,High
+Telangana,Warangal,Maize,Total,0.43,2.99,6986.0,Low
+Rajasthan,Jhunjhunu,Jowar,Total,0.0,0.0,811.0,High
+Tripura,Unakoti,Total Pulses,Total,0.01,0.01,753.0,High
+Arunachal Pradesh,Anjaw,Moong,Kharif,0.0,0.0,800.0,High
+Uttarakhand,Pithoragarh,Shree Anna /Nutri Cereals,Kharif,0.1,0.14,1324.0,Medium
+Maharashtra,Pune,Gram,Total,0.28,0.29,1056.0,Medium
+Maharashtra,Washim,Jowar,Total,0.03,0.02,855.0,High
+Telangana,Jayashankar Bhupalapally,Gram,Total,0.0,0.0,1762.0,Medium
+Bihar,Lakhisarai,Other Pulses,Total,0.04,0.05,1271.0,Medium
+Madhya Pradesh,Betul,Urad,Summer,0.0,0.0,960.0,Medium
+Madhya Pradesh,East Nimar,Wheat,Rabi,1.34,3.43,2553.0,Low
+Madhya Pradesh,Khargone,Urad,Kharif,0.0,0.0,310.0,High
+Madhya Pradesh,Shivpuri,Wheat,Rabi,2.46,7.87,3193.0,Low
+Bihar,Supaul,Other Pulses,Total,0.01,0.01,843.0,High
+Arunachal Pradesh,Leparada,Tur,Kharif,0.0,0.0,1153.0,Medium
+Bihar,Bhojpur,Wheat,Total,1.07,3.4,3188.0,Low
+Madhya Pradesh,Sagar,Rice,Total,0.3,0.42,1410.0,Medium
+Karnataka,Mysuru,Shree Anna /Nutri Cereals,Total,1.09,1.76,1612.0,Medium
+Rajasthan,Salumbar,Moong,Kharif,0.0,0.0,515.0,High
+Maharashtra,Nashik,Jowar,Summer,0.0,0.0,832.0,High
+Maharashtra,Satara,Maize,Total,0.38,1.11,2918.0,Low
+Karnataka,Yadgir,Shree Anna /Nutri Cereals,Kharif,0.02,0.04,2050.0,Low
+Karnataka,Gadag,Bajra,Kharif,0.01,0.01,1132.0,Medium
+Andhra Pradesh,Alluri Sitharama Raju,Total Food Grains,Kharif,0.75,2.01,2680.0,Low
+Karnataka,Dakshina Kannada,Rice,Summer,0.0,0.0,3245.0,Low
+Arunachal Pradesh,Upper Subansiri,Cereals,Rabi,0.0,0.01,1745.0,Medium
+Jharkhand,Palamu,Total Food Grains,Rabi,0.54,0.67,1239.0,Medium
+Karnataka,Shivamogga,Wheat,Total,0.0,0.0,1380.0,Medium
+Rajasthan,Phalodi,Nutri/Coarse Cereals,Kharif,1.6,1.04,648.0,High
+Karnataka,Mysuru,Total Food Grains,Rabi,0.26,0.48,1863.0,Low
+Karnataka,Belagavi,Moong,Kharif,0.72,0.29,407.0,High
+Madhya Pradesh,Chhindwara,Total Food Grains,Rabi,2.39,6.69,2793.0,Low
+Himachal Pradesh,Solan,Wheat,Total,0.23,0.57,2467.0,Low
+Tripura,South Tripura,Urad,Rabi,0.01,0.01,832.0,High
+Bihar,Gopalganj,Other Pulses,Rabi,0.0,0.0,869.0,High
+Jharkhand,Lohardaga,Total Food Grains,Total,0.69,1.28,1843.0,Medium
+Madhya Pradesh,Gwalior,Shree Anna /Nutri Cereals,Kharif,0.37,0.78,2123.0,Low
+Maharashtra,Beed,Bajra,Total,0.41,0.58,1403.0,Medium
+Bihar,Kishanganj,Other Pulses,Total,0.0,0.0,816.0,High
+Bihar,Madhepura,Nutri/Coarse Cereals,Summer,0.19,1.38,7311.0,Low
+Madhya Pradesh,Gwalior,Tur,Total,0.0,0.0,827.0,High
+Madhya Pradesh,Katni,Cereals,Kharif,2.03,5.45,2681.0,Low
+Karnataka,Bidar,Nutri/Coarse Cereals,Total,0.44,0.33,755.0,High
+Bihar,Kishanganj,Wheat,Rabi,0.07,0.18,2792.0,Low
+Bihar,Aurangabad,Cereals,Rabi,1.15,2.69,2344.0,Low
+Rajasthan,Rajsamand,Shree Anna /Nutri Cereals,Kharif,0.06,0.12,1900.0,Low
+Rajasthan,Jodhpur,Wheat,Total,0.47,1.0,2112.0,Low
+Jharkhand,Koderma,Maize,Kharif,0.07,0.09,1200.0,Medium
+Arunachal Pradesh,Lower Dibang Valley,Shree Anna /Nutri Cereals,Total,0.02,0.02,895.0,Medium
+Madhya Pradesh,Narsinghpur,Lentil,Total,0.25,0.23,921.0,Medium
+Maharashtra,Raigad,Cereals,Total,0.82,1.98,2410.0,Low
+Madhya Pradesh,Damoh,Tur,Total,0.18,0.15,855.0,High
+Madhya Pradesh,Dindori,Total Food Grains,Rabi,0.98,1.12,1141.0,Medium
+Rajasthan,Karauli,Jowar,Kharif,0.0,0.0,811.0,High
+Rajasthan,Alwar,Barley,Rabi,0.02,0.07,3711.0,Low
+Madhya Pradesh,Ujjain,Gram,Total,0.09,0.12,1340.0,Medium
+Madhya Pradesh,Maihar,Small Millets,Total,0.04,0.04,1010.0,Medium
+Karnataka,Vijayanagar,Small Millets,Total,0.01,0.01,383.0,High
+Bihar,Purbi Champaran,Nutri/Coarse Cereals,Total,0.4,1.92,4815.0,Low
+Telangana,Mahabubabad,Maize,Rabi,0.25,1.22,4923.0,Low
+Karnataka,Uttara Kannada,Maize,Summer,0.01,0.03,4328.0,Low
+Karnataka,Mysuru,Nutri/Coarse Cereals,Summer,0.02,0.08,3642.0,Low
+Karnataka,Chitradurga,Maize,Rabi,0.14,0.51,3739.0,Low
+Maharashtra,Nagpur,Total Food Grains,Total,3.53,6.24,1766.0,Medium
+Rajasthan,Didwana Kuchaman,Other Pulses,Kharif,0.01,0.0,406.0,High
+Karnataka,Ballari,Maize,Total,0.32,1.25,3849.0,Low
+Madhya Pradesh,Harda,Other Pulses,Total,0.0,0.0,577.0,High
+Andhra Pradesh,Chittoor,Bajra,Total,0.01,0.01,2215.0,Low
+Bihar,Bhojpur,Total Food Grains,Rabi,1.15,3.49,3040.0,Low
+Andhra Pradesh,Prakasam,Tur,Kharif,0.72,0.36,504.0,High
+Arunachal Pradesh,Namsai,Moong,Kharif,0.0,0.0,977.0,Medium
+Maharashtra,Sindhudurg,Nutri/Coarse Cereals,Rabi,0.0,0.01,2840.0,Low
+Madhya Pradesh,Pandhurna,Moong,Summer,0.02,0.02,825.0,High
+Punjab,Ludhiana,Moong,Total,0.05,0.05,1019.0,Medium
+Arunachal Pradesh,West Siang,Ragi,Kharif,0.0,0.0,900.0,Medium
+Maharashtra,Osmanabad,Urad,Summer,0.0,0.0,539.0,High
+Punjab,Bathinda,Total Food Grains,Summer,0.0,0.0,800.0,High
+Punjab,Gurdaspur,Total Food Grains,Total,3.6,16.04,4461.0,Low
+Maharashtra,Yavatmal,Other Pulses,Rabi,0.0,0.0,470.0,High
+Bihar,Nalanda,Maize,Rabi,0.02,0.11,5104.0,Low
+Himachal Pradesh,Shimla,Small Millets,Total,0.0,0.0,778.0,High
+Maharashtra,Parbhani,Jowar,Rabi,0.96,1.1,1136.0,Medium
+Andhra Pradesh,Nandyal,Nutri/Coarse Cereals,Kharif,0.63,2.63,4157.0,Low
+Andhra Pradesh,West Godavari,Cereals,Kharif,0.83,3.09,3713.0,Low
+Bihar,Arwal,Nutri/Coarse Cereals,Summer,0.0,0.0,5691.0,Low
+Karnataka,Belagavi,Gram,Rabi,0.79,0.59,747.0,High
+Madhya Pradesh,Shahdol,Rice,Kharif,1.71,3.21,1880.0,Low
+Uttarakhand,Champawat,Maize,Total,0.01,0.02,3246.0,Low
+Karnataka,Udupi,Urad,Total,0.0,0.0,485.0,High
+Arunachal Pradesh,Longding,Maize,Rabi,0.0,0.01,1716.0,Medium
+Bihar,Nawada,Wheat,Rabi,0.77,2.33,3020.0,Low
+Madhya Pradesh,Alirajpur,Gram,Rabi,0.15,0.2,1302.0,Medium
+Uttarakhand,Tehri Garhwal,Gram,Rabi,0.0,0.0,645.0,High
+Bihar,Munger,Gram,Rabi,0.01,0.01,1000.0,Medium
+Karnataka,Bagalkote,Total Pulses,Total,1.57,0.94,598.0,High
+Madhya Pradesh,Shahdol,Cereals,Total,2.33,4.36,1873.0,Low
+Andhra Pradesh,Palnadu,Total Food Grains,Total,1.13,3.91,3449.0,Low
+Madhya Pradesh,Morena,Total Food Grains,Rabi,1.04,3.64,3483.0,Low
+Madhya Pradesh,Morena,Gram,Rabi,0.02,0.03,1658.0,Medium
+Punjab,Amritsar,Wheat,Rabi,1.86,9.67,5188.0,Low
+Maharashtra,Satara,Urad,Total,0.04,0.03,678.0,High
+Jharkhand,Palamu,Wheat,Total,0.21,0.4,1964.0,Low
+Telangana,Kumuram Bheem Asifabad,Moong,Rabi,0.0,0.0,990.0,Medium
+Bihar,Begusarai,Total Food Grains,Summer,0.02,0.06,3745.0,Low
+Rajasthan,Pratapgarh,Total Food Grains,Kharif,0.53,1.66,3126.0,Low
+Madhya Pradesh,Barwani,Wheat,Rabi,0.7,2.18,3124.0,Low
+Bihar,Supaul,Wheat,Rabi,0.58,1.83,3138.0,Low
+Andhra Pradesh,Sri Sathya Sai,Tur,Total,0.38,0.08,225.0,High
+Tripura,South Tripura,Rice,Kharif,0.25,0.8,3164.0,Low
+Uttarakhand,Dehradun,Other Pulses,Rabi,0.0,0.0,770.0,High
+Himachal Pradesh,Mandi,Urad,Total,0.01,0.01,814.0,High
+Madhya Pradesh,Shivpuri,Moong,Kharif,0.03,0.01,470.0,High
+Madhya Pradesh,Agar Malwa,Tur,Kharif,0.0,0.0,760.0,High
+Uttarakhand,Pithoragarh,Total Pulses,Total,0.07,0.08,1107.0,Medium
+Punjab,Amritsar,Rice,Kharif,1.82,6.27,3438.0,Low
+Bihar,Rohtas,Lentil,Rabi,0.0,0.0,893.0,Medium
+Andhra Pradesh,Sri Sathya Sai,Total Pulses,Total,0.53,0.16,299.0,High
+Madhya Pradesh,Dhar,Urad,Summer,0.0,0.0,0.0,High
+Bihar,Gopalganj,Tur,Total,0.0,0.0,1745.0,Medium
+Bihar,Begusarai,Ragi,Kharif,0.0,0.0,981.0,Medium
+Jharkhand,Saraikela Kharsawan,Lentil,Rabi,0.04,0.04,875.0,Medium
+Arunachal Pradesh,Longding,Total Food Grains,Rabi,0.01,0.01,1476.0,Medium
+Karnataka,Bagalkote,Nutri/Coarse Cereals,Total,1.59,4.84,3055.0,Low
+Maharashtra,Palghar,Nutri/Coarse Cereals,Kharif,0.2,0.16,819.0,High
+Uttarakhand,Chamoli,Total Food Grains,Total,0.41,0.67,1627.0,Medium
+Punjab,Jalandhar,Wheat,Rabi,1.73,8.69,5012.0,Low
+Jharkhand,Bokaro,Ragi,Total,0.0,0.01,2201.0,Low
+Maharashtra,Gadchiroli,Nutri/Coarse Cereals,Kharif,0.0,0.03,6538.0,Low
+Bihar,Saharsa,Gram,Rabi,0.0,0.0,1045.0,Medium
+Rajasthan,Sawai Madhopur,Barley,Rabi,0.01,0.03,3711.0,Low
+Karnataka,Shivamogga,Moong,Rabi,0.0,0.0,299.0,High
+Maharashtra,Kolhapur,Moong,Kharif,0.01,0.01,1049.0,Medium
+Arunachal Pradesh,Lower Subansiri,Other Pulses,Total,0.0,0.0,1675.0,Medium
+Andhra Pradesh,Sri Sathya Sai,Gram,Total,0.01,0.01,816.0,High
+Bihar,Munger,Tur,Kharif,0.0,0.0,1153.0,Medium
+Maharashtra,Nagpur,Maize,Total,0.02,0.05,2593.0,Low
+Arunachal Pradesh,Leparada,Maize,Kharif,0.0,0.01,1784.0,Medium
+Telangana,Mancherial,Total Food Grains,Kharif,0.59,1.86,3178.0,Low
+Karnataka,Chamarajanagara,Maize,Rabi,0.05,0.19,4100.0,Low
+Arunachal Pradesh,Tirap,Moong,Kharif,0.0,0.0,857.0,High
+Telangana,Vikarabad,Moong,Total,0.06,0.04,612.0,High
+Bihar,Madhepura,Gram,Total,0.0,0.0,1045.0,Medium
+Bihar,Gopalganj,Other Pulses,Kharif,0.0,0.0,925.0,Medium
+Maharashtra,Osmanabad,Shree Anna /Nutri Cereals,Total,1.78,2.3,1291.0,Medium
+Karnataka,Udupi,Other Pulses,Rabi,0.0,0.0,453.0,High
+Bihar,Buxar,Gram,Total,0.02,0.02,998.0,Medium
+Telangana,Medak,Total Food Grains,Rabi,1.12,3.66,3286.0,Low
+Karnataka,Chamarajanagara,Wheat,Total,0.0,0.0,1255.0,Medium
+Madhya Pradesh,Ashoknagar,Barley,Total,0.0,0.0,1554.0,Medium
+Karnataka,Davangere,Total Food Grains,Rabi,0.17,0.29,1707.0,Medium
+Bihar,Gaya,Bajra,Total,0.0,0.01,1126.0,Medium
+Himachal Pradesh,Lahul And Spiti,Cereals,Rabi,0.01,0.0,0.0,High
+Rajasthan,Dungarpur,Wheat,Total,0.65,1.91,2937.0,Low
+Rajasthan,Chittorgarh,Shree Anna /Nutri Cereals,Kharif,0.24,0.48,2018.0,Low
+Bihar,Samastipur,Ragi,Kharif,0.0,0.0,785.0,High
+Punjab,Patiala,Rice,Total,2.33,10.45,4483.0,Low
+Bihar,Vaishali,Gram,Rabi,0.0,0.0,1045.0,Medium
+Rajasthan,Bhilwara,Wheat,Rabi,1.51,4.99,3300.0,Low
+Rajasthan,Bhilwara,Gram,Total,0.95,1.33,1411.0,Medium
+Tripura,West Tripura,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,891.0,Medium
+Bihar,Madhubani,Maize,Total,0.0,0.01,3515.0,Low
+Madhya Pradesh,Sheopur,Moong,Summer,0.14,0.13,893.0,Medium
+Jharkhand,Palamu,Nutri/Coarse Cereals,Total,0.31,0.42,1371.0,Medium
+Madhya Pradesh,Narsinghpur,Maize,Kharif,0.69,1.81,2633.0,Low
+Andhra Pradesh,Palnadu,Nutri/Coarse Cereals,Rabi,0.16,1.12,6902.0,Low
+Rajasthan,Alwar,Shree Anna /Nutri Cereals,Kharif,1.64,2.7,1652.0,Medium
+Madhya Pradesh,Harda,Small Millets,Kharif,0.0,0.0,840.0,High
+Madhya Pradesh,Tikamgarh,Total Food Grains,Total,2.28,4.92,2157.0,Low
+Arunachal Pradesh,West Siang,Maize,Total,0.01,0.01,1670.0,Medium
+Telangana,Mahabubnagar,Cereals,Kharif,0.89,3.18,3587.0,Low
+Rajasthan,Pratapgarh,Moong,Kharif,0.0,0.0,515.0,High
+Madhya Pradesh,Bhind,Moong,Summer,0.11,0.12,1160.0,Medium
+Bihar,Saharsa,Cereals,Rabi,0.68,2.78,4083.0,Low
+Maharashtra,Chandrapur,Wheat,Rabi,0.16,0.19,1168.0,Medium
+Maharashtra,Nandurbar,Jowar,Rabi,0.06,0.07,1246.0,Medium
+Madhya Pradesh,Niwari,Wheat,Total,0.62,1.52,2449.0,Low
+Madhya Pradesh,Chhatarpur,Gram,Rabi,0.44,0.67,1503.0,Medium
+Maharashtra,Wardha,Shree Anna /Nutri Cereals,Summer,0.0,0.0,832.0,High
+Bihar,Saran,Moong,Summer,0.02,0.0,209.0,High
+Maharashtra,Yavatmal,Cereals,Kharif,0.03,0.02,647.0,High
+Andhra Pradesh,Bapatla,Cereals,Kharif,0.91,3.33,3681.0,Low
+Maharashtra,Nanded,Jowar,Rabi,0.41,0.51,1242.0,Medium
+Telangana,Wanaparthy,Moong,Kharif,0.0,0.0,643.0,High
+Rajasthan,Jaipur,Shree Anna /Nutri Cereals,Kharif,2.75,3.42,1246.0,Medium
+Bihar,Buxar,Wheat,Total,0.87,2.94,3379.0,Low
+Arunachal Pradesh,East Kameng,Cereals,Rabi,0.0,0.01,1781.0,Medium
+Jharkhand,Deoghar,Maize,Rabi,0.02,0.04,2300.0,Low
+Bihar,Saran,Total Pulses,Total,0.02,0.01,452.0,High
+Arunachal Pradesh,Namsai,Other Pulses,Rabi,0.01,0.01,1052.0,Medium
+Telangana,Hanumakonda,Jowar,Rabi,0.0,0.0,2479.0,Low
+Karnataka,Kolar,Small Millets,Kharif,0.01,0.02,1811.0,Medium
+Maharashtra,Wardha,Jowar,Summer,0.0,0.0,832.0,High
+Maharashtra,Parbhani,Shree Anna /Nutri Cereals,Kharif,0.02,0.01,598.0,High
+Karnataka,Bidar,Cereals,Rabi,0.53,0.42,785.0,High
+Madhya Pradesh,Tikamgarh,Urad,Total,0.45,0.24,530.0,High
+Rajasthan,Dausa,Barley,Total,0.05,0.19,3711.0,Low
+Arunachal Pradesh,Leparada,Other Pulses,Rabi,0.0,0.0,1623.0,Medium
+Bihar,Madhepura,Small Millets,Total,0.0,0.0,711.0,High
+Uttarakhand,Dehradun,Cereals,Rabi,0.12,0.37,3163.0,Low
+Karnataka,Haveri,Rice,Kharif,0.26,0.55,2091.0,Low
+Punjab,Faridkot,Cereals,Kharif,1.17,5.14,4388.0,Low
+Madhya Pradesh,Guna,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,1597.0,Medium
+Tripura,Khowai,Gram,Rabi,0.0,0.0,889.0,Medium
+Bihar,Purnia,Barley,Rabi,0.0,0.0,1881.0,Low
+Himachal Pradesh,Hamirpur,Nutri/Coarse Cereals,Rabi,0.0,0.0,1754.0,Medium
+Tripura,Gomati,Cereals,Total,0.41,1.27,3096.0,Low
+Maharashtra,Kolhapur,Jowar,Kharif,0.01,0.01,1638.0,Medium
+Rajasthan,Banswara,Moong,Kharif,0.0,0.0,515.0,High
+Jharkhand,Koderma,Cereals,Rabi,0.1,0.25,2489.0,Low
+Arunachal Pradesh,Pakke Kessang,Total Food Grains,Rabi,0.0,0.01,1343.0,Medium
+Uttarakhand,Uttar Kashi,Cereals,Rabi,0.08,0.16,1934.0,Low
+Andhra Pradesh,Anantapur,Nutri/Coarse Cereals,Kharif,0.35,1.13,3250.0,Low
+Madhya Pradesh,Mandla,Maize,Rabi,0.01,0.04,3516.0,Low
+Telangana,Rajanna Sircilla,Total Food Grains,Total,1.41,5.53,3935.0,Low
+Telangana,Medchal Malkajgiri,Bajra,Kharif,0.0,0.0,1029.0,Medium
+Telangana,Kumuram Bheem Asifabad,Urad,Rabi,0.0,0.0,1763.0,Medium
+Rajasthan,Banswara,Moong,Summer,0.0,0.0,706.0,High
+Maharashtra,Nandurbar,Urad,Summer,0.0,0.0,539.0,High
+Madhya Pradesh,Betul,Other Pulses,Total,0.02,0.02,810.0,High
+Telangana,Yadadri Bhuvanagiri,Total Food Grains,Rabi,1.11,4.09,3694.0,Low
+Punjab,Sangrur,Moong,Total,0.01,0.01,1242.0,Medium
+Madhya Pradesh,Datia,Nutri/Coarse Cereals,Rabi,0.0,0.01,1617.0,Medium
+Jharkhand,Koderma,Total Food Grains,Rabi,0.3,0.56,1827.0,Medium
+Arunachal Pradesh,East Siang,Nutri/Coarse Cereals,Kharif,0.03,0.06,1692.0,Medium
+Andhra Pradesh,Kurnool,Jowar,Kharif,0.0,0.0,1332.0,Medium
+Karnataka,Bengaluru Rural,Urad,Total,0.0,0.0,590.0,High
+Karnataka,Davangere,Total Food Grains,Total,2.53,7.79,3081.0,Low
+Madhya Pradesh,Mandla,Nutri/Coarse Cereals,Rabi,0.01,0.04,3516.0,Low
+Jharkhand,Koderma,Urad,Total,0.02,0.02,948.0,Medium
+Telangana,Nizamabad,Total Food Grains,Total,3.7,16.29,4407.0,Low
+Telangana,Mahabubabad,Shree Anna /Nutri Cereals,Rabi,0.0,0.0,833.0,High
+Madhya Pradesh,Katni,Shree Anna /Nutri Cereals,Kharif,0.08,0.09,1221.0,Medium
+Andhra Pradesh,Krishna,Gram,Rabi,0.0,0.0,1692.0,Medium
+Madhya Pradesh,Bhopal,Rice,Kharif,0.31,0.8,2563.0,Low
+Arunachal Pradesh,Upper Siang,Total Food Grains,Total,0.11,0.18,1700.0,Medium
+Karnataka,Haveri,Rice,Summer,0.1,0.24,2307.0,Low
+Maharashtra,Ahmednagar,Cereals,Kharif,1.92,4.26,2212.0,Low
+Telangana,Wanaparthy,Cereals,Kharif,0.77,2.76,3557.0,Low
+Telangana,Nalgonda,Cereals,Kharif,1.96,6.93,3542.0,Low
+Maharashtra,Jalna,Maize,Kharif,0.32,0.89,2780.0,Low
+Tripura,South Tripura,Total Food Grains,Rabi,0.15,0.51,3344.0,Low
+Madhya Pradesh,Damoh,Shree Anna /Nutri Cereals,Kharif,0.0,0.01,1891.0,Low
+Bihar,Purbi Champaran,Tur,Total,0.01,0.03,2249.0,Low
+Andhra Pradesh,Y.S.R.,Total Pulses,Total,1.16,0.84,724.0,High
+Karnataka,Bagalkote,Gram,Rabi,0.32,0.19,590.0,High
+Rajasthan,Bhilwara,Wheat,Total,1.51,4.99,3300.0,Low
+Punjab,Kapurthala,Moong,Total,0.0,0.0,1270.0,Medium
+Madhya Pradesh,Mandla,Cereals,Rabi,0.53,1.24,2311.0,Low
+Karnataka,Vijayapura,Maize,Total,0.95,3.43,3607.0,Low
+Karnataka,Mandya,Cereals,Kharif,1.32,2.84,2149.0,Low
+Madhya Pradesh,Panna,Jowar,Total,0.03,0.05,1910.0,Low
+Madhya Pradesh,Guna,Barley,Total,0.0,0.0,1756.0,Medium
+Madhya Pradesh,Dewas,Maize,Kharif,0.26,0.52,2023.0,Low
+Karnataka,Vijayapura,Gram,Total,0.25,0.16,638.0,High
+Maharashtra,Jalgaon,Shree Anna /Nutri Cereals,Rabi,0.74,1.26,1701.0,Medium
+Arunachal Pradesh,Pakke Kessang,Cereals,Rabi,0.0,0.0,1681.0,Medium
+Karnataka,Hassan,Shree Anna /Nutri Cereals,Rabi,0.01,0.02,1113.0,Medium
+Rajasthan,Bikaner,Total Food Grains,Total,7.78,8.0,1029.0,Medium
+Andhra Pradesh,Tirupati,Total Pulses,Total,0.01,0.01,768.0,High
+Jharkhand,Garhwa,Urad,Kharif,0.05,0.06,1247.0,Medium
+Maharashtra,Solapur,Tur,Total,0.99,0.7,711.0,High
+Madhya Pradesh,Datia,Total Food Grains,Kharif,1.12,2.07,1843.0,Medium
+Jharkhand,Chatra,Tur,Kharif,0.06,0.08,1320.0,Medium
+Punjab,Sri Muktsar Sahib,Gram,Total,0.0,0.0,1159.0,Medium
+Punjab,Shahid Bhagat Singh Nagar,Total Pulses,Total,0.0,0.0,1583.0,Medium
+Arunachal Pradesh,Lower Dibang Valley,Ragi,Kharif,0.02,0.02,895.0,Medium
+Madhya Pradesh,Barwani,Rice,Kharif,0.01,0.01,683.0,High
+Madhya Pradesh,Gwalior,Bajra,Kharif,0.11,0.24,2140.0,Low
+Uttarakhand,Haridwar,Other Pulses,Kharif,0.0,0.0,1000.0,Medium
+Karnataka,Chitradurga,Wheat,Total,0.0,0.0,708.0,High
+Arunachal Pradesh,East Siang,Tur,Total,0.0,0.0,904.0,Medium
+Maharashtra,Latur,Wheat,Total,0.13,0.23,1727.0,Medium
+Andhra Pradesh,Anantapur,Rice,Rabi,0.05,0.13,2789.0,Low
+Madhya Pradesh,Narsinghpur,Rice,Kharif,0.79,2.05,2584.0,Low
+Bihar,Saharsa,Total Food Grains,Rabi,0.69,2.79,4023.0,Low
+Madhya Pradesh,Niwari,Bajra,Total,0.0,0.0,1000.0,Medium
+Madhya Pradesh,Betul,Moong,Total,0.26,0.25,983.0,Medium
+Punjab,Shahid Bhagat Singh Nagar,Cereals,Total,1.46,7.03,4804.0,Low
+Andhra Pradesh,Eluru,Maize,Rabi,0.2,2.08,10210.0,Low
+Madhya Pradesh,Rajgarh,Rice,Kharif,0.01,0.01,1464.0,Medium
+Maharashtra,Washim,Bajra,Total,0.0,0.0,910.0,Medium
+Maharashtra,Thane,Small Millets,Total,0.01,0.01,949.0,Medium
+Bihar,Gaya,Total Food Grains,Summer,0.02,0.03,1518.0,Medium
+Uttarakhand,Nainital,Urad,Kharif,0.02,0.03,1236.0,Medium
+Bihar,Banka,Nutri/Coarse Cereals,Rabi,0.01,0.05,3699.0,Low
+Telangana,Nizamabad,Shree Anna /Nutri Cereals,Kharif,0.05,0.05,1029.0,Medium
+Himachal Pradesh,Chamba,Rice,Total,0.02,0.05,1983.0,Low
+Madhya Pradesh,Sagar,Cereals,Rabi,2.58,7.23,2808.0,Low
+Maharashtra,Wardha,Moong,Total,0.01,0.0,193.0,High
+Andhra Pradesh,Eluru,Total Pulses,Total,0.19,0.27,1389.0,Medium
+Karnataka,Bidar,Bajra,Total,0.0,0.0,588.0,High
+Bihar,Pashchim Champaran,Cereals,Rabi,0.78,2.53,3251.0,Low
+Maharashtra,Nagpur,Jowar,Summer,0.0,0.0,832.0,High
+Bihar,Sheikhpura,Tur,Total,0.0,0.0,1718.0,Medium
+Bihar,Banka,Total Food Grains,Summer,0.06,0.15,2622.0,Low
+Rajasthan,Dungarpur,Small Millets,Kharif,0.0,0.0,4874.0,Low
+Rajasthan,Baran,Maize,Kharif,0.64,2.18,3379.0,Low
+Andhra Pradesh,Annamayya,Gram,Rabi,0.0,0.0,879.0,Medium
+Madhya Pradesh,Niwari,Shree Anna /Nutri Cereals,Total,0.0,0.0,1458.0,Medium
+Madhya Pradesh,Singrauli,Urad,Summer,0.02,0.02,920.0,Medium
+Maharashtra,Ahmednagar,Total Food Grains,Kharif,3.92,6.16,1573.0,Medium
+Karnataka,Chitradurga,Ragi,Total,0.44,0.54,1211.0,Medium
+Telangana,Mulugu,Jowar,Total,0.0,0.0,1151.0,Medium
+Rajasthan,Jaipur,Moong,Total,1.0,0.43,430.0,High
+Bihar,Begusarai,Wheat,Total,0.65,2.49,3819.0,Low
+Maharashtra,Ratnagiri,Rice,Total,0.41,1.09,2664.0,Low
+Andhra Pradesh,Anantapur,Ragi,Total,0.0,0.0,1339.0,Medium
+Bihar,Lakhisarai,Gram,Total,0.03,0.04,1289.0,Medium
+Arunachal Pradesh,Lohit,Wheat,Rabi,0.0,0.0,2026.0,Low
+Madhya Pradesh,Ujjain,Shree Anna /Nutri Cereals,Kharif,0.01,0.01,1367.0,Medium
+Madhya Pradesh,Rewa,Maize,Kharif,0.0,0.0,2230.0,Low
+Maharashtra,Latur,Moong,Kharif,0.07,0.07,1078.0,Medium
+Karnataka,Bagalkote,Total Food Grains,Kharif,2.13,3.98,1869.0,Low
+Karnataka,Bengaluru Rural,Total Pulses,Total,0.02,0.01,915.0,Medium
+Karnataka,Mysuru,Cereals,Total,2.51,6.68,2660.0,Low
+Bihar,Nawada,Total Food Grains,Rabi,0.82,2.38,2888.0,Low
+Andhra Pradesh,Parvathipuram Manyam,Ragi,Kharif,0.01,0.01,1209.0,Medium
+Himachal Pradesh,Mandi,Lentil,Total,0.0,0.0,945.0,Medium
+Maharashtra,Gadchiroli,Total Food Grains,Kharif,1.96,4.07,2073.0,Low
+Rajasthan,Bundi,Wheat,Total,1.37,5.41,3959.0,Low
+Himachal Pradesh,Sirmaur,Cereals,Rabi,0.24,0.62,2552.0,Low
+Madhya Pradesh,Sheopur,Total Food Grains,Rabi,1.09,3.87,3555.0,Low
+Uttarakhand,Almora,Total Pulses,Total,0.06,0.05,862.0,High
+Telangana,Vikarabad,Gram,Total,0.02,0.02,1480.0,Medium
+Maharashtra,Sangli,Maize,Summer,0.02,0.03,2137.0,Low
+Andhra Pradesh,Anakapalli,Urad,Total,0.09,0.06,700.0,High
+Karnataka,Tumakuru,Total Food Grains,Summer,0.01,0.04,3572.0,Low
+Jharkhand,Garhwa,Total Food Grains,Rabi,0.46,0.84,1814.0,Medium
+Punjab,Barnala,Bajra,Total,0.0,0.0,948.0,Medium
+Maharashtra,Pune,Urad,Total,0.03,0.01,435.0,High
+Rajasthan,Dholpur,Nutri/Coarse Cereals,Total,0.94,1.89,2005.0,Low
+Rajasthan,Sawai Madhopur,Lentil,Total,0.0,0.0,1070.0,Medium
+Tripura,Khowai,Lentil,Rabi,0.0,0.0,672.0,High
+Madhya Pradesh,Balaghat,Rice,Rabi,0.47,1.43,3040.0,Low
+Uttarakhand,Rudra Prayag,Other Pulses,Total,0.0,0.0,1007.0,Medium
+Jharkhand,Simdega,Bajra,Kharif,0.0,0.0,2500.0,Low
+Bihar,Madhepura,Bajra,Total,0.0,,,Low
+Bihar,Nawada,Rice,Summer,0.0,0.0,2833.0,Low
+Arunachal Pradesh,Anjaw,Maize,Total,0.02,0.04,2403.0,Low
+Himachal Pradesh,Bilaspur,Cereals,Rabi,0.27,0.62,2262.0,Low
+Arunachal Pradesh,Siang,Moong,Kharif,0.0,0.0,1167.0,Medium
+Bihar,Katihar,Other Pulses,Kharif,0.0,0.0,582.0,High
+Karnataka,Kolar,Nutri/Coarse Cereals,Total,0.59,1.15,1950.0,Low
+Arunachal Pradesh,Shi Yomi,Nutri/Coarse Cereals,Rabi,0.0,0.0,1420.0,Medium
+Punjab,Faridkot,Total Food Grains,Total,2.33,11.23,4823.0,Low
+Telangana,Ranga Reddy,Total Pulses,Total,0.06,0.04,708.0,High
+Karnataka,Yadgir,Total Food Grains,Kharif,2.06,4.26,2074.0,Low
+Rajasthan,Dungarpur,Gram,Rabi,0.12,0.14,1155.0,Medium
+Maharashtra,Ahmednagar,Nutri/Coarse Cereals,Summer,0.1,0.31,3223.0,Low
+Bihar,Madhepura,Cereals,Summer,0.2,1.42,7003.0,Low
+Rajasthan,Banswara,Urad,Kharif,0.0,0.0,291.0,High
+Maharashtra,Ratnagiri,Other Pulses,Rabi,0.03,0.03,772.0,High
+Madhya Pradesh,Bhind,Bajra,Kharif,0.51,1.39,2715.0,Low
+Jharkhand,Garhwa,Total Pulses,Total,0.7,0.85,1224.0,Medium
+Madhya Pradesh,Guna,Total Food Grains,Kharif,2.31,6.8,2944.0,Low
+Karnataka,Hassan,Cereals,Rabi,0.16,0.45,2720.0,Low
+Uttarakhand,Udam Singh Nagar,Cereals,Summer,0.08,0.3,3791.0,Low
+Rajasthan,Salumbar,Nutri/Coarse Cereals,Total,0.34,0.63,1868.0,Low
+Maharashtra,Aurangabad,Other Pulses,Kharif,0.01,0.0,254.0,High
+Andhra Pradesh,Annamayya,Bajra,Kharif,0.0,0.01,2215.0,Low
+Maharashtra,Latur,Rice,Total,0.0,0.0,287.0,High
+Maharashtra,Dhule,Wheat,Rabi,0.43,1.02,2382.0,Low
+Tripura,South Tripura,Small Millets,Kharif,0.0,0.0,875.0,Medium
+Uttarakhand,Pauri Garhwal,Nutri/Coarse Cereals,Rabi,0.02,0.03,1539.0,Medium
+Maharashtra,Nashik,Moong,Kharif,0.21,0.16,791.0,High
+Madhya Pradesh,Dindori,Jowar,Kharif,0.0,0.0,1267.0,Medium
+Telangana,Sangareddy,Nutri/Coarse Cereals,Kharif,0.03,0.09,2668.0,Low
+Bihar,Purnia,Maize,Kharif,0.06,0.27,4602.0,Low
+Andhra Pradesh,East Godavari,Urad,Kharif,0.02,0.03,1463.0,Medium
+Jharkhand,Jamtara,Maize,Rabi,0.01,0.01,1600.0,Medium
+Maharashtra,Thane,Urad,Total,0.0,0.0,588.0,High
+Arunachal Pradesh,Longding,Other Pulses,Total,0.0,0.0,1018.0,Medium
+Tripura,West Tripura,Cereals,Rabi,0.08,0.31,3641.0,Low
+Jharkhand,Giridih,Total Food Grains,Kharif,1.13,2.49,2208.0,Low
+Rajasthan,Tonk,Cereals,Kharif,1.65,1.36,825.0,High
+Telangana,Nagarkurnool,Other Pulses,Total,0.0,0.0,1119.0,Medium
+Bihar,Bhagalpur,Cereals,Kharif,0.79,2.04,2585.0,Low
+Karnataka,Bengaluru Urban,Maize,Total,0.01,0.02,3932.0,Low
+Madhya Pradesh,Dhar,Urad,Total,0.0,0.0,702.0,High
+Uttarakhand,Haridwar,Other Pulses,Rabi,0.0,0.0,712.0,High
+Rajasthan,Jalore,Nutri/Coarse Cereals,Total,3.51,4.88,1391.0,Medium
+Telangana,Mancherial,Maize,Kharif,0.0,0.0,4814.0,Low
+Andhra Pradesh,Sri Sathya Sai,Rice,Total,0.12,0.42,3470.0,Low
+Telangana,Narayanpet,Tur,Total,0.29,0.27,928.0,Medium
+Telangana,Nalgonda,Moong,Rabi,0.0,0.01,1449.0,Medium
+Arunachal Pradesh,Kamle,Cereals,Rabi,0.0,0.0,2193.0,Low
+Rajasthan,Jhalawar,Rice,Kharif,0.11,0.22,1985.0,Low
+Bihar,Pashchim Champaran,Barley,Total,0.0,0.0,1881.0,Low
+Himachal Pradesh,Chamba,Wheat,Rabi,0.19,0.36,1853.0,Medium
+Telangana,Nizamabad,Total Food Grains,Rabi,1.8,7.85,4358.0,Low
+Bihar,Khagaria,Nutri/Coarse Cereals,Summer,0.08,0.52,6374.0,Low
+Karnataka,Chikkaballapura,Shree Anna /Nutri Cereals,Total,0.41,0.59,1422.0,Medium
+Karnataka,Raichur,Rice,Rabi,0.11,0.31,2842.0,Low
+Rajasthan,Bhilwara,Nutri/Coarse Cereals,Kharif,2.69,5.57,2071.0,Low
+Madhya Pradesh,Betul,Total Food Grains,Total,5.41,13.53,2499.0,Low
+Jharkhand,Saraikela Kharsawan,Other Pulses,Rabi,0.04,0.05,1143.0,Medium
+Madhya Pradesh,Panna,Nutri/Coarse Cereals,Rabi,0.01,0.02,1952.0,Low
+Rajasthan,Bundi,Urad,Kharif,0.8,0.29,362.0,High
+Bihar,Madhubani,Gram,Total,0.0,0.0,1045.0,Medium
+Punjab,Gurdaspur,Wheat,Rabi,1.86,8.99,4834.0,Low
+Madhya Pradesh,Rewa,Moong,Kharif,0.04,0.01,375.0,High
+Bihar,Begusarai,Other Pulses,Kharif,0.0,0.0,764.0,High
+Madhya Pradesh,Sidhi,Rice,Kharif,0.93,2.19,2368.0,Low
+Bihar,Madhubani,Shree Anna /Nutri Cereals,Total,0.0,0.0,859.0,High
+Tripura,Sepahijala,Moong,Rabi,0.0,0.0,733.0,High
+Bihar,Sitamarhi,Other Pulses,Rabi,0.0,0.0,1190.0,Medium
+Rajasthan,Ganganagar,Jowar,Total,0.0,0.0,811.0,High
+Tripura,Unakoti,Rice,Rabi,0.0,0.0,3560.0,Low
+Andhra Pradesh,Sri Sathya Sai,Nutri/Coarse Cereals,Total,0.33,1.16,3526.0,Low
+Rajasthan,Balotra,Cereals,Summer,0.02,0.02,1000.0,Medium
+Madhya Pradesh,Niwari,Moong,Summer,0.0,0.0,670.0,High
+Jharkhand,Ramgarh,Lentil,Rabi,0.02,0.02,720.0,High
+Telangana,Medchal Malkajgiri,Maize,Total,0.0,0.01,5768.0,Low
+Bihar,Sitamarhi,Barley,Total,0.0,0.0,1881.0,Low
+Telangana,Karimnagar,Total Food Grains,Rabi,1.17,5.05,4330.0,Low
+Jharkhand,Hazaribagh,Maize,Total,0.11,0.25,2259.0,Low
+Punjab,Sri Muktsar Sahib,Cereals,Total,4.2,20.13,4799.0,Low
+Madhya Pradesh,Sagar,Gram,Rabi,0.61,0.96,1565.0,Medium
+Maharashtra,Jalgaon,Gram,Total,0.81,0.97,1208.0,Medium
+Bihar,Sitamarhi,Maize,Summer,0.0,0.01,6436.0,Low
+Rajasthan,Salumbar,Total Food Grains,Kharif,0.33,0.58,1755.0,Medium
+Himachal Pradesh,Mandi,Wheat,Total,0.56,1.3,2316.0,Low
+Madhya Pradesh,Ujjain,Nutri/Coarse Cereals,Summer,0.0,0.01,4990.0,Low
+Madhya Pradesh,Dewas,Wheat,Total,2.41,7.67,3187.0,Low
+Uttarakhand,Udam Singh Nagar,Total Pulses,Total,0.02,0.02,1060.0,Medium
+Rajasthan,Dholpur,Rice,Kharif,0.01,0.02,2593.0,Low
+Uttarakhand,Bageshwar,Ragi,Kharif,0.03,0.05,1672.0,Medium
+Maharashtra,Solapur,Nutri/Coarse Cereals,Total,4.34,6.47,1492.0,Medium
+Telangana,Siddipet,Shree Anna /Nutri Cereals,Total,0.0,0.0,2126.0,Low
+Maharashtra,Latur,Cereals,Total,0.63,0.66,1050.0,Medium
+Madhya Pradesh,Chhindwara,Small Millets,Kharif,0.04,0.04,1010.0,Medium
+Bihar,Madhubani,Wheat,Total,0.85,2.2,2605.0,Low
+Madhya Pradesh,Gwalior,Other Pulses,Total,0.02,0.02,1021.0,Medium
+Madhya Pradesh,Harda,Tur,Total,0.0,0.0,1296.0,Medium
+Karnataka,Koppal,Shree Anna /Nutri Cereals,Rabi,0.16,0.09,598.0,High
+Madhya Pradesh,Damoh,Nutri/Coarse Cereals,Kharif,0.17,0.41,2364.0,Low
+Maharashtra,Nashik,Gram,Rabi,0.27,0.19,686.0,High
+Bihar,Banka,Barley,Total,0.0,0.0,1687.0,Medium
+Arunachal Pradesh,West Siang,Total Food Grains,Kharif,0.07,0.12,1645.0,Medium
+Telangana,Ranga Reddy,Total Food Grains,Total,1.31,4.4,3368.0,Low
+Madhya Pradesh,Bhopal,Nutri/Coarse Cereals,Rabi,0.0,0.0,2727.0,Low
+Punjab,Amritsar,Maize,Total,0.0,0.01,4579.0,Low
+Andhra Pradesh,Nandyal,Tur,Total,0.48,0.33,693.0,High
+Karnataka,Mysuru,Rice,Total,0.81,2.7,3349.0,Low
+Andhra Pradesh,Annamayya,Total Food Grains,Rabi,0.39,0.35,887.0,Medium
+Madhya Pradesh,Seoni,Cereals,Summer,0.0,0.01,3945.0,Low
+Rajasthan,Khairthal-Tijara,Bajra,Kharif,0.83,2.4,2892.0,Low
+Jharkhand,Latehar,Gram,Total,0.17,0.11,640.0,High
+Bihar,Munger,Nutri/Coarse Cereals,Rabi,0.0,0.02,4252.0,Low
+Telangana,Khammam,Jowar,Total,0.0,0.0,1311.0,Medium
+Bihar,Katihar,Moong,Total,0.02,0.01,438.0,High
+Telangana,Rajanna Sircilla,Maize,Total,0.01,0.1,6613.0,Low
+Maharashtra,Nanded,Jowar,Kharif,0.09,0.06,621.0,High
+Arunachal Pradesh,Anjaw,Nutri/Coarse Cereals,Total,0.04,0.07,1648.0,Medium
+Telangana,Mahabubabad,Other Pulses,Rabi,0.01,0.0,655.0,High
+Karnataka,Kodagu,Rice,Summer,0.0,0.0,3245.0,Low
+Bihar,Kaimur (Bhabua),Total Food Grains,Kharif,1.2,4.18,3483.0,Low
+Madhya Pradesh,Ratlam,Jowar,Kharif,0.0,0.0,1490.0,Medium
+Andhra Pradesh,Kurnool,Shree Anna /Nutri Cereals,Summer,0.0,0.01,2215.0,Low
+Madhya Pradesh,Morena,Tur,Total,0.02,0.02,1090.0,Medium
+Jharkhand,Hazaribagh,Total Pulses,Total,0.35,0.39,1100.0,Medium
+Arunachal Pradesh,Upper Subansiri,Maize,Total,0.01,0.02,1552.0,Medium
+Madhya Pradesh,Hoshangabad,Small Millets,Total,0.0,0.0,726.0,High
+Telangana,Mahabubnagar,Other Pulses,Total,0.0,0.0,1036.0,Medium
+Madhya Pradesh,Morena,Jowar,Total,0.0,0.01,1629.0,Medium
+Himachal Pradesh,Solan,Rice,Kharif,0.05,0.09,1653.0,Medium
+Telangana,Jayashankar Bhupalapally,Moong,Rabi,0.0,0.0,989.0,Medium
+Himachal Pradesh,Una,Rice,Kharif,0.02,0.05,2574.0,Low
+Andhra Pradesh,Srikakulam,Rice,Total,1.52,4.94,3245.0,Low
+Telangana,Jayashankar Bhupalapally,Total Food Grains,Kharif,0.42,1.35,3220.0,Low
+Arunachal Pradesh,East Siang,Tur,Kharif,0.0,0.0,904.0,Medium
+Karnataka,Ramanagara,Total Food Grains,Rabi,0.02,0.03,1580.0,Medium
+Madhya Pradesh,Dewas,Maize,Summer,0.0,0.01,4395.0,Low
+Karnataka,Dharwad,Wheat,Rabi,0.11,0.11,1002.0,Medium
+Rajasthan,Udaipur,Rice,Total,0.04,0.07,1810.0,Medium
+Telangana,Nagarkurnool,Shree Anna /Nutri Cereals,Total,0.04,0.04,1109.0,Medium
+Jharkhand,Deoghar,Gram,Rabi,0.1,0.15,1500.0,Medium
+Madhya Pradesh,Gwalior,Bajra,Total,0.11,0.24,2140.0,Low
+Jharkhand,Bokaro,Nutri/Coarse Cereals,Rabi,0.0,0.02,3200.0,Low
+Maharashtra,Gadchiroli,Total Pulses,Total,0.27,0.18,679.0,High
+Rajasthan,Sikar,Gram,Rabi,0.27,0.33,1212.0,Medium
+Madhya Pradesh,East Nimar,Other Pulses,Rabi,0.0,0.0,633.0,High
+Madhya Pradesh,Dewas,Nutri/Coarse Cereals,Rabi,0.04,0.17,4153.0,Low
+Punjab,Mansa,Bajra,Total,0.0,0.0,950.0,Medium
+Madhya Pradesh,Panna,Cereals,Total,2.57,6.21,2421.0,Low
+Bihar,Bhagalpur,Maize,Rabi,0.25,1.65,6693.0,Low
+Tripura,West Tripura,Urad,Rabi,0.0,0.0,832.0,High
+Tripura,Khowai,Gram,Total,0.0,0.0,889.0,Medium
+Telangana,Mahabubnagar,Small Millets,Kharif,0.0,0.0,1980.0,Low
+Madhya Pradesh,Umaria,Total Food Grains,Kharif,1.1,2.09,1904.0,Low
+Jharkhand,Gumla,Cereals,Rabi,0.1,0.33,3279.0,Low
+Rajasthan,Chittorgarh,Jowar,Kharif,0.24,0.48,2021.0,Low
+Madhya Pradesh,Neemuch,Total Food Grains,Rabi,1.09,2.75,2521.0,Low
+Uttarakhand,Nainital,Small Millets,Kharif,0.0,0.0,1536.0,Medium
+Uttarakhand,Tehri Garhwal,Urad,Total,0.02,0.02,715.0,High
+Maharashtra,Satara,Gram,Rabi,0.3,0.2,645.0,High
+Himachal Pradesh,Chamba,Other Pulses,Kharif,0.0,0.0,717.0,High
+Punjab,Fatehgarh Sahib,Cereals,Rabi,0.85,4.47,5245.0,Low
+Uttarakhand,Champawat,Total Food Grains,Rabi,0.05,0.13,2637.0,Low
+Arunachal Pradesh,Pakke Kessang,Total Pulses,Total,0.0,0.0,980.0,Medium
+Telangana,Mahabubnagar,Ragi,Total,0.0,0.0,840.0,High
+Karnataka,Chitradurga,Other Pulses,Rabi,0.02,0.01,775.0,High
+Bihar,Jehanabad,Maize,Rabi,0.0,0.02,7400.0,Low
+Bihar,Sitamarhi,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,981.0,Medium
+Bihar,Gopalganj,Ragi,Kharif,0.0,0.0,1150.0,Medium
+Rajasthan,Jodhpur,Gram,Total,0.27,0.0,0.0,High
+Madhya Pradesh,Balaghat,Other Pulses,Rabi,0.01,0.0,446.0,High
+Karnataka,Hassan,Gram,Total,0.0,0.0,736.0,High
+Bihar,Bhojpur,Nutri/Coarse Cereals,Total,0.03,0.04,1377.0,Medium
+Madhya Pradesh,Guna,Bajra,Total,0.0,0.0,1666.0,Medium
+Telangana,Nalgonda,Urad,Total,0.0,0.0,1698.0,Medium
+Madhya Pradesh,Morena,Total Food Grains,Kharif,1.91,5.81,3036.0,Low
+Tripura,Unakoti,Cereals,Kharif,0.16,0.49,2985.0,Low
+Madhya Pradesh,Ujjain,Shree Anna /Nutri Cereals,Total,0.01,0.01,1367.0,Medium
+Andhra Pradesh,Srikakulam,Maize,Rabi,0.16,1.26,7970.0,Low
+Karnataka,Chitradurga,Wheat,Rabi,0.0,0.0,708.0,High
+Andhra Pradesh,Visakhapatanam,Bajra,Kharif,0.0,0.0,2551.0,Low
+Karnataka,Kodagu,Maize,Kharif,0.01,0.02,2035.0,Low
+Rajasthan,Balotra,Wheat,Total,0.08,0.3,3559.0,Low
+Maharashtra,Amravati,Shree Anna /Nutri Cereals,Rabi,0.0,0.0,794.0,High
+Bihar,Madhepura,Cereals,Rabi,0.57,2.89,5060.0,Low
+Rajasthan,Khairthal-Tijara,Nutri/Coarse Cereals,Rabi,0.02,0.08,3711.0,Low
+Karnataka,Mysuru,Moong,Rabi,0.0,0.0,299.0,High
+Punjab,Fazilka,Cereals,Rabi,1.97,9.75,4941.0,Low
+Rajasthan,Kota,Maize,Kharif,0.02,0.06,2552.0,Low
+Karnataka,Haveri,Rice,Rabi,0.01,0.04,2842.0,Low
+Uttarakhand,Chamoli,Small Millets,Kharif,0.06,0.09,1617.0,Medium
+Telangana,Sangareddy,Other Pulses,Total,0.0,0.0,1070.0,Medium
+Uttarakhand,Pauri Garhwal,Gram,Total,0.0,0.0,667.0,High
+Arunachal Pradesh,Papum Pare,Moong,Total,0.0,0.0,1129.0,Medium
+Madhya Pradesh,Niwari,Total Food Grains,Total,0.75,1.61,2153.0,Low
+Madhya Pradesh,Katni,Maize,Summer,0.0,0.0,4488.0,Low
+Madhya Pradesh,Narsinghpur,Jowar,Kharif,0.0,0.0,1943.0,Low
+Maharashtra,Osmanabad,Nutri/Coarse Cereals,Summer,0.05,0.05,1050.0,Medium
+Rajasthan,Alwar,Gram,Rabi,0.08,0.09,1236.0,Medium
+Uttarakhand,Nainital,Tur,Kharif,0.0,0.0,750.0,High
+Maharashtra,Palghar,Total Food Grains,Summer,0.01,0.03,2794.0,Low
+Madhya Pradesh,Dewas,Rice,Total,0.01,0.01,1338.0,Medium
+Andhra Pradesh,Annamayya,Shree Anna /Nutri Cereals,Rabi,0.0,0.0,2108.0,Low
+Madhya Pradesh,Burhanpur,Maize,Summer,0.0,0.0,5665.0,Low
+Telangana,Vikarabad,Shree Anna /Nutri Cereals,Rabi,0.05,0.1,1800.0,Medium
+Maharashtra,Sangli,Bajra,Kharif,0.47,0.56,1180.0,Medium
+Jharkhand,Koderma,Moong,Kharif,0.01,0.01,900.0,Medium
+Andhra Pradesh,Tirupati,Small Millets,Total,0.0,0.0,869.0,High
+Maharashtra,Satara,Cereals,Kharif,1.17,2.19,1873.0,Low
+Andhra Pradesh,Kurnool,Maize,Total,0.12,0.66,5573.0,Low
+Maharashtra,Chandrapur,Jowar,Total,0.06,0.04,626.0,High
+Rajasthan,Baran,Total Food Grains,Kharif,1.18,3.24,2740.0,Low
+Rajasthan,Beawar,Maize,Kharif,0.15,0.25,1587.0,Medium
+Tripura,Gomati,Cereals,Rabi,0.17,0.59,3515.0,Low
+Telangana,Mahabubnagar,Urad,Rabi,0.0,0.0,1763.0,Medium
+Madhya Pradesh,Satna,Cereals,Rabi,1.77,5.59,3155.0,Low
+Arunachal Pradesh,Longding,Shree Anna /Nutri Cereals,Total,0.03,0.03,1177.0,Medium
+Jharkhand,Hazaribagh,Nutri/Coarse Cereals,Kharif,0.12,0.26,2087.0,Low
+Rajasthan,Phalodi,Other Pulses,Rabi,0.0,0.0,668.0,High
+Madhya Pradesh,Seoni,Wheat,Rabi,1.89,6.51,3448.0,Low
+Uttarakhand,Udam Singh Nagar,Gram,Rabi,0.0,0.0,944.0,Medium
+Bihar,Khagaria,Cereals,Kharif,0.31,0.75,2418.0,Low
+Maharashtra,Dhule,Total Food Grains,Kharif,1.41,1.17,831.0,High
+Karnataka,Raichur,Bajra,Total,0.12,0.14,1238.0,Medium
+Maharashtra,Parbhani,Cereals,Total,1.33,1.54,1153.0,Medium
+Madhya Pradesh,Vidisha,Jowar,Total,0.04,0.08,2160.0,Low
+Madhya Pradesh,Sheopur,Jowar,Total,0.0,0.01,2175.0,Low
+Bihar,Samastipur,Lentil,Rabi,0.01,0.01,1083.0,Medium
+Madhya Pradesh,Vidisha,Total Food Grains,Rabi,4.32,10.37,2401.0,Low
+Madhya Pradesh,Ashoknagar,Nutri/Coarse Cereals,Kharif,0.66,1.92,2915.0,Low
+Telangana,Peddapalli,Rice,Rabi,0.8,3.29,4087.0,Low
+Madhya Pradesh,Agar Malwa,Shree Anna /Nutri Cereals,Kharif,0.0,0.01,1387.0,Medium
+Telangana,Mahabubnagar,Total Food Grains,Kharif,0.93,3.2,3434.0,Low
+Rajasthan,Jhalawar,Gram,Total,0.3,0.48,1605.0,Medium
+Madhya Pradesh,Maihar,Barley,Rabi,0.0,0.01,1860.0,Low
+Rajasthan,Pali,Bajra,Kharif,0.12,0.13,1144.0,Medium
+Telangana,Wanaparthy,Shree Anna /Nutri Cereals,Total,0.01,0.01,1048.0,Medium
+Telangana,Hanumakonda,Other Pulses,Kharif,0.0,0.0,1090.0,Medium
+Madhya Pradesh,Rewa,Wheat,Rabi,1.72,5.2,3018.0,Low
+Andhra Pradesh,Alluri Sitharama Raju,Rice,Kharif,0.56,1.76,3155.0,Low
+Madhya Pradesh,Barwani,Nutri/Coarse Cereals,Summer,0.0,0.02,5070.0,Low
+Madhya Pradesh,Ujjain,Urad,Kharif,0.0,0.0,759.0,High
+Madhya Pradesh,Mandsaur,Shree Anna /Nutri Cereals,Kharif,0.01,0.01,1234.0,Medium
+Maharashtra,Ahmednagar,Gram,Rabi,1.08,0.91,844.0,High
+Madhya Pradesh,Mauganj,Gram,Rabi,0.01,0.02,1416.0,Medium
+Punjab,Hoshiarpur,Total Food Grains,Kharif,1.21,5.0,4125.0,Low
+Madhya Pradesh,Umaria,Moong,Total,0.09,0.05,626.0,High
+Karnataka,Chamarajanagara,Moong,Kharif,0.0,0.0,137.0,High
+Madhya Pradesh,Damoh,Jowar,Total,0.0,0.0,1935.0,Low
+Telangana,Bhadradri Kothagudem,Moong,Kharif,0.0,0.0,643.0,High
+Karnataka,Ramanagara,Total Food Grains,Total,0.81,1.28,1578.0,Medium
+Telangana,Karimnagar,Other Pulses,Kharif,0.0,0.0,957.0,Medium
+Jharkhand,West Singhbhum,Gram,Total,0.11,0.12,1150.0,Medium
+Bihar,Darbhanga,Nutri/Coarse Cereals,Summer,0.03,0.11,3711.0,Low
+Rajasthan,Khairthal-Tijara,Barley,Total,0.02,0.08,3711.0,Low
+Jharkhand,Chatra,Shree Anna /Nutri Cereals,Total,0.0,0.0,1352.0,Medium
+Jharkhand,Pakur,Cereals,Total,0.55,0.75,1368.0,Medium
+Telangana,Mancherial,Other Pulses,Kharif,0.0,0.0,1090.0,Medium
+Himachal Pradesh,Chamba,Small Millets,Total,0.01,0.0,620.0,High
+Rajasthan,Kota,Total Food Grains,Kharif,0.77,1.51,1958.0,Low
+Bihar,Samastipur,Nutri/Coarse Cereals,Kharif,0.15,0.52,3342.0,Low
+Madhya Pradesh,Agar Malwa,Total Food Grains,Rabi,1.31,3.29,2519.0,Low
+Madhya Pradesh,Agar Malwa,Urad,Total,0.0,0.0,450.0,High
+Rajasthan,Dholpur,Total Food Grains,Kharif,0.95,1.9,2001.0,Low
+Maharashtra,Kolhapur,Cereals,Summer,0.01,0.03,2633.0,Low
+Madhya Pradesh,Ujjain,Other Pulses,Rabi,0.02,0.01,760.0,High
+Rajasthan,Bhilwara,Total Food Grains,Rabi,2.77,7.24,2618.0,Low
+Bihar,Purnia,Cereals,Kharif,1.33,2.95,2208.0,Low
+Uttarakhand,Udam Singh Nagar,Wheat,Total,1.01,4.36,4307.0,Low
+Telangana,Hanumakonda,Maize,Total,0.28,1.8,6382.0,Low
+Andhra Pradesh,Chittoor,Shree Anna /Nutri Cereals,Rabi,0.0,0.0,2108.0,Low
+Madhya Pradesh,Harda,Total Food Grains,Rabi,1.63,4.67,2857.0,Low
+Jharkhand,Palamu,Gram,Total,0.22,0.18,812.0,High
+Jharkhand,Godda,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,732.0,High
+Tripura,Khowai,Cereals,Kharif,0.17,0.52,3050.0,Low
+Andhra Pradesh,Vizianagaram,Small Millets,Total,0.0,0.0,2169.0,Low
+Uttarakhand,Chamoli,Nutri/Coarse Cereals,Kharif,0.16,0.25,1617.0,Medium
+Andhra Pradesh,Anakapalli,Maize,Rabi,0.0,0.0,8619.0,Low
+Andhra Pradesh,Alluri Sitharama Raju,Shree Anna /Nutri Cereals,Total,0.17,0.21,1211.0,Medium
+Himachal Pradesh,Shimla,Cereals,Rabi,0.07,0.14,2058.0,Low
+Telangana,Jogulamba Gadwal,Urad,Total,0.03,0.04,1428.0,Medium
+Bihar,Bhagalpur,Jowar,Kharif,0.0,0.0,1070.0,Medium
+Karnataka,Kalaburagi,Wheat,Total,0.06,0.09,1590.0,Medium
+Maharashtra,Nandurbar,Urad,Kharif,0.07,0.02,308.0,High
+Uttarakhand,Tehri Garhwal,Gram,Total,0.0,0.0,645.0,High
+Rajasthan,Phalodi,Nutri/Coarse Cereals,Total,1.6,1.04,651.0,High
+Rajasthan,Sawai Madhopur,Tur,Kharif,0.0,0.0,1000.0,Medium
+Madhya Pradesh,Narsinghpur,Gram,Rabi,0.62,1.04,1664.0,Medium
+Bihar,Purbi Champaran,Barley,Rabi,0.0,0.0,1881.0,Low
+Bihar,Vaishali,Gram,Total,0.0,0.0,1045.0,Medium
+Punjab,Mansa,Barley,Total,0.0,0.01,3273.0,Low
+Karnataka,Mandya,Urad,Kharif,0.01,0.0,590.0,High
+Madhya Pradesh,Jhabua,Small Millets,Kharif,0.0,0.0,620.0,High
+Telangana,Siddipet,Nutri/Coarse Cereals,Kharif,0.09,0.51,5669.0,Low
+Madhya Pradesh,Alirajpur,Rice,Total,0.06,0.06,1118.0,Medium
+Andhra Pradesh,East Godavari,Rice,Total,1.33,5.92,4435.0,Low
+Andhra Pradesh,Kurnool,Nutri/Coarse Cereals,Total,0.4,1.06,2614.0,Low
+Maharashtra,Amravati,Tur,Total,1.17,1.04,886.0,Medium
+Karnataka,Uttara Kannada,Nutri/Coarse Cereals,Kharif,0.1,0.35,3651.0,Low
+Bihar,Samastipur,Urad,Total,0.01,0.01,896.0,Medium
+Andhra Pradesh,Ntr,Urad,Kharif,0.03,0.02,669.0,High
+Madhya Pradesh,Damoh,Barley,Total,0.0,0.0,1846.0,Medium
+Madhya Pradesh,Datia,Cereals,Kharif,1.07,2.05,1906.0,Low
+Jharkhand,Sahebganj,Total Food Grains,Rabi,0.33,0.5,1514.0,Medium
+Telangana,Ranga Reddy,Jowar,Kharif,0.02,0.02,796.0,High
+Uttarakhand,Almora,Maize,Kharif,0.02,0.02,1225.0,Medium
+Rajasthan,Sirohi,Cereals,Rabi,0.37,1.33,3565.0,Low
+Telangana,Nizamabad,Moong,Rabi,0.0,0.0,989.0,Medium
+Andhra Pradesh,Kurnool,Jowar,Total,0.12,0.16,1300.0,Medium
+Rajasthan,Pratapgarh,Rice,Kharif,0.0,0.01,2593.0,Low
+Bihar,Khagaria,Moong,Kharif,0.0,0.0,665.0,High
+Tripura,South Tripura,Urad,Kharif,0.01,0.0,809.0,High
+Himachal Pradesh,Sirmaur,Nutri/Coarse Cereals,Kharif,0.18,0.57,3242.0,Low
+Andhra Pradesh,Palnadu,Other Pulses,Rabi,0.0,0.0,1047.0,Medium
+Telangana,Siddipet,Rice,Kharif,1.4,5.45,3880.0,Low
+Karnataka,Dharwad,Moong,Kharif,1.27,0.85,672.0,High
+Punjab,Fatehgarh Sahib,Nutri/Coarse Cereals,Total,0.0,0.02,3897.0,Low
+Rajasthan,Tonk,Bajra,Total,0.63,0.82,1306.0,Medium
+Jharkhand,Garhwa,Nutri/Coarse Cereals,Total,0.28,0.54,1946.0,Low
+Bihar,Araria,Wheat,Rabi,0.17,0.51,3034.0,Low
+Andhra Pradesh,Srikakulam,Bajra,Total,0.0,0.0,2551.0,Low
+Jharkhand,Simdega,Gram,Total,0.18,0.22,1200.0,Medium
+Andhra Pradesh,Tirupati,Ragi,Kharif,0.0,0.0,3317.0,Low
+Karnataka,Bidar,Shree Anna /Nutri Cereals,Kharif,0.0,0.0,964.0,Medium
+Maharashtra,Amravati,Urad,Kharif,0.01,0.0,291.0,High
+Rajasthan,Sawai Madhopur,Other Pulses,Total,0.0,0.0,5553.0,Low
+Madhya Pradesh,Vidisha,Total Food Grains,Summer,0.14,0.17,1219.0,Medium
+Karnataka,Vijayapura,Total Food Grains,Kharif,6.24,6.2,992.0,Medium
+Telangana,Mancherial,Jowar,Rabi,0.0,0.0,1051.0,Medium
+Rajasthan,Karauli,Bajra,Kharif,1.29,2.7,2090.0,Low
+Bihar,Munger,Total Pulses,Total,0.02,0.02,978.0,Medium
+Bihar,Bhojpur,Gram,Total,0.04,0.05,1211.0,Medium
+Himachal Pradesh,Kinnaur,Cereals,Total,0.01,0.02,2009.0,Low
+Himachal Pradesh,Hamirpur,Maize,Kharif,0.31,0.69,2212.0,Low
+Madhya Pradesh,Balaghat,Gram,Total,0.21,0.27,1302.0,Medium
+Bihar,Samastipur,Jowar,Kharif,0.0,0.0,982.0,Medium
+Rajasthan,Ganganagar,Shree Anna /Nutri Cereals,Total,0.13,0.15,1140.0,Medium
+Telangana,Medchal Malkajgiri,Total Food Grains,Kharif,0.07,0.25,3737.0,Low
+Madhya Pradesh,Singrauli,Nutri/Coarse Cereals,Kharif,0.24,0.37,1585.0,Medium
+Madhya Pradesh,Alirajpur,Total Pulses,Total,0.35,0.28,793.0,High
+Karnataka,Vijayapura,Total Food Grains,Summer,0.02,0.09,4286.0,Low
+Madhya Pradesh,Vidisha,Urad,Total,0.08,0.05,676.0,High
+Andhra Pradesh,Parvathipuram Manyam,Jowar,Total,0.0,0.0,878.0,Medium
+Madhya Pradesh,Mauganj,Total Food Grains,Summer,0.0,0.0,739.0,High
+Rajasthan,Rajsamand,Jowar,Kharif,0.06,0.11,2011.0,Low
+Arunachal Pradesh,East Kameng,Rice,Kharif,0.07,0.09,1353.0,Medium
+Telangana,Ranga Reddy,Cereals,Kharif,0.72,2.48,3429.0,Low
+Himachal Pradesh,Mandi,Shree Anna /Nutri Cereals,Kharif,0.01,0.01,725.0,High
+Bihar,Munger,Maize,Rabi,0.0,0.02,4272.0,Low
+Bihar,Kaimur (Bhabua),Maize,Kharif,0.0,0.0,2484.0,Low
+Madhya Pradesh,Sehore,Wheat,Rabi,2.67,9.81,3670.0,Low
+Maharashtra,Latur,Other Pulses,Rabi,0.01,0.0,464.0,High
+Madhya Pradesh,Panna,Cereals,Kharif,1.4,2.84,2029.0,Low
+Madhya Pradesh,Jabalpur,Lentil,Rabi,0.03,0.03,1196.0,Medium
+Jharkhand,Gumla,Maize,Total,0.08,0.23,3061.0,Low
+Punjab,Fatehgarh Sahib,Wheat,Total,0.85,4.47,5249.0,Low
+Karnataka,Hassan,Urad,Kharif,0.0,0.0,232.0,High
+Arunachal Pradesh,Anjaw,Ragi,Total,0.02,0.03,1163.0,Medium
+Madhya Pradesh,Gwalior,Shree Anna /Nutri Cereals,Total,0.37,0.78,2123.0,Low
+Madhya Pradesh,Ujjain,Total Food Grains,Kharif,0.03,0.06,1974.0,Low
+Karnataka,Chamarajanagara,Jowar,Total,0.22,0.24,1098.0,Medium
+Jharkhand,Deoghar,Maize,Kharif,0.16,0.45,2901.0,Low
+Andhra Pradesh,Vizianagaram,Moong,Rabi,0.07,0.03,484.0,High
+Jharkhand,Lohardaga,Gram,Rabi,0.06,0.06,1020.0,Medium
+Madhya Pradesh,Seoni,Maize,Kharif,2.41,6.05,2507.0,Low
+Punjab,Moga,Total Pulses,Total,0.05,0.05,1003.0,Medium
+Tripura,Unakoti,Other Pulses,Total,0.0,0.0,768.0,High
+Madhya Pradesh,Jhabua,Other Pulses,Rabi,0.0,0.0,780.0,High
+Madhya Pradesh,Jabalpur,Bajra,Kharif,0.0,0.0,1167.0,Medium
+Maharashtra,Buldhana,Shree Anna /Nutri Cereals,Summer,0.05,0.04,848.0,High
+Jharkhand,Sahebganj,Shree Anna /Nutri Cereals,Kharif,0.0,0.01,1443.0,Medium
+Madhya Pradesh,Sidhi,Barley,Rabi,0.01,0.02,1446.0,Medium
+Karnataka,Belagavi,Maize,Summer,0.14,0.6,4362.0,Low

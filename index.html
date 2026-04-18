@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriValidator AI Platform | Agricultural Intelligence</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&family=Outfit:wght@500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-content">
+      <div class="spinner-premium"></div>
+      <p class="loading-text">Processing your request...</p>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- App Shell -->
+  <div class="app-shell">
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <span class="brand-icon">🌾</span>
+        <span class="brand-text">
+          <span class="brand-main">AgriValidator</span>
+          <span class="brand-sub">Officer Portal</span>
+        </span>
+      </div>
+
+      <!-- User Info -->
+      <div class="officer-user-info" id="officerUserInfo">
+        <div style="font-size:1.5rem">👨‍💼</div>
+        <div style="display:flex;flex-direction:column">
+          <span id="officerUserName" style="color:#fff;font-weight:600;font-size:0.88rem">Officer</span>
+          <span style="color:var(--sidebar-accent);font-size:0.65rem;text-transform:uppercase;letter-spacing:1px;font-weight:600">Agriculture Officer</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="nav-item active" data-page="dashboard" href="#">
+          <span class="nav-icon">📊</span><span class="nav-label">Dashboard</span>
+        </a>
+        <a class="nav-item" data-page="predict" href="#">
+          <span class="nav-icon">🎯</span><span class="nav-label">Single Prediction</span>
+        </a>
+        <a class="nav-item" data-page="batch" href="#">
+          <span class="nav-icon">📦</span><span class="nav-label">Batch Validation</span>
+        </a>
+        <a class="nav-item" data-page="results" href="#">
+          <span class="nav-icon">📋</span><span class="nav-label">Validation Results</span>
+        </a>
+        <a class="nav-item" data-page="officer" href="#">
+          <span class="nav-icon">👨‍💼</span><span class="nav-label">Officer Review</span>
+        </a>
+        <a class="nav-item" data-page="loans" href="#">
+          <span class="nav-icon">💰</span><span class="nav-label">Loan Requests</span>
+        </a>
+
+        <div class="nav-divider"><span>AI Intelligence</span></div>
+
+        <a class="nav-item" data-page="monitor" href="#">
+          <span class="nav-icon">🔬</span><span class="nav-label">AI Model Monitor</span>
+        </a>
+        <a class="nav-item" data-page="riskmap" href="#">
+          <span class="nav-icon">🗺️</span><span class="nav-label">Risk Map</span>
+        </a>
+
+        <div class="nav-divider"><span>System</span></div>
+
+        <a class="nav-item" data-page="reports" href="#">
+          <span class="nav-icon">📄</span><span class="nav-label">Reports</span>
+        </a>
+        <a class="nav-item" data-page="audit" href="#">
+          <span class="nav-icon">🔍</span><span class="nav-label">Audit Logs</span>
+        </a>
+        <a class="nav-item" data-page="settings" href="#">
+          <span class="nav-icon">⚙️</span><span class="nav-label">Settings</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button id="logoutBtn" onclick="handleLogout()" style="width:100%;padding:0.55rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:rgba(255,255,255,0.6);font-family:inherit;font-size:0.82rem;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:0.5rem;margin-bottom:0.75rem;transition:all 0.2s">🚪 Logout</button>
+        <div class="system-status">
+          <span class="status-dot online"></span>
+          <span class="status-text">System Online</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Top Bar -->
+      <header class="topbar">
+        <button id="sidebarToggle" class="sidebar-toggle">☰</button>
+        <h1 id="pageTitle" class="topbar-title">Dashboard</h1>
+        <div class="topbar-actions">
+          <div id="systemMetricsWidget" class="metrics-widget">
+            <div class="widget-item" title="Total Predictions"><span class="widget-icon">📈</span><span id="widgetTotal" class="widget-val">0</span></div>
+            <div class="widget-item" title="Avg Response Time"><span class="widget-icon">⚡</span><span id="widgetAvgTime" class="widget-val">--ms</span></div>
+            <div class="widget-item" title="LLM Success Rate"><span class="widget-icon">🤖</span><span id="widgetLLM" class="widget-val">--%</span></div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Page Container -->
+      <div class="page-container">
+
+        <!-- ==================== DASHBOARD PAGE ==================== -->
+        <section id="page-dashboard" class="page active">
+          <!-- KPI Cards -->
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap blue"><span>📊</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Total Predictions</span>
+                <span id="kpiTotal" class="kpi-value">0</span>
+                <div class="kpi-breakdown">
+                  <span title="Single Predictions">🎯 <span id="kpiTotalSingle">0</span></span>
+                  <span title="Batch Validations">📦 <span id="kpiTotalBatch">0</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap blue"><span>🎯</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Single Predictions</span>
+                <span id="kpiSingle" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap blue"><span>📦</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Batch Validations</span>
+                <span id="kpiBatch" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap green"><span>✅</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Approved</span>
+                <span id="kpiApproved" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap yellow"><span>⚠️</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Review Required</span>
+                <span id="kpiReview" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap red"><span>❌</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Rejected</span>
+                <span id="kpiRejected" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap purple"><span>🎯</span></div>
+              <div class="kpi-info">
+                <div style="display:flex; align-items:center; gap:0.5rem">
+                  <span class="kpi-label">Avg TRI Score</span>
+                  <button class="info-btn" onclick="showTriFormula()" title="How is this calculated?">ⓘ</button>
+                </div>
+                <span id="kpiAvgTri" class="kpi-value">0%</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-bottom:1rem;display:flex;justify-content:flex-end;">
+            <button onclick="showValidationMetricsInfo()" style="padding:0.4rem 0.8rem;border:1px solid #93c5fd;background:#eff6ff;color:#1d4ed8;border-radius:8px;cursor:pointer;font-size:0.83rem;">ℹ️ Validation Metrics Info</button>
+          </div>
+          <!-- Dashboard Charts Row -->
+          <div class="chart-row">
+            <div class="chart-card">
+              <h3 class="chart-title">Validation Decision Distribution</h3>
+              <div class="chart-wrap"><canvas id="dashPieChart"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <h3 class="chart-title">Risk Prediction Distribution</h3>
+              <div class="chart-wrap"><canvas id="dashBarChart"></canvas></div>
+            </div>
+          </div>
+
+          <!-- Insights Panel -->
+          <div class="glass-card-premium">
+            <h3 class="section-title-premium">AI Insights</h3>
+            <div id="insightsPanel" class="insights-grid">
+              <div class="insight-card skeleton"><div class="skeleton-text"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SINGLE PREDICTION PAGE ==================== -->
+        <section id="page-predict" class="page">
+          <div class="content-grid">
+            <div class="glass-card-premium">
+              <div class="card-header-premium">
+                <h2 class="card-title-premium">Crop Recommendation Input</h2>
+                <p class="card-subtitle-premium">Enter agricultural data for AI-powered validation</p>
+              </div>
+              <form id="predictionForm" class="premium-form">
+                <div class="form-row">
+                  <div class="form-group-premium">
+                    <label class="form-label-premium"><span>State</span></label>
+                    <input type="text" id="state" class="input-premium" placeholder="e.g., Maharashtra" required>
+                  </div>
+                  <div class="form-group-premium">
+                    <label class="form-label-premium"><span>District</span></label>
+                    <input type="text" id="district" class="input-premium" placeholder="e.g., Pune" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group-premium">
+                    <label class="form-label-premium"><span>Crop</span></label>
+                    <input type="text" id="crop" class="input-premium" placeholder="e.g., Rice" required>
+                  </div>
+                  <div class="form-group-premium">
+                    <label class="form-label-premium"><span>Season</span></label>
+                    <select id="season" class="input-premium" required>
+                      <option value="">Select Season</option>
+                      <option value="Kharif">Kharif (Monsoon)</option>
+                      <option value="Rabi">Rabi (Winter)</option>
+                      <option value="Zaid">Zaid (Summer)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group-premium">
+                    <label class="form-label-premium"><span>Area (hectares)</span></label>
+                    <input type="number" id="area" class="input-premium" placeholder="0.00" step="0.01" min="0" required>
+                  </div>
+                  <div class="form-group-premium">
+                    <label class="form-label-premium"><span>Production (tonnes)</span></label>
+                    <input type="number" id="production" class="input-premium" placeholder="0.00" step="0.01" min="0" required>
+                  </div>
+                </div>
+                <div class="form-group-premium">
+                  <label class="form-label-premium"><span>Yield (tonnes/hectare)</span></label>
+                  <input type="number" id="yield" class="input-premium" placeholder="0.00" step="0.01" min="0" required>
+                </div>
+                <div class="form-actions">
+                  <button type="button" class="btn-premium btn-secondary-premium" onclick="resetPredictionForm()"><span>Reset</span></button>
+                  <button type="button" class="btn-premium btn-primary-premium" onclick="submitPrediction()"><span>Validate Recommendation</span><span class="btn-shine"></span></button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Results Card -->
+            <div id="predictionResults" class="glass-card-premium hidden">
+              <div class="card-header-premium">
+                <h2 class="card-title-premium">Validation Results</h2>
+                <div class="status-badge-container"><span id="validationStatus" class="badge-premium"></span></div>
+              </div>
+              <div class="results-section">
+                <h3 class="section-title-premium">Risk Assessment</h3>
+                <div class="metrics-grid-premium">
+                  <div class="metric-card-premium"><div class="metric-icon">🤖</div><div class="metric-info"><span class="metric-label-premium">AI Risk</span><span id="aiRisk" class="metric-value-premium">-</span></div></div>
+                  <div class="metric-card-premium"><div class="metric-icon">👨‍🌾</div><div class="metric-info"><span class="metric-label-premium">Expert Risk</span><span id="expertRisk" class="metric-value-premium">-</span></div></div>
+                </div>
+              </div>
+              <div class="results-section">
+                <h3 class="section-title-premium">Final Validation Decision</h3>
+                <div id="finalDecisionPanel" class="advisory-formatted"></div>
+              </div>
+              <div class="results-section">
+                <h3 class="section-title-premium">Three Expert Rulebook Checks</h3>
+                <div id="expertSourcesPanel" class="advisory-formatted"></div>
+              </div>
+              <!-- Decision Transparency -->
+              <div class="results-section">
+                <h3 class="section-title-premium">Decision Transparency</h3>
+                <div class="transparency-grid">
+                  <div class="transparency-item" title="Prediction Confidence Score: ML model's confidence in its risk prediction"><span class="trans-label">PCS</span><span id="pcsValue" class="trans-value">-</span><div class="trans-bar"><div id="pcsBar" class="trans-fill"></div></div></div>
+                  <div class="transparency-item" title="Expert Agreement Score: Agreement level between AI and expert rule system"><span class="trans-label">EAS</span><span id="easValue" class="trans-value">-</span><div class="trans-bar"><div id="easBar" class="trans-fill"></div></div></div>
+                  <div class="transparency-item" title="Risk Deviation Index: Deviation between AI and expert predictions (lower is better)"><span class="trans-label">RDI</span><span id="rdiValue" class="trans-value">-</span><div class="trans-bar"><div id="rdiBar" class="trans-fill rdi"></div></div></div>
+                  <div class="transparency-item" title="Trust Reliability Index: Overall trust score combining PCS and EAS"><span class="trans-label">TRI</span><span id="triValue" class="trans-value">-</span><div class="trans-bar"><div id="triBar" class="trans-fill tri"></div></div></div>
+                </div>
+                <div class="confidence-band-display">
+                  <span class="confidence-label">Confidence Band:</span>
+                  <span id="confidenceBand" class="confidence-value">-</span>
+                </div>
+              </div>
+              <!-- AI vs Expert Risk Distribution Chart -->
+              <div class="results-section">
+                <h3 class="section-title-premium">AI vs Expert Risk Distribution</h3>
+                <div class="chart-wrap-sm"><canvas id="comparisonChart"></canvas></div>
+              </div>
+              <!-- LLM Advisory -->
+              <div class="results-section">
+                <h3 class="section-title-premium">AI-Generated Advisory</h3>
+                <div id="advisoryFormatted" class="advisory-formatted"></div>
+              </div>
+              <!-- LLM Validation -->
+              <div class="results-section">
+                <h3 class="section-title-premium">LLM Validation Metrics</h3>
+                <div class="metrics-grid-premium four-col">
+                  <div class="metric-card-premium"><span class="metric-label-premium">Risk Consistency Score (RCS)</span><span id="rcsValue" class="metric-value-premium">-</span></div>
+                  <div class="metric-card-premium"><span class="metric-label-premium">Advisory Sentiment Score (ASS)</span><span id="assValue" class="metric-value-premium">-</span></div>
+                  <div class="metric-card-premium"><span class="metric-label-premium">Decision Confidence Score (DCS)</span><span id="dcsValue" class="metric-value-premium">-</span></div>
+                  <div class="metric-card-premium"><span class="metric-label-premium">LLM Trust Score (LTS)</span><span id="ltsValue" class="metric-value-premium">-</span></div>
+                </div>
+                <div class="llm-status-display">
+                  <span class="confidence-label">LLM Status:</span>
+                  <span id="llmStatus" class="badge-premium">-</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== BATCH VALIDATION PAGE ==================== -->
+        <section id="page-batch" class="page">
+          <div class="content-grid single-col">
+            <div class="glass-card-premium">
+              <div class="card-header-premium">
+                <h2 class="card-title-premium">Batch Dataset Validation</h2>
+                <p class="card-subtitle-premium">Upload CSV file for bulk validation processing</p>
+              </div>
+              <div id="fileUploadArea" class="file-upload-premium">
+                <div class="upload-icon-premium">📁</div>
+                <h3 class="upload-title">Drag & Drop CSV File</h3>
+                <p class="upload-subtitle">or click to browse</p>
+                <input type="file" id="batchFile" class="file-input" accept=".csv">
+                <p id="fileNameDisplay" class="file-name-display">No file selected</p>
+              </div>
+              <div class="form-actions">
+                <button type="button" class="btn-premium btn-secondary-premium" onclick="resetBatchForm()"><span>Clear</span></button>
+                <button type="button" class="btn-premium btn-primary-premium" onclick="uploadBatchFile()"><span>Process Dataset</span><span class="btn-shine"></span></button>
+              </div>
+            </div>
+            <div id="batchStatus" class="hidden"></div>
+          </div>
+        </section>
+
+        <!-- ==================== VALIDATION RESULTS PAGE ==================== -->
+        <section id="page-results" class="page">
+          <div class="glass-card-premium">
+            <div class="card-header-premium">
+              <h2 class="card-title-premium">Prediction History</h2>
+              <p class="card-subtitle-premium">Browse all past predictions and validation outcomes</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn-premium btn-primary-premium btn-sm" onclick="loadPredictionHistory()">Refresh</button>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table" id="historyTable">
+                <thead>
+                  <tr>
+                    <th>ID</th><th>Timestamp</th><th>State</th><th>Crop</th><th>Source</th><th>AI Risk</th><th>Expert Risk</th><th>TRI</th><th>Status</th><th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="historyBody"><tr><td colspan="9" class="table-empty">Loading...</td></tr></tbody>
+              </table>
+            </div>
+            <div class="pagination" id="historyPagination"></div>
+          </div>
+        </section>
+
+        <!-- ==================== OFFICER REVIEW PAGE ==================== -->
+        <section id="page-officer" class="page">
+          <div class="glass-card-premium">
+            <div class="card-header-premium">
+              <h2 class="card-title-premium">Officer Review Panel</h2>
+              <p class="card-subtitle-premium">Review flagged predictions requiring human assessment</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn-premium btn-primary-premium btn-sm" onclick="loadOfficerReviews()">Refresh</button>
+            </div>
+            <div id="officerReviewList"></div>
+          </div>
+        </section>
+
+        <!-- ==================== LOAN REQUESTS PAGE (Read-Only Monitoring) ==================== -->
+        <section id="page-loans" class="page">
+          <div class="glass-card-premium">
+            <div class="card-header-premium">
+              <h2 class="card-title-premium">Loan Requests Monitor</h2>
+              <p class="card-subtitle-premium">Monitor farmer loan applications — approvals are handled by Bank Officers</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn-premium btn-primary-premium btn-sm" onclick="loadLoanRequests()">Refresh</button>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr><th>Farmer</th><th>Crop</th><th>State / District</th><th>AI Risk</th><th>Expert Risk</th><th>TRI</th><th>Loan Status</th><th>Bank Officer Decision</th></tr>
+                </thead>
+                <tbody id="loanRequestsBody"><tr><td colspan="9" class="table-empty">Loading...</td></tr></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== AI MODEL MONITOR PAGE ==================== -->
+        <section id="page-monitor" class="page">
+          <div class="page-header">
+            <h2 class="page-heading">AI Model Monitor</h2>
+            <p class="page-desc">Track model confidence trends, prediction distributions, and validation outcomes</p>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-card"><div class="kpi-icon-wrap blue"><span>📈</span></div><div class="kpi-info"><span class="kpi-label">Total Predictions</span><span id="monTotal" class="kpi-value">0</span></div></div>
+            <div class="kpi-card"><div class="kpi-icon-wrap green"><span>🎯</span></div><div class="kpi-info"><span class="kpi-label">Average TRI</span><span id="monAvgTri" class="kpi-value">0%</span></div></div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-card full">
+              <h3 class="chart-title">TRI Score Trend Over Time</h3>
+              <div class="chart-wrap"><canvas id="triLineChart"></canvas></div>
+            </div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-card">
+              <h3 class="chart-title">Risk Prediction Distribution</h3>
+              <div class="chart-wrap"><canvas id="monRiskBar"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <h3 class="chart-title">Validation Decisions</h3>
+              <div class="chart-wrap"><canvas id="monDecisionPie"></canvas></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== RISK MAP PAGE ==================== -->
+        <section id="page-riskmap" class="page">
+          <div class="page-header">
+            <h2 class="page-heading">Agricultural Risk Map</h2>
+            <p class="page-desc">Geographic visualization of risk distribution across Indian states</p>
+          </div>
+          <div class="risk-map-container">
+            <div class="map-legend">
+              <div class="legend-item"><span class="legend-color" style="background:#4caf50"></span>Low Risk</div>
+              <div class="legend-item"><span class="legend-color" style="background:#ff9800"></span>Medium Risk</div>
+              <div class="legend-item"><span class="legend-color" style="background:#f44336"></span>High Risk</div>
+              <div class="legend-item"><span class="legend-color" style="background:#333"></span>No Data</div>
+            </div>
+            <div id="riskMapGrid" class="risk-map-grid"></div>
+            <div id="mapTooltip" class="map-tooltip hidden"></div>
+          </div>
+        </section>
+
+        <!-- ==================== REPORTS PAGE ==================== -->
+        <section id="page-reports" class="page">
+          <div class="glass-card-premium">
+            <div class="card-header-premium">
+              <h2 class="card-title-premium">Reports & Downloads</h2>
+              <p class="card-subtitle-premium">Access validation reports and audit summaries</p>
+            </div>
+            <div class="reports-grid">
+              <div class="report-card" onclick="downloadReport()">
+                <span class="report-icon">📄</span>
+                <h4>Decision Report</h4>
+                <p>Latest batch validation decision report (CSV)</p>
+                <span class="btn-premium btn-primary-premium btn-sm">Download</span>
+              </div>
+              <div class="report-card" onclick="window.open(API_BASE_URL+'/audit-summary','_blank')">
+                <span class="report-icon">📊</span>
+                <h4>Audit Summary</h4>
+                <p>Latest audit summary statistics (JSON)</p>
+                <span class="btn-premium btn-primary-premium btn-sm">View</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== AUDIT LOGS PAGE ==================== -->
+        <section id="page-audit" class="page">
+          <div class="glass-card-premium">
+            <div class="card-header-premium">
+              <h2 class="card-title-premium">System Audit Logs</h2>
+              <p class="card-subtitle-premium">Complete system event trail for compliance and monitoring</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn-premium btn-primary-premium btn-sm" onclick="loadAuditLogs()">Refresh</button>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead><tr><th>ID</th><th>Timestamp</th><th>Event Type</th><th>Message</th><th>Details</th></tr></thead>
+                <tbody id="auditBody"><tr><td colspan="5" class="table-empty">Loading...</td></tr></tbody>
+              </table>
+            </div>
+            <div class="pagination" id="auditPagination"></div>
+          </div>
+        </section>
+
+        <!-- ==================== SETTINGS PAGE ==================== -->
+        <section id="page-settings" class="page">
+          <div class="glass-card-premium">
+            <div class="card-header-premium">
+              <h2 class="card-title-premium">Platform Settings</h2>
+              <p class="card-subtitle-premium">Configure system parameters and thresholds</p>
+            </div>
+            <div class="settings-grid">
+              <div class="settings-group">
+                <h4 class="settings-heading">Validation Thresholds</h4>
+                <div class="setting-item">
+                  <span class="setting-label">TRI Approval Threshold</span>
+                  <span class="setting-value">≥ 80%</span>
+                </div>
+                <div class="setting-item">
+                  <span class="setting-label">TRI Review Threshold</span>
+                  <span class="setting-value">≥ 60%</span>
+                </div>
+                <div class="setting-item">
+                  <span class="setting-label">TRI Rejection Threshold</span>
+                  <span class="setting-value">< 60%</span>
+                </div>
+              </div>
+              <div class="settings-group">
+                <h4 class="settings-heading">Model Configuration</h4>
+                <div class="setting-item">
+                  <span class="setting-label">Active Model</span>
+                  <span class="setting-value">XGBoost (Calibrated)</span>
+                </div>
+                <div class="setting-item">
+                  <span class="setting-label">PCS Weight in TRI</span>
+                  <span class="setting-value">60%</span>
+                </div>
+                <div class="setting-item">
+                  <span class="setting-label">EAS Weight in TRI</span>
+                  <span class="setting-value">40%</span>
+                </div>
+              </div>
+              <div class="settings-group">
+                <h4 class="settings-heading">LLM Configuration</h4>
+                <div class="setting-item">
+                  <span class="setting-label">LLM Provider</span>
+                  <span class="setting-value">Groq (Llama 3.3 70B)</span>
+                </div>
+                <div class="setting-item">
+                  <span class="setting-label">LLM Validation</span>
+                  <span class="setting-value badge-success">Enabled</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div><!-- end page-container -->
+
+      <!-- Footer -->
+      <footer class="footer-premium">
+        <div class="footer-content">
+          <p class="footer-text">
+            <span class="footer-brand">AgriValidator AI Platform</span>
+            <span class="footer-separator">•</span>
+            <span>Powered by Advanced AI & Expert Knowledge</span>
+          </p>
+          <p class="footer-copyright">© 2026 Agricultural Intelligence Platform</p>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/supabase-client.js?v=2"></script>
+  <script src="/app.js?v=2"></script>
+</body>
+</html>

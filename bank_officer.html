@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Officer Dashboard — AgriValidator AI Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="/bank_officer.css">
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-content">
+      <div class="spinner"></div>
+      <p class="loading-text">Processing your request...</p>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- App Shell -->
+  <div class="app-shell">
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <span class="brand-icon">🏦</span>
+        <span class="brand-text">
+          <span class="brand-main">AgriValidator</span>
+          <span class="brand-sub">Bank Officer Portal</span>
+        </span>
+      </div>
+
+      <!-- User Info -->
+      <div class="user-info" id="userInfo">
+        <div class="user-avatar">🏛️</div>
+        <div class="user-details">
+          <span class="user-name" id="userName">Bank Officer</span>
+          <span class="user-role" id="userRole">Bank Officer Account</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="nav-item active" data-page="dashboard" href="#">
+          <span class="nav-icon">📊</span><span class="nav-label">Dashboard</span>
+        </a>
+        <a class="nav-item" data-page="validation" href="#">
+          <span class="nav-icon">📋</span><span class="nav-label">Validation Results</span>
+        </a>
+        <a class="nav-item" data-page="loans" href="#">
+          <span class="nav-icon">💰</span><span class="nav-label">Loan Applications</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button class="logout-btn" onclick="handleLogout()">
+          <span>🚪</span> Logout
+        </button>
+        <div class="system-status">
+          <span class="status-dot online"></span>
+          <span class="status-text">System Online</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Top Bar -->
+      <header class="topbar">
+        <button id="sidebarToggle" class="sidebar-toggle">☰</button>
+        <h1 id="pageTitle" class="topbar-title">Dashboard</h1>
+        <div class="topbar-actions">
+          <span class="topbar-greeting" id="topbarGreeting">Welcome, Bank Officer</span>
+        </div>
+      </header>
+
+      <!-- Pages -->
+      <div class="page-container">
+
+        <!-- ===== DASHBOARD ===== -->
+        <section id="page-dashboard" class="page active">
+          <div class="welcome-banner">
+            <div class="welcome-text">
+              <h2>Welcome back, <span id="welcomeName">Bank Officer</span>! 🏦</h2>
+              <p>Review and process farmer loan applications powered by AI risk assessment.</p>
+            </div>
+            <a href="#" class="welcome-cta" onclick="navigateTo('loans'); return false;">Review Loans →</a>
+          </div>
+
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap blue"><span>📋</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Total Applications</span>
+                <span id="kpiTotal" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap yellow"><span>⏳</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Pending Review</span>
+                <span id="kpiPending" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap green"><span>✅</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Approved</span>
+                <span id="kpiApproved" class="kpi-value">0</span>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap red"><span>❌</span></div>
+              <div class="kpi-info">
+                <span class="kpi-label">Rejected</span>
+                <span id="kpiRejected" class="kpi-value">0</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-bottom:1rem;display:flex;justify-content:flex-end;">
+            <button onclick="showValidationMetricsInfo()" style="padding:0.4rem 0.8rem;border:1px solid #93c5fd;background:#eff6ff;color:#1d4ed8;border-radius:8px;cursor:pointer;font-size:0.83rem;">ℹ️ Validation Metrics Info</button>
+          </div>
+          <div class="chart-row">
+            <div class="chart-card">
+              <h3 class="chart-title">Loan Decision Distribution</h3>
+              <div class="chart-wrap"><canvas id="dashPieChart"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <h3 class="chart-title">Risk Profile of Applications</h3>
+              <div class="chart-wrap"><canvas id="dashBarChart"></canvas></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== LOAN APPLICATIONS ===== -->
+        <section id="page-loans" class="page">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">💰 Loan Applications</h2>
+              <p class="card-desc">Review farmer loan applications with full AI risk assessment and prediction details</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn btn-primary btn-sm" onclick="loadLoanRequests()">Refresh</button>
+              <div class="filter-group">
+                <label class="filter-label">Filter:</label>
+                <select id="loanFilter" class="filter-select" onchange="filterLoans()">
+                  <option value="all">All Applications</option>
+                  <option value="PENDING">Pending</option>
+                  <option value="APPROVED">Approved</option>
+                  <option value="REJECTED">Rejected</option>
+                </select>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr><th>Farmer</th><th>Crop</th><th>State / District</th><th>AI Risk</th><th>Expert Risk</th><th>TRI</th><th>Status</th><th>Action</th></tr>
+                </thead>
+                <tbody id="loanRequestsBody"><tr><td colspan="8" class="table-empty">Loading...</td></tr></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Loan Review Panel (shown when Review is clicked) -->
+          <div id="loanReviewPanel" class="card hidden" style="margin-top:1.5rem">
+            <div class="card-header" style="display:flex;align-items:center">
+              <div>
+                <h2 class="card-title">📋 Loan Review Details</h2>
+                <p class="card-desc">Full prediction details and Decision Transparency metrics</p>
+              </div>
+              <button class="btn btn-secondary btn-sm" onclick="closeLoanReview()" style="margin-left:auto">✕ Close</button>
+            </div>
+
+            <!-- Farmer & Crop Info -->
+            <div id="loanFarmerInfo" style="margin-bottom:1.25rem"></div>
+
+            <!-- Prediction Details Table -->
+            <div id="loanPredDetails" style="margin-bottom:1.25rem"></div>
+
+            <!-- Decision Transparency -->
+            <div class="card-inner" style="margin-bottom:1.25rem">
+              <h3 class="section-title">Decision Transparency</h3>
+              <div class="trust-grid">
+                <div class="trust-item">
+                  <span class="trust-label">PCS</span>
+                  <span id="reviewPcs" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="reviewPcsBar" class="trust-fill"></div></div>
+                  <span class="trust-desc">Prediction Confidence Score</span>
+                </div>
+                <div class="trust-item">
+                  <span class="trust-label">EAS</span>
+                  <span id="reviewEas" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="reviewEasBar" class="trust-fill"></div></div>
+                  <span class="trust-desc">Expert Agreement Score</span>
+                </div>
+                <div class="trust-item">
+                  <span class="trust-label">RDI</span>
+                  <span id="reviewRdi" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="reviewRdiBar" class="trust-fill rdi"></div></div>
+                  <span class="trust-desc">Risk Deviation Index</span>
+                </div>
+                <div class="trust-item highlight">
+                  <span class="trust-label">TRI</span>
+                  <span id="reviewTri" class="trust-val">-</span>
+                  <div class="trust-bar"><div id="reviewTriBar" class="trust-fill tri"></div></div>
+                  <span class="trust-desc">Trust Reliability Index</span>
+                </div>
+              </div>
+              <div class="confidence-band">
+                <span>Confidence Band:</span>
+                <strong id="reviewConfidence">-</strong>
+              </div>
+            </div>
+
+            <!-- Officer Decision Panel -->
+            <div style="border-top:1px solid var(--border);padding-top:1.25rem">
+              <h3 class="section-title">Bank Officer Decision</h3>
+              <div class="decision-form">
+                <div class="decision-options">
+                  <label class="decision-option approve">
+                    <input type="radio" name="loanDecision" value="APPROVED">
+                    <span class="decision-icon">✅</span>
+                    <span class="decision-text">Approve Loan</span>
+                  </label>
+                  <label class="decision-option reject">
+                    <input type="radio" name="loanDecision" value="REJECTED">
+                    <span class="decision-icon">❌</span>
+                    <span class="decision-text">Reject Loan</span>
+                  </label>
+                </div>
+                <textarea id="loanComments" placeholder="Add your comments or reason for the decision..." rows="3" class="form-input" style="resize:vertical"></textarea>
+                <button class="btn btn-primary" id="loanSubmitBtn" onclick="submitLoanDecision()">Submit Decision</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== PREDICTION HISTORY (Officer) ===== -->
+        <section id="page-validation" class="page">
+          <div class="glass-card-premium">
+            <div class="card-header-premium">
+              <h2 class="card-title-premium">Prediction History</h2>
+              <p class="card-subtitle-premium">Browse all past predictions and validation outcomes.</p>
+            </div>
+            <div class="table-controls">
+              <button class="btn btn-primary btn-sm" onclick="loadPredictionHistoryForOfficer()">Refresh</button>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>ID</th><th>Timestamp</th><th>State</th><th>Crop</th><th>Source</th><th>AI Risk</th><th>Expert Risk</th><th>TRI</th><th>Status</th><th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="historyBody"><tr><td colspan="10" class="table-empty">Loading...</td></tr></tbody>
+              </table>
+            </div>
+            <div class="pagination" id="historyPagination"></div>
+          </div>
+        </section>
+
+      </div><!-- end page-container -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>
+          <strong>AgriValidator AI Platform</strong> · Bank Officer Portal
+          <span style="margin:0 0.5rem">·</span>
+          © 2026 Agricultural Intelligence Platform
+        </p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/supabase-client.js?v=2"></script>
+  <script src="/bank_officer.js?v=2"></script>
+</body>
+</html>

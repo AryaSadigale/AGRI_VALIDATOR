@@ -1,0 +1,23 @@
+[
+  {
+    "id": "icar_kharif_2025",
+    "name": "ICAR Kharif Agro-Advisories 2025",
+    "path": "ICAR.pdf",
+    "type": "national_advisory",
+    "url": "https://icar.org.in/"
+  },
+  {
+    "id": "des_agricultural_statistics_glance_2024",
+    "name": "DES Agricultural Statistics at a Glance 2024-25",
+    "path": "rulebooks/des_agricultural_statistics_glance_2024.pdf",
+    "type": "state_crop_statistics",
+    "url": "https://desagri.gov.in/document-report/agricultural-statistics-at-a-glance-2024/"
+  },
+  {
+    "id": "crida_rainfed_regions_india",
+    "name": "ICAR-CRIDA Crop and Contingency Planning for Rainfed Regions of India",
+    "path": "rulebooks/crida_rainfed_regions_india_contingency.pdf",
+    "type": "national_contingency",
+    "url": "https://www.icar-crida.res.in/assets/img/Books/2008-09/Contingency.pdf"
+  }
+]
