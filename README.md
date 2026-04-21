@@ -19,6 +19,9 @@ This repository combines three layers:
 - [What This Project Does](#what-this-project-does)
 - [Core Features](#core-features)
 - [How the System Works](#how-the-system-works)
+- [Project Implementation Methodology Diagram](#project-implementation-methodology-diagram)
+- [Working Diagram](#working-diagram)
+- [System Architecture Diagram](#system-architecture-diagram)
 - [Trust and Validation Logic](#trust-and-validation-logic)
 - [Expert Sources Used](#expert-sources-used)
 - [Tech Stack](#tech-stack)
@@ -173,6 +176,131 @@ Persistence
   -> Supabase Auth
   -> Supabase PostgreSQL
 ```
+
+---
+
+## Project Implementation Methodology Diagram
+
+This diagram shows how the project is implemented from data and knowledge preparation through deployment and validation.
+
+```mermaid
+flowchart LR
+    A["Problem Definition and Scope"] --> B["Collect Agricultural Data and Rulebooks"]
+    B --> C["Prepare Dataset and Risk Labels"]
+    C --> D["Train and Calibrate ML Models"]
+    D --> E["Build Expert Validation Engine"]
+    E --> F["Develop FastAPI Backend and APIs"]
+    F --> G["Develop Farmer, Officer, and Bank Dashboards"]
+    G --> H["Integrate Supabase Auth and Database"]
+    H --> I["Add LLM Advisory and Validation Layer"]
+    I --> J["Run Testing, Review, and UI Refinement"]
+    J --> K["Deploy and Monitor Operational Workflow"]
+```
+
+### Methodology summary
+
+- Data pipeline preparation creates the training and validation datasets.
+- Model training provides the AI risk prediction layer.
+- Expert rulebooks add deterministic validation and final decision support.
+- FastAPI connects model inference, expert checks, storage, and dashboards.
+- Supabase provides authentication, persistence, and workflow continuity.
+- The LLM layer improves readability for farmers without replacing backend validation.
+
+---
+
+## Working Diagram
+
+This diagram shows the runtime flow of a prediction request in the current system.
+
+```mermaid
+flowchart TD
+    A["Farmer enters State, District, Crop, Season, Area, Production, Yield"] --> B["Farmer Dashboard sends POST /predict"]
+    B --> C["FastAPI validates request and encodes categorical inputs"]
+    C --> D["XGBoost model predicts AI risk and PCS"]
+    D --> E["expert_engine.py evaluates ICAR, DES, and CRIDA sources"]
+    E --> F["Expert consensus, EAS, RDI, TRI, final risk, and final decision are computed"]
+    F --> G["gemini_llm.py generates farmer-friendly advisory"]
+    G --> H["llm_validator.py computes RCS, ASS, DCS, and LTS"]
+    H --> I["Prediction, expert results, and advisory are stored in Supabase"]
+    I --> J["Farmer dashboard shows AI risk, expert risk, final risk, trust metrics, and expert cards"]
+    F --> K{"Decision requires review?"}
+    K -- "Yes" --> L["Agriculture officer reviews case and submits decision"]
+    K -- "No" --> J
+    J --> M["Farmer may request loan if workflow conditions allow"]
+    M --> N["Bank officer reviews linked loan request"]
+```
+
+### Working flow summary
+
+- The ML model provides the first risk estimate.
+- The expert engine validates or challenges that estimate.
+- Trust scores explain the quality of the result.
+- The final decision is produced before the LLM explanation is shown.
+- Officers and bank officers extend the workflow where human review is needed.
+
+---
+
+## System Architecture Diagram
+
+This diagram maps the major layers and components in the current repository.
+
+```mermaid
+flowchart LR
+    subgraph Client["Client Layer"]
+        Landing["Landing and Login Pages"]
+        Farmer["Farmer Dashboard"]
+        Officer["Agriculture Officer Dashboard"]
+        Bank["Bank Officer Dashboard"]
+    end
+
+    subgraph Frontend["Frontend Layer"]
+        Pages["HTML, CSS, and JavaScript pages"]
+        Auth["supabase-client.js"]
+        Charts["Chart.js visualizations"]
+    end
+
+    subgraph Backend["Backend Layer"]
+        API["FastAPI routes in app.py"]
+        DBLayer["database.py data access layer"]
+        Expert["expert_engine.py"]
+        Advisory["gemini_llm.py"]
+        LLMVal["llm_validator.py"]
+        Models["XGBoost model and saved encoders"]
+    end
+
+    subgraph Knowledge["Knowledge and Data Layer"]
+        Rulebooks["ICAR, DES, and CRIDA rulebooks"]
+        DataFiles["CSV datasets and training assets"]
+        Supabase["Supabase Auth and PostgreSQL"]
+    end
+
+    Landing --> Pages
+    Farmer --> Pages
+    Officer --> Pages
+    Bank --> Pages
+
+    Pages --> Auth
+    Pages --> Charts
+    Pages --> API
+
+    API --> Models
+    API --> Expert
+    API --> Advisory
+    Advisory --> LLMVal
+    API --> DBLayer
+    Expert --> Rulebooks
+    Models --> DataFiles
+    DBLayer --> Supabase
+    Auth --> Supabase
+```
+
+### Architecture summary
+
+- The client layer contains the three role-specific dashboards plus shared login pages.
+- The frontend layer is plain HTML, CSS, and JavaScript with shared Supabase session handling.
+- The backend layer centralizes routing, validation, persistence, and business logic.
+- The knowledge layer combines model files, benchmark datasets, and expert PDFs.
+- Supabase supports both authentication and long-term storage of prediction and workflow records.
 
 ---
 
@@ -728,4 +856,3 @@ If you want to extend it, the best starting points are:
 - `database.py`
 - `farmer.js`
 - `app.js`
-
