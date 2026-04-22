@@ -35,7 +35,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load models & encoders
+# Load models & encoders (Note: models were retrained for environment compatibility)
 model = joblib.load("models/xgb_calibrated.pkl")
 le_state = joblib.load("models/state_enc.pkl")
 le_crop = joblib.load("models/crop_enc.pkl")
@@ -45,6 +45,22 @@ le_risk = joblib.load("models/risk_enc.pkl")
 
 # Expert rules held in-memory, refreshable from PDF upload
 expert_rules: List[Dict[str, Any]] = []
+
+# Load Location Data for dynamic dropdowns
+location_data: Dict[str, List[str]] = {}
+try:
+    _base_dir = os.path.dirname(os.path.abspath(__file__))
+    _csv_path = os.path.join(_base_dir, "data", "train_data.csv")
+    if os.path.exists(_csv_path):
+        _df_loc = pd.read_csv(_csv_path)
+        for state in _df_loc["State"].unique():
+            location_data[state] = sorted(_df_loc[_df_loc["State"] == state]["District"].unique().tolist())
+        print(f"Loaded location data: {len(location_data)} states, {sum(len(d) for d in location_data.values())} districts")
+        del _df_loc
+    else:
+        print(f"Warning: Location data file not found at {_csv_path}")
+except Exception as e:
+    print(f"Error loading location data: {e}")
 
 
 def load_default_icar_rules():
@@ -729,6 +745,16 @@ def api_crops():
         return {"crops": sorted(crops)}
     except Exception as e:
         return {"crops": [], "error": str(e)}
+
+
+@app.get("/api/states")
+def api_states():
+    return {"states": sorted(list(location_data.keys()))}
+
+
+@app.get("/api/districts/{state}")
+def api_districts(state: str):
+    return {"districts": location_data.get(state, [])}
 
 
 @app.get("/api/feature-importance")

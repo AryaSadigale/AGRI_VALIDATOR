@@ -184,11 +184,15 @@
               <div class="form-row">
                 <div class="form-group">
                   <label class="form-label">State</label>
-                  <input type="text" id="state" class="form-input" placeholder="e.g., Maharashtra" required>
+                  <select id="state" class="form-input" onchange="handleStateChange()" required>
+                    <option value="">Select State</option>
+                  </select>
                 </div>
                 <div class="form-group">
                   <label class="form-label">District</label>
-                  <input type="text" id="district" class="form-input" placeholder="e.g., Pune" required>
+                  <select id="district" class="form-input" required disabled>
+                    <option value="">Select District (Select State first)</option>
+                  </select>
                 </div>
               </div>
               <div class="form-row">

@@ -37,6 +37,8 @@ model2.fit(X, y)
 
 
 # Save models
+# Note: Using joblib for the calibrated wrapper, but saving base XGB separately for robustness
+model1.save_model("models/xgb.json") # Recommended for cross-version compatibility
 joblib.dump(model1, "models/xgb.pkl")
 joblib.dump(model2, "models/rf.pkl")
 

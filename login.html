@@ -1,166 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login — AgriValidator AI Platform</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@700;800&display=swap"
+    rel="stylesheet">
   <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
     :root {
-      --green-50: #f0fdf4; --green-100: #dcfce7; --green-200: #bbf7d0;
-      --green-400: #4ade80; --green-500: #22c55e; --green-600: #16a34a;
-      --green-700: #15803d; --green-800: #166534; --green-900: #14532d;
-      --gray-100: #f3f4f6; --gray-200: #e5e7eb; --gray-400: #9ca3af;
-      --gray-500: #6b7280; --gray-700: #374151; --gray-800: #1f2937; --gray-900: #111827;
+      --green-50: #f0fdf4;
+      --green-100: #dcfce7;
+      --green-200: #bbf7d0;
+      --green-400: #4ade80;
+      --green-500: #22c55e;
+      --green-600: #16a34a;
+      --green-700: #15803d;
+      --green-800: #166534;
+      --green-900: #14532d;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-400: #9ca3af;
+      --gray-500: #6b7280;
+      --gray-700: #374151;
+      --gray-800: #1f2937;
+      --gray-900: #111827;
       --accent: #22c55e;
     }
 
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       min-height: 100vh;
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background: linear-gradient(135deg, #0a1f13 0%, #14532d 40%, #166534 70%, #0a1f13 100%);
-      overflow-y: auto; /* allow vertical scrolling on shorter viewports */
+      overflow-y: auto;
+      /* allow vertical scrolling on shorter viewports */
       position: relative;
       -webkit-font-smoothing: antialiased;
     }
 
     .bg-pattern {
-      position: fixed; inset: 0; z-index: 0;
+      position: fixed;
+      inset: 0;
+      z-index: 0;
       background-image:
-        radial-gradient(circle at 15% 35%, rgba(74,222,128,0.08) 0%, transparent 50%),
-        radial-gradient(circle at 85% 65%, rgba(22,163,74,0.06) 0%, transparent 50%),
-        radial-gradient(circle at 50% 20%, rgba(187,247,208,0.05) 0%, transparent 40%);
+        radial-gradient(circle at 15% 35%, rgba(74, 222, 128, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 85% 65%, rgba(22, 163, 74, 0.06) 0%, transparent 50%),
+        radial-gradient(circle at 50% 20%, rgba(187, 247, 208, 0.05) 0%, transparent 40%);
     }
+
     .bg-grid {
-      position: fixed; inset: 0; z-index: 0;
-      background-image: linear-gradient(rgba(74,222,128,0.04) 1px, transparent 1px),
-                        linear-gradient(90deg, rgba(74,222,128,0.04) 1px, transparent 1px);
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background-image: linear-gradient(rgba(74, 222, 128, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(74, 222, 128, 0.04) 1px, transparent 1px);
       background-size: 50px 50px;
     }
 
     .float-el {
-      position: fixed; font-size: 2.5rem; opacity: 0.08; pointer-events: none; z-index: 0;
+      position: fixed;
+      font-size: 2.5rem;
+      opacity: 0.08;
+      pointer-events: none;
+      z-index: 0;
       animation: floatAnim 8s ease-in-out infinite;
     }
-    .float-el:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
-    .float-el:nth-child(2) { top: 20%; right: 15%; animation-delay: 1.5s; font-size: 2rem; }
-    .float-el:nth-child(3) { bottom: 15%; left: 20%; animation-delay: 3s; }
-    .float-el:nth-child(4) { bottom: 25%; right: 10%; animation-delay: 4.5s; font-size: 3rem; }
-    .float-el:nth-child(5) { top: 50%; left: 5%; animation-delay: 2s; font-size: 1.8rem; }
+
+    .float-el:nth-child(1) {
+      top: 10%;
+      left: 10%;
+      animation-delay: 0s;
+    }
+
+    .float-el:nth-child(2) {
+      top: 20%;
+      right: 15%;
+      animation-delay: 1.5s;
+      font-size: 2rem;
+    }
+
+    .float-el:nth-child(3) {
+      bottom: 15%;
+      left: 20%;
+      animation-delay: 3s;
+    }
+
+    .float-el:nth-child(4) {
+      bottom: 25%;
+      right: 10%;
+      animation-delay: 4.5s;
+      font-size: 3rem;
+    }
+
+    .float-el:nth-child(5) {
+      top: 50%;
+      left: 5%;
+      animation-delay: 2s;
+      font-size: 1.8rem;
+    }
 
     .login-container {
-      position: relative; z-index: 10;
-      width: 100%; max-width: 500px; padding: 1.5rem;
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      max-width: 500px;
+      padding: 1.5rem;
       animation: cardAppear 0.6s ease-out;
     }
+
     .login-card {
-      background: rgba(255,255,255,0.97);
+      background: rgba(255, 255, 255, 0.97);
       backdrop-filter: blur(20px);
-      border: 1px solid rgba(255,255,255,0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 28px;
       padding: 2.75rem;
-      box-shadow: 0 24px 64px rgba(0,0,0,0.25), 0 8px 24px rgba(0,0,0,0.1);
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.25), 0 8px 24px rgba(0, 0, 0, 0.1);
     }
 
-    .login-brand { text-align: center; margin-bottom: 2rem; }
-    .login-brand-icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    .login-brand-title { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 1.65rem; color: var(--green-900); }
-    .login-brand-sub { font-size: 0.72rem; color: var(--green-600); text-transform: uppercase; letter-spacing: 2.5px; font-weight: 600; }
+    .login-brand {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .login-brand-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .login-brand-title {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-size: 1.65rem;
+      color: var(--green-900);
+    }
+
+    .login-brand-sub {
+      font-size: 0.72rem;
+      color: var(--green-600);
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 600;
+    }
 
     /* Tab toggle */
     .auth-tabs {
-      display: flex; background: var(--gray-100); border-radius: 14px;
-      padding: 5px; margin-bottom: 1.75rem;
+      display: flex;
+      background: var(--gray-100);
+      border-radius: 14px;
+      padding: 5px;
+      margin-bottom: 1.75rem;
     }
+
     .auth-tab {
-      flex: 1; padding: 0.75rem; text-align: center; cursor: pointer;
-      border-radius: 10px; font-weight: 700; font-size: 0.9rem;
-      color: var(--gray-500); transition: all 0.25s;
+      flex: 1;
+      padding: 0.75rem;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--gray-500);
+      transition: all 0.25s;
     }
-    .auth-tab.active { background: var(--green-600); color: #fff; box-shadow: 0 4px 12px rgba(22,163,74,0.25); }
-    .auth-tab:hover:not(.active) { color: var(--gray-800); background: rgba(0,0,0,0.03); }
+
+    .auth-tab.active {
+      background: var(--green-600);
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
+    }
+
+    .auth-tab:hover:not(.active) {
+      color: var(--gray-800);
+      background: rgba(0, 0, 0, 0.03);
+    }
 
     /* Role Selection Buttons */
     .role-selection-label {
-      display: block; font-weight: 700; color: var(--gray-700); font-size: 0.85rem;
-      margin-bottom: 0.75rem; text-align: center;
+      display: block;
+      font-weight: 700;
+      color: var(--gray-700);
+      font-size: 0.85rem;
+      margin-bottom: 0.75rem;
+      text-align: center;
     }
+
     .role-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
       margin-bottom: 1.75rem;
     }
+
     .role-btn {
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      padding: 0.85rem 0.5rem; background: #fff; border: 2px solid var(--gray-200);
-      border-radius: 16px; cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative; overflow: hidden;
-    }
-    .role-btn .role-emoji { font-size: 1.5rem; margin-bottom: 0.4rem; transition: transform 0.3s; }
-    .role-btn .role-text { font-size: 0.72rem; font-weight: 700; color: var(--gray-500); text-align: center; line-height: 1.2; }
-    
-    .role-btn:hover { border-color: var(--green-400); background: var(--green-50); }
-    .role-btn:hover .role-emoji { transform: translateY(-3px) scale(1.1); }
-    
-    .role-btn.active { border-color: var(--green-600); background: var(--green-100); }
-    .role-btn.active .role-text { color: var(--green-800); }
-    .role-btn.active::after {
-      content: '✓'; position: absolute; top: 6px; right: 8px;
-      background: var(--green-600); color: #fff; width: 16px; height: 16px;
-      border-radius: 50%; font-size: 10px; display: flex; align-items: center; justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0.85rem 0.5rem;
+      background: #fff;
+      border: 2px solid var(--gray-200);
+      border-radius: 16px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
     }
 
-    .form-group { margin-bottom: 1.25rem; }
-    .form-label { display: block; font-weight: 700; color: var(--gray-700); font-size: 0.82rem; margin-bottom: 0.5rem; }
-    .form-input {
-      width: 100%; padding: 0.85rem 1.15rem; background: #fff;
-      border: 2px solid var(--gray-200); border-radius: 14px; font-family: 'Inter', sans-serif;
-      font-size: 0.95rem; color: var(--gray-900); transition: all 0.2s;
+    .role-btn .role-emoji {
+      font-size: 1.5rem;
+      margin-bottom: 0.4rem;
+      transition: transform 0.3s;
     }
-    .form-input:focus { outline: none; border-color: var(--green-500); background: #fff; box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.1); }
-    .form-input::placeholder { color: var(--gray-400); }
+
+    .role-btn .role-text {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--gray-500);
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    .role-btn:hover {
+      border-color: var(--green-400);
+      background: var(--green-50);
+    }
+
+    .role-btn:hover .role-emoji {
+      transform: translateY(-3px) scale(1.1);
+    }
+
+    .role-btn.active {
+      border-color: var(--green-600);
+      background: var(--green-100);
+    }
+
+    .role-btn.active .role-text {
+      color: var(--green-800);
+    }
+
+    .role-btn.active::after {
+      content: '✓';
+      position: absolute;
+      top: 6px;
+      right: 8px;
+      background: var(--green-600);
+      color: #fff;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+
+    .form-label {
+      display: block;
+      font-weight: 700;
+      color: var(--gray-700);
+      font-size: 0.82rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 0.85rem 1.15rem;
+      background: #fff;
+      border: 2px solid var(--gray-200);
+      border-radius: 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      color: var(--gray-900);
+      transition: all 0.2s;
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--green-500);
+      background: #fff;
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.1);
+    }
+
+    .form-input::placeholder {
+      color: var(--gray-400);
+    }
 
     .btn-submit {
-      width: 100%; padding: 1rem; background: var(--green-600); color: #fff;
-      border: none; border-radius: 14px; font-family: 'Inter', sans-serif;
-      font-size: 1rem; font-weight: 800; cursor: pointer; transition: all 0.3s;
-      box-shadow: 0 4px 20px rgba(22,163,74,0.3); margin-top: 0.75rem;
+      width: 100%;
+      padding: 1rem;
+      background: var(--green-600);
+      color: #fff;
+      border: none;
+      border-radius: 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 20px rgba(22, 163, 74, 0.3);
+      margin-top: 0.75rem;
     }
-    .btn-submit:hover { background: var(--green-700); transform: translateY(-2px); box-shadow: 0 8px 25px rgba(22,163,74,0.4); }
-    .btn-submit:active { transform: translateY(0); }
-    .btn-submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; box-shadow: none; }
+
+    .btn-submit:hover {
+      background: var(--green-700);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(22, 163, 74, 0.4);
+    }
+
+    .btn-submit:active {
+      transform: translateY(0);
+    }
+
+    .btn-submit:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
 
     .login-back {
-      display: block; text-align: center; margin-top: 1.5rem;
-      color: var(--gray-500); font-size: 0.85rem; text-decoration: none; font-weight: 600; transition: color 0.2s;
+      display: block;
+      text-align: center;
+      margin-top: 1.5rem;
+      color: var(--gray-500);
+      font-size: 0.85rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
     }
-    .login-back:hover { color: var(--green-700); }
+
+    .login-back:hover {
+      color: var(--green-700);
+    }
 
     .msg-box {
-      padding: 0.85rem 1.25rem; border-radius: 12px; font-size: 0.88rem; font-weight: 600;
-      margin-bottom: 1.5rem; display: none; line-height: 1.5; border-left: 4px solid transparent;
+      padding: 0.85rem 1.25rem;
+      border-radius: 12px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      display: none;
+      line-height: 1.5;
+      border-left: 4px solid transparent;
     }
-    .msg-box.error { display: block; background: #fff1f2; color: #be123c; border-left-color: #e11d48; box-shadow: 0 2px 8px rgba(225,29,72,0.1); }
-    .msg-box.success { display: block; background: var(--green-50); color: var(--green-800); border-left-color: var(--green-600); box-shadow: 0 2px 8px rgba(22,163,74,0.1); }
 
-    .register-only { display: none; }
-    .register-only.show { display: block; }
+    .msg-box.error {
+      display: block;
+      background: #fff1f2;
+      color: #be123c;
+      border-left-color: #e11d48;
+      box-shadow: 0 2px 8px rgba(225, 29, 72, 0.1);
+    }
 
-    @keyframes floatAnim { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-15px) rotate(3deg); } }
-    @keyframes cardAppear { from { opacity: 0; transform: translateY(30px) scale(0.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+    .msg-box.success {
+      display: block;
+      background: var(--green-50);
+      color: var(--green-800);
+      border-left-color: var(--green-600);
+      box-shadow: 0 2px 8px rgba(22, 163, 74, 0.1);
+    }
+
+    .register-only {
+      display: none;
+    }
+
+    .register-only.show {
+      display: block;
+    }
+
+    @keyframes floatAnim {
+
+      0%,
+      100% {
+        transform: translateY(0) rotate(0);
+      }
+
+      50% {
+        transform: translateY(-15px) rotate(3deg);
+      }
+    }
+
+    @keyframes cardAppear {
+      from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.96);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
 
     @media (max-width: 520px) {
-      .login-card { padding: 2.25rem 1.5rem; }
-      .login-container { padding: 1rem; }
-      .role-grid { gap: 0.5rem; }
-      .role-btn { padding: 0.75rem 0.25rem; }
+      .login-card {
+        padding: 2.25rem 1.5rem;
+      }
+
+      .login-container {
+        padding: 1rem;
+      }
+
+      .role-grid {
+        gap: 0.5rem;
+      }
+
+      .role-btn {
+        padding: 0.75rem 0.25rem;
+      }
     }
   </style>
 </head>
+
 <body>
   <div class="bg-pattern"></div>
   <div class="bg-grid"></div>
@@ -215,16 +484,20 @@
 
         <div class="form-group">
           <label class="form-label" for="emailInput">Email Address</label>
-          <input type="email" id="emailInput" class="form-input" placeholder="you@example.com" required autocomplete="email">
+          <input type="email" id="emailInput" class="form-input" placeholder="you@example.com" required
+            autocomplete="email">
         </div>
 
         <div class="form-group">
           <label class="form-label" for="passwordInput">Password</label>
-          <input type="password" id="passwordInput" class="form-input" placeholder="••••••••" required autocomplete="current-password">
+          <input type="password" id="passwordInput" class="form-input" placeholder="••••••••" required
+            autocomplete="current-password">
         </div>
 
         <div style="display:flex;justify-content:flex-end;margin-bottom:0.8rem;">
-          <button type="button" class="btn-submit" style="background:transparent;color:#14532d;border:1px solid rgba(20,83,45,0.2);font-weight:700;box-shadow:none;" onclick="handleForgotPassword()">Forgot Password?</button>
+          <button type="button" class="btn-submit"
+            style="background:transparent;color:#14532d;border:1px solid rgba(20,83,45,0.2);font-weight:700;box-shadow:none;"
+            onclick="handleForgotPassword()">Forgot Password?</button>
         </div>
 
         <button type="submit" class="btn-submit" id="submitBtn">Sign In →</button>
@@ -260,13 +533,12 @@
       if (user && user.role) {
         window.location.href = getRoleDashboard(user.role);
       }
-    })();
 
-    // If already logged in, redirect
-    (async () => {
-      const user = await getSupabaseUser();
-      if (user && user.role) {
-        window.location.href = getRoleDashboard(user.role);
+      // Check for role query parameter
+      const urlParams = new URLSearchParams(window.location.search);
+      const roleParam = urlParams.get('role');
+      if (roleParam && ['farmer', 'bank_officer', 'agrivalidator_officer'].includes(roleParam)) {
+        selectRole(roleParam);
       }
     })();
 
@@ -381,7 +653,7 @@
         try {
           const regRes = await fetch('/api/register', {
             method: 'POST',
-            headers: {'Content-Type': 'application/json'},
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email, password, name, role: selectedRole })
           });
           const regData = await regRes.json();
@@ -393,7 +665,7 @@
           const role = data.user?.user_metadata?.role || selectedRole;
           showMsg('Account created! Redirecting...', 'success');
           setTimeout(() => { window.location.href = getRoleDashboard(role); }, 800);
-        } catch(err) {
+        } catch (err) {
           showMsg('Server error. Please try again.', 'error');
           btn.disabled = false; btn.textContent = 'Create Account →';
         }
@@ -402,27 +674,31 @@
         btn.textContent = 'Verifying identity...';
         try {
           const { data, error } = await _supabase.auth.signInWithPassword({ email, password });
-          
-          if (error) { 
-            showMsg(error.message, 'error'); 
-            btn.disabled = false; 
-            btn.textContent = 'Sign In →'; 
-            return; 
+
+          if (error) {
+            showMsg(error.message, 'error');
+            btn.disabled = false;
+            btn.textContent = 'Sign In →';
+            return;
           }
 
           const actualRole = data.user?.user_metadata?.role || 'farmer';
 
           if (actualRole !== selectedRole) {
+            // Role mismatch - sign out immediately and show error
+            await _supabase.auth.signOut();
             const selectedText = selectedRole === 'farmer' ? 'Farmer' : selectedRole === 'bank_officer' ? 'Bank Officer' : 'Agri Officer';
             const actualText = actualRole === 'farmer' ? 'Farmer' : actualRole === 'bank_officer' ? 'Bank Officer' : 'Agri Officer';
-            showMsg(`Logged in as ${actualText}. Redirecting to ${actualText} portal...`, 'info');
-            setTimeout(() => { window.location.href = getRoleDashboard(actualRole); }, 800);
+
+            showMsg(`Access Denied: This account is registered as a ${actualText}, but you selected the ${selectedText} role.`, 'error');
+            btn.disabled = false;
+            btn.textContent = 'Sign In →';
             return;
           }
 
           showMsg('Identity verified! Redirecting...', 'success');
           setTimeout(() => { window.location.href = getRoleDashboard(actualRole); }, 800);
-        } catch(err) {
+        } catch (err) {
           showMsg('Server error. Please try again.', 'error');
           btn.disabled = false;
           btn.textContent = 'Sign In →';
@@ -431,5 +707,5 @@
     }
   </script>
 </body>
-</html>
 
+</html>

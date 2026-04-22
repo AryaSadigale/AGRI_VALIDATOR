@@ -1,5 +1,9 @@
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+import transformers
+
+# Suppress noisy model load reports
+transformers.utils.logging.set_verbosity_error()
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 

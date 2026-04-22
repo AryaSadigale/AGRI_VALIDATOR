@@ -2,7 +2,8 @@
 // AGRVALIDATOR - FARMER DASHBOARD JS
 // ========================================
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+// Use dynamic origin to avoid 127.0.0.1 vs localhost issues
+const API_BASE_URL = window.location.origin;
 const chartInstances = {};
 let lastPredictionResult = null;
 
@@ -60,9 +61,14 @@ async function handleLogout() {
 
 // ===== PAGE INIT =====
 document.addEventListener('DOMContentLoaded', async () => {
-  await initSession();
+  console.log('Farmer Dashboard: DOMContentLoaded');
   initNavigation();
-  await loadCropOptions();
+  
+  // Load UI components immediately, don't wait for session
+  loadCropOptions();
+  loadLocationOptions();
+  
+  await initSession();
   loadDashboardData();
 });
 
@@ -116,13 +122,67 @@ async function loadCropOptions() {
     const data = await resp.json();
     let crops = data.crops || [];
     if (!Array.isArray(crops) || crops.length === 0) {
-      crops = ['Rice', 'Wheat', 'Maize', 'Moong', 'Tur'];
+      crops = ['Rice', 'Wheat', 'Maize', 'Moong', 'Tur', 'Gram', 'Cotton', 'Sugarcane'];
     }
     cropSelect.innerHTML = '<option value="">Select Crop</option>' +
       crops.map(c => `<option value="${c}">${c}</option>`).join('');
   } catch (e) {
     cropSelect.innerHTML = '<option value="">Select Crop</option><option>Rice</option><option>Wheat</option><option>Maize</option><option>Moong</option><option>Tur</option>';
     console.error('Failed to load crop list', e);
+  }
+}
+
+async function loadLocationOptions() {
+  console.log('Loading location options...');
+  const stateSelect = document.getElementById('state');
+  if (!stateSelect) {
+    console.error('State select element not found!');
+    return;
+  }
+  stateSelect.innerHTML = '<option value="">Loading states...</option>';
+  try {
+    const resp = await authFetch(`${API_BASE_URL}/api/states`);
+    const data = await resp.json();
+    let states = data.states || [];
+    
+    // Fallback if API returns empty
+    if (states.length === 0) {
+      states = ['Andhra Pradesh', 'Bihar', 'Gujarat', 'Haryana', 'Karnataka', 'Maharashtra', 'Punjab', 'Rajasthan', 'Tamil Nadu', 'Uttar Pradesh', 'West Bengal'];
+    }
+    
+    stateSelect.innerHTML = '<option value="">Select State</option>' +
+      states.map(s => `<option value="${s}">${s}</option>`).join('');
+  } catch (e) {
+    console.error('Failed to load state list', e);
+    const fallbackStates = ['Andhra Pradesh', 'Bihar', 'Gujarat', 'Haryana', 'Karnataka', 'Maharashtra', 'Punjab', 'Rajasthan', 'Tamil Nadu', 'Uttar Pradesh', 'West Bengal'];
+    stateSelect.innerHTML = '<option value="">Select State</option>' +
+      fallbackStates.map(s => `<option value="${s}">${s}</option>`).join('');
+  }
+}
+
+async function handleStateChange() {
+  const state = document.getElementById('state').value;
+  const distSelect = document.getElementById('district');
+  if (!distSelect) return;
+
+  if (!state) {
+    distSelect.innerHTML = '<option value="">Select District (Select State first)</option>';
+    distSelect.disabled = true;
+    return;
+  }
+
+  distSelect.disabled = false;
+  distSelect.innerHTML = '<option value="">Loading districts...</option>';
+
+  try {
+    const resp = await authFetch(`${API_BASE_URL}/api/districts/${encodeURIComponent(state)}`);
+    const data = await resp.json();
+    const districts = data.districts || [];
+    distSelect.innerHTML = '<option value="">Select District</option>' +
+      districts.map(d => `<option value="${d}">${d}</option>`).join('');
+  } catch (e) {
+    distSelect.innerHTML = '<option value="">Select District</option>';
+    console.error('Failed to load district list', e);
   }
 }
 
