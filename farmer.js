@@ -213,16 +213,16 @@ const METRIC_EXPLANATIONS = {
   },
   eas: {
     title: 'EAS - Expert Agreement Score',
-    summary: 'This tells whether the AI risk and expert rulebook risk are saying the same thing.',
-    meaning: '1 means AI and experts agree. 0.5 means they differ by one level. 0 means they are opposite, such as Low vs High.',
-    calculation: 'Risk is converted to numbers: Low = 1, Medium = 2, High = 3. EAS = 1 - (risk difference / 2).',
+    summary: 'This tells how strongly the AI result is supported after checking expert consensus and source-level agreement.',
+    meaning: 'Higher is better. Values near 1 mean the AI, expert consensus, and expert sources are broadly aligned.',
+    calculation: 'The backend first calculates RDI using AI-expert gap, expert-source disagreement, and agreement penalty. EAS = 1 - RDI.',
     farmer: 'Higher EAS means the AI result is supported by expert rules. Low EAS means the result should be reviewed carefully.'
   },
   rdi: {
     title: 'RDI - Risk Deviation Index',
-    summary: 'This tells how far apart the AI risk and expert risk are.',
-    meaning: 'Lower is better. 0 means no difference. 0.5 means one level difference. 1 means a large difference.',
-    calculation: 'Risk is converted to numbers: Low = 1, Medium = 2, High = 3. RDI = risk difference / 2.',
+    summary: 'This tells how much disagreement exists between the AI, the expert consensus, and the expert sources.',
+    meaning: 'Lower is better. 0 means the signals are aligned. Higher values mean more disagreement or conflict across the system.',
+    calculation: 'RDI combines the AI-expert risk gap, the final-risk gap, expert vote disagreement, and an agreement-level penalty.',
     farmer: 'If RDI is high, trust the final validation decision more than the AI alone.'
   },
   tri: {

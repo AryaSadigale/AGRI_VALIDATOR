@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AgriValidator AI Platform | Agricultural Intelligence</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=5">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&family=Outfit:wght@500;600&display=swap" rel="stylesheet">
@@ -231,7 +231,8 @@
                       <option value="">Select Season</option>
                       <option value="Kharif">Kharif (Monsoon)</option>
                       <option value="Rabi">Rabi (Winter)</option>
-                      <option value="Zaid">Zaid (Summer)</option>
+                      <option value="Summer">Summer</option>
+                      <option value="Total">Total</option>
                     </select>
                   </div>
                 </div>
@@ -295,6 +296,7 @@
               <div class="results-section">
                 <h3 class="section-title-premium">AI vs Expert Risk Distribution</h3>
                 <div class="chart-wrap-sm"><canvas id="comparisonChart"></canvas></div>
+                <div id="comparisonChartSummary" class="comparison-summary"></div>
               </div>
               <!-- LLM Advisory -->
               <div class="results-section">
@@ -326,6 +328,9 @@
               <div class="card-header-premium">
                 <h2 class="card-title-premium">Batch Dataset Validation</h2>
                 <p class="card-subtitle-premium">Upload CSV file for bulk validation processing</p>
+              </div>
+              <div class="comparison-summary" style="margin-bottom:1rem;">
+                Required columns: <strong>State, District, Crop, Season, Area, Production, Yield</strong>
               </div>
               <div id="fileUploadArea" class="file-upload-premium">
                 <div class="upload-icon-premium">📁</div>
@@ -564,6 +569,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/supabase-client.js?v=2"></script>
-  <script src="/app.js?v=2"></script>
+  <script src="/app.js?v=5"></script>
 </body>
 </html>

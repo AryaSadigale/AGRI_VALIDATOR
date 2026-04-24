@@ -13,6 +13,8 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from typing import Optional, List, Dict, Any
 from PyPDF2 import PdfReader
+from io import StringIO
+import csv
 import re
 from database import (
     store_prediction, store_predictions_bulk, get_prediction_history, get_prediction_by_id,
@@ -334,6 +336,28 @@ class LoanDecisionInput(BaseModel):
     reason: str = ""
 
 
+BATCH_REQUIRED_COLUMNS = ["State", "District", "Crop", "Season", "Area", "Production", "Yield"]
+BATCH_COLUMN_ALIASES = {
+    "state": "State",
+    "district": "District",
+    "crop": "Crop",
+    "crop_type": "Crop",
+    "season": "Season",
+    "area": "Area",
+    "area_ha": "Area",
+    "cultivated_area": "Area",
+    "production": "Production",
+    "production_tonnes": "Production",
+    "production_tons": "Production",
+    "yield": "Yield",
+    "yield_val": "Yield",
+    "yield_kg_ha": "Yield",
+    "yield_t_ha": "Yield",
+    "yield_tonnes_hectare": "Yield",
+    "risk": "Risk",
+}
+
+
 def safe_encode(encoder, value):
     if value in encoder.classes_:
         return encoder.transform([value])[0]
@@ -344,6 +368,100 @@ def safe_encode(encoder, value):
             return encoder.transform([known_value])[0]
 
     return -1
+
+
+def _normalize_batch_column_name(value: Any) -> str:
+    return str(value or "").strip().lower().replace(" ", "_")
+
+
+def _normalize_batch_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    rename_map = {}
+    for column in df.columns:
+        alias = BATCH_COLUMN_ALIASES.get(_normalize_batch_column_name(column))
+        if alias:
+            rename_map[column] = alias
+    return df.rename(columns=rename_map)
+
+
+def _clean_batch_text(value: Any) -> str:
+    if pd.isna(value):
+        return ""
+    return str(value).strip()
+
+
+def _clean_batch_number(value: Any) -> Optional[float]:
+    try:
+        if pd.isna(value):
+            return None
+        normalized = str(value).strip().replace(",", "")
+        if not normalized:
+            return None
+        return float(normalized)
+    except (TypeError, ValueError):
+        return None
+
+
+def _detect_csv_separator(sample_text: str) -> str:
+    try:
+        dialect = csv.Sniffer().sniff(sample_text, delimiters=",;\t|")
+        return dialect.delimiter
+    except Exception:
+        candidates = {sep: sample_text.count(sep) for sep in [",", ";", "\t", "|"]}
+        return max(candidates, key=candidates.get)
+
+
+def _resolve_batch_header_row(lines: List[str], separator: str) -> int:
+    for index, line in enumerate(lines[:25]):
+        raw_headers = next(csv.reader([line], delimiter=separator), [])
+        normalized_headers = {
+            BATCH_COLUMN_ALIASES.get(_normalize_batch_column_name(value), value)
+            for value in raw_headers
+        }
+        if set(BATCH_REQUIRED_COLUMNS).issubset(normalized_headers):
+            return index
+    return 0
+
+
+def _read_batch_csv(file_path: str) -> pd.DataFrame:
+    raw_bytes = open(file_path, "rb").read()
+    decode_errors: List[str] = []
+
+    for encoding in ["utf-8-sig", "utf-8", "cp1252", "latin1", "utf-16"]:
+        try:
+            text = raw_bytes.decode(encoding)
+        except UnicodeDecodeError as exc:
+            decode_errors.append(f"{encoding}: {exc}")
+            continue
+
+        sample = "\n".join(text.splitlines()[:10]) or text[:2048]
+        separator = _detect_csv_separator(sample)
+        header_row = _resolve_batch_header_row(text.splitlines(), separator)
+
+        for sep in [separator, ",", ";", "\t", "|"]:
+            try:
+                df = pd.read_csv(
+                    StringIO(text),
+                    sep=sep,
+                    skip_blank_lines=True,
+                    header=header_row,
+                )
+            except Exception:
+                continue
+
+            if df.empty and len(text.strip()) > 0:
+                continue
+
+            df = _normalize_batch_dataframe(df)
+            df.columns = df.columns.astype(str).str.strip()
+            if set(BATCH_REQUIRED_COLUMNS).issubset(df.columns):
+                return df
+
+    detail = "; ".join(decode_errors[:3])
+    raise ValueError(
+        "Could not read the CSV file. Please use a plain CSV with headers: "
+        "State, District, Crop, Season, Area, Production, Yield."
+        + (f" Parse details: {detail}" if detail else "")
+    )
 
 
 @app.get("/")
@@ -564,12 +682,27 @@ async def batch_validate(file: UploadFile = File(...), authorization: Optional[s
     user = await get_current_user(authorization)
     user_id = user["id"] if user else None
     os.makedirs("uploads", exist_ok=True)
+    accepted_seasons = sorted(le_season.classes_.tolist()) if hasattr(le_season, "classes_") else []
+
+    if not file.filename or not file.filename.lower().endswith(".csv"):
+        return {
+            "error": "Please upload a CSV file.",
+            "required_columns": BATCH_REQUIRED_COLUMNS,
+            "accepted_seasons": accepted_seasons,
+        }
+
     file_path = f"uploads/{file.filename}"
     with open(file_path, "wb") as f:
         f.write(await file.read())
 
-    df = pd.read_csv(file_path)
-    df.columns = df.columns.str.strip()
+    try:
+        df = _read_batch_csv(file_path)
+    except Exception as exc:
+        return {
+            "error": str(exc),
+            "required_columns": BATCH_REQUIRED_COLUMNS,
+            "accepted_seasons": accepted_seasons,
+        }
     
     # LIMIT CHECK: Prevent timeouts and rate limits
     MAX_ROWS = 2000
@@ -577,27 +710,65 @@ async def batch_validate(file: UploadFile = File(...), authorization: Optional[s
         return {"error": f"Dataset too large. Maximum {MAX_ROWS} rows allowed per batch."}
 
     df = df.drop(columns=["Risk"], errors="ignore")
+    missing_columns = [col for col in BATCH_REQUIRED_COLUMNS if col not in df.columns]
+    if missing_columns:
+        return {
+            "error": "Missing required batch columns.",
+            "missing_columns": missing_columns,
+            "required_columns": BATCH_REQUIRED_COLUMNS,
+            "accepted_seasons": accepted_seasons,
+        }
 
     results = []
     db_buffer = []
     expert_validation_buffer = []
+    preview_rows = []
+    row_errors = []
 
-    for _, row in df.iterrows():
+    for row_index, row in df.iterrows():
         try:
             data = {
-                "State": row["State"],
-                "District": row["District"],
-                "Crop": row["Crop"],
-                "Season": row["Season"],
-                "Area": row["Area"],
-                "Production": row["Production"],
-                "Yield": row["Yield"]
+                "State": _clean_batch_text(row["State"]),
+                "District": _clean_batch_text(row["District"]),
+                "Crop": _clean_batch_text(row["Crop"]),
+                "Season": _clean_batch_text(row["Season"]),
+                "Area": _clean_batch_number(row["Area"]),
+                "Production": _clean_batch_number(row["Production"]),
+                "Yield": _clean_batch_number(row["Yield"]),
             }
+            row_number = int(row_index) + 2
+            missing_fields = [
+                key for key, value in data.items()
+                if value in ("", None)
+            ]
+            if missing_fields:
+                row_errors.append({
+                    "row": row_number,
+                    "error": f"Missing or invalid values in: {', '.join(missing_fields)}",
+                })
+                continue
 
             state = safe_encode(le_state, data["State"])
             dist = safe_encode(le_dist, data["District"])
             crop = safe_encode(le_crop, data["Crop"])
             season = safe_encode(le_season, data["Season"])
+
+            unsupported_fields = []
+            if state < 0:
+                unsupported_fields.append(f"State '{data['State']}'")
+            if dist < 0:
+                unsupported_fields.append(f"District '{data['District']}'")
+            if crop < 0:
+                unsupported_fields.append(f"Crop '{data['Crop']}'")
+            if season < 0:
+                unsupported_fields.append(f"Season '{data['Season']}'")
+
+            if unsupported_fields:
+                row_errors.append({
+                    "row": row_number,
+                    "error": "Unsupported values in: " + ", ".join(unsupported_fields),
+                })
+                continue
 
             X = np.array([[state, dist, crop, season,
                         data["Area"], data["Production"], data["Yield"]]])
@@ -645,11 +816,41 @@ async def batch_validate(file: UploadFile = File(...), authorization: Optional[s
                 "State": data["State"], "District": data["District"], "Crop": data["Crop"],
                 "AI_Risk": ai_risk, "Expert_Risk": expert_risk,
                 "Final_Risk": validation["final_risk"], "Final_Decision": validation["final_decision"],
-                "TRI": round(tri, 2), "Validation_Status": status_val
+                "EAS": round(eas, 3), "RDI": round(rdi, 3), "TRI": round(tri, 2),
+                "Validation_Status": status_val
+            })
+            preview_rows.append({
+                "row": row_number,
+                "state": data["State"],
+                "district": data["District"],
+                "crop": data["Crop"],
+                "season": data["Season"],
+                "ai_risk": ai_risk,
+                "expert_risk": expert_risk,
+                "final_risk": validation["final_risk"],
+                "eas": round(eas, 3),
+                "rdi": round(rdi, 3),
+                "tri": round(tri, 2),
+                "validation_status": status_val,
+                "final_decision": validation["final_decision"],
             })
 
-        except Exception:
+        except Exception as exc:
+            row_errors.append({
+                "row": int(row_index) + 2,
+                "error": str(exc),
+            })
             continue
+
+    if not results:
+        return {
+            "error": "No valid rows were processed. Check the CSV columns and row values.",
+            "required_columns": BATCH_REQUIRED_COLUMNS,
+            "accepted_seasons": accepted_seasons,
+            "sample_errors": row_errors[:5],
+            "records_processed": 0,
+            "skipped_rows": len(row_errors),
+        }
 
     # PERFORM BULK INSERT
     if db_buffer:
@@ -663,17 +864,40 @@ async def batch_validate(file: UploadFile = File(...), authorization: Optional[s
     approved = sum(1 for r in results if r["Validation_Status"] == "APPROVED")
     review = sum(1 for r in results if r["Validation_Status"] == "REVIEW REQUIRED")
     rejected = sum(1 for r in results if r["Validation_Status"] == "REJECTED")
+    avg_eas = round(sum(r["EAS"] for r in results) / len(results), 3)
+    avg_rdi = round(sum(r["RDI"] for r in results) / len(results), 3)
+    avg_tri = round(sum(r["TRI"] for r in results) / len(results), 2)
+    risk_distribution = {
+        "Low": sum(1 for r in results if r["Final_Risk"] == "Low"),
+        "Medium": sum(1 for r in results if r["Final_Risk"] == "Medium"),
+        "High": sum(1 for r in results if r["Final_Risk"] == "High"),
+    }
+    decision_distribution = {
+        "APPROVED": approved,
+        "REVIEW REQUIRED": review,
+        "REJECTED": rejected,
+    }
 
     store_system_log("BATCH", f"Batch validation: {len(results)} records processed",
-                     f"File={file.filename}, Approved={approved}, Review={review}, Rejected={rejected}",
+                     f"File={file.filename}, Approved={approved}, Review={review}, Rejected={rejected}, Skipped={len(row_errors)}",
                      user_id=user_id)
 
     return {
         "message": f"Batch validation completed for {len(results)} records",
         "records_processed": len(results),
+        "skipped_rows": len(row_errors),
         "approved": approved,
         "review_required": review,
-        "rejected": rejected
+        "rejected": rejected,
+        "avg_eas": avg_eas,
+        "avg_rdi": avg_rdi,
+        "avg_tri": avg_tri,
+        "required_columns": BATCH_REQUIRED_COLUMNS,
+        "accepted_seasons": accepted_seasons,
+        "risk_distribution": risk_distribution,
+        "decision_distribution": decision_distribution,
+        "results_preview": preview_rows[:10],
+        "sample_errors": row_errors[:5],
     }
 
 

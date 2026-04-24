@@ -119,6 +119,10 @@ def _risk_label(score: float) -> str:
     return "Low"
 
 
+def _normalized_risk_distance(left: int, right: int) -> float:
+    return abs(left - right) / 2
+
+
 def _risk_advisory(risk: str, crop: str) -> str:
     if risk == "High":
         return (
@@ -318,15 +322,17 @@ def validate_prediction_with_experts(data: Dict[str, Any], ai_risk: str, pcs: fl
     expert_risk = _aggregate_expert_risk(experts)
     ai_val = RISK_VALUE.get(ai_risk, 2)
     expert_val = RISK_VALUE.get(expert_risk, 2)
-    eas = 1 - (abs(ai_val - expert_val) / 2)
-    rdi = abs(ai_val - expert_val) / 2
-    tri = (float(pcs) * 0.55 + eas * 0.45) * 100
     agreement = _agreement_level(ai_risk, expert_risk, experts)
 
     high_votes = sum(1 for e in experts if e.get("applicable") and e.get("risk") == "High")
     medium_votes = sum(1 for e in experts if e.get("applicable") and e.get("risk") == "Medium")
     low_votes = sum(1 for e in experts if e.get("applicable") and e.get("risk") == "Low")
     applicable_count = sum(1 for e in experts if e.get("applicable"))
+    dominant_vote_count = max(low_votes, medium_votes, high_votes) if applicable_count else 0
+    expert_source_agreement = (
+        dominant_vote_count / applicable_count if applicable_count else 0.0
+    )
+    ai_expert_gap = _normalized_risk_distance(ai_val, expert_val)
 
     final_score = (ai_val * 0.40) + (expert_val * 0.60)
     final_risk = _risk_label(final_score)
@@ -334,12 +340,30 @@ def validate_prediction_with_experts(data: Dict[str, Any], ai_risk: str, pcs: fl
         final_risk = "High"
     elif agreement == "major_conflict":
         final_risk = "Medium"
+    final_val = RISK_VALUE.get(final_risk, 2)
+    ai_final_gap = _normalized_risk_distance(ai_val, final_val)
+
+    agreement_penalty = {
+        "strong_agreement": 0.0,
+        "ai_expert_consensus": 0.08,
+        "partial_conflict": 0.18,
+        "major_conflict": 0.32,
+    }.get(agreement, 0.18)
+    rdi = min(
+        1.0,
+        (0.50 * ai_expert_gap)
+        + (0.20 * ai_final_gap)
+        + (0.30 * (1 - expert_source_agreement))
+        + agreement_penalty,
+    )
+    eas = max(0.0, 1 - rdi)
+    tri = (float(pcs) * 0.55 + eas * 0.45) * 100
 
     if final_risk == "Low" and agreement in {"strong_agreement", "ai_expert_consensus"} and tri >= 80:
         status = "APPROVED"
         decision_action = "AUTO_FORWARD"
         final_decision = "SAFE TO PROCEED"
-    elif tri < 55 and agreement == "major_conflict":
+    elif agreement == "major_conflict" and (rdi >= 0.75 or tri < 70):
         status = "REJECTED"
         decision_action = "BLOCK_AI_OUTPUT"
         final_decision = "DO NOT AUTO-USE RESULT"
@@ -359,7 +383,10 @@ def validate_prediction_with_experts(data: Dict[str, Any], ai_risk: str, pcs: fl
 
     reason = (
         f"AI predicted {ai_risk}. Expert consensus is {expert_risk} from {applicable_count} applicable source(s): "
-        f"{low_votes} Low, {medium_votes} Medium, {high_votes} High. Agreement level: {agreement.replace('_', ' ')}."
+        f"{low_votes} Low, {medium_votes} Medium, {high_votes} High. Agreement level: {agreement.replace('_', ' ')}. "
+        f"AI/expert agreement score: {(1 - ai_expert_gap) * 100:.0f}%. "
+        f"Expert source agreement: {expert_source_agreement * 100:.0f}%. "
+        f"Risk deviation index: {rdi:.3f}."
     )
     if final_risk == "High":
         farmer_explanation = (
@@ -385,6 +412,10 @@ def validate_prediction_with_experts(data: Dict[str, Any], ai_risk: str, pcs: fl
             "medium_votes": medium_votes,
             "high_votes": high_votes,
             "agreement_level": agreement,
+            "ai_expert_gap": round(ai_expert_gap, 3),
+            "ai_expert_agreement": round(1 - ai_expert_gap, 3),
+            "expert_source_agreement": round(expert_source_agreement, 3),
+            "final_gap": round(ai_final_gap, 3),
         },
         "expert_risk": expert_risk,
         "final_risk": final_risk,

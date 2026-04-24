@@ -260,7 +260,7 @@ function showValidationMetricsInfo() {
           <li>Approved: ${approved}</li>
           <li>Review required: ${review}</li>
           <li>Rejected: ${rejected}</li>
-          <li>AI/Expert match: ${match}% (${matchPct}% alignment)</li>
+          <li>AI/Expert match: ${match} records (${matchPct}% alignment)</li>
           <li>Average TRI: ${avgTri}%</li>
         </ul>
         <p><strong>Calculation formulas:</strong></p>
@@ -293,6 +293,84 @@ function closeValidationMetricsModal() {
     modal.classList.remove('active');
     setTimeout(() => modal.remove(), 300);
   }
+}
+
+// Override legacy modal text with the current formulas and cleaner copy.
+function showTriFormula() {
+  const modalHtml = `
+    <div id="triModal" class="modal-overlay">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3 class="modal-title">Trust Reliability Index (TRI)</h3>
+          <button class="modal-close" onclick="closeTriModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <p>The <b>Trust Reliability Index (TRI)</b> is the platform's overall trust score for a prediction.</p>
+          <div class="formula-card">
+            TRI = (PCS × 0.55) + (EAS × 0.45)
+          </div>
+          <div class="formula-details">
+            <ul>
+              <li><b>PCS (55%):</b> model confidence from the calibrated XGBoost prediction.</li>
+              <li><b>EAS (45%):</b> agreement strength after comparing AI output with expert sources.</li>
+            </ul>
+            <p style="margin-top:1rem; font-size: 0.85rem;">High-risk predictions are still sent for review even when TRI is strong. TRI supports trust, but final decision logic remains the safety gate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  const existing = document.getElementById('triModal');
+  if (existing) existing.remove();
+  document.body.insertAdjacentHTML('beforeend', modalHtml);
+  setTimeout(() => document.getElementById('triModal')?.classList.add('active'), 10);
+}
+
+function showValidationMetricsInfo() {
+  const metrics = window.lastDashboardMetrics || {};
+  const total = metrics.total_predictions || 0;
+  const approved = (metrics.decision_distribution || {})['APPROVED'] || 0;
+  const review = (metrics.decision_distribution || {})['REVIEW REQUIRED'] || 0;
+  const rejected = (metrics.decision_distribution || {})['REJECTED'] || 0;
+  const match = (metrics.alignment || {}).match || 0;
+  const totalAlignment = (metrics.alignment || {}).total || 0;
+  const matchPct = totalAlignment ? Math.round((match / totalAlignment) * 100) : 0;
+  const avgTri = metrics.avg_tri || 0;
+
+  const modalHtml = `
+    <div id="validationMetricsModal" class="modal-overlay">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3 class="modal-title">Validation Metrics Info</h3>
+          <button class="modal-close" onclick="closeValidationMetricsModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Current dashboard totals:</strong></p>
+          <ul>
+            <li>Total predictions: ${total}</li>
+            <li>Approved: ${approved}</li>
+            <li>Review required: ${review}</li>
+            <li>Rejected: ${rejected}</li>
+            <li>AI/Expert matches: ${match} records (${matchPct}% alignment)</li>
+            <li>Average TRI: ${avgTri}%</li>
+          </ul>
+          <p><strong>How the main metrics work:</strong></p>
+          <ul>
+            <li><em>RDI</em> combines the AI-expert gap, expert-source disagreement, and agreement-level penalty.</li>
+            <li><em>EAS</em> = 1 - RDI</li>
+            <li><em>TRI</em> = 0.55 × PCS + 0.45 × EAS</li>
+            <li><em>AI/Expert alignment</em> = (Match / Total aligned records) × 100</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  `;
+
+  const existing = document.getElementById('validationMetricsModal');
+  if (existing) existing.remove();
+  document.body.insertAdjacentHTML('beforeend', modalHtml);
+  setTimeout(() => document.getElementById('validationMetricsModal')?.classList.add('active'), 10);
 }
 
 function renderInsights(insights) {
@@ -373,6 +451,24 @@ function escapeHtml(value) {
   }[ch]));
 }
 
+function formatScore(value, decimals = 3) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return '0';
+  return num.toFixed(decimals).replace(/\.?0+$/, '');
+}
+
+function formatPercent(value, decimals = 0) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return '0%';
+  return `${(num * 100).toFixed(decimals).replace(/\.?0+$/, '')}%`;
+}
+
+function formatAgreementLevel(value) {
+  return String(value || 'unknown')
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, ch => ch.toUpperCase());
+}
+
 function renderFinalDecisionPanel(result) {
   const panel = document.getElementById('finalDecisionPanel');
   if (!panel) return;
@@ -389,6 +485,14 @@ function renderFinalDecisionPanel(result) {
     <div class="advisory-section">
       <div class="advisory-section-title">Expert Votes</div>
       <div class="advisory-section-text">${consensus.low_votes ?? 0} Low / ${consensus.medium_votes ?? 0} Medium / ${consensus.high_votes ?? 0} High</div>
+    </div>
+    <div class="advisory-section">
+      <div class="advisory-section-title">Agreement Quality</div>
+      <div class="advisory-section-text">
+        AI vs Expert Agreement: ${formatPercent(consensus.ai_expert_agreement, 0)}<br>
+        Expert Source Agreement: ${formatPercent(consensus.expert_source_agreement, 0)}<br>
+        Agreement Level: ${escapeHtml(formatAgreementLevel(consensus.agreement_level))}
+      </div>
     </div>
     <div class="advisory-section">
       <div class="advisory-section-title">Reason</div>
@@ -427,10 +531,10 @@ function displayPredictionResults(result) {
 
   // Transparency bars
   const pcs = result.pcs || 0, eas = result.eas || 0, rdi = result.rdi || 0, tri = result.tri || 0;
-  document.getElementById('pcsValue').textContent = pcs;
-  document.getElementById('easValue').textContent = eas;
-  document.getElementById('rdiValue').textContent = rdi;
-  document.getElementById('triValue').textContent = tri + '%';
+  document.getElementById('pcsValue').textContent = formatScore(pcs, 3);
+  document.getElementById('easValue').textContent = formatScore(eas, 3);
+  document.getElementById('rdiValue').textContent = formatScore(rdi, 3);
+  document.getElementById('triValue').textContent = `${formatScore(tri, 2)}%`;
 
   setTimeout(() => {
     document.getElementById('pcsBar').style.width = (pcs * 100) + '%';
@@ -451,20 +555,71 @@ function displayPredictionResults(result) {
 
   // Comparison chart
   const riskMap = { 'Low': 1, 'Medium': 2, 'High': 3 };
+  const riskLabelMap = { 0: 'N/A', 1: 'Low', 2: 'Medium', 3: 'High' };
+  const riskColor = (risk) => {
+    if (risk === 'Low') return CHART_COLORS.success;
+    if (risk === 'High') return CHART_COLORS.danger;
+    if (risk === 'Medium') return CHART_COLORS.warning;
+    return CHART_COLORS.textLight;
+  };
+  const comparisonRisks = [
+    result.ai_risk || 'N/A',
+    result.expert_risk || 'N/A',
+    result.final_risk || result.expert_risk || result.ai_risk || 'N/A'
+  ];
   destroyChart('comparison');
   chartInstances['comparison'] = new Chart(document.getElementById('comparisonChart'), {
     type: 'bar',
     data: {
-      labels: ['AI Risk', 'Expert Consensus', 'Final Risk', 'PCS', 'EAS', 'TRI (%)'],
+      labels: ['AI Prediction', 'Expert Rulebooks', 'Final Decision'],
       datasets: [{
-        label: 'Score',
-        data: [riskMap[result.ai_risk]||0, riskMap[result.expert_risk]||0, riskMap[result.final_risk]||0, pcs, eas, tri/100],
-        backgroundColor: [CHART_COLORS.blue, CHART_COLORS.gold, CHART_COLORS.danger, CHART_COLORS.green, CHART_COLORS.success, CHART_COLORS.green],
-        borderRadius: 6, borderSkipped: false
+        label: 'Risk Level',
+        data: comparisonRisks.map(risk => riskMap[risk] || 0),
+        backgroundColor: comparisonRisks.map(riskColor),
+        borderRadius: 8, borderSkipped: false
       }]
     },
-    options: { ...CHART_DEFAULTS, indexAxis: 'y', plugins: { legend: { display: false } } }
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => `Risk: ${riskLabelMap[context.parsed.x] || 'N/A'}`
+          }
+        }
+      },
+      scales: {
+        x: {
+          min: 0,
+          max: 3,
+          ticks: {
+            stepSize: 1,
+            color: CHART_COLORS.textLight,
+            callback: (value) => riskLabelMap[value] || ''
+          },
+          grid: { color: CHART_COLORS.gridLine }
+        },
+        y: {
+          ticks: { color: CHART_COLORS.text },
+          grid: { display: false }
+        }
+      }
+    }
   });
+  const summary = document.getElementById('comparisonChartSummary');
+  if (summary) {
+    const consensus = result.expert_consensus || {};
+    summary.innerHTML = `
+      AI vs Expert Agreement: <strong>${formatPercent(consensus.ai_expert_agreement, 0)}</strong>
+      <span class="comparison-summary-divider">|</span>
+      Expert Source Agreement: <strong>${formatPercent(consensus.expert_source_agreement, 0)}</strong>
+      <span class="comparison-summary-divider">|</span>
+      RDI: <strong>${formatScore(rdi, 3)}</strong>
+    `;
+  }
 
   // Advisory formatted
   const advDiv = document.getElementById('advisoryFormatted');
@@ -530,7 +685,7 @@ async function uploadBatchFile() {
   const fileInput = document.getElementById('batchFile');
   const file = fileInput.files[0];
   if (!file) { showNotification('Please select a CSV file', 'warning'); return; }
-  if (!file.name.endsWith('.csv')) { showNotification('Please upload a CSV file', 'warning'); return; }
+  if (!/\.csv$/i.test(file.name)) { showNotification('Please upload a CSV file', 'warning'); return; }
 
   const formData = new FormData();
   formData.append('file', file);
@@ -538,31 +693,128 @@ async function uploadBatchFile() {
   try {
     const token = await getAccessToken();
     const response = await fetch(`${API_BASE_URL}/batch-validate`, { method: 'POST', body: formData, headers: token ? {'Authorization': `Bearer ${token}`} : {} });
-    const result = await response.json();
+    const responseText = await response.text();
+    let result = {};
+
+    try {
+      result = responseText ? JSON.parse(responseText) : {};
+    } catch (_) {
+      result = {
+        error: response.ok
+          ? 'Unexpected response from batch validation service.'
+          : `Batch validation failed with HTTP ${response.status}. Please use a plain CSV and try again.`
+      };
+    }
+
+    if (!response.ok && !result.error) {
+      result.error = `Batch validation failed with HTTP ${response.status}.`;
+    }
     
     if (result.error) {
+      displayBatchResults(result);
       showNotification(result.error, 'danger');
       return;
     }
     
     displayBatchResults(result);
     showNotification(`Batch processed: ${result.records_processed} records`, 'success');
-  } catch(e) { showNotification('Failed to process batch file.', 'danger'); }
+  } catch(e) {
+    displayBatchResults({ error: e?.message || 'Failed to process batch file.' });
+    showNotification(e?.message || 'Failed to process batch file.', 'danger');
+  }
   finally { hideLoading(); }
 }
 
 function displayBatchResults(result) {
   const div = document.getElementById('batchStatus');
   div.classList.remove('hidden');
+  const requiredColumns = (result.required_columns || []).join(', ');
+  const acceptedSeasons = (result.accepted_seasons || []).join(', ');
+  const previewRows = result.results_preview || [];
+  const errorRows = result.sample_errors || [];
+
+  if (result.error) {
+    div.innerHTML = `
+      <div class="glass-card-premium">
+        <div class="card-header-premium"><h3 class="card-title-premium">Batch Validation Needs Attention</h3></div>
+        <div class="advisory-section">
+          <div class="advisory-section-title">Issue</div>
+          <div class="advisory-section-text">${escapeHtml(result.error)}</div>
+        </div>
+        <div class="advisory-section">
+          <div class="advisory-section-title">Required CSV Columns</div>
+          <div class="advisory-section-text">${escapeHtml(requiredColumns || 'State, District, Crop, Season, Area, Production, Yield')}</div>
+        </div>
+        <div class="advisory-section">
+          <div class="advisory-section-title">Accepted Season Values</div>
+          <div class="advisory-section-text">${escapeHtml(acceptedSeasons || 'Kharif, Rabi, Summer, Total')}</div>
+        </div>
+        ${errorRows.length ? `
+          <div class="advisory-section">
+            <div class="advisory-section-title">Sample Row Errors</div>
+            <div class="advisory-section-text">${errorRows.map(err => `Row ${err.row}: ${escapeHtml(err.error)}`).join('<br>')}</div>
+          </div>
+        ` : ''}
+      </div>`;
+    return;
+  }
+
   div.innerHTML = `
     <div class="glass-card-premium">
       <div class="card-header-premium"><h3 class="card-title-premium">Batch Processing Complete</h3></div>
       <div class="metrics-grid-premium four-col">
         <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Processed</span><span class="metric-value-premium">${result.records_processed||0}</span></div></div>
+        <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Skipped</span><span class="metric-value-premium">${result.skipped_rows||0}</span></div></div>
         <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Approved</span><span class="metric-value-premium" style="color:var(--success)">${result.approved||0}</span></div></div>
         <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Review</span><span class="metric-value-premium" style="color:var(--warning)">${result.review_required||0}</span></div></div>
         <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Rejected</span><span class="metric-value-premium" style="color:var(--danger)">${result.rejected||0}</span></div></div>
       </div>
+      <div class="metrics-grid-premium four-col" style="margin-top:1rem;">
+        <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Avg EAS</span><span class="metric-value-premium">${formatScore(result.avg_eas, 3)}</span></div></div>
+        <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Avg RDI</span><span class="metric-value-premium">${formatScore(result.avg_rdi, 3)}</span></div></div>
+        <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Avg TRI</span><span class="metric-value-premium">${formatScore(result.avg_tri, 2)}%</span></div></div>
+        <div class="metric-card-premium"><div class="metric-info"><span class="metric-label-premium">Final Risk Mix</span><span class="metric-value-premium">${(result.risk_distribution||{}).Low||0} / ${(result.risk_distribution||{}).Medium||0} / ${(result.risk_distribution||{}).High||0}</span></div></div>
+      </div>
+      <div class="advisory-section" style="margin-top:1rem;">
+        <div class="advisory-section-title">Batch Parameters</div>
+        <div class="advisory-section-text">
+          Required CSV columns: ${escapeHtml(requiredColumns || 'State, District, Crop, Season, Area, Production, Yield')}<br>
+          Accepted season values: ${escapeHtml(acceptedSeasons || 'Kharif, Rabi, Summer, Total')}
+        </div>
+      </div>
+      ${previewRows.length ? `
+        <div class="advisory-section">
+          <div class="advisory-section-title">Preview of Processed Rows</div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr><th>Row</th><th>State</th><th>Crop</th><th>AI</th><th>Expert</th><th>Final</th><th>RDI</th><th>TRI</th><th>Status</th></tr>
+              </thead>
+              <tbody>
+                ${previewRows.map(row => `
+                  <tr>
+                    <td>${row.row}</td>
+                    <td>${escapeHtml(row.state || '')}</td>
+                    <td>${escapeHtml(row.crop || '')}</td>
+                    <td>${escapeHtml(row.ai_risk || '')}</td>
+                    <td>${escapeHtml(row.expert_risk || '')}</td>
+                    <td>${escapeHtml(row.final_risk || '')}</td>
+                    <td>${formatScore(row.rdi, 3)}</td>
+                    <td>${formatScore(row.tri, 2)}%</td>
+                    <td>${escapeHtml(row.validation_status || '')}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ` : ''}
+      ${errorRows.length ? `
+        <div class="advisory-section">
+          <div class="advisory-section-title">Skipped Row Details</div>
+          <div class="advisory-section-text">${errorRows.map(err => `Row ${err.row}: ${escapeHtml(err.error)}`).join('<br>')}</div>
+        </div>
+      ` : ''}
     </div>`;
 }
 
@@ -575,7 +827,7 @@ async function loadPredictionHistory(offset = 0) {
     const data = await res.json();
     const tbody = document.getElementById('historyBody');
     if (!data.data || data.data.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="9" class="table-empty">No predictions found. Run single or batch predictions first.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="10" class="table-empty">No predictions found. Run single or batch predictions first.</td></tr>';
       return;
     }
     tbody.innerHTML = data.data.map(r => {

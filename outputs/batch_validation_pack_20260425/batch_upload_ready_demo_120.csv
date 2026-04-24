@@ -1,0 +1,121 @@
+State,District,Crop,Season,Area,Production,Yield
+Andhra Pradesh,Kurnool,Bajra,Kharif,0.06,0.15,2351.0
+Andhra Pradesh,Bapatla,Cereals,Kharif,0.91,3.33,3681.0
+Andhra Pradesh,Ntr,Gram,Rabi,0.04,0.08,2033.0
+Andhra Pradesh,Nandyal,Jowar,Rabi,0.29,0.8,2777.0
+Andhra Pradesh,Parvathipuram Manyam,Maize,Kharif,0.05,0.21,4132.0
+Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,Moong,Rabi,0.01,0.01,965.0
+Andhra Pradesh,Anantapur,Nutri/Coarse Cereals,Kharif,0.35,1.13,3250.0
+Andhra Pradesh,Srikakulam,Ragi,Total,0.01,0.03,2178.0
+Andhra Pradesh,Anantapur,Rice,Rabi,0.05,0.13,2789.0
+Andhra Pradesh,Chittoor,Shree Anna /Nutri Cereals,Total,0.02,0.03,1642.0
+Andhra Pradesh,Prakasam,Small Millets,Kharif,0.03,0.03,953.0
+Andhra Pradesh,Alluri Sitharama Raju,Total Food Grains,Kharif,0.75,2.01,2680.0
+Andhra Pradesh,Spsr Nellore,Total Pulses,Total,0.09,0.1,1019.0
+Andhra Pradesh,Bapatla,Tur,Total,0.01,0.01,953.0
+Andhra Pradesh,East Godavari,Urad,Kharif,0.02,0.03,1463.0
+Karnataka,Bagalkote,Bajra,Kharif,0.19,0.33,1691.0
+Karnataka,Vijayanagar,Bajra,Kharif,0.09,0.14,1545.0
+Karnataka,Chitradurga,Cereals,Kharif,1.82,4.48,2461.0
+Karnataka,Kalaburagi,Cereals,Kharif,0.1,0.25,2489.0
+Karnataka,Chikkaballapura,Jowar,Total,0.01,0.02,1625.0
+Karnataka,Davangere,Jowar,Rabi,0.04,0.06,1607.0
+Karnataka,Chitradurga,Maize,Rabi,0.14,0.51,3739.0
+Karnataka,Gadag,Maize,Rabi,0.07,0.19,2841.0
+Karnataka,Davangere,Nutri/Coarse Cereals,Rabi,0.07,0.2,2734.0
+Karnataka,Kolar,Nutri/Coarse Cereals,Kharif,0.57,1.07,1880.0
+Karnataka,Vijayanagar,Nutri/Coarse Cereals,Kharif,2.75,6.68,2435.0
+Karnataka,Kolar,Other Pulses,Kharif,0.05,0.05,967.0
+Karnataka,Ramanagara,Other Pulses,Rabi,0.01,0.01,1048.0
+Karnataka,Mandya,Ragi,Total,0.82,1.28,1561.0
+Karnataka,Chikkamagaluru,Rice,Kharif,0.08,0.23,2748.0
+Karnataka,Shivamogga,Rice,Kharif,0.61,1.76,2879.0
+Karnataka,Yadgir,Rice,Summer,0.36,0.92,2546.0
+Karnataka,Kalaburagi,Shree Anna /Nutri Cereals,Rabi,0.41,0.52,1271.0
+Karnataka,Ramanagara,Shree Anna /Nutri Cereals,Kharif,0.64,1.03,1601.0
+Karnataka,Kolar,Small Millets,Kharif,0.01,0.02,1811.0
+Karnataka,Kolar,Small Millets,Total,0.01,0.02,1811.0
+Karnataka,Bagalkote,Total Food Grains,Kharif,2.13,3.98,1869.0
+Karnataka,Mysuru,Total Food Grains,Rabi,0.26,0.48,1863.0
+Karnataka,Bengaluru Rural,Total Pulses,Total,0.02,0.01,915.0
+Karnataka,Bengaluru Rural,Tur,Total,0.01,0.01,1087.0
+Andhra Pradesh,Anantapur,Bajra,Total,0.03,0.04,1343.0
+Andhra Pradesh,Kurnool,Cereals,Total,0.57,1.64,2864.0
+Andhra Pradesh,Kurnool,Gram,Rabi,0.43,0.45,1034.0
+Andhra Pradesh,Prakasam,Gram,Rabi,0.25,0.31,1229.0
+Andhra Pradesh,Kurnool,Jowar,Rabi,0.12,0.15,1299.0
+Andhra Pradesh,Kurnool,Jowar,Total,0.12,0.16,1300.0
+Andhra Pradesh,Anantapur,Nutri/Coarse Cereals,Total,0.48,1.59,3308.0
+Andhra Pradesh,Kurnool,Nutri/Coarse Cereals,Total,0.4,1.06,2614.0
+Andhra Pradesh,Nandyal,Nutri/Coarse Cereals,Total,1.09,4.33,3986.0
+Andhra Pradesh,Sri Sathya Sai,Nutri/Coarse Cereals,Total,0.33,1.16,3526.0
+Andhra Pradesh,Parvathipuram Manyam,Ragi,Kharif,0.01,0.01,1209.0
+Andhra Pradesh,Sri Sathya Sai,Ragi,Kharif,0.04,0.06,1561.0
+Andhra Pradesh,Alluri Sitharama Raju,Shree Anna /Nutri Cereals,Total,0.17,0.21,1211.0
+Andhra Pradesh,Anakapalli,Shree Anna /Nutri Cereals,Total,0.01,0.01,1131.0
+Andhra Pradesh,Y.S.R.,Shree Anna /Nutri Cereals,Rabi,0.06,0.09,1521.0
+Andhra Pradesh,Y.S.R.,Shree Anna /Nutri Cereals,Total,0.11,0.17,1558.0
+Andhra Pradesh,Anantapur,Total Food Grains,Kharif,1.63,2.05,1254.0
+Andhra Pradesh,Krishna,Total Food Grains,Rabi,1.32,2.83,2137.0
+Andhra Pradesh,Kurnool,Total Food Grains,Total,1.66,2.48,1491.0
+Andhra Pradesh,Guntur,Urad,Kharif,0.03,0.03,1080.0
+Karnataka,Gadag,Bajra,Kharif,0.01,0.01,1132.0
+Karnataka,Raichur,Bajra,Kharif,0.12,0.14,1238.0
+Karnataka,Haveri,Cereals,Rabi,1.17,2.18,1859.0
+Karnataka,Belagavi,Jowar,Total,1.47,1.73,1174.0
+Karnataka,Chamarajanagara,Jowar,Total,0.22,0.24,1098.0
+Karnataka,Kodagu,Maize,Kharif,0.01,0.02,2035.0
+Karnataka,Chikkamagaluru,Nutri/Coarse Cereals,Rabi,0.03,0.05,1467.0
+Karnataka,Dharwad,Nutri/Coarse Cereals,Rabi,0.41,0.76,1832.0
+Karnataka,Kalaburagi,Nutri/Coarse Cereals,Rabi,0.42,0.54,1300.0
+Karnataka,Mandya,Nutri/Coarse Cereals,Kharif,0.86,1.35,1584.0
+Karnataka,Mandya,Nutri/Coarse Cereals,Total,0.87,1.43,1639.0
+Karnataka,Ballari,Ragi,Total,0.02,0.03,1366.0
+Karnataka,Chikkamagaluru,Ragi,Kharif,0.53,0.69,1295.0
+Karnataka,Chitradurga,Ragi,Kharif,0.44,0.54,1211.0
+Karnataka,Chitradurga,Ragi,Total,0.44,0.54,1211.0
+Karnataka,Davangere,Ragi,Kharif,0.25,0.35,1424.0
+Karnataka,Haveri,Rice,Kharif,0.26,0.55,2091.0
+Karnataka,Haveri,Rice,Summer,0.1,0.24,2307.0
+Karnataka,Chikkamagaluru,Shree Anna /Nutri Cereals,Rabi,0.03,0.03,1066.0
+Karnataka,Dharwad,Shree Anna /Nutri Cereals,Total,0.3,0.29,956.0
+Andhra Pradesh,Anantapur,Gram,Rabi,0.5,0.28,555.0
+Andhra Pradesh,Sri Sathya Sai,Gram,Total,0.01,0.01,816.0
+Andhra Pradesh,Anakapalli,Moong,Rabi,0.03,0.02,624.0
+Andhra Pradesh,Vizianagaram,Moong,Rabi,0.07,0.03,484.0
+Andhra Pradesh,Alluri Sitharama Raju,Other Pulses,Rabi,0.1,0.09,871.0
+Andhra Pradesh,Sri Sathya Sai,Other Pulses,Kharif,0.03,0.02,507.0
+Andhra Pradesh,Alluri Sitharama Raju,Small Millets,Total,0.03,0.01,485.0
+Andhra Pradesh,Kurnool,Small Millets,Kharif,0.1,0.09,866.0
+Andhra Pradesh,Anakapalli,Total Food Grains,Rabi,0.14,0.13,924.0
+Andhra Pradesh,Anakapalli,Total Pulses,Total,0.13,0.09,677.0
+Andhra Pradesh,Kurnool,Total Pulses,Total,1.09,0.83,765.0
+Andhra Pradesh,Nandyal,Tur,Total,0.48,0.33,693.0
+Andhra Pradesh,Spsr Nellore,Tur,Kharif,0.01,0.01,735.0
+Andhra Pradesh,Kakinada,Urad,Rabi,0.06,0.04,619.0
+Andhra Pradesh,Ntr,Urad,Kharif,0.03,0.02,669.0
+Karnataka,Bidar,Cereals,Rabi,0.53,0.42,785.0
+Karnataka,Bagalkote,Gram,Rabi,0.32,0.19,590.0
+Karnataka,Ballari,Gram,Rabi,0.05,0.04,801.0
+Karnataka,Belagavi,Gram,Rabi,0.79,0.59,747.0
+Karnataka,Bidar,Jowar,Rabi,0.44,0.33,744.0
+Karnataka,Gadag,Jowar,Rabi,0.24,0.19,788.0
+Karnataka,Belagavi,Moong,Kharif,0.72,0.29,407.0
+Karnataka,Bidar,Moong,Kharif,0.31,0.18,590.0
+Karnataka,Bidar,Nutri/Coarse Cereals,Total,0.44,0.33,755.0
+Karnataka,Chikkaballapura,Other Pulses,Rabi,0.03,0.02,721.0
+Karnataka,Chitradurga,Other Pulses,Rabi,0.02,0.01,775.0
+Karnataka,Dharwad,Rice,Kharif,0.08,0.11,1351.0
+Karnataka,Chitradurga,Shree Anna /Nutri Cereals,Rabi,0.02,0.01,533.0
+Karnataka,Koppal,Shree Anna /Nutri Cereals,Rabi,0.16,0.09,598.0
+Karnataka,Tumakuru,Small Millets,Total,0.01,0.01,668.0
+Karnataka,Vijayanagar,Small Millets,Total,0.01,0.01,383.0
+Karnataka,Bidar,Total Food Grains,Kharif,1.81,1.95,1079.0
+Karnataka,Dharwad,Total Food Grains,Rabi,2.2,2.13,966.0
+Karnataka,Bagalkote,Total Pulses,Total,1.57,0.94,598.0
+Karnataka,Tumakuru,Tur,Total,0.14,0.07,492.0
+Karnataka,Vijayapura,Tur,Total,5.21,2.95,566.0
+Karnataka,Belagavi,Urad,Kharif,0.26,0.15,575.0
+Karnataka,Belagavi,Urad,Total,0.26,0.15,572.0
+Karnataka,Bidar,Wheat,Rabi,0.09,0.09,944.0
+Karnataka,Dharwad,Wheat,Rabi,0.11,0.11,1002.0

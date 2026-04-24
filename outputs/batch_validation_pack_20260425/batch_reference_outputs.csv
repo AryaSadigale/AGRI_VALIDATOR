@@ -1,0 +1,301 @@
+Batch_Case_ID,Upload_Row,State,District,Crop,Season,Area,Production,Yield,Expected_AI_Risk,Expected_Expert_Risk,Expected_Final_Risk,Expected_PCS,Expected_EAS,Expected_RDI,Expected_TRI,Expected_Status,Expected_Decision,Agreement_Level,AI_Expert_Agreement,Expert_Source_Agreement,Confidence_Band
+CASE-001,2,Andhra Pradesh,Kurnool,Bajra,Kharif,0.06,0.15,2351.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-002,3,Andhra Pradesh,Anantapur,Bajra,Total,0.03,0.04,1343.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-003,4,Andhra Pradesh,Anantapur,Gram,Rabi,0.5,0.28,555.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-004,5,Andhra Pradesh,Bapatla,Cereals,Kharif,0.91,3.33,3681.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-005,6,Andhra Pradesh,Kurnool,Cereals,Total,0.57,1.64,2864.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-006,7,Andhra Pradesh,Sri Sathya Sai,Gram,Total,0.01,0.01,816.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-007,8,Andhra Pradesh,Ntr,Gram,Rabi,0.04,0.08,2033.0,Low,Low,Low,0.998,1.0,0.0,99.91,APPROVED,SAFE TO PROCEED,strong_agreement,1.0,1.0,Very High Reliability
+CASE-008,9,Andhra Pradesh,Kurnool,Gram,Rabi,0.43,0.45,1034.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-009,10,Andhra Pradesh,Anakapalli,Moong,Rabi,0.03,0.02,624.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-010,11,Andhra Pradesh,Nandyal,Jowar,Rabi,0.29,0.8,2777.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-011,12,Andhra Pradesh,Prakasam,Gram,Rabi,0.25,0.31,1229.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-012,13,Andhra Pradesh,Vizianagaram,Moong,Rabi,0.07,0.03,484.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-013,14,Andhra Pradesh,Parvathipuram Manyam,Maize,Kharif,0.05,0.21,4132.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-014,15,Andhra Pradesh,Kurnool,Jowar,Rabi,0.12,0.15,1299.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-015,16,Andhra Pradesh,Alluri Sitharama Raju,Other Pulses,Rabi,0.1,0.09,871.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-016,17,Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,Moong,Rabi,0.01,0.01,965.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-017,18,Andhra Pradesh,Kurnool,Jowar,Total,0.12,0.16,1300.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-018,19,Andhra Pradesh,Sri Sathya Sai,Other Pulses,Kharif,0.03,0.02,507.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-019,20,Andhra Pradesh,Anantapur,Nutri/Coarse Cereals,Kharif,0.35,1.13,3250.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-020,21,Andhra Pradesh,Anantapur,Nutri/Coarse Cereals,Total,0.48,1.59,3308.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-021,22,Andhra Pradesh,Alluri Sitharama Raju,Small Millets,Total,0.03,0.01,485.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-022,23,Andhra Pradesh,Srikakulam,Ragi,Total,0.01,0.03,2178.0,Low,Low,Low,0.998,1.0,0.0,99.91,APPROVED,SAFE TO PROCEED,strong_agreement,1.0,1.0,Very High Reliability
+CASE-023,24,Andhra Pradesh,Kurnool,Nutri/Coarse Cereals,Total,0.4,1.06,2614.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-024,25,Andhra Pradesh,Kurnool,Small Millets,Kharif,0.1,0.09,866.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-025,26,Andhra Pradesh,Anantapur,Rice,Rabi,0.05,0.13,2789.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-026,27,Andhra Pradesh,Nandyal,Nutri/Coarse Cereals,Total,1.09,4.33,3986.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-027,28,Andhra Pradesh,Anakapalli,Total Food Grains,Rabi,0.14,0.13,924.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-028,29,Andhra Pradesh,Chittoor,Shree Anna /Nutri Cereals,Total,0.02,0.03,1642.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-029,30,Andhra Pradesh,Sri Sathya Sai,Nutri/Coarse Cereals,Total,0.33,1.16,3526.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-030,31,Andhra Pradesh,Anakapalli,Total Pulses,Total,0.13,0.09,677.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-031,32,Andhra Pradesh,Prakasam,Small Millets,Kharif,0.03,0.03,953.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-032,33,Andhra Pradesh,Parvathipuram Manyam,Ragi,Kharif,0.01,0.01,1209.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-033,34,Andhra Pradesh,Kurnool,Total Pulses,Total,1.09,0.83,765.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-034,35,Andhra Pradesh,Alluri Sitharama Raju,Total Food Grains,Kharif,0.75,2.01,2680.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-035,36,Andhra Pradesh,Sri Sathya Sai,Ragi,Kharif,0.04,0.06,1561.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-036,37,Andhra Pradesh,Nandyal,Tur,Total,0.48,0.33,693.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-037,38,Andhra Pradesh,Spsr Nellore,Total Pulses,Total,0.09,0.1,1019.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-038,39,Andhra Pradesh,Alluri Sitharama Raju,Shree Anna /Nutri Cereals,Total,0.17,0.21,1211.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-039,40,Andhra Pradesh,Spsr Nellore,Tur,Kharif,0.01,0.01,735.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-040,41,Andhra Pradesh,Bapatla,Tur,Total,0.01,0.01,953.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-041,42,Andhra Pradesh,Anakapalli,Shree Anna /Nutri Cereals,Total,0.01,0.01,1131.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-042,43,Andhra Pradesh,Kakinada,Urad,Rabi,0.06,0.04,619.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-043,44,Andhra Pradesh,East Godavari,Urad,Kharif,0.02,0.03,1463.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-044,45,Andhra Pradesh,Y.S.R.,Shree Anna /Nutri Cereals,Rabi,0.06,0.09,1521.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-045,46,Andhra Pradesh,Ntr,Urad,Kharif,0.03,0.02,669.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-046,47,Karnataka,Bagalkote,Bajra,Kharif,0.19,0.33,1691.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-047,48,Andhra Pradesh,Y.S.R.,Shree Anna /Nutri Cereals,Total,0.11,0.17,1558.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-048,49,Karnataka,Bidar,Cereals,Rabi,0.53,0.42,785.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-049,50,Karnataka,Vijayanagar,Bajra,Kharif,0.09,0.14,1545.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-050,51,Andhra Pradesh,Anantapur,Total Food Grains,Kharif,1.63,2.05,1254.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-051,52,Karnataka,Bagalkote,Gram,Rabi,0.32,0.19,590.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-052,53,Karnataka,Chitradurga,Cereals,Kharif,1.82,4.48,2461.0,Low,Medium,Low,0.998,0.47,0.53,76.06,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-053,54,Andhra Pradesh,Krishna,Total Food Grains,Rabi,1.32,2.83,2137.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-054,55,Karnataka,Ballari,Gram,Rabi,0.05,0.04,801.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-055,56,Karnataka,Kalaburagi,Cereals,Kharif,0.1,0.25,2489.0,Low,Medium,Low,0.998,0.47,0.53,76.06,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-056,57,Andhra Pradesh,Kurnool,Total Food Grains,Total,1.66,2.48,1491.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-057,58,Karnataka,Belagavi,Gram,Rabi,0.79,0.59,747.0,High,Medium,High,0.998,0.33,0.67,69.72,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-058,59,Karnataka,Chikkaballapura,Jowar,Total,0.01,0.02,1625.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-059,60,Andhra Pradesh,Guntur,Urad,Kharif,0.03,0.03,1080.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-060,61,Karnataka,Bidar,Jowar,Rabi,0.44,0.33,744.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-061,62,Karnataka,Davangere,Jowar,Rabi,0.04,0.06,1607.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-062,63,Karnataka,Gadag,Bajra,Kharif,0.01,0.01,1132.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-063,64,Karnataka,Gadag,Jowar,Rabi,0.24,0.19,788.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-064,65,Karnataka,Chitradurga,Maize,Rabi,0.14,0.51,3739.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-065,66,Karnataka,Raichur,Bajra,Kharif,0.12,0.14,1238.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-066,67,Karnataka,Belagavi,Moong,Kharif,0.72,0.29,407.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-067,68,Karnataka,Gadag,Maize,Rabi,0.07,0.19,2841.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-068,69,Karnataka,Haveri,Cereals,Rabi,1.17,2.18,1859.0,Medium,Medium,Medium,0.835,0.82,0.18,82.85,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,High Reliability
+CASE-069,70,Karnataka,Bidar,Moong,Kharif,0.31,0.18,590.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-070,71,Karnataka,Davangere,Nutri/Coarse Cereals,Rabi,0.07,0.2,2734.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-071,72,Karnataka,Belagavi,Jowar,Total,1.47,1.73,1174.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-072,73,Karnataka,Bidar,Nutri/Coarse Cereals,Total,0.44,0.33,755.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-073,74,Karnataka,Kolar,Nutri/Coarse Cereals,Kharif,0.57,1.07,1880.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-074,75,Karnataka,Chamarajanagara,Jowar,Total,0.22,0.24,1098.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-075,76,Karnataka,Chikkaballapura,Other Pulses,Rabi,0.03,0.02,721.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-076,77,Karnataka,Vijayanagar,Nutri/Coarse Cereals,Kharif,2.75,6.68,2435.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-077,78,Karnataka,Kodagu,Maize,Kharif,0.01,0.02,2035.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-078,79,Karnataka,Chitradurga,Other Pulses,Rabi,0.02,0.01,775.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-079,80,Karnataka,Kolar,Other Pulses,Kharif,0.05,0.05,967.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-080,81,Karnataka,Chikkamagaluru,Nutri/Coarse Cereals,Rabi,0.03,0.05,1467.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-081,82,Karnataka,Dharwad,Rice,Kharif,0.08,0.11,1351.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-082,83,Karnataka,Ramanagara,Other Pulses,Rabi,0.01,0.01,1048.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-083,84,Karnataka,Dharwad,Nutri/Coarse Cereals,Rabi,0.41,0.76,1832.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-084,85,Karnataka,Chitradurga,Shree Anna /Nutri Cereals,Rabi,0.02,0.01,533.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-085,86,Karnataka,Mandya,Ragi,Total,0.82,1.28,1561.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-086,87,Karnataka,Kalaburagi,Nutri/Coarse Cereals,Rabi,0.42,0.54,1300.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-087,88,Karnataka,Koppal,Shree Anna /Nutri Cereals,Rabi,0.16,0.09,598.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-088,89,Karnataka,Chikkamagaluru,Rice,Kharif,0.08,0.23,2748.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-089,90,Karnataka,Mandya,Nutri/Coarse Cereals,Kharif,0.86,1.35,1584.0,Medium,Medium,Medium,0.998,0.48,0.52,76.5,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.333,Moderate Reliability
+CASE-090,91,Karnataka,Tumakuru,Small Millets,Total,0.01,0.01,668.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-091,92,Karnataka,Shivamogga,Rice,Kharif,0.61,1.76,2879.0,Low,Medium,Low,0.998,0.47,0.53,76.06,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-092,93,Karnataka,Mandya,Nutri/Coarse Cereals,Total,0.87,1.43,1639.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-093,94,Karnataka,Vijayanagar,Small Millets,Total,0.01,0.01,383.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-094,95,Karnataka,Yadgir,Rice,Summer,0.36,0.92,2546.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-095,96,Karnataka,Ballari,Ragi,Total,0.02,0.03,1366.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-096,97,Karnataka,Bidar,Total Food Grains,Kharif,1.81,1.95,1079.0,Medium,High,High,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-097,98,Karnataka,Kalaburagi,Shree Anna /Nutri Cereals,Rabi,0.41,0.52,1271.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-098,99,Karnataka,Chikkamagaluru,Ragi,Kharif,0.53,0.69,1295.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-099,100,Karnataka,Dharwad,Total Food Grains,Rabi,2.2,2.13,966.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-100,101,Karnataka,Ramanagara,Shree Anna /Nutri Cereals,Kharif,0.64,1.03,1601.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-101,102,Karnataka,Chitradurga,Ragi,Kharif,0.44,0.54,1211.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-102,103,Karnataka,Bagalkote,Total Pulses,Total,1.57,0.94,598.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-103,104,Karnataka,Kolar,Small Millets,Kharif,0.01,0.02,1811.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-104,105,Karnataka,Chitradurga,Ragi,Total,0.44,0.54,1211.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-105,106,Karnataka,Tumakuru,Tur,Total,0.14,0.07,492.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-106,107,Karnataka,Kolar,Small Millets,Total,0.01,0.02,1811.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-107,108,Karnataka,Davangere,Ragi,Kharif,0.25,0.35,1424.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-108,109,Karnataka,Vijayapura,Tur,Total,5.21,2.95,566.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-109,110,Karnataka,Bagalkote,Total Food Grains,Kharif,2.13,3.98,1869.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-110,111,Karnataka,Haveri,Rice,Kharif,0.26,0.55,2091.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-111,112,Karnataka,Belagavi,Urad,Kharif,0.26,0.15,575.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-112,113,Karnataka,Mysuru,Total Food Grains,Rabi,0.26,0.48,1863.0,Medium,Low,Low,0.602,0.37,0.63,49.76,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Low Reliability
+CASE-113,114,Karnataka,Haveri,Rice,Summer,0.1,0.24,2307.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-114,115,Karnataka,Belagavi,Urad,Total,0.26,0.15,572.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-115,116,Karnataka,Bengaluru Rural,Total Pulses,Total,0.02,0.01,915.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-116,117,Karnataka,Chikkamagaluru,Shree Anna /Nutri Cereals,Rabi,0.03,0.03,1066.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-117,118,Karnataka,Bidar,Wheat,Rabi,0.09,0.09,944.0,Medium,High,High,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-118,119,Karnataka,Bengaluru Rural,Tur,Total,0.01,0.01,1087.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-119,120,Karnataka,Dharwad,Shree Anna /Nutri Cereals,Total,0.3,0.29,956.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-120,121,Karnataka,Dharwad,Wheat,Rabi,0.11,0.11,1002.0,Medium,High,High,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-121,122,Maharashtra,Beed,Bajra,Total,0.41,0.58,1403.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-122,123,Karnataka,Hassan,Shree Anna /Nutri Cereals,Rabi,0.01,0.02,1113.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-123,124,Maharashtra,Amravati,Cereals,Summer,0.03,0.03,1089.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-124,125,Maharashtra,Ahmednagar,Cereals,Kharif,1.92,4.26,2212.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-125,126,Karnataka,Belagavi,Total Food Grains,Rabi,3.53,6.13,1737.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-126,127,Maharashtra,Latur,Cereals,Summer,0.01,0.01,1019.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-127,128,Maharashtra,Dhule,Cereals,Summer,0.05,0.09,1894.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-128,129,Karnataka,Chikkaballapura,Total Food Grains,Rabi,0.08,0.14,1729.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-129,130,Maharashtra,Yavatmal,Cereals,Rabi,0.63,0.72,1138.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-130,131,Maharashtra,Palghar,Cereals,Kharif,0.98,2.08,2110.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-131,132,Karnataka,Chikkamagaluru,Total Food Grains,Kharif,0.73,1.12,1522.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-132,133,Maharashtra,Ahmednagar,Gram,Rabi,1.08,0.91,844.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-133,134,Maharashtra,Amravati,Gram,Rabi,1.12,1.55,1386.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-134,135,Karnataka,Chikkamagaluru,Total Food Grains,Rabi,0.09,0.1,1074.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-135,136,Maharashtra,Kolhapur,Gram,Rabi,0.04,0.03,856.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-136,137,Maharashtra,Jalgaon,Gram,Total,0.81,0.97,1208.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-137,138,Karnataka,Dharwad,Total Food Grains,Total,4.25,4.86,1142.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-138,139,Maharashtra,Kolhapur,Gram,Total,0.04,0.03,856.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-139,140,Maharashtra,Nagpur,Gram,Rabi,0.96,1.18,1230.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-140,141,Karnataka,Gadag,Total Food Grains,Kharif,2.7,3.82,1416.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-141,142,Maharashtra,Nanded,Gram,Rabi,2.58,1.91,739.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-142,143,Maharashtra,Buldhana,Jowar,Rabi,0.16,0.18,1151.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-143,144,Karnataka,Gadag,Total Food Grains,Total,4.86,5.11,1051.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-144,145,Maharashtra,Buldhana,Jowar,Summer,0.04,0.03,832.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-145,146,Maharashtra,Jalgaon,Jowar,Kharif,0.2,0.3,1512.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-146,147,Karnataka,Koppal,Total Food Grains,Rabi,1.32,1.34,1014.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-147,148,Maharashtra,Nanded,Jowar,Kharif,0.09,0.06,621.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-148,149,Maharashtra,Jalna,Jowar,Rabi,0.86,0.96,1111.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-149,150,Karnataka,Yadgir,Total Food Grains,Summer,0.36,0.93,2555.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-150,151,Maharashtra,Solapur,Jowar,Total,2.54,2.13,836.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-151,152,Maharashtra,Amravati,Maize,Kharif,0.25,0.55,2219.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-152,153,Maharashtra,Dhule,Bajra,Summer,0.03,0.02,910.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-153,154,Maharashtra,Washim,Jowar,Total,0.03,0.02,855.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-154,155,Maharashtra,Beed,Maize,Kharif,0.07,0.16,2307.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-155,156,Maharashtra,Sangli,Bajra,Kharif,0.47,0.56,1180.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-156,157,Maharashtra,Amravati,Maize,Rabi,0.01,0.01,1048.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-157,158,Maharashtra,Sangli,Maize,Rabi,0.2,0.39,1948.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-158,159,Maharashtra,Satara,Bajra,Total,0.42,0.45,1081.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-159,160,Maharashtra,Hingoli,Maize,Total,0.03,0.03,1004.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-160,161,Maharashtra,Kolhapur,Moong,Kharif,0.01,0.01,1049.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-161,162,Maharashtra,Ahmednagar,Cereals,Rabi,3.19,5.21,1633.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-162,163,Maharashtra,Yavatmal,Maize,Rabi,0.01,0.01,1078.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-163,164,Maharashtra,Latur,Moong,Kharif,0.07,0.07,1078.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-164,165,Maharashtra,Chandrapur,Cereals,Kharif,1.93,3.5,1813.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-165,166,Maharashtra,Nashik,Moong,Kharif,0.21,0.16,791.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-166,167,Maharashtra,Amravati,Nutri/Coarse Cereals,Kharif,0.33,0.62,1884.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-167,168,Maharashtra,Hingoli,Cereals,Total,0.66,0.88,1328.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-168,169,Maharashtra,Osmanabad,Moong,Kharif,0.11,0.08,704.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-169,170,Maharashtra,Pune,Nutri/Coarse Cereals,Rabi,1.14,1.97,1727.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-170,171,Maharashtra,Jalna,Cereals,Rabi,1.59,2.52,1583.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-171,172,Maharashtra,Pune,Moong,Kharif,0.13,0.07,535.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-172,173,Maharashtra,Satara,Nutri/Coarse Cereals,Kharif,0.74,1.48,2008.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-173,174,Maharashtra,Nandurbar,Cereals,Summer,0.02,0.03,1418.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-174,175,Maharashtra,Satara,Moong,Kharif,0.12,0.08,656.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-175,176,Maharashtra,Kolhapur,Ragi,Total,0.17,0.44,2541.0,Low,Low,Low,0.998,1.0,0.0,99.91,APPROVED,SAFE TO PROCEED,strong_agreement,1.0,1.0,Very High Reliability
+CASE-176,177,Maharashtra,Pune,Cereals,Summer,0.11,0.16,1396.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-177,178,Maharashtra,Palghar,Nutri/Coarse Cereals,Kharif,0.2,0.16,819.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-178,179,Maharashtra,Bhandara,Rice,Summer,0.65,1.79,2760.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-179,180,Maharashtra,Bhandara,Gram,Rabi,0.19,0.19,1036.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-180,181,Maharashtra,Parbhani,Nutri/Coarse Cereals,Kharif,0.03,0.02,650.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-181,182,Maharashtra,Gondia,Rice,Summer,0.72,1.95,2712.0,Low,Medium,Low,0.998,0.57,0.43,80.56,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-182,183,Maharashtra,Bhandara,Gram,Total,0.19,0.19,1036.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-183,184,Maharashtra,Yavatmal,Nutri/Coarse Cereals,Kharif,0.03,0.02,647.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-184,185,Maharashtra,Sindhudurg,Rice,Summer,0.01,0.04,2840.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-185,186,Maharashtra,Hingoli,Gram,Total,1.61,1.72,1063.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-186,187,Maharashtra,Beed,Other Pulses,Total,0.2,0.08,394.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-187,188,Maharashtra,Beed,Shree Anna /Nutri Cereals,Rabi,1.81,2.0,1108.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-188,189,Maharashtra,Nandurbar,Gram,Rabi,0.27,0.26,995.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-189,190,Maharashtra,Nashik,Other Pulses,Rabi,0.03,0.02,533.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-190,191,Maharashtra,Buldhana,Shree Anna /Nutri Cereals,Rabi,0.16,0.18,1151.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-191,192,Maharashtra,Parbhani,Gram,Total,1.69,1.87,1110.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-192,193,Maharashtra,Pune,Other Pulses,Rabi,0.06,0.03,431.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-193,194,Maharashtra,Dhule,Shree Anna /Nutri Cereals,Kharif,0.48,0.52,1070.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-194,195,Maharashtra,Ahmednagar,Jowar,Rabi,1.49,1.33,892.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-195,196,Maharashtra,Pune,Other Pulses,Total,0.15,0.07,449.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-196,197,Maharashtra,Thane,Small Millets,Total,0.01,0.01,949.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-197,198,Maharashtra,Amravati,Jowar,Kharif,0.08,0.07,929.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-198,199,Maharashtra,Nandurbar,Rice,Kharif,0.24,0.35,1454.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-199,200,Maharashtra,Amravati,Total Food Grains,Rabi,1.66,2.4,1452.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-200,201,Maharashtra,Satara,Jowar,Total,1.37,1.47,1069.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-201,202,Maharashtra,Satara,Rice,Total,0.44,0.72,1644.0,Medium,High,High,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-202,203,Maharashtra,Kolhapur,Total Food Grains,Rabi,0.2,0.36,1819.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-203,204,Maharashtra,Amravati,Maize,Summer,0.01,0.01,1711.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-204,205,Maharashtra,Thane,Rice,Total,0.55,0.93,1703.0,Medium,High,High,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-205,206,Maharashtra,Nagpur,Total Food Grains,Rabi,1.95,2.72,1392.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-206,207,Maharashtra,Osmanabad,Maize,Total,0.19,0.25,1326.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-207,208,Maharashtra,Buldhana,Shree Anna /Nutri Cereals,Summer,0.05,0.04,848.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-208,209,Maharashtra,Beed,Total Pulses,Total,3.18,2.99,940.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-209,210,Maharashtra,Pune,Maize,Summer,0.07,0.12,1748.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-210,211,Maharashtra,Gadchiroli,Shree Anna /Nutri Cereals,Rabi,0.03,0.02,695.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-211,212,Maharashtra,Latur,Tur,Kharif,0.73,1.18,1615.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-212,213,Maharashtra,Amravati,Nutri/Coarse Cereals,Summer,0.03,0.03,1089.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-213,214,Maharashtra,Latur,Shree Anna /Nutri Cereals,Kharif,0.06,0.04,787.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-214,215,Maharashtra,Washim,Tur,Kharif,0.66,0.76,1159.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-215,216,Maharashtra,Nanded,Nutri/Coarse Cereals,Summer,0.17,0.15,918.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-216,217,Maharashtra,Solapur,Shree Anna /Nutri Cereals,Kharif,0.26,0.17,674.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-217,218,Maharashtra,Latur,Urad,Total,0.05,0.05,944.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-218,219,Maharashtra,Osmanabad,Nutri/Coarse Cereals,Summer,0.05,0.05,1050.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-219,220,Maharashtra,Beed,Small Millets,Kharif,0.02,0.01,430.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-220,221,Maharashtra,Dhule,Wheat,Rabi,0.43,1.02,2382.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-221,222,Maharashtra,Raigad,Nutri/Coarse Cereals,Kharif,0.02,0.02,1175.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-222,223,Maharashtra,Hingoli,Small Millets,Total,0.01,0.01,818.0,High,Low,High,0.998,0.08,0.92,58.47,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.0,0.667,Low Reliability
+CASE-223,224,Maharashtra,Jalgaon,Wheat,Rabi,0.56,1.38,2464.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-224,225,Maharashtra,Sangli,Nutri/Coarse Cereals,Rabi,1.39,1.56,1121.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-225,226,Maharashtra,Dhule,Total Food Grains,Kharif,1.41,1.17,831.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-226,227,Telangana,Bhadradri Kothagudem,Cereals,Kharif,0.96,3.4,3538.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-227,228,Maharashtra,Thane,Nutri/Coarse Cereals,Total,0.04,0.04,936.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-228,229,Maharashtra,Latur,Total Food Grains,Summer,0.01,0.01,909.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-229,230,Telangana,Jangoan,Cereals,Kharif,0.8,2.31,2883.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-230,231,Maharashtra,Palghar,Ragi,Kharif,0.16,0.14,896.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-231,232,Maharashtra,Nanded,Total Food Grains,Summer,0.17,0.16,951.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-232,233,Telangana,Mahabubnagar,Cereals,Rabi,0.7,2.37,3376.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-233,234,Maharashtra,Ahmednagar,Shree Anna /Nutri Cereals,Total,2.35,2.48,1056.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-234,235,Maharashtra,Aurangabad,Total Pulses,Total,1.23,1.02,825.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-235,236,Telangana,Nizamabad,Gram,Rabi,0.05,0.09,1801.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-236,237,Maharashtra,Beed,Shree Anna /Nutri Cereals,Total,2.25,2.59,1154.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-237,238,Maharashtra,Gadchiroli,Total Pulses,Total,0.27,0.18,679.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-238,239,Telangana,Nizamabad,Gram,Total,0.05,0.09,1801.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-239,240,Maharashtra,Hingoli,Shree Anna /Nutri Cereals,Rabi,0.17,0.18,1020.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-240,241,Maharashtra,Kolhapur,Total Pulses,Total,0.09,0.06,743.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-241,242,Telangana,Medak,Jowar,Total,0.04,0.1,2433.0,Low,Low,Low,0.998,1.0,0.0,99.91,APPROVED,SAFE TO PROCEED,strong_agreement,1.0,1.0,Very High Reliability
+CASE-242,243,Maharashtra,Latur,Shree Anna /Nutri Cereals,Rabi,0.37,0.34,904.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-243,244,Maharashtra,Gadchiroli,Tur,Kharif,0.06,0.05,869.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-244,245,Telangana,Nizamabad,Jowar,Rabi,0.01,0.02,2496.0,Low,Low,Low,0.998,1.0,0.0,99.91,APPROVED,SAFE TO PROCEED,strong_agreement,1.0,1.0,Very High Reliability
+CASE-245,246,Maharashtra,Nanded,Shree Anna /Nutri Cereals,Total,0.63,0.67,1068.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-246,247,Maharashtra,Jalgaon,Tur,Kharif,0.15,0.12,792.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-247,248,Telangana,Hanumakonda,Maize,Rabi,0.26,1.68,6481.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-248,249,Maharashtra,Ahmednagar,Total Food Grains,Kharif,3.92,6.16,1573.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-249,250,Maharashtra,Solapur,Tur,Kharif,0.99,0.7,711.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-250,251,Telangana,Mahabubabad,Maize,Rabi,0.25,1.22,4923.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-251,252,Maharashtra,Akola,Total Food Grains,Total,2.19,2.63,1202.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-252,253,Maharashtra,Jalgaon,Urad,Total,0.15,0.07,483.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-253,254,Telangana,Medak,Maize,Kharif,0.01,0.04,3790.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-254,255,Maharashtra,Latur,Total Food Grains,Kharif,0.94,1.37,1455.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-255,256,Maharashtra,Satara,Urad,Kharif,0.04,0.03,678.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-256,257,Telangana,Sangareddy,Moong,Kharif,0.05,0.05,902.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-257,258,Maharashtra,Solapur,Total Food Grains,Kharif,3.3,4.5,1363.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-258,259,Maharashtra,Satara,Urad,Total,0.04,0.03,678.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-259,260,Telangana,Adilabad,Nutri/Coarse Cereals,Kharif,0.07,0.29,4261.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-260,261,Maharashtra,Solapur,Total Food Grains,Summer,0.1,0.17,1582.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-261,262,Maharashtra,Yavatmal,Urad,Kharif,0.02,0.01,575.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-262,263,Telangana,Jogulamba Gadwal,Nutri/Coarse Cereals,Rabi,0.19,0.86,4468.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-263,264,Maharashtra,Latur,Total Pulses,Total,3.91,3.45,881.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-264,265,Maharashtra,Bhandara,Wheat,Rabi,0.13,0.19,1460.0,Medium,High,High,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-265,266,Telangana,Nagarkurnool,Nutri/Coarse Cereals,Kharif,0.2,0.8,4039.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-266,267,Maharashtra,Amravati,Tur,Total,1.17,1.04,886.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-267,268,Maharashtra,Chandrapur,Wheat,Rabi,0.16,0.19,1168.0,Medium,High,High,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-268,269,Telangana,Bhadradri Kothagudem,Rice,Rabi,0.3,0.93,3133.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-269,270,Maharashtra,Beed,Tur,Total,0.51,0.45,884.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-270,271,Maharashtra,Hingoli,Wheat,Total,0.41,0.64,1560.0,Medium,High,High,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-271,272,Telangana,Jayashankar Bhupalapally,Rice,Kharif,0.42,1.35,3220.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-272,273,Telangana,Nirmal,Gram,Total,0.2,0.35,1786.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-273,274,Telangana,Ranga Reddy,Jowar,Kharif,0.02,0.02,796.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-274,275,Telangana,Jogulamba Gadwal,Rice,Rabi,0.34,1.02,2982.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-275,276,Telangana,Sangareddy,Gram,Total,0.07,0.12,1602.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-276,277,Telangana,Khammam,Moong,Kharif,0.07,0.03,397.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-277,278,Telangana,Nizamabad,Shree Anna /Nutri Cereals,Kharif,0.05,0.05,1029.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-278,279,Telangana,Jogulamba Gadwal,Jowar,Rabi,0.03,0.04,1274.0,Medium,Medium,Medium,0.998,0.82,0.18,91.8,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-279,280,Telangana,Mahabubabad,Moong,Total,0.03,0.02,730.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-280,281,Telangana,Vikarabad,Shree Anna /Nutri Cereals,Rabi,0.05,0.1,1800.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-281,282,Telangana,Ranga Reddy,Maize,Rabi,0.09,0.41,4406.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-282,283,Telangana,Vikarabad,Moong,Total,0.06,0.04,612.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-283,284,Telangana,Jayashankar Bhupalapally,Total Food Grains,Kharif,0.42,1.35,3220.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-284,285,Telangana,Adilabad,Nutri/Coarse Cereals,Total,0.58,1.49,2577.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-285,286,Telangana,Kumuram Bheem Asifabad,Shree Anna /Nutri Cereals,Rabi,0.05,0.04,685.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-286,287,Telangana,Khammam,Total Food Grains,Kharif,1.17,3.8,3253.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-287,288,Telangana,Sangareddy,Nutri/Coarse Cereals,Kharif,0.03,0.09,2668.0,Low,Medium,Medium,0.998,0.23,0.77,65.26,REJECTED,DO NOT AUTO-USE RESULT,major_conflict,0.5,0.667,Moderate Reliability
+CASE-288,289,Telangana,Narayanpet,Shree Anna /Nutri Cereals,Kharif,0.03,0.03,819.0,High,Medium,High,0.998,0.57,0.43,80.52,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,High Reliability
+CASE-289,290,Telangana,Mahabubnagar,Total Food Grains,Rabi,0.7,2.37,3375.0,Low,Low,Low,0.998,0.82,0.18,91.81,APPROVED,SAFE TO PROCEED,ai_expert_consensus,1.0,0.667,Very High Reliability
+CASE-290,291,Telangana,Nagarkurnool,Shree Anna /Nutri Cereals,Rabi,0.01,0.01,1239.0,Medium,Medium,Medium,0.998,0.58,0.42,81.0,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,major_conflict,1.0,0.667,High Reliability
+CASE-291,292,Telangana,Khammam,Total Pulses,Total,0.1,0.06,575.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-292,293,Telangana,Sangareddy,Tur,Total,0.32,0.44,1378.0,Medium,Low,Low,0.998,0.37,0.63,71.55,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-293,294,Telangana,Nagarkurnool,Shree Anna /Nutri Cereals,Total,0.04,0.04,1109.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-294,295,Telangana,Ranga Reddy,Total Pulses,Total,0.06,0.04,708.0,High,Medium,High,0.998,0.47,0.53,76.02,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,0.667,Moderate Reliability
+CASE-295,296,Telangana,Jogulamba Gadwal,Urad,Total,0.03,0.04,1428.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-296,297,Telangana,Rajanna Sircilla,Total Pulses,Total,0.01,0.01,995.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-297,298,Telangana,Jangoan,Tur,Total,0.01,0.01,487.0,High,High,High,0.998,1.0,0.0,99.87,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-298,299,Telangana,Wanaparthy,Urad,Total,0.1,0.18,1839.0,Medium,Low,Low,0.998,0.47,0.53,76.05,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,partial_conflict,0.5,1.0,Moderate Reliability
+CASE-299,300,Telangana,Narayanpet,Tur,Total,0.29,0.27,928.0,Medium,Medium,Medium,0.998,1.0,0.0,99.9,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,strong_agreement,1.0,1.0,Very High Reliability
+CASE-300,301,Telangana,Ranga Reddy,Tur,Total,0.06,0.04,668.0,High,High,High,0.998,0.82,0.18,91.77,REVIEW REQUIRED,SEND TO AGRICULTURE OFFICER,ai_expert_consensus,1.0,0.667,Very High Reliability

@@ -1,0 +1,27 @@
+{
+  "total_rows":300,
+  "state_distribution":{
+    "Andhra Pradesh":50,
+    "Karnataka":80,
+    "Maharashtra":125,
+    "Telangana":45
+  },
+  "risk_distribution":{
+    "High":100,
+    "Low":100,
+    "Medium":100
+  },
+  "status_distribution":{
+    "APPROVED":36,
+    "REJECTED":25,
+    "REVIEW REQUIRED":239
+  },
+  "season_distribution":{
+    "Kharif":94,
+    "Rabi":91,
+    "Summer":22,
+    "Total":93
+  },
+  "average_rdi":0.343,
+  "average_tri":84.35
+}
